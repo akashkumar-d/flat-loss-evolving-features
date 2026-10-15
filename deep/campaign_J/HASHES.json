@@ -1,0 +1,19 @@
+{
+ "campaign": "J",
+ "written": "2026-10-06T19:19:38Z",
+ "by": "the authors",
+ "note": "Fixed before any evaluation run: the plan, the runner and its tests, the manifest, the paired references and the analysis code. endpoints_i.py is campaign I's file, unchanged.",
+ "files": {
+  "PLAN.md": "265dd2ceebf436f10b7a0cefc07d8e1ef4a3bde025ad9d2957bf29670f1738be",
+  "manifest.json": "b7889df4f9c5c88affa47df2c45799f210b2a12152350da8432a2165982d711e",
+  "make_manifest.py": "5fe8a18dae8351348cb55de6d38f6097805ea6b892fae64cf1308f9d12123d2a",
+  "bias_runner.py": "906a4b6f500b57c50b745c39f70fd576809309f2bab7d10af0f238ca369ce537",
+  "tests/test_bias.py": "79fe5d7471bfbd92dc42e39124f52ae06c38a250935a8cf8e4372b01e32b92b1",
+  "tests/test_j.py": "2c2e011a46bd934fc3a8c5ca45250ed23c96ab9a7f7529886ddfea97a9d35919",
+  "endpoints_i.py": "cbaec6ac2e82e266701155fe29315bdbbabe2b6f5f0c83f8ee9716117c876b01",
+  "comparison.json": "e82ccf9b1c33d6e96b68dad207c0547618267cae341f5f8f0aa6b16f228d01ba",
+  "make_comparison.py": "3d597c14995fe5786d6e17134e49068c84b7077012d5171c195b87307f22601f",
+  "analyze_J.py": "dc667e02ef4e6e311b802cc98de7539dd5879bdcbcbbc4883310820f494703a3",
+  "run_local.py": "0c67bc530924058c3fb33800af2528ac242dd1a2cc30513bf70a07552d075cd5"
+ }
+}

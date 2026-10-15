@@ -1,0 +1,14 @@
+{
+ "campaign": "G",
+ "registered_by": "the authors",
+ "note": "SHA-256 of the files the campaign-G workers run, and of PLAN.md; worker.py selftest checks them. analyze.py is not listed: it only reads results.",
+ "files": {
+  "manifest.json": "40e88774101c8eee4719cfd51387dce448aba5e65de86ccbd52a380a14734bc8",
+  "make_manifest.py": "df87050706603529d86ddb26d15ee726f8e886c49a9b4beec865ecca58a7e429",
+  "natplat_campaign.py": "21c4bd56ca3f1e8272430038392f12c533247988e57b8ebda831035c6b831f1b",
+  "worker.py": "4e8b8d6abccb0bdbdad7cc91fe17ba158531e039533063bd4e6171f35328448a",
+  "endpoints.py": "08c18b7f8d211d09361173de3d658e4c1dbe154247baf0c92dbc59126b330f8b",
+  "tests/test_runner.py": "5a9b8e33f67952c1c46b275166cf97d8cb3ccf80ec1befdf3a88507913d1cda8",
+  "PLAN.md": "6cf80450deaa4916388b8d9f674d292939bd1b308900688012e8744e05f80615"
+ }
+}

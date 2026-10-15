@@ -1,0 +1,134 @@
+== lag_Y_G2_s11.json: network 0.5 / 0.9 at 5457 / 7325
+   ridge_t0.001 0.5 at     7252 (lead    -1795)   0.9 at    never (lead    never)   final 0.655
+   ridge_t0.01  0.5 at     6969 (lead    -1512)   0.9 at    never (lead    never)   final 0.727
+   ridge_t0.1   0.5 at     6684 (lead    -1227)   0.9 at    never (lead    never)   final 0.797
+   ridge_t1     0.5 at     6235 (lead     -778)   0.9 at    never (lead    never)   final 0.867
+   ridge_t10    0.5 at     6016 (lead     -560)   0.9 at    never (lead    never)   final 0.880
+   ridge_t100   0.5 at     6012 (lead     -555)   0.9 at    never (lead    never)   final 0.869
+   ridge_t1000  0.5 at     6027 (lead     -570)   0.9 at    never (lead    never)   final 0.867
+   centroid     0.5 at     6028 (lead     -571)   0.9 at    never (lead    never)   final 0.866
+   filt8        0.5 at     4090 (lead     1367)   0.9 at     6720 (lead      605)   final 0.969
+   filt8_t1     0.5 at     3978 (lead     1479)   0.9 at     6689 (lead      636)   final 0.974
+   filt8_t10    0.5 at     3969 (lead     1488)   0.9 at     6774 (lead      551)   final 0.965
+   probe        0.5 at     5433 (lead       24)   0.9 at     7167 (lead      158)   final 0.972
+   at 5400: 6 of 56 frequencies carried (held-out R2 > 0.05). ridge clock amplitude train/held-out: carried 0.88/0.83, others 0.55/0.63; held-out R2 carried 0.50, others -0.41; training R2 others 0.39
+     ridge    logit variance on the top-8 frequencies: held-out 0.20, training 0.26; accuracy of the top-8 part 0.72, of the rest 0.03, of both 0.18
+     centroid logit variance on the top-8 frequencies: held-out 0.49, training 0.50; accuracy of the top-8 part 0.77, of the rest 0.06, of both 0.39
+     net      logit variance on the top-8 frequencies: held-out 0.49, training 0.49; accuracy of the top-8 part 0.77, of the rest 0.04, of both 0.48
+     probe    logit variance on the top-8 frequencies: held-out 0.46, training 0.47; accuracy of the top-8 part 0.79, of the rest 0.04, of both 0.49
+== lag_Z_B_s11.json: network 0.5 / 0.9 at 6479 / 8252
+   ridge_t0.001 0.5 at     7019 (lead     -540)   0.9 at     8779 (lead     -527)   final 0.907
+   ridge_t0.01  0.5 at     6929 (lead     -450)   0.9 at     8711 (lead     -458)   final 0.912
+   ridge_t0.1   0.5 at     6820 (lead     -341)   0.9 at     8686 (lead     -434)   final 0.909
+   ridge_t1     0.5 at     6727 (lead     -248)   0.9 at     8783 (lead     -530)   final 0.904
+   ridge_t10    0.5 at     6726 (lead     -247)   0.9 at    never (lead    never)   final 0.880
+   ridge_t100   0.5 at     6817 (lead     -338)   0.9 at    never (lead    never)   final 0.868
+   ridge_t1000  0.5 at     6831 (lead     -352)   0.9 at    never (lead    never)   final 0.865
+   centroid     0.5 at     6834 (lead     -355)   0.9 at    never (lead    never)   final 0.865
+   filt8        0.5 at     5002 (lead     1477)   0.9 at     6021 (lead     2231)   final 1.000
+   filt8_t1     0.5 at     5030 (lead     1449)   0.9 at     5927 (lead     2325)   final 1.000
+   filt8_t10    0.5 at     5082 (lead     1397)   0.9 at     5963 (lead     2289)   final 1.000
+   probe        0.5 at     6347 (lead      132)   0.9 at     8025 (lead      227)   final 0.951
+   at 6400: 9 of 56 frequencies carried (held-out R2 > 0.05). ridge clock amplitude train/held-out: carried 0.92/0.92, others 0.65/0.68; held-out R2 carried 0.56, others -0.50; training R2 others 0.53
+     ridge    logit variance on the top-8 frequencies: held-out 0.22, training 0.23; accuracy of the top-8 part 0.96, of the rest 0.07, of both 0.27
+     centroid logit variance on the top-8 frequencies: held-out 0.49, training 0.44; accuracy of the top-8 part 0.95, of the rest 0.06, of both 0.37
+     net      logit variance on the top-8 frequencies: held-out 0.49, training 0.44; accuracy of the top-8 part 0.96, of the rest 0.05, of both 0.48
+     probe    logit variance on the top-8 frequencies: held-out 0.51, training 0.44; accuracy of the top-8 part 0.97, of the rest 0.04, of both 0.52
+== lag_R5_s1.json: network 0.5 / 0.9 at 5447 / 6834
+   ridge_t0.001 0.5 at     6778 (lead    -1331)   0.9 at    never (lead    never)   final 0.766
+   ridge_t0.01  0.5 at     6534 (lead    -1087)   0.9 at    never (lead    never)   final 0.845
+   ridge_t0.1   0.5 at     6239 (lead     -792)   0.9 at     7924 (lead    -1090)   final 0.905
+   ridge_t1     0.5 at     5944 (lead     -497)   0.9 at     7525 (lead     -692)   final 0.941
+   ridge_t10    0.5 at     5703 (lead     -256)   0.9 at     7436 (lead     -602)   final 0.946
+   ridge_t100   0.5 at     5727 (lead     -280)   0.9 at     7519 (lead     -685)   final 0.940
+   ridge_t1000  0.5 at     5754 (lead     -307)   0.9 at     7555 (lead     -721)   final 0.939
+   centroid     0.5 at     5755 (lead     -308)   0.9 at     7556 (lead     -722)   final 0.939
+   filt8        0.5 at     4239 (lead     1208)   0.9 at     6012 (lead      822)   final 0.994
+   filt8_t1     0.5 at     4172 (lead     1275)   0.9 at     5883 (lead      951)   final 0.994
+   filt8_t10    0.5 at     4215 (lead     1232)   0.9 at     5967 (lead      866)   final 0.990
+   probe        0.5 at     5250 (lead      197)   0.9 at     6520 (lead      314)   final 0.996
+   at 5400: 7 of 56 frequencies carried (held-out R2 > 0.05). ridge clock amplitude train/held-out: carried 0.87/0.83, others 0.51/0.60; held-out R2 carried 0.49, others -0.39; training R2 others 0.34
+     ridge    logit variance on the top-8 frequencies: held-out 0.23, training 0.29; accuracy of the top-8 part 0.81, of the rest 0.03, of both 0.19
+     centroid logit variance on the top-8 frequencies: held-out 0.57, training 0.56; accuracy of the top-8 part 0.81, of the rest 0.07, of both 0.42
+     net      logit variance on the top-8 frequencies: held-out 0.56, training 0.56; accuracy of the top-8 part 0.80, of the rest 0.04, of both 0.49
+     probe    logit variance on the top-8 frequencies: held-out 0.54, training 0.54; accuracy of the top-8 part 0.82, of the rest 0.03, of both 0.53
+== lag_R4_s3.json: network 0.5 / 0.9 at 5830 / 7677
+   ridge_t0.001 0.5 at     7445 (lead    -1615)   0.9 at    never (lead    never)   final 0.796
+   ridge_t0.01  0.5 at     7101 (lead    -1270)   0.9 at    never (lead    never)   final 0.865
+   ridge_t0.1   0.5 at     6812 (lead     -982)   0.9 at     8512 (lead     -836)   final 0.909
+   ridge_t1     0.5 at     6496 (lead     -666)   0.9 at     8324 (lead     -647)   final 0.928
+   ridge_t10    0.5 at     6242 (lead     -412)   0.9 at     8309 (lead     -633)   final 0.924
+   ridge_t100   0.5 at     6227 (lead     -397)   0.9 at     8442 (lead     -765)   final 0.914
+   ridge_t1000  0.5 at     6233 (lead     -403)   0.9 at     8476 (lead     -799)   final 0.911
+   centroid     0.5 at     6232 (lead     -402)   0.9 at     8478 (lead     -802)   final 0.911
+   filt8        0.5 at     4224 (lead     1606)   0.9 at     6231 (lead     1446)   final 0.987
+   filt8_t1     0.5 at     4159 (lead     1671)   0.9 at     6255 (lead     1421)   final 0.989
+   filt8_t10    0.5 at     4154 (lead     1676)   0.9 at     6401 (lead     1275)   final 0.983
+   probe        0.5 at     5666 (lead      164)   0.9 at     7362 (lead      314)   final 0.993
+   at 5800: 10 of 56 frequencies carried (held-out R2 > 0.05). ridge clock amplitude train/held-out: carried 0.86/0.82, others 0.47/0.58; held-out R2 carried 0.40, others -0.43; training R2 others 0.30
+     ridge    logit variance on the top-8 frequencies: held-out 0.23, training 0.31; accuracy of the top-8 part 0.84, of the rest 0.02, of both 0.19
+     centroid logit variance on the top-8 frequencies: held-out 0.53, training 0.53; accuracy of the top-8 part 0.78, of the rest 0.06, of both 0.41
+     net      logit variance on the top-8 frequencies: held-out 0.54, training 0.54; accuracy of the top-8 part 0.78, of the rest 0.04, of both 0.49
+     probe    logit variance on the top-8 frequencies: held-out 0.51, training 0.51; accuracy of the top-8 part 0.81, of the rest 0.03, of both 0.53
+== lag_W_P1_s8.json: network 0.5 / 0.9 at 4550 / 5189
+   ridge_t0.001 0.5 at     4397 (lead      152)   0.9 at     5096 (lead       93)   final 1.000
+   ridge_t0.01  0.5 at     4398 (lead      152)   0.9 at     5096 (lead       93)   final 1.000
+   ridge_t0.1   0.5 at     4398 (lead      152)   0.9 at     5096 (lead       94)   final 1.000
+   ridge_t1     0.5 at     4399 (lead      151)   0.9 at     5097 (lead       93)   final 1.000
+   ridge_t10    0.5 at     4413 (lead      137)   0.9 at     5100 (lead       89)   final 1.000
+   ridge_t100   0.5 at     4457 (lead       93)   0.9 at     5129 (lead       60)   final 1.000
+   ridge_t1000  0.5 at     4609 (lead      -59)   0.9 at     5301 (lead     -112)   final 0.998
+   centroid     0.5 at     4726 (lead     -176)   0.9 at     5525 (lead     -336)   final 0.995
+   filt8        0.5 at     4294 (lead      256)   0.9 at     5313 (lead     -123)   final 0.986
+   filt8_t1     0.5 at     4296 (lead      254)   0.9 at     5313 (lead     -124)   final 0.986
+   filt8_t10    0.5 at     4320 (lead      230)   0.9 at     5331 (lead     -142)   final 0.985
+   probe        0.5 at     4552 (lead       -2)   0.9 at     5186 (lead        3)   final 0.998
+   at 4600: 19 of 56 frequencies carried (held-out R2 > 0.05). ridge clock amplitude train/held-out: carried 0.65/0.57, others 0.35/0.33; held-out R2 carried 0.27, others -0.10; training R2 others 0.17
+     ridge    logit variance on the top-8 frequencies: held-out 0.29, training 0.31; accuracy of the top-8 part 0.66, of the rest 0.20, of both 0.64
+     centroid logit variance on the top-8 frequencies: held-out 0.32, training 0.34; accuracy of the top-8 part 0.43, of the rest 0.09, of both 0.41
+     net      logit variance on the top-8 frequencies: held-out 0.31, training 0.34; accuracy of the top-8 part 0.51, of the rest 0.11, of both 0.54
+     probe    logit variance on the top-8 frequencies: held-out 0.32, training 0.34; accuracy of the top-8 part 0.50, of the rest 0.10, of both 0.53
+== lag_V_E2_s1.json: network 0.5 at 9537.0
+   ridge_t0.001 0.5 at     8397 (lead     1140)   0.9 at    never (lead    never)   final 0.707
+   ridge_t0.01  0.5 at     8364 (lead     1173)   0.9 at    never (lead    never)   final 0.706
+   ridge_t0.1   0.5 at     8771 (lead      766)   0.9 at    never (lead    never)   final 0.670
+   ridge_t1     0.5 at     8987 (lead      550)   0.9 at    never (lead    never)   final 0.621
+   ridge_t10    0.5 at     9464 (lead       73)   0.9 at    never (lead    never)   final 0.583
+   ridge_t100   0.5 at     9572 (lead      -35)   0.9 at    never (lead    never)   final 0.570
+   ridge_t1000  0.5 at     9582 (lead      -45)   0.9 at    never (lead    never)   final 0.567
+   centroid     0.5 at     9583 (lead      -46)   0.9 at    never (lead    never)   final 0.567
+   filt8        0.5 at     5830 (lead     3707)   0.9 at     9734 (lead    never)   final 0.913
+   filt8_t1     0.5 at     5383 (lead     4154)   0.9 at     8337 (lead    never)   final 0.923
+   filt8_t10    0.5 at     5730 (lead     3807)   0.9 at     9142 (lead    never)   final 0.890
+   probe        0.5 at     8277 (lead     1260)   0.9 at    never (lead    never)   final 0.687
+   at 9600: 14 of 56 frequencies carried (held-out R2 > 0.05). ridge clock amplitude train/held-out: carried 0.90/0.99, others 0.75/0.83; held-out R2 carried 0.33, others -0.47; training R2 others 0.68
+     ridge    logit variance on the top-8 frequencies: held-out 0.20, training 0.18; accuracy of the top-8 part 0.88, of the rest 0.47, of both 0.61
+     centroid logit variance on the top-8 frequencies: held-out 0.47, training 0.36; accuracy of the top-8 part 0.89, of the rest 0.28, of both 0.50
+     net      logit variance on the top-8 frequencies: held-out 0.47, training 0.36; accuracy of the top-8 part 0.88, of the rest 0.29, of both 0.50
+     probe    logit variance on the top-8 frequencies: held-out 0.49, training 0.37; accuracy of the top-8 part 0.92, of the rest 0.35, of both 0.62
+== lag_F_H_p31_s10.json: network 0.5 / 0.9 at 8212 / 10514
+   ridge_t0.001 0.5 at     5465 (lead     2747)   0.9 at     6262 (lead     4252)   final 1.000
+   ridge_t0.01  0.5 at     5282 (lead     2930)   0.9 at     5967 (lead     4547)   final 1.000
+   ridge_t0.1   0.5 at     5510 (lead     2702)   0.9 at     6153 (lead     4361)   final 1.000
+   ridge_t1     0.5 at     7265 (lead      947)   0.9 at     8540 (lead     1974)   final 0.995
+   ridge_t10    0.5 at    10025 (lead    -1812)   0.9 at    never (lead    never)   final 0.642
+   ridge_t100   0.5 at    never (lead    never)   0.9 at    never (lead    never)   final 0.264
+   ridge_t1000  0.5 at    never (lead    never)   0.9 at    never (lead    never)   final 0.238
+   centroid     0.5 at    never (lead    never)   0.9 at    never (lead    never)   final 0.238
+   filt8        0.5 at     5844 (lead     2368)   0.9 at     6703 (lead     3811)   final 1.000
+   filt8_t1     0.5 at     8136 (lead       77)   0.9 at    never (lead    never)   final 0.819
+   filt8_t10    0.5 at    never (lead    never)   0.9 at    never (lead    never)   final 0.244
+/home/claude/kt/refit_lag/analyze_lag.py:37: RuntimeWarning: Mean of empty slice
+  amp_tr_carried=float(amp_tr[carried].mean()), amp_tr_other=float(amp_tr[~carried].mean()),
+/usr/local/lib/python3.11/dist-packages/numpy/_core/_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/home/claude/kt/refit_lag/analyze_lag.py:38: RuntimeWarning: Mean of empty slice
+  amp_ev_carried=float(amp_ev[carried].mean()), amp_ev_other=float(amp_ev[~carried].mean()),
+/home/claude/kt/refit_lag/analyze_lag.py:39: RuntimeWarning: Mean of empty slice
+  r2_ev_carried=float(r2[carried].mean()), r2_ev_other=float(r2[~carried].mean()),
+/home/claude/kt/refit_lag/analyze_lag.py:40: RuntimeWarning: Mean of empty slice
+  r2_tr_other=float(np.array(fq['r2_tr'])[~carried].mean()),
+   at 8200: 15 of 15 frequencies carried (held-out R2 > 0.05). ridge clock amplitude train/held-out: carried 0.96/0.76, others nan/nan; held-out R2 carried 0.74, others nan; training R2 others nan
+     ridge    logit variance on the top-8 frequencies: held-out 0.53, training 0.54; accuracy of the top-8 part 1.00, of the rest 0.99, of both 1.00
+     centroid logit variance on the top-8 frequencies: held-out 0.55, training 0.55; accuracy of the top-8 part 0.02, of the rest 0.04, of both 0.08
+     net      logit variance on the top-8 frequencies: held-out 0.56, training 0.56; accuracy of the top-8 part 0.22, of the rest 0.22, of both 0.49

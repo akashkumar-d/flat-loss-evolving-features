@@ -1,0 +1,228 @@
+{
+ "grid": {
+  "decay_V=0.2": {
+   "p": 17,
+   "width": 512,
+   "c": 24,
+   "eta_W": 0.03,
+   "tf": [
+    0.5,
+    0.8
+   ],
+   "lw": [
+    0.005,
+    0.0075,
+    0.01,
+    0.015
+   ],
+   "ev": [
+    0.01,
+    0.03
+   ],
+   "nseed": 4
+  },
+  "decay_V=0": {
+   "p": 17,
+   "width": 512,
+   "c": 24,
+   "eta_W": 0.03,
+   "tf": [
+    0.5,
+    0.8
+   ],
+   "lw": [
+    0.005,
+    0.01
+   ],
+   "ev": [
+    0.001,
+    0.003,
+    0.01,
+    0.03
+   ],
+   "nseed": 2
+  }
+ },
+ "note": "decay_V=0 grid uses smaller head steps (eta_V 0.001, 0.003) as well: a 1000-update smoke run with eta_V=0.03 and no head decay drove train CE to ~1e-4 by update 500",
+ "seed_rule": "numpy.random.default_rng(20260929).integers(0, 2**63, size=(4,2), dtype=uint64); pair k shared across configs",
+ "dev_pairs": [
+  [
+   3230470915698646286,
+   7237780494952041228
+  ],
+  [
+   4743909884886738560,
+   829893461821146174
+  ],
+  [
+   8076348821271957,
+   4975095487701478064
+  ],
+  [
+   3348761962234839285,
+   6051841165089448041
+  ]
+ ],
+ "horizon": 50000,
+ "shards": [
+  {
+   "shard": 0,
+   "runs": [
+    "h17_tf0p5_lw0p005_ev0p01_lv0p2_dev1",
+    "h17_tf0p5_lw0p0075_ev0p03_lv0p2_dev1",
+    "h17_tf0p5_lw0p015_ev0p01_lv0p2_dev1",
+    "h17_tf0p8_lw0p005_ev0p03_lv0p2_dev1",
+    "h17_tf0p8_lw0p01_ev0p01_lv0p2_dev1",
+    "h17_tf0p8_lw0p015_ev0p03_lv0p2_dev1",
+    "h17_tf0p5_lw0p01_ev0p001_lv0_dev1",
+    "h17_tf0p8_lw0p005_ev0p01_lv0_dev1"
+   ]
+  },
+  {
+   "shard": 1,
+   "runs": [
+    "h17_tf0p5_lw0p005_ev0p01_lv0p2_dev2",
+    "h17_tf0p5_lw0p0075_ev0p03_lv0p2_dev2",
+    "h17_tf0p5_lw0p015_ev0p01_lv0p2_dev2",
+    "h17_tf0p8_lw0p005_ev0p03_lv0p2_dev2",
+    "h17_tf0p8_lw0p01_ev0p01_lv0p2_dev2",
+    "h17_tf0p8_lw0p015_ev0p03_lv0p2_dev2",
+    "h17_tf0p5_lw0p01_ev0p001_lv0_dev2",
+    "h17_tf0p8_lw0p005_ev0p01_lv0_dev2"
+   ]
+  },
+  {
+   "shard": 2,
+   "runs": [
+    "h17_tf0p5_lw0p005_ev0p01_lv0p2_dev3",
+    "h17_tf0p5_lw0p0075_ev0p03_lv0p2_dev3",
+    "h17_tf0p5_lw0p015_ev0p01_lv0p2_dev3",
+    "h17_tf0p8_lw0p005_ev0p03_lv0p2_dev3",
+    "h17_tf0p8_lw0p01_ev0p01_lv0p2_dev3",
+    "h17_tf0p8_lw0p015_ev0p03_lv0p2_dev3",
+    "h17_tf0p5_lw0p01_ev0p003_lv0_dev1",
+    "h17_tf0p8_lw0p005_ev0p03_lv0_dev1"
+   ]
+  },
+  {
+   "shard": 3,
+   "runs": [
+    "h17_tf0p5_lw0p005_ev0p01_lv0p2_dev4",
+    "h17_tf0p5_lw0p0075_ev0p03_lv0p2_dev4",
+    "h17_tf0p5_lw0p015_ev0p01_lv0p2_dev4",
+    "h17_tf0p8_lw0p005_ev0p03_lv0p2_dev4",
+    "h17_tf0p8_lw0p01_ev0p01_lv0p2_dev4",
+    "h17_tf0p8_lw0p015_ev0p03_lv0p2_dev4",
+    "h17_tf0p5_lw0p01_ev0p003_lv0_dev2",
+    "h17_tf0p8_lw0p005_ev0p03_lv0_dev2"
+   ]
+  },
+  {
+   "shard": 4,
+   "runs": [
+    "h17_tf0p5_lw0p005_ev0p03_lv0p2_dev1",
+    "h17_tf0p5_lw0p01_ev0p01_lv0p2_dev1",
+    "h17_tf0p5_lw0p015_ev0p03_lv0p2_dev1",
+    "h17_tf0p8_lw0p0075_ev0p01_lv0p2_dev1",
+    "h17_tf0p8_lw0p01_ev0p03_lv0p2_dev1",
+    "h17_tf0p5_lw0p005_ev0p001_lv0_dev1",
+    "h17_tf0p5_lw0p01_ev0p01_lv0_dev1",
+    "h17_tf0p8_lw0p01_ev0p001_lv0_dev1"
+   ]
+  },
+  {
+   "shard": 5,
+   "runs": [
+    "h17_tf0p5_lw0p005_ev0p03_lv0p2_dev2",
+    "h17_tf0p5_lw0p01_ev0p01_lv0p2_dev2",
+    "h17_tf0p5_lw0p015_ev0p03_lv0p2_dev2",
+    "h17_tf0p8_lw0p0075_ev0p01_lv0p2_dev2",
+    "h17_tf0p8_lw0p01_ev0p03_lv0p2_dev2",
+    "h17_tf0p5_lw0p005_ev0p001_lv0_dev2",
+    "h17_tf0p5_lw0p01_ev0p01_lv0_dev2",
+    "h17_tf0p8_lw0p01_ev0p001_lv0_dev2"
+   ]
+  },
+  {
+   "shard": 6,
+   "runs": [
+    "h17_tf0p5_lw0p005_ev0p03_lv0p2_dev3",
+    "h17_tf0p5_lw0p01_ev0p01_lv0p2_dev3",
+    "h17_tf0p5_lw0p015_ev0p03_lv0p2_dev3",
+    "h17_tf0p8_lw0p0075_ev0p01_lv0p2_dev3",
+    "h17_tf0p8_lw0p01_ev0p03_lv0p2_dev3",
+    "h17_tf0p5_lw0p005_ev0p003_lv0_dev1",
+    "h17_tf0p5_lw0p01_ev0p03_lv0_dev1",
+    "h17_tf0p8_lw0p01_ev0p003_lv0_dev1"
+   ]
+  },
+  {
+   "shard": 7,
+   "runs": [
+    "h17_tf0p5_lw0p005_ev0p03_lv0p2_dev4",
+    "h17_tf0p5_lw0p01_ev0p01_lv0p2_dev4",
+    "h17_tf0p5_lw0p015_ev0p03_lv0p2_dev4",
+    "h17_tf0p8_lw0p0075_ev0p01_lv0p2_dev4",
+    "h17_tf0p8_lw0p01_ev0p03_lv0p2_dev4",
+    "h17_tf0p5_lw0p005_ev0p003_lv0_dev2",
+    "h17_tf0p5_lw0p01_ev0p03_lv0_dev2",
+    "h17_tf0p8_lw0p01_ev0p003_lv0_dev2"
+   ]
+  },
+  {
+   "shard": 8,
+   "runs": [
+    "h17_tf0p5_lw0p0075_ev0p01_lv0p2_dev1",
+    "h17_tf0p5_lw0p01_ev0p03_lv0p2_dev1",
+    "h17_tf0p8_lw0p005_ev0p01_lv0p2_dev1",
+    "h17_tf0p8_lw0p0075_ev0p03_lv0p2_dev1",
+    "h17_tf0p8_lw0p015_ev0p01_lv0p2_dev1",
+    "h17_tf0p5_lw0p005_ev0p01_lv0_dev1",
+    "h17_tf0p8_lw0p005_ev0p001_lv0_dev1",
+    "h17_tf0p8_lw0p01_ev0p01_lv0_dev1"
+   ]
+  },
+  {
+   "shard": 9,
+   "runs": [
+    "h17_tf0p5_lw0p0075_ev0p01_lv0p2_dev2",
+    "h17_tf0p5_lw0p01_ev0p03_lv0p2_dev2",
+    "h17_tf0p8_lw0p005_ev0p01_lv0p2_dev2",
+    "h17_tf0p8_lw0p0075_ev0p03_lv0p2_dev2",
+    "h17_tf0p8_lw0p015_ev0p01_lv0p2_dev2",
+    "h17_tf0p5_lw0p005_ev0p01_lv0_dev2",
+    "h17_tf0p8_lw0p005_ev0p001_lv0_dev2",
+    "h17_tf0p8_lw0p01_ev0p01_lv0_dev2"
+   ]
+  },
+  {
+   "shard": 10,
+   "runs": [
+    "h17_tf0p5_lw0p0075_ev0p01_lv0p2_dev3",
+    "h17_tf0p5_lw0p01_ev0p03_lv0p2_dev3",
+    "h17_tf0p8_lw0p005_ev0p01_lv0p2_dev3",
+    "h17_tf0p8_lw0p0075_ev0p03_lv0p2_dev3",
+    "h17_tf0p8_lw0p015_ev0p01_lv0p2_dev3",
+    "h17_tf0p5_lw0p005_ev0p03_lv0_dev1",
+    "h17_tf0p8_lw0p005_ev0p003_lv0_dev1",
+    "h17_tf0p8_lw0p01_ev0p03_lv0_dev1"
+   ]
+  },
+  {
+   "shard": 11,
+   "runs": [
+    "h17_tf0p5_lw0p0075_ev0p01_lv0p2_dev4",
+    "h17_tf0p5_lw0p01_ev0p03_lv0p2_dev4",
+    "h17_tf0p8_lw0p005_ev0p01_lv0p2_dev4",
+    "h17_tf0p8_lw0p0075_ev0p03_lv0p2_dev4",
+    "h17_tf0p8_lw0p015_ev0p01_lv0p2_dev4",
+    "h17_tf0p5_lw0p005_ev0p03_lv0_dev2",
+    "h17_tf0p8_lw0p005_ev0p003_lv0_dev2",
+    "h17_tf0p8_lw0p01_ev0p03_lv0_dev2"
+   ]
+  }
+ ],
+ "n_runs": 96,
+ "n_configs": 32,
+ "id_note": "'p' stands for the decimal point in ids (lw0p0075 = lambda_W 0.0075)"
+}

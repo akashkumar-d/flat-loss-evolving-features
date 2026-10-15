@@ -1,0 +1,21 @@
+{
+ "p": 113,
+ "frac": 0.3,
+ "n_layers": 1,
+ "d_model": 128,
+ "n_heads": 4,
+ "d_mlp": 512,
+ "dtype": "float32",
+ "optimizer": "polar",
+ "eta_w": 0.1,
+ "lam_w": 0.01,
+ "eta_v": 0.03,
+ "steps": 12000,
+ "obs_every": 50,
+ "heavy_every": 250,
+ "refit_tau": 0.001,
+ "init_seed": 7101,
+ "split_seed": 8101,
+ "final_norm": "rms",
+ "lam_v": 1.0
+}

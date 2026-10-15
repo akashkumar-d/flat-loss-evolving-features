@@ -1,0 +1,44 @@
+drew L_depth3_paper_lw0.015 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_depth3_sqrt_lw0.015 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_depth3_sqrt_lw0.025 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_depth3_lin_lw0.015 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_depth3_lin_lw0.025 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_depth4_paper_lw0.015 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_depth4_sqrt_lw0.015 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_depth4_sqrt_lw0.025 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_depth4_lin_lw0.015 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_depth4_lin_lw0.025 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_refit_depth3_paper_lw0.015 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_refit_depth3_sqrt_lw0.015 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (2/3 pass, 3 of 3 done)', 'p = 61  (2/3 pass, 3 of 3 done)', 'p = 101  (2/3 pass, 3 of 3 done)']
+drew L_refit_depth3_sqrt_lw0.025 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_refit_depth3_lin_lw0.015 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (2/3 pass, 3 of 3 done)', 'p = 61  (3/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_refit_depth3_lin_lw0.025 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (1/3 pass, 3 of 3 done)', 'p = 101  (2/3 pass, 3 of 3 done)']
+drew L_refit_depth4_paper_lw0.015 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_refit_depth4_sqrt_lw0.015 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_refit_depth4_sqrt_lw0.025 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_refit_depth4_lin_lw0.015 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+drew L_refit_depth4_lin_lw0.025 ['p = 23  (0/3 pass, 3 of 3 done)', 'p = 47  (0/3 pass, 3 of 3 done)', 'p = 61  (0/3 pass, 3 of 3 done)', 'p = 101  (0/3 pass, 3 of 3 done)']
+/home/claude/kt/campaign_L/plot_L.py:136: RuntimeWarning: All-NaN slice encountered
+  return g, np.nanmedian(np.array(ce), 0), np.nanmedian(np.array(te), 0), np.nanmedian(np.array(rf), 0), np.sum(np.isfinite(np.array(te)), 0)
+drew L_vs_K_D3_p23
+/home/claude/kt/campaign_L/plot_L.py:136: RuntimeWarning: All-NaN slice encountered
+  return g, np.nanmedian(np.array(ce), 0), np.nanmedian(np.array(te), 0), np.nanmedian(np.array(rf), 0), np.sum(np.isfinite(np.array(te)), 0)
+drew L_vs_K_D3_p47
+/home/claude/kt/campaign_L/plot_L.py:136: RuntimeWarning: All-NaN slice encountered
+  return g, np.nanmedian(np.array(ce), 0), np.nanmedian(np.array(te), 0), np.nanmedian(np.array(rf), 0), np.sum(np.isfinite(np.array(te)), 0)
+drew L_vs_K_D3_p61
+/home/claude/kt/campaign_L/plot_L.py:136: RuntimeWarning: All-NaN slice encountered
+  return g, np.nanmedian(np.array(ce), 0), np.nanmedian(np.array(te), 0), np.nanmedian(np.array(rf), 0), np.sum(np.isfinite(np.array(te)), 0)
+drew L_vs_K_D3_p101
+/home/claude/kt/campaign_L/plot_L.py:136: RuntimeWarning: All-NaN slice encountered
+  return g, np.nanmedian(np.array(ce), 0), np.nanmedian(np.array(te), 0), np.nanmedian(np.array(rf), 0), np.sum(np.isfinite(np.array(te)), 0)
+drew L_vs_K_D4_p23
+/home/claude/kt/campaign_L/plot_L.py:136: RuntimeWarning: All-NaN slice encountered
+  return g, np.nanmedian(np.array(ce), 0), np.nanmedian(np.array(te), 0), np.nanmedian(np.array(rf), 0), np.sum(np.isfinite(np.array(te)), 0)
+drew L_vs_K_D4_p47
+/home/claude/kt/campaign_L/plot_L.py:136: RuntimeWarning: All-NaN slice encountered
+  return g, np.nanmedian(np.array(ce), 0), np.nanmedian(np.array(te), 0), np.nanmedian(np.array(rf), 0), np.sum(np.isfinite(np.array(te)), 0)
+drew L_vs_K_D4_p61
+/home/claude/kt/campaign_L/plot_L.py:136: RuntimeWarning: All-NaN slice encountered
+  return g, np.nanmedian(np.array(ce), 0), np.nanmedian(np.array(te), 0), np.nanmedian(np.array(rf), 0), np.sum(np.isfinite(np.array(te)), 0)
+drew L_vs_K_D4_p101

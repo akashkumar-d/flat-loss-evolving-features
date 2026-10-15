@@ -1,0 +1,5806 @@
+{
+ "L2": {
+  "11": [
+   {
+    "id": "p11_seed1",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9311,
+     "W": [
+      9311,
+      34395
+     ],
+     "ok": true,
+     "g_te": 0.44,
+     "g_rf": 0.92
+    },
+    "first": {
+     "start": 9311,
+     "W": [
+      9311,
+      34395
+     ],
+     "ok": true,
+     "g_te": 0.44,
+     "g_rf": 0.92
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      249,
+      264
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed10",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9467,
+     "W": [
+      9467,
+      34327
+     ],
+     "ok": true,
+     "g_te": 0.2,
+     "g_rf": 1.0
+    },
+    "first": {
+     "start": 701,
+     "W": [
+      701,
+      763
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      661,
+      763
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed11",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9580,
+     "W": [
+      9580,
+      35363
+     ],
+     "ok": true,
+     "g_te": 0.36,
+     "g_rf": 1.0
+    },
+    "first": {
+     "start": 9580,
+     "W": [
+      9580,
+      35363
+     ],
+     "ok": true,
+     "g_te": 0.36,
+     "g_rf": 1.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      437,
+      464
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed12",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9752,
+     "W": [
+      9752,
+      39999
+     ],
+     "ok": true,
+     "g_te": 0.36,
+     "g_rf": 0.96
+    },
+    "first": {
+     "start": 807,
+     "W": [
+      807,
+      852
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1059,
+      1123
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed13",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9999,
+     "W": [
+      9999,
+      34090
+     ],
+     "ok": true,
+     "g_te": 0.32,
+     "g_rf": 0.96
+    },
+    "first": {
+     "start": 9999,
+     "W": [
+      9999,
+      34090
+     ],
+     "ok": true,
+     "g_te": 0.32,
+     "g_rf": 0.96
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      550,
+      598
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed14",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9155,
+     "W": [
+      9155,
+      39999
+     ],
+     "ok": true,
+     "g_te": 0.28,
+     "g_rf": 1.0
+    },
+    "first": {
+     "start": 9155,
+     "W": [
+      9155,
+      39999
+     ],
+     "ok": true,
+     "g_te": 0.28,
+     "g_rf": 1.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      354,
+      376
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed15",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9374,
+     "W": [
+      9374,
+      34041
+     ],
+     "ok": true,
+     "g_te": 0.24,
+     "g_rf": 0.96
+    },
+    "first": {
+     "start": 1152,
+     "W": [
+      1152,
+      1192
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1762,
+      1814
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed16",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9438,
+     "W": [
+      9438,
+      34690
+     ],
+     "ok": true,
+     "g_te": 0.28,
+     "g_rf": 0.96
+    },
+    "first": {
+     "start": 721,
+     "W": [
+      721,
+      785
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1722,
+      1793
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed17",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9412,
+     "W": [
+      9412,
+      31773
+     ],
+     "ok": true,
+     "g_te": 0.36,
+     "g_rf": 1.0
+    },
+    "first": {
+     "start": 512,
+     "W": [
+      512,
+      552
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      501,
+      552
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed18",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9684,
+     "W": [
+      9684,
+      34829
+     ],
+     "ok": true,
+     "g_te": 0.32,
+     "g_rf": 0.96
+    },
+    "first": {
+     "start": 9684,
+     "W": [
+      9684,
+      34829
+     ],
+     "ok": true,
+     "g_te": 0.32,
+     "g_rf": 0.96
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      794,
+      861
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed19",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9816,
+     "W": [
+      9816,
+      34195
+     ],
+     "ok": true,
+     "g_te": 0.52,
+     "g_rf": 1.0
+    },
+    "first": {
+     "start": 472,
+     "W": [
+      472,
+      513
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      462,
+      513
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed2",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9212,
+     "W": [
+      9212,
+      33778
+     ],
+     "ok": true,
+     "g_te": 0.6,
+     "g_rf": 1.0
+    },
+    "first": {
+     "start": 9212,
+     "W": [
+      9212,
+      33778
+     ],
+     "ok": true,
+     "g_te": 0.6,
+     "g_rf": 1.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      438,
+      464
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed20",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9193,
+     "W": [
+      9193,
+      35092
+     ],
+     "ok": true,
+     "g_te": 0.44,
+     "g_rf": 1.0
+    },
+    "first": {
+     "start": 9193,
+     "W": [
+      9193,
+      35092
+     ],
+     "ok": true,
+     "g_te": 0.44,
+     "g_rf": 1.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1005,
+      1068
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed3",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9745,
+     "W": [
+      9745,
+      37862
+     ],
+     "ok": true,
+     "g_te": 0.56,
+     "g_rf": 1.0
+    },
+    "first": {
+     "start": 9745,
+     "W": [
+      9745,
+      37862
+     ],
+     "ok": true,
+     "g_te": 0.56,
+     "g_rf": 1.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      488,
+      538
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed4",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9714,
+     "W": [
+      9714,
+      35741
+     ],
+     "ok": true,
+     "g_te": 0.56,
+     "g_rf": 1.0
+    },
+    "first": {
+     "start": 401,
+     "W": [
+      401,
+      446
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      679,
+      751
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed5",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9630,
+     "W": [
+      9630,
+      37064
+     ],
+     "ok": true,
+     "g_te": 0.24,
+     "g_rf": 1.0
+    },
+    "first": {
+     "start": 9630,
+     "W": [
+      9630,
+      37064
+     ],
+     "ok": true,
+     "g_te": 0.24,
+     "g_rf": 1.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      254,
+      274
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed6",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9682,
+     "W": [
+      9682,
+      34095
+     ],
+     "ok": true,
+     "g_te": 0.2,
+     "g_rf": 1.0
+    },
+    "first": {
+     "start": 9682,
+     "W": [
+      9682,
+      34095
+     ],
+     "ok": true,
+     "g_te": 0.2,
+     "g_rf": 1.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1040,
+      1076
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed7",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9534,
+     "W": [
+      9534,
+      39885
+     ],
+     "ok": true,
+     "g_te": 0.52,
+     "g_rf": 0.92
+    },
+    "first": {
+     "start": 9534,
+     "W": [
+      9534,
+      39885
+     ],
+     "ok": true,
+     "g_te": 0.52,
+     "g_rf": 0.92
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1439,
+      1476
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed8",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9641,
+     "W": [
+      9641,
+      34042
+     ],
+     "ok": true,
+     "g_te": 0.28,
+     "g_rf": 1.0
+    },
+    "first": {
+     "start": 9641,
+     "W": [
+      9641,
+      34042
+     ],
+     "ok": true,
+     "g_te": 0.28,
+     "g_rf": 1.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      617,
+      663
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p11_seed9",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9669,
+     "W": [
+      9669,
+      31522
+     ],
+     "ok": true,
+     "g_te": 0.36,
+     "g_rf": 1.0
+    },
+    "first": {
+     "start": 9669,
+     "W": [
+      9669,
+      31522
+     ],
+     "ok": true,
+     "g_te": 0.36,
+     "g_rf": 1.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      450,
+      505
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   }
+  ],
+  "13": [
+   {
+    "id": "p13_seed1",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8988,
+     "W": [
+      8988,
+      33043
+     ],
+     "ok": true,
+     "g_te": 0.8824,
+     "g_rf": 0.9412
+    },
+    "first": {
+     "start": 8988,
+     "W": [
+      8988,
+      33043
+     ],
+     "ok": true,
+     "g_te": 0.8824,
+     "g_rf": 0.9412
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      520,
+      569
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed10",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8647,
+     "W": [
+      8647,
+      32832
+     ],
+     "ok": true,
+     "g_te": 0.8824,
+     "g_rf": 0.9412
+    },
+    "first": {
+     "start": 8647,
+     "W": [
+      8647,
+      32832
+     ],
+     "ok": true,
+     "g_te": 0.8824,
+     "g_rf": 0.9412
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      615,
+      695
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed11",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8861,
+     "W": [
+      8861,
+      31007
+     ],
+     "ok": true,
+     "g_te": 0.7941,
+     "g_rf": 0.9412
+    },
+    "first": {
+     "start": 8861,
+     "W": [
+      8861,
+      31007
+     ],
+     "ok": true,
+     "g_te": 0.7941,
+     "g_rf": 0.9412
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      446,
+      485
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed12",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8720,
+     "W": [
+      8720,
+      28726
+     ],
+     "ok": true,
+     "g_te": 0.9412,
+     "g_rf": 0.9706
+    },
+    "first": {
+     "start": 8720,
+     "W": [
+      8720,
+      28726
+     ],
+     "ok": true,
+     "g_te": 0.9412,
+     "g_rf": 0.9706
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      592,
+      659
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed13",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8769,
+     "W": [
+      8769,
+      33911
+     ],
+     "ok": true,
+     "g_te": 0.8824,
+     "g_rf": 0.9118
+    },
+    "first": {
+     "start": 8769,
+     "W": [
+      8769,
+      33911
+     ],
+     "ok": true,
+     "g_te": 0.8824,
+     "g_rf": 0.9118
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      350,
+      374
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed14",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9085,
+     "W": [
+      9085,
+      33135
+     ],
+     "ok": true,
+     "g_te": 0.8824,
+     "g_rf": 0.7941
+    },
+    "first": {
+     "start": 9085,
+     "W": [
+      9085,
+      33135
+     ],
+     "ok": true,
+     "g_te": 0.8824,
+     "g_rf": 0.7941
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      391,
+      419
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed15",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8836,
+     "W": [
+      8836,
+      32629
+     ],
+     "ok": true,
+     "g_te": 0.9412,
+     "g_rf": 0.9118
+    },
+    "first": {
+     "start": 8836,
+     "W": [
+      8836,
+      32629
+     ],
+     "ok": true,
+     "g_te": 0.9412,
+     "g_rf": 0.9118
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      766,
+      834
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed16",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8846,
+     "W": [
+      8846,
+      31871
+     ],
+     "ok": true,
+     "g_te": 0.9412,
+     "g_rf": 0.9706
+    },
+    "first": {
+     "start": 8846,
+     "W": [
+      8846,
+      31871
+     ],
+     "ok": true,
+     "g_te": 0.9412,
+     "g_rf": 0.9706
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      668,
+      729
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed17",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8890,
+     "W": [
+      8890,
+      33127
+     ],
+     "ok": true,
+     "g_te": 0.9118,
+     "g_rf": 0.9706
+    },
+    "first": {
+     "start": 8890,
+     "W": [
+      8890,
+      33127
+     ],
+     "ok": true,
+     "g_te": 0.9118,
+     "g_rf": 0.9706
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      712,
+      746
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed18",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9062,
+     "W": [
+      9062,
+      30224
+     ],
+     "ok": true,
+     "g_te": 0.7353,
+     "g_rf": 0.8529
+    },
+    "first": {
+     "start": 9062,
+     "W": [
+      9062,
+      30224
+     ],
+     "ok": true,
+     "g_te": 0.7353,
+     "g_rf": 0.8529
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      415,
+      495
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed19",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8575,
+     "W": [
+      8575,
+      33273
+     ],
+     "ok": true,
+     "g_te": 0.8529,
+     "g_rf": 0.9118
+    },
+    "first": {
+     "start": 8575,
+     "W": [
+      8575,
+      33273
+     ],
+     "ok": true,
+     "g_te": 0.8529,
+     "g_rf": 0.9118
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      347,
+      374
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed2",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8848,
+     "W": [
+      8848,
+      28721
+     ],
+     "ok": true,
+     "g_te": 0.6471,
+     "g_rf": 0.9412
+    },
+    "first": {
+     "start": 1256,
+     "W": [
+      1256,
+      1316
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      2023,
+      2096
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed20",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9020,
+     "W": [
+      9020,
+      30261
+     ],
+     "ok": true,
+     "g_te": 0.7941,
+     "g_rf": 0.9118
+    },
+    "first": {
+     "start": 9020,
+     "W": [
+      9020,
+      30261
+     ],
+     "ok": true,
+     "g_te": 0.7941,
+     "g_rf": 0.9118
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      447,
+      477
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed3",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9150,
+     "W": [
+      9150,
+      27845
+     ],
+     "ok": true,
+     "g_te": 0.8529,
+     "g_rf": 0.8235
+    },
+    "first": {
+     "start": 9150,
+     "W": [
+      9150,
+      27845
+     ],
+     "ok": true,
+     "g_te": 0.8529,
+     "g_rf": 0.8235
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      376,
+      415
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed4",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8736,
+     "W": [
+      8736,
+      30572
+     ],
+     "ok": true,
+     "g_te": 0.7941,
+     "g_rf": 0.9412
+    },
+    "first": {
+     "start": 8736,
+     "W": [
+      8736,
+      30572
+     ],
+     "ok": true,
+     "g_te": 0.7941,
+     "g_rf": 0.9412
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      259,
+      275
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed5",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8551,
+     "W": [
+      8551,
+      39999
+     ],
+     "ok": true,
+     "g_te": 1.0,
+     "g_rf": 0.9706
+    },
+    "first": {
+     "start": 8551,
+     "W": [
+      8551,
+      39999
+     ],
+     "ok": true,
+     "g_te": 1.0,
+     "g_rf": 0.9706
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      356,
+      390
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed6",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8662,
+     "W": [
+      8662,
+      26396
+     ],
+     "ok": true,
+     "g_te": 0.7353,
+     "g_rf": 1.0
+    },
+    "first": {
+     "start": 8662,
+     "W": [
+      8662,
+      26396
+     ],
+     "ok": true,
+     "g_te": 0.7353,
+     "g_rf": 1.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      392,
+      414
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed7",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8838,
+     "W": [
+      8838,
+      34523
+     ],
+     "ok": true,
+     "g_te": 0.8529,
+     "g_rf": 0.9412
+    },
+    "first": {
+     "start": 8838,
+     "W": [
+      8838,
+      34523
+     ],
+     "ok": true,
+     "g_te": 0.8529,
+     "g_rf": 0.9412
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      390,
+      439
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed8",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 9055,
+     "W": [
+      9055,
+      32827
+     ],
+     "ok": true,
+     "g_te": 0.9412,
+     "g_rf": 0.7353
+    },
+    "first": {
+     "start": 9055,
+     "W": [
+      9055,
+      32827
+     ],
+     "ok": true,
+     "g_te": 0.9412,
+     "g_rf": 0.7353
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      740,
+      770
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p13_seed9",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8874,
+     "W": [
+      8874,
+      32671
+     ],
+     "ok": true,
+     "g_te": 0.9412,
+     "g_rf": 0.9706
+    },
+    "first": {
+     "start": 8874,
+     "W": [
+      8874,
+      32671
+     ],
+     "ok": true,
+     "g_te": 0.9412,
+     "g_rf": 0.9706
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      235,
+      250
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   }
+  ],
+  "17": [
+   {
+    "id": "p17_seed1",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8040,
+     "W": [
+      8040,
+      18534
+     ],
+     "ok": true,
+     "g_te": 0.9138,
+     "g_rf": 0.8448
+    },
+    "first": {
+     "start": 8040,
+     "W": [
+      8040,
+      18534
+     ],
+     "ok": true,
+     "g_te": 0.9138,
+     "g_rf": 0.8448
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      909,
+      983
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p17_seed10",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8202,
+     "W": [
+      8202,
+      13492
+     ],
+     "ok": true,
+     "g_te": 0.069,
+     "g_rf": 0.7759
+    },
+    "first": {
+     "start": 8202,
+     "W": [
+      8202,
+      13492
+     ],
+     "ok": true,
+     "g_te": 0.069,
+     "g_rf": 0.7759
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      2188,
+      2272
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p17_seed11",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8173,
+     "W": [
+      8173,
+      18313
+     ],
+     "ok": true,
+     "g_te": 0.7931,
+     "g_rf": 0.7759
+    },
+    "first": {
+     "start": 8173,
+     "W": [
+      8173,
+      18313
+     ],
+     "ok": true,
+     "g_te": 0.7931,
+     "g_rf": 0.7759
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1792,
+      1848
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p17_seed12",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7940,
+     "W": [
+      7940,
+      13459
+     ],
+     "ok": true,
+     "g_te": 0.2069,
+     "g_rf": 0.8103
+    },
+    "first": {
+     "start": 7940,
+     "W": [
+      7940,
+      13459
+     ],
+     "ok": true,
+     "g_te": 0.2069,
+     "g_rf": 0.8103
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1213,
+      1270
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p17_seed13",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7921,
+     "W": [
+      7921,
+      20086
+     ],
+     "ok": true,
+     "g_te": 0.9655,
+     "g_rf": 0.8966
+    },
+    "first": {
+     "start": 7921,
+     "W": [
+      7921,
+      20086
+     ],
+     "ok": true,
+     "g_te": 0.9655,
+     "g_rf": 0.8966
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7634,
+      20086
+     ],
+     "ok": true,
+     "g_te": 0.9655,
+     "g_rf": 0.8966
+    }
+   },
+   {
+    "id": "p17_seed14",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7962,
+     "W": [
+      7962,
+      22618
+     ],
+     "ok": true,
+     "g_te": 0.9828,
+     "g_rf": 0.8966
+    },
+    "first": {
+     "start": 7962,
+     "W": [
+      7962,
+      22618
+     ],
+     "ok": true,
+     "g_te": 0.9828,
+     "g_rf": 0.8966
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7682,
+      22618
+     ],
+     "ok": true,
+     "g_te": 0.9828,
+     "g_rf": 0.8966
+    }
+   },
+   {
+    "id": "p17_seed15",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7672,
+     "W": [
+      7672,
+      17404
+     ],
+     "ok": true,
+     "g_te": 0.7759,
+     "g_rf": 0.8448
+    },
+    "first": {
+     "start": 7672,
+     "W": [
+      7672,
+      17404
+     ],
+     "ok": true,
+     "g_te": 0.7759,
+     "g_rf": 0.8448
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      785,
+      859
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p17_seed16",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8300,
+     "W": [
+      8300,
+      16874
+     ],
+     "ok": true,
+     "g_te": 0.6897,
+     "g_rf": 0.7931
+    },
+    "first": {
+     "start": 8300,
+     "W": [
+      8300,
+      16874
+     ],
+     "ok": true,
+     "g_te": 0.6897,
+     "g_rf": 0.7931
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      8002,
+      16874
+     ],
+     "ok": true,
+     "g_te": 0.6897,
+     "g_rf": 0.7931
+    }
+   },
+   {
+    "id": "p17_seed17",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7992,
+     "W": [
+      7992,
+      17651
+     ],
+     "ok": true,
+     "g_te": 0.8103,
+     "g_rf": 0.8621
+    },
+    "first": {
+     "start": 7992,
+     "W": [
+      7992,
+      17651
+     ],
+     "ok": true,
+     "g_te": 0.8103,
+     "g_rf": 0.8621
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1125,
+      1204
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p17_seed18",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8132,
+     "W": [
+      8132,
+      19035
+     ],
+     "ok": true,
+     "g_te": 0.8448,
+     "g_rf": 0.7931
+    },
+    "first": {
+     "start": 8132,
+     "W": [
+      8132,
+      19035
+     ],
+     "ok": true,
+     "g_te": 0.8448,
+     "g_rf": 0.7931
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7850,
+      19035
+     ],
+     "ok": true,
+     "g_te": 0.8448,
+     "g_rf": 0.8793
+    }
+   },
+   {
+    "id": "p17_seed19",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7989,
+     "W": [
+      7989,
+      19617
+     ],
+     "ok": true,
+     "g_te": 0.8966,
+     "g_rf": 0.8793
+    },
+    "first": {
+     "start": 7989,
+     "W": [
+      7989,
+      19617
+     ],
+     "ok": true,
+     "g_te": 0.8966,
+     "g_rf": 0.8793
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7702,
+      19617
+     ],
+     "ok": true,
+     "g_te": 0.8966,
+     "g_rf": 0.8793
+    }
+   },
+   {
+    "id": "p17_seed2",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8225,
+     "W": [
+      8225,
+      17798
+     ],
+     "ok": true,
+     "g_te": 0.7241,
+     "g_rf": 0.6552
+    },
+    "first": {
+     "start": 8225,
+     "W": [
+      8225,
+      17798
+     ],
+     "ok": true,
+     "g_te": 0.7241,
+     "g_rf": 0.6552
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      871,
+      963
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p17_seed20",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7929,
+     "W": [
+      7929,
+      16171
+     ],
+     "ok": true,
+     "g_te": 0.5862,
+     "g_rf": 0.9138
+    },
+    "first": {
+     "start": 7929,
+     "W": [
+      7929,
+      16171
+     ],
+     "ok": true,
+     "g_te": 0.5862,
+     "g_rf": 0.9138
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7649,
+      16171
+     ],
+     "ok": true,
+     "g_te": 0.5862,
+     "g_rf": 0.9138
+    }
+   },
+   {
+    "id": "p17_seed3",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8286,
+     "W": [
+      8286,
+      20279
+     ],
+     "ok": true,
+     "g_te": 0.9138,
+     "g_rf": 0.8448
+    },
+    "first": {
+     "start": 8286,
+     "W": [
+      8286,
+      20279
+     ],
+     "ok": true,
+     "g_te": 0.9138,
+     "g_rf": 0.8448
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7971,
+      20279
+     ],
+     "ok": true,
+     "g_te": 0.9138,
+     "g_rf": 0.9483
+    }
+   },
+   {
+    "id": "p17_seed4",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7957,
+     "W": [
+      7957,
+      14760
+     ],
+     "ok": true,
+     "g_te": 0.3621,
+     "g_rf": 0.9138
+    },
+    "first": {
+     "start": 7957,
+     "W": [
+      7957,
+      14760
+     ],
+     "ok": true,
+     "g_te": 0.3621,
+     "g_rf": 0.9138
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7698,
+      14760
+     ],
+     "ok": true,
+     "g_te": 0.3621,
+     "g_rf": 0.9138
+    }
+   },
+   {
+    "id": "p17_seed5",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8125,
+     "W": [
+      8125,
+      18532
+     ],
+     "ok": true,
+     "g_te": 0.8103,
+     "g_rf": 0.7586
+    },
+    "first": {
+     "start": 8125,
+     "W": [
+      8125,
+      18532
+     ],
+     "ok": true,
+     "g_te": 0.8103,
+     "g_rf": 0.7586
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      2118,
+      2212
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p17_seed6",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8078,
+     "W": [
+      8078,
+      17932
+     ],
+     "ok": true,
+     "g_te": 0.9655,
+     "g_rf": 0.7931
+    },
+    "first": {
+     "start": 8078,
+     "W": [
+      8078,
+      17932
+     ],
+     "ok": true,
+     "g_te": 0.9655,
+     "g_rf": 0.7931
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1054,
+      1152
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p17_seed7",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8296,
+     "W": [
+      8296,
+      14669
+     ],
+     "ok": true,
+     "g_te": 0.069,
+     "g_rf": 0.7586
+    },
+    "first": {
+     "start": 8296,
+     "W": [
+      8296,
+      14669
+     ],
+     "ok": true,
+     "g_te": 0.069,
+     "g_rf": 0.7586
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      8044,
+      14669
+     ],
+     "ok": true,
+     "g_te": 0.069,
+     "g_rf": 0.7586
+    }
+   },
+   {
+    "id": "p17_seed8",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7949,
+     "W": [
+      7949,
+      17886
+     ],
+     "ok": true,
+     "g_te": 0.8621,
+     "g_rf": 0.7414
+    },
+    "first": {
+     "start": 7949,
+     "W": [
+      7949,
+      17886
+     ],
+     "ok": true,
+     "g_te": 0.8621,
+     "g_rf": 0.7414
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      2807,
+      2873
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p17_seed9",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8355,
+     "W": [
+      8355,
+      14918
+     ],
+     "ok": true,
+     "g_te": 0.2931,
+     "g_rf": 0.7586
+    },
+    "first": {
+     "start": 8355,
+     "W": [
+      8355,
+      14918
+     ],
+     "ok": true,
+     "g_te": 0.2931,
+     "g_rf": 0.7586
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      8078,
+      14918
+     ],
+     "ok": true,
+     "g_te": 0.2931,
+     "g_rf": 0.7586
+    }
+   }
+  ],
+  "19": [
+   {
+    "id": "p19_seed1",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7810,
+      10658
+     ],
+     "ok": true,
+     "g_te": 0.0137,
+     "g_rf": 0.2603
+    }
+   },
+   {
+    "id": "p19_seed10",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7464,
+      11855
+     ],
+     "ok": true,
+     "g_te": 0.0137,
+     "g_rf": 0.5205
+    }
+   },
+   {
+    "id": "p19_seed11",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7703,
+     "W": [
+      7703,
+      13629
+     ],
+     "ok": true,
+     "g_te": 0.1096,
+     "g_rf": 0.8767
+    },
+    "first": {
+     "start": 7703,
+     "W": [
+      7703,
+      13629
+     ],
+     "ok": true,
+     "g_te": 0.1096,
+     "g_rf": 0.8767
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7380,
+      13629
+     ],
+     "ok": true,
+     "g_te": 0.1096,
+     "g_rf": 0.8767
+    }
+   },
+   {
+    "id": "p19_seed12",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7655,
+     "W": [
+      7655,
+      13035
+     ],
+     "ok": true,
+     "g_te": 0.0959,
+     "g_rf": 0.8356
+    },
+    "first": {
+     "start": 7655,
+     "W": [
+      7655,
+      13035
+     ],
+     "ok": true,
+     "g_te": 0.0959,
+     "g_rf": 0.8356
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7335,
+      13035
+     ],
+     "ok": true,
+     "g_te": 0.0959,
+     "g_rf": 0.8356
+    }
+   },
+   {
+    "id": "p19_seed13",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7691,
+     "W": [
+      7691,
+      12586
+     ],
+     "ok": true,
+     "g_te": 0.1233,
+     "g_rf": 0.7671
+    },
+    "first": {
+     "start": 7691,
+     "W": [
+      7691,
+      12586
+     ],
+     "ok": true,
+     "g_te": 0.1233,
+     "g_rf": 0.7671
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7339,
+      12586
+     ],
+     "ok": true,
+     "g_te": 0.1233,
+     "g_rf": 0.7671
+    }
+   },
+   {
+    "id": "p19_seed14",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7492,
+      11358
+     ],
+     "ok": true,
+     "g_te": 0.0137,
+     "g_rf": 0.5342
+    }
+   },
+   {
+    "id": "p19_seed15",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7475,
+     "W": [
+      7475,
+      13173
+     ],
+     "ok": true,
+     "g_te": 0.0959,
+     "g_rf": 0.8767
+    },
+    "first": {
+     "start": 7475,
+     "W": [
+      7475,
+      13173
+     ],
+     "ok": true,
+     "g_te": 0.0959,
+     "g_rf": 0.8767
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7200,
+      13173
+     ],
+     "ok": true,
+     "g_te": 0.0959,
+     "g_rf": 0.8767
+    }
+   },
+   {
+    "id": "p19_seed16",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 8038,
+     "W": [
+      8038,
+      12991
+     ],
+     "ok": true,
+     "g_te": 0.0548,
+     "g_rf": 0.5479
+    },
+    "first": {
+     "start": 8038,
+     "W": [
+      8038,
+      12991
+     ],
+     "ok": true,
+     "g_te": 0.0548,
+     "g_rf": 0.5479
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7721,
+      12991
+     ],
+     "ok": true,
+     "g_te": 0.0548,
+     "g_rf": 0.6575
+    }
+   },
+   {
+    "id": "p19_seed17",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7539,
+     "W": [
+      7539,
+      11983
+     ],
+     "ok": true,
+     "g_te": 0.0548,
+     "g_rf": 0.5205
+    },
+    "first": {
+     "start": 7539,
+     "W": [
+      7539,
+      11983
+     ],
+     "ok": true,
+     "g_te": 0.0548,
+     "g_rf": 0.5205
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7210,
+      11983
+     ],
+     "ok": true,
+     "g_te": 0.0548,
+     "g_rf": 0.5205
+    }
+   },
+   {
+    "id": "p19_seed18",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7446,
+     "W": [
+      7446,
+      11850
+     ],
+     "ok": true,
+     "g_te": 0.0274,
+     "g_rf": 0.4384
+    },
+    "first": {
+     "start": 7446,
+     "W": [
+      7446,
+      11850
+     ],
+     "ok": true,
+     "g_te": 0.0274,
+     "g_rf": 0.4384
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1254,
+      1362
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p19_seed19",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      2948,
+      3003
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p19_seed2",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7256,
+      12535
+     ],
+     "ok": true,
+     "g_te": 0.1096,
+     "g_rf": 0.7671
+    }
+   },
+   {
+    "id": "p19_seed20",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7395,
+      12308
+     ],
+     "ok": true,
+     "g_te": 0.0548,
+     "g_rf": 0.726
+    }
+   },
+   {
+    "id": "p19_seed3",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1321,
+      1407
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p19_seed4",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7483,
+      11322
+     ],
+     "ok": true,
+     "g_te": 0.0,
+     "g_rf": 0.5068
+    }
+   },
+   {
+    "id": "p19_seed5",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      2808,
+      2863
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p19_seed6",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7367,
+     "W": [
+      7367,
+      11823
+     ],
+     "ok": true,
+     "g_te": 0.0548,
+     "g_rf": 0.5342
+    },
+    "first": {
+     "start": 7367,
+     "W": [
+      7367,
+      11823
+     ],
+     "ok": true,
+     "g_te": 0.0548,
+     "g_rf": 0.5342
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7050,
+      11823
+     ],
+     "ok": true,
+     "g_te": 0.0548,
+     "g_rf": 0.5342
+    }
+   },
+   {
+    "id": "p19_seed7",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7614,
+      11255
+     ],
+     "ok": true,
+     "g_te": 0.0,
+     "g_rf": 0.6027
+    }
+   },
+   {
+    "id": "p19_seed8",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 7567,
+     "W": [
+      7567,
+      11937
+     ],
+     "ok": true,
+     "g_te": 0.0,
+     "g_rf": 0.6027
+    },
+    "first": {
+     "start": 7567,
+     "W": [
+      7567,
+      11937
+     ],
+     "ok": true,
+     "g_te": 0.0,
+     "g_rf": 0.6027
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7259,
+      11937
+     ],
+     "ok": true,
+     "g_te": 0.0,
+     "g_rf": 0.6027
+    }
+   },
+   {
+    "id": "p19_seed9",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      2380,
+      2443
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   }
+  ],
+  "23": [
+   {
+    "id": "p23_seed1",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      29895,
+      36340
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed10",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      6950,
+      9304
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.1132
+    }
+   },
+   {
+    "id": "p23_seed11",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      8165,
+      9768
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed12",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      30190,
+      39354
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed13",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      31488,
+      39797
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed14",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      31331,
+      37155
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed15",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      6898,
+      9378
+     ],
+     "ok": true,
+     "g_te": 0.0,
+     "g_rf": 0.2264
+    }
+   },
+   {
+    "id": "p23_seed16",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      30151,
+      39570
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed17",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      28579,
+      37701
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed18",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      28735,
+      36987
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed19",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      29278,
+      33423
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed2",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      27268,
+      34999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed20",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      29828,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed3",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      29795,
+      36752
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed4",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      31255,
+      38229
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed5",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1165,
+      1302
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed6",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      27436,
+      34568
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed7",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      29035,
+      35871
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed8",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      29567,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p23_seed9",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      28935,
+      37098
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   }
+  ],
+  "29": [
+   {
+    "id": "p29_seed1",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      27089,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed10",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      27129,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed11",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      29434,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed12",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      30320,
+      39534
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed13",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      28927,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed14",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      30304,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed15",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      27199,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed16",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      26008,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed17",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      6037,
+      8081
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0296
+    }
+   },
+   {
+    "id": "p29_seed18",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      31121,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed19",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      28560,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed2",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      28639,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed20",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      28238,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed3",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      28453,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed4",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      31030,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed5",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      28703,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed6",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      7121,
+      8614
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed7",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      28823,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed8",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      28190,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "p29_seed9",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 39999,
+     "W": [
+      39999,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      29369,
+      39999
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   }
+  ]
+ },
+ "L3": {
+  "natplat_p23_lw0.01": [
+   {
+    "id": "seed_p23_lw0.01_lv0.2_s0",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 3737,
+     "W": [
+      3737,
+      29999
+     ],
+     "ok": true,
+     "g_te": 1.0,
+     "g_rf": 0.9528
+    },
+    "first": {
+     "start": 3737,
+     "W": [
+      3737,
+      29999
+     ],
+     "ok": true,
+     "g_te": 1.0,
+     "g_rf": 0.9528
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      3603,
+      29999
+     ],
+     "ok": true,
+     "g_te": 1.0,
+     "g_rf": 0.9528
+    }
+   },
+   {
+    "id": "seed_p23_lw0.01_lv0.2_s1",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 3549,
+     "W": [
+      3549,
+      14365
+     ],
+     "ok": true,
+     "g_te": 0.9528,
+     "g_rf": 0.9717
+    },
+    "first": {
+     "start": 3549,
+     "W": [
+      3549,
+      14365
+     ],
+     "ok": true,
+     "g_te": 0.9528,
+     "g_rf": 0.9717
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      3417,
+      14365
+     ],
+     "ok": true,
+     "g_te": 0.9528,
+     "g_rf": 0.9717
+    }
+   },
+   {
+    "id": "seed_p23_lw0.01_lv0.2_s2",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 3669,
+     "W": [
+      3669,
+      21501
+     ],
+     "ok": true,
+     "g_te": 1.0,
+     "g_rf": 0.9717
+    },
+    "first": {
+     "start": 3669,
+     "W": [
+      3669,
+      21501
+     ],
+     "ok": true,
+     "g_te": 1.0,
+     "g_rf": 0.9717
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      3536,
+      21501
+     ],
+     "ok": true,
+     "g_te": 1.0,
+     "g_rf": 0.9717
+    }
+   },
+   {
+    "id": "seed_p23_lw0.01_lv0.2_s3",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 3622,
+     "W": [
+      3622,
+      29999
+     ],
+     "ok": true,
+     "g_te": 1.0,
+     "g_rf": 0.934
+    },
+    "first": {
+     "start": 3622,
+     "W": [
+      3622,
+      29999
+     ],
+     "ok": true,
+     "g_te": 1.0,
+     "g_rf": 0.934
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      3488,
+      29999
+     ],
+     "ok": true,
+     "g_te": 1.0,
+     "g_rf": 0.9528
+    }
+   },
+   {
+    "id": "seed_p23_lw0.01_lv0.2_s4",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 3718,
+     "W": [
+      3718,
+      29999
+     ],
+     "ok": true,
+     "g_te": 1.0,
+     "g_rf": 0.9528
+    },
+    "first": {
+     "start": 3718,
+     "W": [
+      3718,
+      29999
+     ],
+     "ok": true,
+     "g_te": 1.0,
+     "g_rf": 0.9528
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      3583,
+      29999
+     ],
+     "ok": true,
+     "g_te": 1.0,
+     "g_rf": 0.9528
+    }
+   }
+  ],
+  "natplat_p31_lw0.015": [
+   {
+    "id": "seed_p31_lw0.015_lv0.2_s0",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 1777,
+     "W": [
+      1777,
+      12982
+     ],
+     "ok": true,
+     "g_te": 0.9793,
+     "g_rf": 0.9793
+    },
+    "first": {
+     "start": 1777,
+     "W": [
+      1777,
+      12982
+     ],
+     "ok": true,
+     "g_te": 0.9793,
+     "g_rf": 0.9793
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1641,
+      12982
+     ],
+     "ok": true,
+     "g_te": 0.9793,
+     "g_rf": 0.9793
+    }
+   },
+   {
+    "id": "seed_p31_lw0.015_lv0.2_s1",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 1799,
+     "W": [
+      1799,
+      26632
+     ],
+     "ok": true,
+     "g_te": 0.9637,
+     "g_rf": 0.9845
+    },
+    "first": {
+     "start": 1799,
+     "W": [
+      1799,
+      26632
+     ],
+     "ok": true,
+     "g_te": 0.9637,
+     "g_rf": 0.9845
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1661,
+      26632
+     ],
+     "ok": true,
+     "g_te": 0.9637,
+     "g_rf": 0.9845
+    }
+   },
+   {
+    "id": "seed_p31_lw0.015_lv0.2_s2",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 1845,
+     "W": [
+      1845,
+      8878
+     ],
+     "ok": true,
+     "g_te": 0.7202,
+     "g_rf": 0.9793
+    },
+    "first": {
+     "start": 1845,
+     "W": [
+      1845,
+      8878
+     ],
+     "ok": true,
+     "g_te": 0.7202,
+     "g_rf": 0.9793
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1709,
+      8878
+     ],
+     "ok": true,
+     "g_te": 0.7202,
+     "g_rf": 0.9793
+    }
+   },
+   {
+    "id": "seed_p31_lw0.015_lv0.2_s3",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 1780,
+     "W": [
+      1780,
+      9650
+     ],
+     "ok": true,
+     "g_te": 0.8446,
+     "g_rf": 0.9845
+    },
+    "first": {
+     "start": 1780,
+     "W": [
+      1780,
+      9650
+     ],
+     "ok": true,
+     "g_te": 0.8446,
+     "g_rf": 0.9845
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1644,
+      9650
+     ],
+     "ok": true,
+     "g_te": 0.8446,
+     "g_rf": 0.9845
+    }
+   },
+   {
+    "id": "seed_p31_lw0.015_lv0.2_s4",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 1842,
+     "W": [
+      1842,
+      10109
+     ],
+     "ok": true,
+     "g_te": 0.8912,
+     "g_rf": 0.9793
+    },
+    "first": {
+     "start": 1842,
+     "W": [
+      1842,
+      10109
+     ],
+     "ok": true,
+     "g_te": 0.8912,
+     "g_rf": 0.9793
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      1704,
+      10109
+     ],
+     "ok": true,
+     "g_te": 0.8912,
+     "g_rf": 0.9793
+    }
+   }
+  ]
+ },
+ "L4": {
+  "13": [
+   {
+    "id": "batch_1_p13_n135_k64_polar_manyseed_seed11001_split41001",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20500,
+      50000
+     ],
+     "ok": false,
+     "g_te": -0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_1_p13_n135_k64_polar_manyseed_seed11002_split41002",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_1_p13_n135_k64_polar_manyseed_seed11003_split41003",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      21500,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_1_p13_n135_k64_polar_manyseed_seed11004_split41004",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_1_p13_n135_k64_polar_manyseed_seed11005_split41005",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_1_p13_n135_k64_polar_manyseed_seed11006_split41006",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20500,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_1_p13_n135_k64_polar_manyseed_seed11007_split41007",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      19000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_1_p13_n135_k64_polar_manyseed_seed11008_split41008",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      21000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_1_p13_n135_k64_polar_manyseed_seed11009_split41009",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      22000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_1_p13_n135_k64_polar_manyseed_seed11010_split41010",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      19000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_2_p13_n135_k64_polar_manyseed_seed11011_split41011",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20500,
+      50000
+     ],
+     "ok": false,
+     "g_te": -0.0588,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_2_p13_n135_k64_polar_manyseed_seed11012_split41012",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      19500,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_2_p13_n135_k64_polar_manyseed_seed11013_split41013",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_2_p13_n135_k64_polar_manyseed_seed11014_split41014",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20500,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_2_p13_n135_k64_polar_manyseed_seed11015_split41015",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_2_p13_n135_k64_polar_manyseed_seed11016_split41016",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20500,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_2_p13_n135_k64_polar_manyseed_seed11017_split41017",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_2_p13_n135_k64_polar_manyseed_seed11018_split41018",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      21000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0588,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_2_p13_n135_k64_polar_manyseed_seed11019_split41019",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_2_p13_n135_k64_polar_manyseed_seed11020_split41020",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20500,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_3_p13_n135_k64_polar_manyseed_seed11021_split41021",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20500,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_3_p13_n135_k64_polar_manyseed_seed11022_split41022",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      21000,
+      50000
+     ],
+     "ok": false,
+     "g_te": -0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_3_p13_n135_k64_polar_manyseed_seed11023_split41023",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      21000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_3_p13_n135_k64_polar_manyseed_seed11024_split41024",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      23000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0588,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_3_p13_n135_k64_polar_manyseed_seed11025_split41025",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0882,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_3_p13_n135_k64_polar_manyseed_seed11026_split41026",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      21000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_3_p13_n135_k64_polar_manyseed_seed11027_split41027",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20500,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_3_p13_n135_k64_polar_manyseed_seed11028_split41028",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      21000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0588,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_3_p13_n135_k64_polar_manyseed_seed11029_split41029",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20000,
+      50000
+     ],
+     "ok": false,
+     "g_te": -0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_3_p13_n135_k64_polar_manyseed_seed11030_split41030",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_4_p13_n135_k64_polar_manyseed_seed11031_split41031",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20500,
+      50000
+     ],
+     "ok": false,
+     "g_te": -0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_4_p13_n135_k64_polar_manyseed_seed11032_split41032",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      18500,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_4_p13_n135_k64_polar_manyseed_seed11033_split41033",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      21500,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_4_p13_n135_k64_polar_manyseed_seed11034_split41034",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      19000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0588,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_4_p13_n135_k64_polar_manyseed_seed11035_split41035",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      19500,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_4_p13_n135_k64_polar_manyseed_seed11036_split41036",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      20500,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_4_p13_n135_k64_polar_manyseed_seed11037_split41037",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      22000,
+      50000
+     ],
+     "ok": false,
+     "g_te": -0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_4_p13_n135_k64_polar_manyseed_seed11038_split41038",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      19500,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_4_p13_n135_k64_polar_manyseed_seed11039_split41039",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      21000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0294,
+     "g_rf": 0.0
+    }
+   },
+   {
+    "id": "batch_4_p13_n135_k64_polar_manyseed_seed11040_split41040",
+    "used": "CE minimum before the largest climb",
+    "dip": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "first": {
+     "start": 50000,
+     "W": [
+      50000,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    },
+    "zero": {
+     "start": 0,
+     "W": [
+      19500,
+      50000
+     ],
+     "ok": false,
+     "g_te": 0.0,
+     "g_rf": 0.0
+    }
+   }
+  ]
+ }
+}

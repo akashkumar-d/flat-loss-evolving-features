@@ -1,0 +1,133 @@
+{
+  "locked_manifest": "src/focus_manifest.json",
+  "locked_manifest_sha256": "412e0874003d024a5cc932663fe815b64ebd39f39e427fa9e09aca0cd95cb16c",
+  "declared_runs": 60,
+  "amendment": "execution-only: the locked 60-run manifest is executed as 8 disjoint shards run concurrently, because run_campaign.py caps one campaign at 8 workers. Every run's config, seeds, horizon, windows and observation cadence are byte-identical to the locked manifest; only the roster partition and limits.workers differ. No outcome-based selection, retries or replacements.",
+  "reason": "the 2026-09-28 launch of this manifest on the first cloud machine left no retrievable outputs (the machine slept; no compute/ directory remains)",
+  "shards": [
+    {
+      "shard": 0,
+      "path": "shards/shard_0.json",
+      "sha256": "261746fecd667fb723a36d5b22d8b77e32b14ab63d23f5c2e6e0a7b0f2bb1723",
+      "run_ids": [
+        "p17_candidate1_confirm01",
+        "p29_candidate2_confirm03",
+        "p23_candidate2_confirm06",
+        "p17_candidate1_confirm09",
+        "p29_candidate2_confirm11",
+        "p23_candidate2_confirm14",
+        "p17_candidate1_confirm17",
+        "p29_candidate2_confirm19"
+      ],
+      "workers": 8
+    },
+    {
+      "shard": 1,
+      "path": "shards/shard_1.json",
+      "sha256": "29fc1e339cbe80ad6640dc8db2913b732459b10a521a7ea4169a1aa7e4453ffe",
+      "run_ids": [
+        "p23_candidate2_confirm01",
+        "p17_candidate1_confirm04",
+        "p29_candidate2_confirm06",
+        "p23_candidate2_confirm09",
+        "p17_candidate1_confirm12",
+        "p29_candidate2_confirm14",
+        "p23_candidate2_confirm17",
+        "p17_candidate1_confirm20"
+      ],
+      "workers": 8
+    },
+    {
+      "shard": 2,
+      "path": "shards/shard_2.json",
+      "sha256": "d90f3a4609c3d46fccc9c2641082aa6c39b48a7ab5be537ab569a9bc8e04cdfb",
+      "run_ids": [
+        "p29_candidate2_confirm01",
+        "p23_candidate2_confirm04",
+        "p17_candidate1_confirm07",
+        "p29_candidate2_confirm09",
+        "p23_candidate2_confirm12",
+        "p17_candidate1_confirm15",
+        "p29_candidate2_confirm17",
+        "p23_candidate2_confirm20"
+      ],
+      "workers": 8
+    },
+    {
+      "shard": 3,
+      "path": "shards/shard_3.json",
+      "sha256": "b39adc93a0538aafce5c1ee40298687ae7f5e19cb88066bb8ab7d08af4cf6af0",
+      "run_ids": [
+        "p17_candidate1_confirm02",
+        "p29_candidate2_confirm04",
+        "p23_candidate2_confirm07",
+        "p17_candidate1_confirm10",
+        "p29_candidate2_confirm12",
+        "p23_candidate2_confirm15",
+        "p17_candidate1_confirm18",
+        "p29_candidate2_confirm20"
+      ],
+      "workers": 8
+    },
+    {
+      "shard": 4,
+      "path": "shards/shard_4.json",
+      "sha256": "e6e4eb9015671f15b47d0cf7c068db1e418ffd126a0861e573db497f5c888375",
+      "run_ids": [
+        "p23_candidate2_confirm02",
+        "p17_candidate1_confirm05",
+        "p29_candidate2_confirm07",
+        "p23_candidate2_confirm10",
+        "p17_candidate1_confirm13",
+        "p29_candidate2_confirm15",
+        "p23_candidate2_confirm18"
+      ],
+      "workers": 7
+    },
+    {
+      "shard": 5,
+      "path": "shards/shard_5.json",
+      "sha256": "f59f8e0bb1286ed1308ad226cb955e35311a072ba379db31d44e67a8b3299941",
+      "run_ids": [
+        "p29_candidate2_confirm02",
+        "p23_candidate2_confirm05",
+        "p17_candidate1_confirm08",
+        "p29_candidate2_confirm10",
+        "p23_candidate2_confirm13",
+        "p17_candidate1_confirm16",
+        "p29_candidate2_confirm18"
+      ],
+      "workers": 7
+    },
+    {
+      "shard": 6,
+      "path": "shards/shard_6.json",
+      "sha256": "6329942c36166e72de5d0613a2c116451b868a06499863859ec28abb42bba920",
+      "run_ids": [
+        "p17_candidate1_confirm03",
+        "p29_candidate2_confirm05",
+        "p23_candidate2_confirm08",
+        "p17_candidate1_confirm11",
+        "p29_candidate2_confirm13",
+        "p23_candidate2_confirm16",
+        "p17_candidate1_confirm19"
+      ],
+      "workers": 7
+    },
+    {
+      "shard": 7,
+      "path": "shards/shard_7.json",
+      "sha256": "8414c1038e692048785758795489164d6f7453cece5674bae72538d294ac4757",
+      "run_ids": [
+        "p23_candidate2_confirm03",
+        "p17_candidate1_confirm06",
+        "p29_candidate2_confirm08",
+        "p23_candidate2_confirm11",
+        "p17_candidate1_confirm14",
+        "p29_candidate2_confirm16",
+        "p23_candidate2_confirm19"
+      ],
+      "workers": 7
+    }
+  ]
+}

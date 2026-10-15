@@ -1,0 +1,107 @@
+== P_p149_f0.15_lam_v0.23: 5 runs | pass (both defs) 4/5, strict 0 | why {'share': 1, 'fit': 1, 'final': 1, 'no window': 1}
+   final held-out (all) [0.1215622, 0.9991521] | first fit median 240.0 (5/5 fit) | steps [15700.0, 30000.0]
+   CE across the rise (nm 0.1 -> 0.9): median +28% range [0.2678636179858329, 0.30634654006813156] up in 4/4; CE at nm 0.5: 1.230 nats (0.246 log p)
+   [all] q_te [0.026952749999999987, 1.0] | net 0.1/0.5/0.9 ['3303', '7079', '9252'] | Fourier top-8 lead 0.5 4/4 1586, 0.9 4/4 2214 | paper refit lead 0.5 0/4 -2321 | window gains: Fourier 0.97, dA_H 0.84
+   [nm] q_te [0.0, 1.0] | net 0.1/0.5/0.9 ['5077', '7377', '9437'] | Fourier top-8 lead 0.5 4/4 1716, 0.9 4/4 2351 | paper refit lead 0.5 0/4 -2536 | window gains: Fourier 0.99, dA_H 0.84
+   at the first fit: held-out all 0.070, no-mirror 0.001, mirror-in-training 0.470
+== P_p149_f0.16_lam_v0.23: 5 runs | pass (both defs) 5/5, strict 3 | why {}
+   final held-out (all) [0.9919567, 0.9997319] | first fit median 280.0 (5/5 fit) | steps [10880.0, 18460.0]
+   CE across the rise (nm 0.1 -> 0.9): median +16% range [0.13820732604509245, 0.19118568172928296] up in 5/5; CE at nm 0.5: 0.980 nats (0.196 log p)
+   [all] q_te [0.989604, 1.0] | net 0.1/0.5/0.9 ['1216', '4478', '5668'] | Fourier top-8 lead 0.5 5/5 699, 0.9 5/5 1155 | paper refit lead 0.5 0/5 -1233 | window gains: Fourier 0.97, dA_H 0.84
+   [nm] q_te [1.0, 1.0] | net 0.1/0.5/0.9 ['3577', '4733', '5714'] | Fourier top-8 lead 0.5 5/5 765, 0.9 5/5 1190 | paper refit lead 0.5 0/5 -1506 | window gains: Fourier 0.99, dA_H 0.84
+   at the first fit: held-out all 0.069, no-mirror 0.001, mirror-in-training 0.434
+== P_p149_f0.2_lam_v0.23: 5 runs | pass (both defs) 0/5, strict 0 | why {'share': 5, 'refit': 5, 'A_H': 2}
+   final held-out (all) [0.9992681, 1.0] | first fit median 400.0 (5/5 fit) | steps [6720.0, 7140.0]
+   CE across the rise (nm 0.1 -> 0.9): median -23% range [-0.25197476037225064, -0.1911965284434456] up in 0/5; CE at nm 0.5: 0.686 nats (0.137 log p)
+   [all] q_te [0.12837112499999997, 0.19030462500000012] | net 0.1/0.5/0.9 ['243', '1296', '1591'] | Fourier top-8 lead 0.5 5/5 186, 0.9 5/5 189 | paper refit lead 0.5 0/5 -308 | window gains: Fourier 0.08, dA_H 0.06
+   [nm] q_te [0.15916912499999997, 0.23108649999999994] | net 0.1/0.5/0.9 ['1049', '1364', '1613'] | Fourier top-8 lead 0.5 5/5 200, 0.9 5/5 173 | paper refit lead 0.5 0/5 -335 | window gains: Fourier 0.07, dA_H 0.05
+   at the first fit: held-out all 0.147, no-mirror 0.003, mirror-in-training 0.728
+== P_p149_f0.2_lam_v0.275: 5 runs | pass (both defs) 0/5, strict 0 | why {'share': 4, 'refit': 4, 'no window': 1}
+   final held-out (all) [0.9958336, 1.0] | first fit median 680.0 (5/5 fit) | steps [6620.0, 7040.0]
+   CE across the rise (nm 0.1 -> 0.9): median -18% range [-0.2037503205621255, -0.14047827058966655] up in 0/5; CE at nm 0.5: 1.077 nats (0.215 log p)
+   [all] q_te [0.0, 0.23802149999999994] | net 0.1/0.5/0.9 ['247', '1197', '1504'] | Fourier top-8 lead 0.5 5/5 207, 0.9 5/5 174 | paper refit lead 0.5 0/5 -300 | window gains: Fourier 0.06, dA_H 0.06
+   [nm] q_te [0.0, 0.29669812500000003] | net 0.1/0.5/0.9 ['973', '1281', '1526'] | Fourier top-8 lead 0.5 5/5 200, 0.9 5/5 168 | paper refit lead 0.5 0/5 -354 | window gains: Fourier 0.08, dA_H 0.06
+   at the first fit: held-out all 0.165, no-mirror 0.006, mirror-in-training 0.805
+== P_p61_f0.33_lam_v0.45: 5 runs | pass (both defs) 3/5, strict 3 | why {'share': 2}
+   final held-out (all) [0.9947875, 0.9983962] | first fit median 120.0 (5/5 fit) | steps [12140.0, 24600.0]
+   CE across the rise (nm 0.1 -> 0.9): median +102% range [0.8675589301281557, 1.3286695572318532] up in 5/5; CE at nm 0.5: 0.483 nats (0.117 log p)
+   [all] q_te [0.707498, 0.7531075] | net 0.1/0.5/0.9 ['132', '2802', '5046'] | Fourier top-8 lead 0.5 5/5 827, 0.9 1/5 -1021 | paper refit lead 0.5 0/5 -702 | window gains: Fourier 0.69, dA_H 0.58
+   [nm] q_te [1.0, 1.0] | net 0.1/0.5/0.9 ['1936', '3553', '5417'] | Fourier top-8 lead 0.5 5/5 845, 0.9 0/5 -1081 | paper refit lead 0.5 0/5 -699 | window gains: Fourier 0.86, dA_H 0.58
+   at the first fit: held-out all 0.067, no-mirror 0.000, mirror-in-training 0.209
+== P_p61_f0.35_lam_v0.45: 5 runs | pass (both defs) 0/5, strict 0 | why {'share': 5}
+   final held-out (all) [0.9983464, 0.9991732] | first fit median 140.0 (5/5 fit) | steps [9840.0, 12800.0]
+   CE across the rise (nm 0.1 -> 0.9): median +87% range [0.7043297403386559, 0.9503635983338601] up in 5/5; CE at nm 0.5: 0.392 nats (0.095 log p)
+   [all] q_te [0.64597975, 0.733826] | net 0.1/0.5/0.9 ['129', '2000', '3373'] | Fourier top-8 lead 0.5 5/5 859, 0.9 2/5 -150 | paper refit lead 0.5 0/5 -560 | window gains: Fourier 0.58, dA_H 0.56
+   [nm] q_te [1.0, 1.0] | net 0.1/0.5/0.9 ['1365', '2614', '3595'] | Fourier top-8 lead 0.5 5/5 632, 0.9 2/5 -590 | paper refit lead 0.5 0/5 -663 | window gains: Fourier 0.83, dA_H 0.57
+   at the first fit: held-out all 0.105, no-mirror 0.001, mirror-in-training 0.302
+== P_p61_f0.3_lam_v0.45: 5 runs | pass (both defs) 1/5, strict 1 | why {'final': 4}
+   final held-out (all) [0.9792706, 0.9942418] | first fit median 120.0 (5/5 fit) | steps [30000.0, 30000.0]
+   CE across the rise (nm 0.1 -> 0.9): median +87% range [0.5800401507781985, 1.3627307897435506] up in 5/5; CE at nm 0.5: 0.879 nats (0.214 log p)
+   [all] q_te [0.7919866249999999, 0.856286] | net 0.1/0.5/0.9 ['147', '6699', '11292'] | Fourier top-8 lead 0.5 4/5 1119, 0.9 0/5 -4551 | paper refit lead 0.5 0/5 -578 | window gains: Fourier 0.71, dA_H 0.57
+   [nm] q_te [1.0, 1.0] | net 0.1/0.5/0.9 ['4419', '8074', '12014'] | Fourier top-8 lead 0.5 4/5 1050, 0.9 0/4 -11307 | paper refit lead 0.5 0/5 -545 | window gains: Fourier 0.84, dA_H 0.58
+   at the first fit: held-out all 0.052, no-mirror 0.000, mirror-in-training 0.176
+== P_p61_f0.3_lam_v0.6: 5 runs | pass (both defs) 1/5, strict 1 | why {'final': 4}
+   final held-out (all) [0.9642994, 0.9907869] | first fit median 140.0 (5/5 fit) | steps [30000.0, 30000.0]
+   CE across the rise (nm 0.1 -> 0.9): median +58% range [0.3542405751986446, 0.8240979764703729] up in 5/5; CE at nm 0.5: 1.457 nats (0.354 log p)
+   [all] q_te [0.77279275, 0.8749999999999999] | net 0.1/0.5/0.9 ['139', '6050', '13037'] | Fourier top-8 lead 0.5 5/5 1673, 0.9 0/5 -6136 | paper refit lead 0.5 0/5 -1127 | window gains: Fourier 0.72, dA_H 0.56
+   [nm] q_te [1.0, 1.0] | net 0.1/0.5/0.9 ['3900', '7353', '13719'] | Fourier top-8 lead 0.5 5/5 1580, 0.9 0/5 -9180 | paper refit lead 0.5 0/5 -1259 | window gains: Fourier 0.85, dA_H 0.56
+   at the first fit: held-out all 0.101, no-mirror 0.001, mirror-in-training 0.342
+== P_p89_f0.25_lam_v0.33: 5 runs | pass (both defs) 5/5, strict 5 | why {}
+   final held-out (all) [1.0, 1.0] | first fit median 160.0 (5/5 fit) | steps [8720.0, 10220.0]
+   CE across the rise (nm 0.1 -> 0.9): median +37% range [0.29896753417828736, 0.6663735594303697] up in 5/5; CE at nm 0.5: 0.428 nats (0.095 log p)
+   [all] q_te [0.8342240000000001, 0.911652125] | net 0.1/0.5/0.9 ['204', '2195', '3090'] | Fourier top-8 lead 0.5 5/5 567, 0.9 5/5 478 | paper refit lead 0.5 0/5 -749 | window gains: Fourier 0.78, dA_H 0.73
+   [nm] q_te [1.0, 1.0] | net 0.1/0.5/0.9 ['1505', '2446', '3174'] | Fourier top-8 lead 0.5 5/5 636, 0.9 5/5 421 | paper refit lead 0.5 0/5 -828 | window gains: Fourier 0.92, dA_H 0.74
+   at the first fit: held-out all 0.067, no-mirror 0.001, mirror-in-training 0.267
+== P_p89_f0.275_lam_v0.33: 5 runs | pass (both defs) 2/5, strict 2 | why {'share': 3}
+   final held-out (all) [0.9998259, 1.0] | first fit median 200.0 (5/5 fit) | steps [7200.0, 7480.0]
+   CE across the rise (nm 0.1 -> 0.9): median +4% range [0.008041630343566863, 0.10643734068437061] up in 5/5; CE at nm 0.5: 0.352 nats (0.078 log p)
+   [all] q_te [0.6727102500000001, 0.7739203750000001] | net 0.1/0.5/0.9 ['179', '1261', '1869'] | Fourier top-8 lead 0.5 5/5 303, 0.9 5/5 354 | paper refit lead 0.5 0/5 -502 | window gains: Fourier 0.52, dA_H 0.65
+   [nm] q_te [0.95575725, 1.0] | net 0.1/0.5/0.9 ['933', '1439', '1938'] | Fourier top-8 lead 0.5 5/5 358, 0.9 5/5 374 | paper refit lead 0.5 0/5 -529 | window gains: Fourier 0.66, dA_H 0.66
+   at the first fit: held-out all 0.115, no-mirror 0.001, mirror-in-training 0.419
+== P_p89_f0.2_lam_v0.33: 5 runs | pass (both defs) 1/5, strict 1 | why {'share': 2, 'final': 4}
+   final held-out (all) [0.3913524, 0.9957393] | first fit median 140.0 (5/5 fit) | steps [30000.0, 30000.0]
+   CE across the rise (nm 0.1 -> 0.9): median +33% range [0.30435459599134873, 0.36037107594073947] up in 2/2; CE at nm 0.5: 1.218 nats (0.271 log p)
+   [all] q_te [0.3641904999999999, 1.0] | net 0.1/0.5/0.9 ['6259', '18785', '21545'] | Fourier top-8 lead 0.5 4/4 5152, 0.9 0/2 -1851 | paper refit lead 0.5 0/3 -6543 | window gains: Fourier 0.78, dA_H 0.35
+   [nm] q_te [0.262566375, 1.0] | net 0.1/0.5/0.9 ['12337', '20404', '22066'] | Fourier top-8 lead 0.5 4/4 6047, 0.9 0/1 -1942 | paper refit lead 0.5 0/2 -5197 | window gains: Fourier 0.79, dA_H 0.35
+   at the first fit: held-out all 0.031, no-mirror 0.000, mirror-in-training 0.152
+== P_p89_f0.2_lam_v0.4: 5 runs | pass (both defs) 0/5, strict 0 | why {'share': 1, 'final': 5}
+   final held-out (all) [0.5467887, 0.9783809] | first fit median 140.0 (5/5 fit) | steps [30000.0, 30000.0]
+   CE across the rise (nm 0.1 -> 0.9): median +22% range [0.17824706161622572, 0.2711102419773981] up in 2/2; CE at nm 0.5: 1.711 nats (0.381 log p)
+   [all] q_te [0.558485875, 1.0] | net 0.1/0.5/0.9 ['360', '21177', '23679'] | Fourier top-8 lead 0.5 5/5 7911, 0.9 0/1 -2721 | paper refit lead 0.5 0/2 -5731 | window gains: Fourier 0.83, dA_H 0.37
+   [nm] q_te [0.470967625, 1.0] | net 0.1/0.5/0.9 ['11559', '20680', '24575'] | Fourier top-8 lead 0.5 4/4 7526, 0.9 0/1 -2157 | paper refit lead 0.5 0/2 -5754 | window gains: Fourier 0.85, dA_H 0.37
+   at the first fit: held-out all 0.033, no-mirror 0.000, mirror-in-training 0.165
+== R_frac0.3: 3 runs | pass (both defs) 0/3, strict 0 | why {'share': 3, 'refit': 3, 'A_H': 3}
+   final held-out (all) [0.9997763, 1.0] | first fit median 340.0 (3/3 fit) | steps [5760.0, 5860.0]
+   CE across the rise (nm 0.1 -> 0.9): median -40% range [-0.40339039277380695, -0.3683619725988323] up in 0/3; CE at nm 0.5: 0.567 nats (0.120 log p)
+   [all] q_te [0.07858825, 0.0939702499999999] | net 0.1/0.5/0.9 ['165', '557', '688'] | Fourier top-8 lead 0.5 3/3 57, 0.9 3/3 45 | paper refit lead 0.5 0/3 -108 | window gains: Fourier 0.00, dA_H 0.00
+   [nm] q_te [0.11189574999999993, 0.13348162499999996] | net 0.1/0.5/0.9 ['458', '608', '705'] | Fourier top-8 lead 0.5 3/3 82, 0.9 3/3 34 | paper refit lead 0.5 0/3 -123 | window gains: Fourier 0.00, dA_H 0.00
+   at the first fit: held-out all 0.240, no-mirror 0.022, mirror-in-training 0.800
+== Y_G2: 10 runs | pass (both defs) 10/10, strict 10 | why {}
+   final held-out (all) [0.9993148, 1.0] | first fit median 200.0 (10/10 fit) | steps [9260.0, 14000.0]
+   CE across the rise (nm 0.1 -> 0.9): median +33% range [0.1815537632257025, 0.5467321054914305] up in 10/10; CE at nm 0.5: 0.680 nats (0.144 log p)
+   [all] q_te [0.93130875, 1.0] | net 0.1/0.5/0.9 ['444', '3622', '4768'] | Fourier top-8 lead 0.5 10/10 737, 0.9 10/10 774 | paper refit lead 0.5 0/10 -1163 | window gains: Fourier 0.94, dA_H 0.81
+   [nm] q_te [1.0, 1.0] | net 0.1/0.5/0.9 ['2661', '3923', '4890'] | Fourier top-8 lead 0.5 10/10 857, 0.9 10/10 905 | paper refit lead 0.5 0/10 -1305 | window gains: Fourier 0.97, dA_H 0.81
+   at the first fit: held-out all 0.057, no-mirror 0.001, mirror-in-training 0.281
+
+== timing (PLAN.md section 2) and pass counts
+cell                     camp  n_tr     x  pred.   rise   dip ratio  strict loose  final (all)      why
+P_p61_f0.3_lam_v0.45     Z     1116  4.45   4179   4419   709  6.20   1/5    1/5   [0.9792706, 0.9942418]  {'final': 4}
+P_p61_f0.3_lam_v0.6      Z     1116  4.45   4179   3899   666  5.62   1/5    1/5   [0.9642994, 0.9907869]  {'final': 4}
+P_p61_f0.33_lam_v0.45    ZP    1227  4.89   2316   1936   731  2.71   3/5    3/5   [0.9947875, 0.9983962]  {'share': 2}
+P_p61_f0.35_lam_v0.45    ZP    1302  5.19   1780   1364   745  1.83   0/5    0/5   [0.9983464, 0.9991732]  {'share': 5}
+P_p89_f0.2_lam_v0.33     Z     1584  3.96  35347   8477   825 10.41   1/5    1/5   [0.3913524, 0.9957393]  {'share': 2, 'final': 4}  (rise in 2/5)
+P_p89_f0.2_lam_v0.4      Z     1584  3.96  35347   8716   801 10.80   0/5    0/5   [0.5467887, 0.9783809]  {'share': 1, 'final': 5}  (rise in 2/5)
+P_p89_f0.25_lam_v0.33    ZP    1980  4.96   2177   1504   989  1.52   5/5    5/5   [1.0, 1.0]  {}
+P_p89_f0.275_lam_v0.33   ZP    2178  5.45   1482    933  1245  0.75   2/5    2/5   [0.9998259, 1.0]  {'share': 3}
+Y_G2                     Y     2553  4.78   2616   2660  1072  2.60  10/10  10/10  [0.9993148, 1.0]  {}
+R_frac0.3                Z     3830  7.17    703    457  1307  0.33   0/3    0/3   [0.9997763, 1.0]  {'share': 3, 'refit': 3, 'A_H': 3}
+P_p149_f0.15_lam_v0.23   ZP    3330  4.47   4062   5076  1086  4.76   0/5    4/5   [0.1215622, 0.9991521]  {'share': 1, 'fit': 1, 'final': 1, 'no window': 1}  (rise in 4/5)
+P_p149_f0.16_lam_v0.23   ZP    3552  4.76   2662   3577  1185  3.18   3/5    5/5   [0.9919567, 0.9997319]  {}
+P_p149_f0.2_lam_v0.23    Z     4440  5.96   1119   1048  2309  0.45   0/5    0/5   [0.9992681, 1.0]  {'share': 5, 'refit': 5, 'A_H': 2}
+P_p149_f0.2_lam_v0.275   Z     4440  5.96   1119    972  2083  0.47   0/5    0/5   [0.9958336, 1.0]  {'share': 4, 'refit': 4, 'no window': 1}
+
+== appendix choice (most strict passes; ties: more loose passes, then the smaller frac)
+p = 61: P_p61_f0.33_lam_v0.45 [ZP] strict 3/5, loose 3/5 -> does not reach 4/5
+p = 89: P_p89_f0.25_lam_v0.33 [ZP] strict 5/5, loose 5/5 -> works
+p = 113: Y_G2 [Y] strict 10/10, loose 10/10 -> works
+p = 149: P_p149_f0.16_lam_v0.23 [ZP] strict 3/5, loose 5/5 -> does not reach 4/5

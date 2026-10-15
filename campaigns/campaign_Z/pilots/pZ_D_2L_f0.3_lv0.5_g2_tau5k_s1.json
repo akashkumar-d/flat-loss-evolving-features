@@ -1,0 +1,32 @@
+{
+ "d_model": 128,
+ "n_heads": 4,
+ "d_mlp": 512,
+ "dtype": "float64",
+ "obs_every": 20,
+ "heavy_every": 500,
+ "probe_every": 0,
+ "refit_tau": 0.001,
+ "eta_v": 0.03,
+ "observers_fourier": false,
+ "p": 113,
+ "n_layers": 2,
+ "optimizer": "polar",
+ "hidden_mode": "polar",
+ "frac": 0.3,
+ "final_norm": "rms",
+ "steps": 12000,
+ "init_seed": 7101,
+ "split_seed": 8101,
+ "stop_generalized": {
+  "acc": 0.99,
+  "factor": 1.5,
+  "extra": 5000
+ },
+ "lam_w": 0.01,
+ "eta_w": 0.1,
+ "lam_v": 0.5,
+ "gain_init": 2.0,
+ "eta_g": 0.0002,
+ "lam_g": 1.0
+}

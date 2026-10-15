@@ -1,0 +1,23 @@
+{
+ "frac": 0.8,
+ "loss": "ce",
+ "eta_w": 0.03,
+ "eta_v": 0.03,
+ "init_scale": 24.0,
+ "obs_every": 20,
+ "lam_v": 0.2,
+ "lam_w": 0.015,
+ "observers_v1": true,
+ "stop_generalized": {
+  "acc": 0.99,
+  "factor": 1.5,
+  "extra": 10000
+ },
+ "p": 31,
+ "depth": 1,
+ "width": 512,
+ "steps": 40000,
+ "heavy_every": 500,
+ "init_seed": 5008,
+ "split_seed": 6008
+}

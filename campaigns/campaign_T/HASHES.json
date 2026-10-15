@@ -1,0 +1,29 @@
+{
+ "campaign": "T",
+ "note": "SHA-256 of the campaign files; the worker selftest and push_campaigns_KT.sh check them",
+ "files": {
+  "worker.py": "847c2ab3f0d6424bb41f7a9392d0d3661c9ff14c3ff05671d8b976ec07d40fb6",
+  "tf_runner.py": "fc79a24b56f9669f4043bd9b2af42de60812a8d5cdc5c705e8adeb4eb06f5573",
+  "campaign.json": "95c118d1be6ebc23b3bf145f237509f83e61a4a5705d85699c7b901c0ac72001",
+  "manifest.json": "312cc3971b79ed125c00a28e5f48324ce1473a7ba19bdd10fedeb3d80a327d2b",
+  "make_manifest.py": "bd0186f150c357f25d5d5d8e6357c599b15f16c78b45cba2fd58971d09a307d7",
+  "PLAN.md": "620c536632c2b793f1fc077a01082fe177c9f7ea825fd1758c6792dc9bb714b3",
+  "tests/test_tf.py": "408d54e00b4ce1f191b634b4b50bd5c6025c1e09277100237fddc3973db77bc4",
+  "analyze_T.py": "8b427f230a5a40b7915d0dcde43f7ea7f112ca025f4ccb81f3527f8bf6adb649"
+ },
+ "push": [
+  ".gitignore",
+  "HASHES.json",
+  "PLAN.md",
+  "README.md",
+  "WORKER.md",
+  "analyze_T.py",
+  "campaign.json",
+  "make_manifest.py",
+  "manifest.json",
+  "manifest_test.json",
+  "tests/test_tf.py",
+  "tf_runner.py",
+  "worker.py"
+ ]
+}

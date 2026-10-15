@@ -1,0 +1,6 @@
+numpy>=2.2
+scipy
+matplotlib>=3.10
+torch
+pymupdf
+pytest

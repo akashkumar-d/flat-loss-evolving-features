@@ -1,0 +1,191 @@
+[
+ {
+  "file": "W_R5_s1_replay_fourier.json.gz",
+  "gain": null,
+  "eta_g": null,
+  "steps": 8000,
+  "first_fit": 1680.0,
+  "net": {
+   "0.1": 3720.0,
+   "0.5": 5460.0,
+   "0.9": 6840.0
+  },
+  "final": 0.9848946278474845,
+  "ridge_50": 6777.743902439024,
+  "ridge_lead_50": -1317.7439024390242,
+  "fourier_top8_50": 4238.983050847458,
+  "fourier_top8_lead_50": 1221.016949152542,
+  "paper_refit_f_50": 6777.743902439024,
+  "paper_refit_f_lead_50": -1317.7439024390242,
+  "rise": {
+   "a": 3720,
+   "b": 6840,
+   "ce_a": 1.6469096084189006,
+   "ce_b": 1.5254920126722902,
+   "ce_change": -0.07372450505233019,
+   "ce_min_in": 1.525461504624323,
+   "ce_max_in": 1.6469096084189006,
+   "max_drawdown_in": 0.07374302947395683,
+   "drawdown_at_b": 0.07372450505233019,
+   "max_mis": 0,
+   "ce_over_logp": 0.333602583900151
+  },
+  "paper_window": {
+   "share": 0.5300584724083321,
+   "W": [
+    5180,
+    6522
+   ],
+   "max_mis": 0
+  },
+  "W_strict10": {
+   "share": 0.8040108417590449,
+   "I": [
+    3340,
+    6180
+   ]
+  }
+ },
+ {
+  "file": "pY_a_etav0.0025_s1_to7000.json.gz",
+  "gain": null,
+  "eta_g": null,
+  "steps": 6999,
+  "first_fit": 200.0,
+  "net": {
+   "0.1": null,
+   "0.5": null,
+   "0.9": null
+  },
+  "final": 0.03922524058959678,
+  "ridge_50": null,
+  "ridge_lead_50": null,
+  "fourier_top8_50": null,
+  "fourier_top8_lead_50": null,
+  "paper_refit_f_50": null,
+  "paper_refit_f_lead_50": null
+ },
+ {
+  "file": "pY_b_etav0.0012_s1_to7000.json.gz",
+  "gain": null,
+  "eta_g": null,
+  "steps": 6999,
+  "first_fit": 240.0,
+  "net": {
+   "0.1": null,
+   "0.5": null,
+   "0.9": null
+  },
+  "final": 0.02168351808990133,
+  "ridge_50": null,
+  "ridge_lead_50": null,
+  "fourier_top8_50": null,
+  "fourier_top8_lead_50": null,
+  "paper_refit_f_50": null,
+  "paper_refit_f_lead_50": null
+ },
+ {
+  "file": "pG1_g2_tau5k_s1.json.gz",
+  "gain": 2.0,
+  "eta_g": 0.0002,
+  "steps": 12000,
+  "first_fit": 220.0,
+  "net": {
+   "0.1": 3280.0,
+   "0.5": 4960.0,
+   "0.9": 6560.0
+  },
+  "final": 0.999756364965282,
+  "ridge_50": 6399.712643678161,
+  "ridge_lead_50": -1439.712643678161,
+  "fourier_top8_50": 3600.5484460694697,
+  "fourier_top8_lead_50": 1359.4515539305303,
+  "paper_refit_f_50": 6399.712643678161,
+  "paper_refit_f_lead_50": -1439.712643678161,
+  "rise": {
+   "a": 3280,
+   "b": 6560,
+   "ce_a": 0.642066359779797,
+   "ce_b": 0.9251856984242837,
+   "ce_change": 0.44095027613903537,
+   "ce_min_in": 0.642066359779797,
+   "ce_max_in": 0.9251856984242837,
+   "max_drawdown_in": 6.0363313713396316e-05,
+   "drawdown_at_b": 0.0,
+   "max_mis": 0,
+   "ce_over_logp": 0.16882531935199172
+  },
+  "paper_window": {
+   "share": 1.0,
+   "W": [
+    820,
+    12000
+   ],
+   "max_mis": 0
+  },
+  "W_strict10": {
+   "share": 0.3674320867340723,
+   "I": [
+    4700,
+    5560
+   ]
+  },
+  "gain_at": {
+   "fit": 1.9523504105971738,
+   "net0.1": 1.5163949280948004,
+   "net0.9": 1.2679515628431572
+  }
+ },
+ {
+  "file": "pG2_g3_tau4k_s1.json.gz",
+  "gain": 3.0,
+  "eta_g": 0.00025,
+  "steps": 12000,
+  "first_fit": 160.0,
+  "net": {
+   "0.1": 3040.0,
+   "0.5": 4720.0,
+   "0.9": 6000.0
+  },
+  "final": 1.0,
+  "ridge_50": 5904.9766718507,
+  "ridge_lead_50": -1184.9766718506999,
+  "fourier_top8_50": 3423.8304093567253,
+  "fourier_top8_lead_50": 1296.1695906432747,
+  "paper_refit_f_50": 5904.9766718507,
+  "paper_refit_f_lead_50": -1184.9766718506999,
+  "rise": {
+   "a": 3040,
+   "b": 6000,
+   "ce_a": 0.24295633975055853,
+   "ce_b": 0.6359089508886617,
+   "ce_change": 1.6173795322301312,
+   "ce_min_in": 0.24295633975055853,
+   "ce_max_in": 0.6359089508886617,
+   "max_drawdown_in": 0.00018935348815773967,
+   "drawdown_at_b": 0.0,
+   "max_mis": 0,
+   "ce_over_logp": 0.09127722032662058
+  },
+  "paper_window": {
+   "share": 1.0,
+   "W": [
+    760,
+    12000
+   ],
+   "max_mis": 0
+  },
+  "W_strict10": {
+   "share": 0.14526738945060297,
+   "I": [
+    4420,
+    4660
+   ]
+  },
+  "gain_at": {
+   "fit": 2.9143489518653642,
+   "net0.1": 1.9317297975798557,
+   "net0.9": 1.4445001269128885
+  }
+ }
+]

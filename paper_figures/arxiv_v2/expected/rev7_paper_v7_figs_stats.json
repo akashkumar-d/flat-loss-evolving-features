@@ -1,0 +1,83 @@
+{
+ "TF_contrast_main": [
+  {
+   "title": "Polar (the paper's rule)",
+   "n": 10,
+   "passes": 10,
+   "xmax": 9000,
+   "band": [
+    790,
+    10850
+   ]
+  },
+  {
+   "title": "Normalized gradient (NGD)",
+   "n": 10,
+   "passes": 0,
+   "xmax": 9000,
+   "band": null
+  },
+  {
+   "title": "AdamW",
+   "n": 10,
+   "passes": 0,
+   "xmax": 9000,
+   "band": [
+    12410,
+    12510
+   ]
+  }
+ ],
+ "TF_acrossp_app": [
+  {
+   "title": "p = 61, mirror-free, fraction 0.55",
+   "n": 10,
+   "passes": 9,
+   "xmax": 23220,
+   "band": [
+    560,
+    30000
+   ]
+  },
+  {
+   "title": "p = 89, fraction 0.25",
+   "n": 10,
+   "passes": 10,
+   "xmax": 8200,
+   "band": [
+    760,
+    8910
+   ]
+  },
+  {
+   "title": "p = 113, fraction 0.2",
+   "n": 10,
+   "passes": 10,
+   "xmax": 9260,
+   "band": [
+    790,
+    10850
+   ]
+  },
+  {
+   "title": "p = 149, fraction 0.16",
+   "n": 10,
+   "passes": 7,
+   "xmax": 10880,
+   "band": [
+    820,
+    13230
+   ]
+  }
+ ],
+ "TF_two_blocks_app": {
+  "title": "Two blocks, fraction 0.2",
+  "n": 10,
+  "passes": 0,
+  "xmax": 30000,
+  "band": [
+   1780,
+   30000
+  ]
+ }
+}

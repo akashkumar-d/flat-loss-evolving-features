@@ -1,0 +1,17 @@
+{
+ "campaign": "I",
+ "written": "2026-10-06T10:02:10Z",
+ "by": "the authors",
+ "note": "The selftest checks every file below against its hash; PLAN.md, endpoints_i.py and twins.json fix the plan, the endpoint code and the comparison set before any evaluation run.",
+ "files": {
+  "manifest.json": "f34e433a641cfa0fae58249614b925e03329c1d2452efb10f61f3aa6b86bc6fb",
+  "make_manifest.py": "97cd2ae2f403d085ca2954bfcb753923f0fd2332dd982912cdf02a3959f7dd6d",
+  "bias_runner.py": "16bb2ebd8506227c7ad987e043c2c9fad5ff1d6d5729153c55621747a6359bb2",
+  "worker.py": "934a648f3f653dadca10cbd4606cfb053313b63b8c02b846b8b7c1ebfeff6f2c",
+  "tests/test_bias.py": "79fe5d7471bfbd92dc42e39124f52ae06c38a250935a8cf8e4372b01e32b92b1",
+  "PLAN.md": "3c99d24696066f7d061c701a7db679c57ca921a44e5eb9513962895282667b15",
+  "endpoints_i.py": "cbaec6ac2e82e266701155fe29315bdbbabe2b6f5f0c83f8ee9716117c876b01",
+  "make_twins.py": "602abfa44e71b5cafa2a316c1fa8cd7bc6b5196fcad9b86c06c804b88788e370",
+  "twins.json": "0565c070797fdc937473048a20ce6a495ef4f1ea9a2b7e4f9dbcddd2521f4e71"
+ }
+}

@@ -1,0 +1,188 @@
+{
+ "0.05": {
+  "V_A1_f0.2_adamw_wd1": [
+   0,
+   0,
+   3
+  ],
+  "V_A1_f0.2_rms_adamw_wd1": [
+   0,
+   0,
+   3
+  ],
+  "V_C1_f0.3_lam_w0.02_eta_w0.1_lam_v0.2": [
+   5,
+   6,
+   10
+  ],
+  "V_C2_f0.3_lam_w0.01_eta_w0.1_lam_v1": [
+   2,
+   2,
+   10
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.03_lam_v0.5": [
+   3,
+   3,
+   3
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.03_lam_v0.75": [
+   0,
+   0,
+   3
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.03_lam_v1": [
+   0,
+   0,
+   3
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.1_lam_v0.5": [
+   3,
+   3,
+   3
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.1_lam_v0.75": [
+   0,
+   0,
+   3
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.1_lam_v1": [
+   0,
+   0,
+   3
+  ],
+  "V_E2_f0.2_rms_lam_w0.01_eta_w0.1_lam_v0.5": [
+   0,
+   0,
+   3
+  ],
+  "V_E2_f0.2_rms_lam_w0.01_eta_w0.1_lam_v1": [
+   0,
+   0,
+   3
+  ]
+ },
+ "0.1": {
+  "V_A1_f0.2_adamw_wd1": [
+   0,
+   0,
+   3
+  ],
+  "V_A1_f0.2_rms_adamw_wd1": [
+   0,
+   0,
+   3
+  ],
+  "V_C1_f0.3_lam_w0.02_eta_w0.1_lam_v0.2": [
+   10,
+   10,
+   10
+  ],
+  "V_C2_f0.3_lam_w0.01_eta_w0.1_lam_v1": [
+   2,
+   2,
+   10
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.03_lam_v0.5": [
+   3,
+   3,
+   3
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.03_lam_v0.75": [
+   0,
+   0,
+   3
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.03_lam_v1": [
+   0,
+   0,
+   3
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.1_lam_v0.5": [
+   3,
+   3,
+   3
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.1_lam_v0.75": [
+   0,
+   0,
+   3
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.1_lam_v1": [
+   0,
+   0,
+   3
+  ],
+  "V_E2_f0.2_rms_lam_w0.01_eta_w0.1_lam_v0.5": [
+   0,
+   0,
+   3
+  ],
+  "V_E2_f0.2_rms_lam_w0.01_eta_w0.1_lam_v1": [
+   0,
+   0,
+   3
+  ]
+ },
+ "0.2": {
+  "V_A1_f0.2_adamw_wd1": [
+   0,
+   0,
+   3
+  ],
+  "V_A1_f0.2_rms_adamw_wd1": [
+   0,
+   0,
+   3
+  ],
+  "V_C1_f0.3_lam_w0.02_eta_w0.1_lam_v0.2": [
+   10,
+   10,
+   10
+  ],
+  "V_C2_f0.3_lam_w0.01_eta_w0.1_lam_v1": [
+   2,
+   2,
+   10
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.03_lam_v0.5": [
+   3,
+   3,
+   3
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.03_lam_v0.75": [
+   0,
+   0,
+   3
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.03_lam_v1": [
+   0,
+   0,
+   3
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.1_lam_v0.5": [
+   3,
+   3,
+   3
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.1_lam_v0.75": [
+   0,
+   0,
+   3
+  ],
+  "V_E1_f0.2_rms_lam_w0.01_eta_w0.1_lam_v1": [
+   0,
+   0,
+   3
+  ],
+  "V_E2_f0.2_rms_lam_w0.01_eta_w0.1_lam_v0.5": [
+   0,
+   0,
+   3
+  ],
+  "V_E2_f0.2_rms_lam_w0.01_eta_w0.1_lam_v1": [
+   0,
+   0,
+   3
+  ]
+ }
+}

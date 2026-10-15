@@ -1,0 +1,3099 @@
+{
+ "campaign": "T",
+ "stage": "development",
+ "rows": {
+  "T_A1_f0.3_adamw_s1": {
+   "setting": "T_A1_f0.3_adamw",
+   "arm": "A1",
+   "dial": {
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ],
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "adamw",
+    "horizon": 13680,
+    "t_fit": 13600,
+    "t10": 2020,
+    "t90": 7140,
+    "t90_first": 7140,
+    "final_test": 1.0,
+    "final_train": 1.0,
+    "test_at_fit": 0.9995525,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_A1_f0.3_adamw_s2": {
+   "setting": "T_A1_f0.3_adamw",
+   "arm": "A1",
+   "dial": {
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ],
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "adamw",
+    "horizon": 60000,
+    "t_fit": 59180,
+    "t10": 2780,
+    "t90": 49840,
+    "t90_first": 4380,
+    "final_test": 0.9975389,
+    "final_train": 1.0,
+    "test_at_fit": 0.9963083,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_A1_f0.5_adamw_s1": {
+   "setting": "T_A1_f0.5_adamw",
+   "arm": "A1",
+   "dial": {
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ],
+    "frac": 0.5
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "adamw",
+    "horizon": 6060,
+    "t_fit": 4760,
+    "t10": 120,
+    "t90": 860,
+    "t90_first": 860,
+    "final_test": 1.0,
+    "final_train": 1.0,
+    "test_at_fit": 0.9987471,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_A1_f0.5_adamw_s2": {
+   "setting": "T_A1_f0.5_adamw",
+   "arm": "A1",
+   "dial": {
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ],
+    "frac": 0.5
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "adamw",
+    "horizon": 6980,
+    "t_fit": 5020,
+    "t10": 120,
+    "t90": 560,
+    "t90_first": 560,
+    "final_test": 1.0,
+    "final_train": 1.0,
+    "test_at_fit": 1.0,
+    "refit90": 1500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_A2_f0.3_adamw_s1": {
+   "setting": "T_A2_f0.3_adamw",
+   "arm": "A2",
+   "dial": {
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ],
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 2,
+    "optimizer": "adamw",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": 3940,
+    "t90": null,
+    "t90_first": 8080,
+    "final_test": 0.6794944,
+    "final_train": 0.7052219,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_A2_f0.3_adamw_s2": {
+   "setting": "T_A2_f0.3_adamw",
+   "arm": "A2",
+   "dial": {
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ],
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 2,
+    "optimizer": "adamw",
+    "horizon": 60000,
+    "t_fit": 59540,
+    "t10": 1760,
+    "t90": 59520,
+    "t90_first": 4880,
+    "final_test": 1.0,
+    "final_train": 1.0,
+    "test_at_fit": 0.9968677,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_A2_f0.5_adamw_s1": {
+   "setting": "T_A2_f0.5_adamw",
+   "arm": "A2",
+   "dial": {
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ],
+    "frac": 0.5
+   },
+   "f": {
+    "n_layers": 2,
+    "optimizer": "adamw",
+    "horizon": 60000,
+    "t_fit": 59580,
+    "t10": 140,
+    "t90": 58320,
+    "t90_first": 1220,
+    "final_test": 1.0,
+    "final_train": 1.0,
+    "test_at_fit": 0.9992169,
+    "refit90": 2000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_A2_f0.5_adamw_s2": {
+   "setting": "T_A2_f0.5_adamw",
+   "arm": "A2",
+   "dial": {
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ],
+    "frac": 0.5
+   },
+   "f": {
+    "n_layers": 2,
+    "optimizer": "adamw",
+    "horizon": 60000,
+    "t_fit": 59520,
+    "t10": 120,
+    "t90": 59500,
+    "t90_first": 940,
+    "final_test": 1.0,
+    "final_train": 1.0,
+    "test_at_fit": 0.9993735,
+    "refit90": 2500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v0.2_s1": {
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.03,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 59720,
+    "t10": 18200,
+    "t90": 27880,
+    "t90_first": 27020,
+    "final_test": 0.9995525,
+    "final_train": 1.0,
+    "test_at_fit": 0.9977626,
+    "refit90": 29000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v0.2_s2": {
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.03,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 59920,
+    "t10": 18900,
+    "t90": 27460,
+    "t90_first": 26620,
+    "final_test": 0.9965321,
+    "final_train": 1.0,
+    "test_at_fit": 0.999105,
+    "refit90": 29000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v1_s1": {
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.03,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 58620,
+    "t10": 28120,
+    "t90": 39720,
+    "t90_first": 39340,
+    "final_test": 0.9998881,
+    "final_train": 1.0,
+    "test_at_fit": 1.0,
+    "refit90": 40500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v1_s2": {
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.03,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 58280,
+    "t10": 35040,
+    "t90": 45260,
+    "t90_first": 44680,
+    "final_test": 0.9995525,
+    "final_train": 1.0,
+    "test_at_fit": 0.9996644,
+    "refit90": 46000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v3_s1": {
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.03,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": 33080,
+    "t90": 52280,
+    "t90_first": 48540,
+    "final_test": 0.9921691,
+    "final_train": 0.9989556,
+    "test_at_fit": null,
+    "refit90": 48000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v3_s2": {
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.03,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": 32400,
+    "t90": 50140,
+    "t90_first": 46000,
+    "final_test": 0.9928404,
+    "final_train": 0.9997389,
+    "test_at_fit": null,
+    "refit90": 48000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v0.2_s1": {
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 12140,
+    "t_fit": 11920,
+    "t10": 3900,
+    "t90": 6040,
+    "t90_first": 5860,
+    "final_test": 0.9995525,
+    "final_train": 1.0,
+    "test_at_fit": 0.9998881,
+    "refit90": 6500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v0.2_s2": {
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 20760,
+    "t_fit": 20140,
+    "t10": 3780,
+    "t90": 6220,
+    "t90_first": 6100,
+    "final_test": 0.9994407,
+    "final_train": 1.0,
+    "test_at_fit": 0.9994407,
+    "refit90": 6500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v1_s1": {
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 16140,
+    "t_fit": 16140,
+    "t10": 5920,
+    "t90": 8620,
+    "t90_first": 8580,
+    "final_test": 0.9995525,
+    "final_train": 1.0,
+    "test_at_fit": 0.9995525,
+    "refit90": 9000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v1_s2": {
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 15280,
+    "t_fit": 15280,
+    "t10": 6360,
+    "t90": 8820,
+    "t90_first": 8820,
+    "final_test": 0.9994407,
+    "final_train": 1.0,
+    "test_at_fit": 0.9994407,
+    "refit90": 9500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v3_s1": {
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 60000,
+    "t10": 7560,
+    "t90": 12420,
+    "t90_first": 11240,
+    "final_test": 0.9979864,
+    "final_train": 1.0,
+    "test_at_fit": 0.9979864,
+    "refit90": 12000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v3_s2": {
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 60000,
+    "t10": 9040,
+    "t90": 12720,
+    "t90_first": 12500,
+    "final_test": 0.9947421,
+    "final_train": 1.0,
+    "test_at_fit": 0.9947421,
+    "refit90": 13000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v0.2_s1": {
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.03,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 34500,
+    "t_fit": 1260,
+    "t10": 11240,
+    "t90": 19340,
+    "t90_first": 19340,
+    "final_test": 0.9988813,
+    "final_train": 1.0,
+    "test_at_fit": 0.0,
+    "refit90": 19000,
+    "v_fit_t90": 3225924.7165114908,
+    "CE_fit_over_logp": 0.10861886515159318,
+    "CE_t90_over_logp": 4.5752243796006835e-08,
+    "dAH_mlp": 0.053111987,
+    "dAH_resid": 0.204354404,
+    "qualify_checks": {
+     "fit_before_rise": true,
+     "final": true,
+     "flat": false,
+     "features": true
+    },
+    "qualifies": false,
+    "why_not": "flat"
+   }
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v0.2_s2": {
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.03,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 35080,
+    "t_fit": 1300,
+    "t10": 12280,
+    "t90": 19860,
+    "t90_first": 19860,
+    "final_test": 0.9985457,
+    "final_train": 1.0,
+    "test_at_fit": 0.0001118693,
+    "refit90": 19500,
+    "v_fit_t90": 3090361.4335962706,
+    "CE_fit_over_logp": 0.11760541367038418,
+    "CE_t90_over_logp": 4.17623447813037e-08,
+    "dAH_mlp": 0.053170047000000005,
+    "dAH_resid": 0.196236846,
+    "qualify_checks": {
+     "fit_before_rise": true,
+     "final": true,
+     "flat": false,
+     "features": true
+    },
+    "qualifies": false,
+    "why_not": "flat"
+   }
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v1_s1": {
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.03,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 48040,
+    "t_fit": 16080,
+    "t10": 17040,
+    "t90": 27920,
+    "t90_first": 27920,
+    "final_test": 0.9993288,
+    "final_train": 1.0,
+    "test_at_fit": 0.07226759,
+    "refit90": 26500,
+    "v_fit_t90": 437035.9122617885,
+    "CE_fit_over_logp": 1.144822089395268e-05,
+    "CE_t90_over_logp": 1.9469538681738646e-07,
+    "dAH_mlp": 0.05055957,
+    "dAH_resid": 0.16057294000000003,
+    "qualify_checks": {
+     "fit_before_rise": true,
+     "final": true,
+     "flat": false,
+     "features": true
+    },
+    "qualifies": false,
+    "why_not": "flat"
+   }
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v1_s2": {
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.03,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 46060,
+    "t_fit": 7180,
+    "t10": 17560,
+    "t90": 27600,
+    "t90_first": 27560,
+    "final_test": 0.9987694,
+    "final_train": 1.0,
+    "test_at_fit": 0.003803557,
+    "refit90": 26500,
+    "v_fit_t90": 42431.677022368545,
+    "CE_fit_over_logp": 0.0010231595514237884,
+    "CE_t90_over_logp": 1.6044528798709788e-07,
+    "dAH_mlp": 0.056820484000000004,
+    "dAH_resid": 0.17563527399999998,
+    "qualify_checks": {
+     "fit_before_rise": true,
+     "final": true,
+     "flat": false,
+     "features": true
+    },
+    "qualifies": false,
+    "why_not": "flat"
+   }
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v3_s1": {
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.03,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 46560,
+    "t10": 23560,
+    "t90": 38800,
+    "t90_first": 38800,
+    "final_test": 0.9903792,
+    "final_train": 1.0,
+    "test_at_fit": 0.9721445,
+    "refit90": 35000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v3_s2": {
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.03,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 57600,
+    "t10": 25120,
+    "t90": 37700,
+    "t90_first": 37700,
+    "final_test": 0.9914979,
+    "final_train": 1.0,
+    "test_at_fit": 0.9911623,
+    "refit90": 35000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v0.2_s1": {
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 10020,
+    "t_fit": 4140,
+    "t10": 2520,
+    "t90": 4140,
+    "t90_first": 4100,
+    "final_test": 0.9988813,
+    "final_train": 1.0,
+    "test_at_fit": 0.9064772,
+    "refit90": 4500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v0.2_s2": {
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 10200,
+    "t_fit": 3240,
+    "t10": 2480,
+    "t90": 4340,
+    "t90_first": 4340,
+    "final_test": 0.9960846,
+    "final_train": 1.0,
+    "test_at_fit": 0.3620092,
+    "refit90": 4500,
+    "v_fit_t90": 3153778.503116184,
+    "CE_fit_over_logp": 8.405796504087916e-08,
+    "CE_t90_over_logp": 5.6161544214563064e-08,
+    "dAH_mlp": 0.03323105,
+    "dAH_resid": 0.13181256000000002,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": true
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat"
+   }
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v1_s1": {
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 59920,
+    "t10": 4080,
+    "t90": 6900,
+    "t90_first": 6840,
+    "final_test": 0.9927285,
+    "final_train": 1.0,
+    "test_at_fit": 0.9926166,
+    "refit90": 6500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v1_s2": {
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 60000,
+    "t10": 4420,
+    "t90": 54360,
+    "t90_first": 6900,
+    "final_test": 0.9908267,
+    "final_train": 1.0,
+    "test_at_fit": 0.9908267,
+    "refit90": 6500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v3_s1": {
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 59860,
+    "t10": 5920,
+    "t90": 10460,
+    "t90_first": 10400,
+    "final_test": 0.9814297,
+    "final_train": 1.0,
+    "test_at_fit": 0.978633,
+    "refit90": 9500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v3_s2": {
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 59900,
+    "t10": 7280,
+    "t90": 11420,
+    "t90_first": 11420,
+    "final_test": 0.9840027,
+    "final_train": 1.0,
+    "test_at_fit": 0.9823246,
+    "refit90": 10500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v0.2_s1": {
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.03,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 38020,
+    "t_fit": 1860,
+    "t10": 11840,
+    "t90": 20880,
+    "t90_first": 20880,
+    "final_test": 0.9964202,
+    "final_train": 1.0,
+    "test_at_fit": 0.001230563,
+    "refit90": 19000,
+    "v_fit_t90": 628627.1805194007,
+    "CE_fit_over_logp": 0.12080015896718825,
+    "CE_t90_over_logp": 1.9307576086461545e-07,
+    "dAH_mlp": 0.069533379,
+    "dAH_resid": 0.16998413899999998,
+    "qualify_checks": {
+     "fit_before_rise": true,
+     "final": true,
+     "flat": false,
+     "features": true
+    },
+    "qualifies": false,
+    "why_not": "flat"
+   }
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v0.2_s2": {
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.03,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 35920,
+    "t_fit": 1980,
+    "t10": 11100,
+    "t90": 19040,
+    "t90_first": 19040,
+    "final_test": 0.9947421,
+    "final_train": 1.0,
+    "test_at_fit": 0.0001118693,
+    "refit90": 17500,
+    "v_fit_t90": 673870.917993766,
+    "CE_fit_over_logp": 0.12623502087936328,
+    "CE_t90_over_logp": 1.8732791426475659e-07,
+    "dAH_mlp": 0.07087547,
+    "dAH_resid": 0.16745637800000002,
+    "qualify_checks": {
+     "fit_before_rise": true,
+     "final": true,
+     "flat": false,
+     "features": true
+    },
+    "qualifies": false,
+    "why_not": "flat"
+   }
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v1_s1": {
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.03,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 37680,
+    "t10": 33500,
+    "t90": 52340,
+    "t90_first": 52340,
+    "final_test": 0.9475333,
+    "final_train": 1.0,
+    "test_at_fit": 0.230339,
+    "refit90": 44500,
+    "v_fit_t90": 1.0991837481379525,
+    "CE_fit_over_logp": 0.15280203945627566,
+    "CE_t90_over_logp": 0.07295024508776922,
+    "dAH_mlp": 0.05924041,
+    "dAH_resid": 0.1390572,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": true
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat"
+   }
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v1_s2": {
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.03,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 31740,
+    "t10": 30780,
+    "t90": 44320,
+    "t90_first": 44320,
+    "final_test": 0.9735988,
+    "final_train": 1.0,
+    "test_at_fit": 0.1250699,
+    "refit90": 40000,
+    "v_fit_t90": 1.4239700081572448,
+    "CE_fit_over_logp": 0.18297068765464727,
+    "CE_t90_over_logp": 0.0760579232735631,
+    "dAH_mlp": 0.06810194,
+    "dAH_resid": 0.14948323,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": true
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat"
+   }
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v3_s1": {
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.03,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": null,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.004362904,
+    "final_train": 0.6349869,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v3_s2": {
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.03,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": null,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.008725808,
+    "final_train": 0.6741514,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v0.2_s1": {
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 12180,
+    "t_fit": 640,
+    "t10": 2320,
+    "t90": 4380,
+    "t90_first": 4380,
+    "final_test": 0.9930641,
+    "final_train": 1.0,
+    "test_at_fit": 0.000335608,
+    "refit90": 4000,
+    "v_fit_t90": 20855.822240009853,
+    "CE_fit_over_logp": 0.1336383060216288,
+    "CE_t90_over_logp": 7.153039119437144e-06,
+    "dAH_mlp": 0.074154513,
+    "dAH_resid": 0.181847552,
+    "qualify_checks": {
+     "fit_before_rise": true,
+     "final": true,
+     "flat": false,
+     "features": true
+    },
+    "qualifies": false,
+    "why_not": "flat"
+   }
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v0.2_s2": {
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 13520,
+    "t_fit": 760,
+    "t10": 2500,
+    "t90": 4640,
+    "t90_first": 4640,
+    "final_test": 0.9919454,
+    "final_train": 1.0,
+    "test_at_fit": 0.00167804,
+    "refit90": 4500,
+    "v_fit_t90": 10916.108537045655,
+    "CE_fit_over_logp": 0.07562406845169263,
+    "CE_t90_over_logp": 7.036630222789883e-06,
+    "dAH_mlp": 0.06588192899999999,
+    "dAH_resid": 0.155826952,
+    "qualify_checks": {
+     "fit_before_rise": true,
+     "final": true,
+     "flat": false,
+     "features": true
+    },
+    "qualifies": false,
+    "why_not": "flat"
+   }
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v1_s1": {
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 51560,
+    "t10": 6740,
+    "t90": 14080,
+    "t90_first": 13060,
+    "final_test": 0.9655442,
+    "final_train": 1.0,
+    "test_at_fit": 0.9638662,
+    "refit90": 10000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v1_s2": {
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 19560,
+    "t10": 8100,
+    "t90": 13320,
+    "t90_first": 13240,
+    "final_test": 0.9704665,
+    "final_train": 1.0,
+    "test_at_fit": 0.9586083,
+    "refit90": 11500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v0.2_s1": {
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.03,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": null,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.07998658,
+    "final_train": 0.8866841,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v0.2_s2": {
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.03,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": 32080,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.558228,
+    "final_train": 0.9697128,
+    "test_at_fit": null,
+    "refit90": 41500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v1_s1": {
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.03,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": null,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.0002237387,
+    "final_train": 0.2315927,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v1_s2": {
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.03,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": null,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.003803557,
+    "final_train": 0.1979112,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v3_s1": {
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.03,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": null,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.0008949547,
+    "final_train": 0.08955614,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v3_s2": {
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.03,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": null,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.003244211,
+    "final_train": 0.08224543,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v0.2_s1": {
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": 12140,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.5449155,
+    "final_train": 0.9746736,
+    "test_at_fit": null,
+    "refit90": 14500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v0.2_s2": {
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v0.2",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": 9080,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.5592348,
+    "final_train": 0.9806789,
+    "test_at_fit": null,
+    "refit90": 12000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v1_s1": {
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": 24700,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.1544916,
+    "final_train": 0.5610966,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v1_s2": {
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": 23180,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.1273073,
+    "final_train": 0.5684073,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v3_s1": {
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": null,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.0004474773,
+    "final_train": 0.1088773,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v3_s2": {
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": null,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.0005593467,
+    "final_train": 0.07362924,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P1_f0.5_lam_w0.01_eta_w0.1_lam_v1_s1": {
+   "setting": "T_P1_f0.5_lam_w0.01_eta_w0.1_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.5
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 7400,
+    "t_fit": 6400,
+    "t10": 1200,
+    "t90": 2080,
+    "t90_first": 2080,
+    "final_test": 1.0,
+    "final_train": 1.0,
+    "test_at_fit": 0.9998434,
+    "refit90": 2500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.5_lam_w0.01_eta_w0.1_lam_v1_s2": {
+   "setting": "T_P1_f0.5_lam_w0.01_eta_w0.1_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.5
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 7500,
+    "t_fit": 6840,
+    "t10": 1500,
+    "t90": 2220,
+    "t90_first": 2220,
+    "final_test": 0.9995301,
+    "final_train": 1.0,
+    "test_at_fit": 0.9996868,
+    "refit90": 2500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.5_lam_w0.01_eta_w0.1_lam_v3_s1": {
+   "setting": "T_P1_f0.5_lam_w0.01_eta_w0.1_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.5
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": 2160,
+    "t90": 3040,
+    "t90_first": 3040,
+    "final_test": 0.9993735,
+    "final_train": 0.9996867,
+    "test_at_fit": null,
+    "refit90": 3000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.5_lam_w0.01_eta_w0.1_lam_v3_s2": {
+   "setting": "T_P1_f0.5_lam_w0.01_eta_w0.1_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.5
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 11220,
+    "t_fit": 11000,
+    "t10": 2060,
+    "t90": 2960,
+    "t90_first": 2800,
+    "final_test": 0.9993735,
+    "final_train": 1.0,
+    "test_at_fit": 0.9990603,
+    "refit90": 3000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.5_lam_w0.02_eta_w0.1_lam_v1_s1": {
+   "setting": "T_P1_f0.5_lam_w0.02_eta_w0.1_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.5
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 7660,
+    "t_fit": 4260,
+    "t10": 1260,
+    "t90": 2160,
+    "t90_first": 2160,
+    "final_test": 0.9987471,
+    "final_train": 1.0,
+    "test_at_fit": 0.9992169,
+    "refit90": 2000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.5_lam_w0.02_eta_w0.1_lam_v1_s2": {
+   "setting": "T_P1_f0.5_lam_w0.02_eta_w0.1_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.5
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 7460,
+    "t_fit": 7100,
+    "t10": 1440,
+    "t90": 2040,
+    "t90_first": 2040,
+    "final_test": 0.9987471,
+    "final_train": 1.0,
+    "test_at_fit": 0.9981206,
+    "refit90": 2000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.5_lam_w0.02_eta_w0.1_lam_v3_s1": {
+   "setting": "T_P1_f0.5_lam_w0.02_eta_w0.1_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.5
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 9440,
+    "t_fit": 2620,
+    "t10": 2100,
+    "t90": 3340,
+    "t90_first": 3340,
+    "final_test": 0.9981206,
+    "final_train": 1.0,
+    "test_at_fit": 0.537823,
+    "refit90": 3000,
+    "v_fit_t90": 4.749709358190581,
+    "CE_fit_over_logp": 0.06340004490717617,
+    "CE_t90_over_logp": 0.011117365872113996,
+    "dAH_mlp": 0.038568450000000004,
+    "dAH_resid": 0.12024663999999999,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": true
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat"
+   }
+  },
+  "T_P1_f0.5_lam_w0.02_eta_w0.1_lam_v3_s2": {
+   "setting": "T_P1_f0.5_lam_w0.02_eta_w0.1_lam_v3",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.5
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 9200,
+    "t_fit": 4580,
+    "t10": 2300,
+    "t90": 3220,
+    "t90_first": 3220,
+    "final_test": 0.9971809,
+    "final_train": 1.0,
+    "test_at_fit": 0.9963978,
+    "refit90": 3000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.5_lam_w0.03_eta_w0.1_lam_v1_s1": {
+   "setting": "T_P1_f0.5_lam_w0.03_eta_w0.1_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.5
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 9840,
+    "t_fit": null,
+    "t10": 1820,
+    "t90": 3100,
+    "t90_first": 3100,
+    "final_test": 0.9935787,
+    "final_train": 0.9998434,
+    "test_at_fit": null,
+    "refit90": 3000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P1_f0.5_lam_w0.03_eta_w0.1_lam_v1_s2": {
+   "setting": "T_P1_f0.5_lam_w0.03_eta_w0.1_lam_v1",
+   "arm": "P1",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.5
+   },
+   "f": {
+    "n_layers": 1,
+    "optimizer": "polar",
+    "horizon": 9520,
+    "t_fit": 7360,
+    "t10": 1720,
+    "t90": 2740,
+    "t90_first": 2740,
+    "final_test": 0.9956147,
+    "final_train": 1.0,
+    "test_at_fit": 0.9954581,
+    "refit90": 2500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v0.2_s1": {
+   "setting": "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v0.2",
+   "arm": "P2",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 2,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 59520,
+    "t10": 10460,
+    "t90": 17920,
+    "t90_first": 17400,
+    "final_test": 1.0,
+    "final_train": 1.0,
+    "test_at_fit": 0.9997763,
+    "refit90": 18000,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v0.2_s2": {
+   "setting": "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v0.2",
+   "arm": "P2",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 2,
+    "optimizer": "polar",
+    "horizon": 58440,
+    "t_fit": null,
+    "t10": 6740,
+    "t90": 27740,
+    "t90_first": 26680,
+    "final_test": 0.9972033,
+    "final_train": 0.9992167,
+    "test_at_fit": null,
+    "refit90": 27500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v1_s1": {
+   "setting": "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v1",
+   "arm": "P2",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 2,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 60000,
+    "t10": 8880,
+    "t90": 44140,
+    "t90_first": 13820,
+    "final_test": 0.9993288,
+    "final_train": 1.0,
+    "test_at_fit": 0.9993288,
+    "refit90": 13500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": true,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, flat, features"
+   }
+  },
+  "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v1_s2": {
+   "setting": "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v1",
+   "arm": "P2",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 2,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": 19600,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.7306186,
+    "final_train": 0.9950392,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v3_s1": {
+   "setting": "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v3",
+   "arm": "P2",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 2,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": null,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.05459224,
+    "final_train": 0.9832898,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v3_s2": {
+   "setting": "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v3",
+   "arm": "P2",
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 2,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": null,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.004139165,
+    "final_train": 0.8310705,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v0.2_s1": {
+   "setting": "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v0.2",
+   "arm": "P2",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 2,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 56140,
+    "t10": 1560,
+    "t90": 3960,
+    "t90_first": 3960,
+    "final_test": 0.9757244,
+    "final_train": 1.0,
+    "test_at_fit": 0.979416,
+    "refit90": 4500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v1_s1": {
+   "setting": "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v1",
+   "arm": "P2",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 2,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": 14560,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.5571093,
+    "final_train": 0.9997389,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v1_s2": {
+   "setting": "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v1",
+   "arm": "P2",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 2,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 59980,
+    "t10": 7480,
+    "t90": 14640,
+    "t90_first": 14640,
+    "final_test": 0.9757244,
+    "final_train": 1.0,
+    "test_at_fit": 0.9758362,
+    "refit90": 15500,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v3_s1": {
+   "setting": "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v3",
+   "arm": "P2",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 2,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": 60000,
+    "t10": null,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.02908603,
+    "final_train": 1.0,
+    "test_at_fit": 0.02908603,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  },
+  "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v3_s2": {
+   "setting": "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v3",
+   "arm": "P2",
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "f": {
+    "n_layers": 2,
+    "optimizer": "polar",
+    "horizon": 60000,
+    "t_fit": null,
+    "t10": null,
+    "t90": null,
+    "t90_first": null,
+    "final_test": 0.0335608,
+    "final_train": 0.9992167,
+    "test_at_fit": null,
+    "refit90": null,
+    "qualify_checks": {
+     "fit_before_rise": false,
+     "final": false,
+     "flat": false,
+     "features": false
+    },
+    "qualifies": false,
+    "why_not": "fit_before_rise, final, flat, features"
+   }
+  }
+ },
+ "settings": {
+  "T_A1_f0.3_adamw": {
+   "arm": "A1",
+   "setting": "T_A1_f0.3_adamw",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ],
+    "frac": 0.3
+   },
+   "max_t_fit": 59180,
+   "max_t90": 49840
+  },
+  "T_A1_f0.5_adamw": {
+   "arm": "A1",
+   "setting": "T_A1_f0.5_adamw",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ],
+    "frac": 0.5
+   },
+   "max_t_fit": 5020,
+   "max_t90": 860
+  },
+  "T_A2_f0.3_adamw": {
+   "arm": "A2",
+   "setting": "T_A2_f0.3_adamw",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ],
+    "frac": 0.3
+   },
+   "max_t_fit": 59540,
+   "max_t90": 59520
+  },
+  "T_A2_f0.5_adamw": {
+   "arm": "A2",
+   "setting": "T_A2_f0.5_adamw",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ],
+    "frac": 0.5
+   },
+   "max_t_fit": 59580,
+   "max_t90": 59500
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v0.2": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v0.2",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.03,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "max_t_fit": 59920,
+   "max_t90": 27880
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v1": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v1",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.03,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "max_t_fit": 58620,
+   "max_t90": 45260
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v3": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.03_lam_v3",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.03,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "max_t_fit": null,
+   "max_t90": 52280
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v0.2": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v0.2",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "max_t_fit": 20140,
+   "max_t90": 6220
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v1": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v1",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "max_t_fit": 16140,
+   "max_t90": 8820
+  },
+  "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v3": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.01_eta_w0.1_lam_v3",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "max_t_fit": 60000,
+   "max_t90": 12720
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v0.2": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v0.2",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": 3225924.7165114908,
+   "min_dAH": 0.053111987,
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.03,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "max_t_fit": 1300,
+   "max_t90": 19860
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v1": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v1",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": 437035.9122617885,
+   "min_dAH": 0.05055957,
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.03,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "max_t_fit": 16080,
+   "max_t90": 27920
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v3": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.03_lam_v3",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.03,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "max_t_fit": 57600,
+   "max_t90": 38800
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v0.2": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v0.2",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "max_t_fit": 4140,
+   "max_t90": 4340
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v1": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v1",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "max_t_fit": 60000,
+   "max_t90": 54360
+  },
+  "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v3": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.02_eta_w0.1_lam_v3",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "max_t_fit": 59900,
+   "max_t90": 11420
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v0.2": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v0.2",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": 673870.917993766,
+   "min_dAH": 0.069533379,
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.03,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "max_t_fit": 1980,
+   "max_t90": 20880
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v1": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v1",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": 1.4239700081572448,
+   "min_dAH": 0.05924041,
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.03,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "max_t_fit": 37680,
+   "max_t90": 52340
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v3": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.03_lam_v3",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.03,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "max_t_fit": null,
+   "max_t90": null
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v0.2": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v0.2",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": 20855.822240009853,
+   "min_dAH": 0.06588192899999999,
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "max_t_fit": 760,
+   "max_t90": 4640
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v1": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v1",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "max_t_fit": 51560,
+   "max_t90": 14080
+  },
+  "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v3": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v3",
+   "n": 2,
+   "done": 0,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": null,
+   "max_t_fit": null,
+   "max_t90": null
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v0.2": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v0.2",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.03,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "max_t_fit": null,
+   "max_t90": null
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v1": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v1",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.03,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "max_t_fit": null,
+   "max_t90": null
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v3": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.03_lam_v3",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.03,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "max_t_fit": null,
+   "max_t90": null
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v0.2": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v0.2",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "max_t_fit": null,
+   "max_t90": null
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v1": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v1",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "max_t_fit": null,
+   "max_t90": null
+  },
+  "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v3": {
+   "arm": "P1",
+   "setting": "T_P1_f0.3_lam_w0.05_eta_w0.1_lam_v3",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.05,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "max_t_fit": null,
+   "max_t90": null
+  },
+  "T_P1_f0.5_lam_w0.01_eta_w0.1_lam_v1": {
+   "arm": "P1",
+   "setting": "T_P1_f0.5_lam_w0.01_eta_w0.1_lam_v1",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.5
+   },
+   "max_t_fit": 6840,
+   "max_t90": 2220
+  },
+  "T_P1_f0.5_lam_w0.01_eta_w0.1_lam_v3": {
+   "arm": "P1",
+   "setting": "T_P1_f0.5_lam_w0.01_eta_w0.1_lam_v3",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.5
+   },
+   "max_t_fit": 11000,
+   "max_t90": 3040
+  },
+  "T_P1_f0.5_lam_w0.02_eta_w0.1_lam_v1": {
+   "arm": "P1",
+   "setting": "T_P1_f0.5_lam_w0.02_eta_w0.1_lam_v1",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.5
+   },
+   "max_t_fit": 7100,
+   "max_t90": 2160
+  },
+  "T_P1_f0.5_lam_w0.02_eta_w0.1_lam_v3": {
+   "arm": "P1",
+   "setting": "T_P1_f0.5_lam_w0.02_eta_w0.1_lam_v3",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.02,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.5
+   },
+   "max_t_fit": 4580,
+   "max_t90": 3340
+  },
+  "T_P1_f0.5_lam_w0.03_eta_w0.1_lam_v1": {
+   "arm": "P1",
+   "setting": "T_P1_f0.5_lam_w0.03_eta_w0.1_lam_v1",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.5
+   },
+   "max_t_fit": 7360,
+   "max_t90": 3100
+  },
+  "T_P1_f0.5_lam_w0.03_eta_w0.1_lam_v3": {
+   "arm": "P1",
+   "setting": "T_P1_f0.5_lam_w0.03_eta_w0.1_lam_v3",
+   "n": 2,
+   "done": 0,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": null,
+   "max_t_fit": null,
+   "max_t90": null
+  },
+  "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v0.2": {
+   "arm": "P2",
+   "setting": "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v0.2",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "max_t_fit": 59520,
+   "max_t90": 27740
+  },
+  "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v1": {
+   "arm": "P2",
+   "setting": "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v1",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "max_t_fit": 60000,
+   "max_t90": 44140
+  },
+  "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v3": {
+   "arm": "P2",
+   "setting": "T_P2_f0.3_lam_w0.01_eta_w0.1_lam_v3",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.01,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "max_t_fit": null,
+   "max_t90": null
+  },
+  "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v0.2": {
+   "arm": "P2",
+   "setting": "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v0.2",
+   "n": 2,
+   "done": 1,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 0.2,
+    "frac": 0.3
+   },
+   "max_t_fit": 56140,
+   "max_t90": 3960
+  },
+  "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v1": {
+   "arm": "P2",
+   "setting": "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v1",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "max_t_fit": 59980,
+   "max_t90": 14640
+  },
+  "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v3": {
+   "arm": "P2",
+   "setting": "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v3",
+   "n": 2,
+   "done": 2,
+   "qualifies": false,
+   "max_v": Infinity,
+   "min_dAH": -1,
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 3.0,
+    "frac": 0.3
+   },
+   "max_t_fit": 60000,
+   "max_t90": null
+  }
+ }
+}

@@ -1,0 +1,217 @@
+M_D3_p47_paper_f0.8_r0.45_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 22000 te50 17340 te90 21240 dd90 0.0 final 1.000
+M_D3_p47_paper_f0.8_r0.45_s2       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 22558 te50 16680 te90 20520 dd90 0.0 final 1.000
+M_D3_p47_paper_f0.8_r0.45_s3       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 22360 te50 17380 te90 21180 dd90 0.0 final 1.000
+M_D3_p47_paper_f0.7_r0.45_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 22426 te50 23680 te90 30000 dd90 0.021 final 1.000
+M_D3_p47_paper_f0.7_r0.45_s2       PASS_M                                       (pass_M3) q_te 0.94 q_rf 1.00 | pk 22253 te50 25520 te90 32340 dd90 0.037 final 0.998
+M_D3_p47_paper_f0.7_r0.45_s3       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 22962 te50 24400 te90 31940 dd90 0.027 final 1.000
+M_D3_p47_paper_f0.7_r0.30_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 42343 te50 21440 te90 26340 dd90 0.0 final 0.998
+M_D3_p47_paper_f0.7_r0.30_s2       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 42305 te50 21800 te90 28300 dd90 0.0 final 0.998
+M_D3_p47_paper_f0.7_r0.30_s3       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 43018 te50 21760 te90 27460 dd90 0.0 final 0.998
+M_D3_p47_paper_f0.6_r0.45_s1       fail (held-out share)                                  q_te 0.39 q_rf 1.00 | pk 24925 te50 37700 te90 52820 dd90 0.078 final 0.999
+M_D3_p47_paper_f0.6_r0.45_s2       fail (refit criterion, held-out share)                 q_te 0.19 q_rf 1.00 | pk 24964 te50 40620 te90 61180 dd90 0.108 final 0.982
+M_D3_p47_paper_f0.6_r0.45_s3       fail (held-out share)                                  q_te 0.07 q_rf 1.00 | pk 25077 te50 41940 te90 57740 dd90 0.105 final 0.999
+M_D3_p47_paper_f0.6_r0.28_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 45240 te50 32320 te90 49780 dd90 0.002 final 1.000
+M_D3_p47_paper_f0.6_r0.28_s2       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 43646 te50 35040 te90 58480 dd90 0.015 final 0.979
+M_D3_p47_paper_f0.6_r0.28_s3       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 42437 te50 40180 te90 57480 dd90 0.021 final 0.999
+M_D3_p47_paper_f0.6_r0.18_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 77723 te50 25560 te90 35100 dd90 0.0 final 1.000
+M_D3_p47_paper_f0.6_r0.18_s2       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 75513 te50 29900 te90 60900 dd90 0.0 final 0.975
+M_D3_p47_paper_f0.6_r0.18_s3       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 77634 te50 31240 te90 43020 dd90 0.0 final 0.999
+M_D3_p47_paper_f0.5_r0.20_s1       fail (refit criterion, held-out share)                 q_te 0.67 q_rf 1.00 | pk 63698 te50 85360 te90 155260 dd90 0.064 final 0.975
+M_D3_p47_paper_f0.5_r0.20_s2       fail (refit criterion, held-out share)                 q_te 0.66 q_rf 1.00 | pk 62636 te50 91240 te90 184880 dd90 0.072 final 0.939
+M_D3_p47_paper_f0.5_r0.20_s3       fail (refit criterion)                                 q_te 0.77 q_rf 1.00 | pk 67609 te50 81460 te90 168920 dd90 0.057 final 0.963
+M_D3_p47_paper_f0.5_r0.13_s1       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 109054 te50 75740 te90 181660 dd90 0.026 final 0.974
+M_D3_p47_paper_f0.5_r0.13_s2       fail (refit criterion)                                 q_te 0.96 q_rf 1.00 | pk 109931 te50 81020 te90 214620 dd90 0.037 final 0.928
+M_D3_p47_paper_f0.5_r0.13_s3       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 109038 te50 62120 te90 176640 dd90 0.024 final 0.964
+M_D3_p47_paper_f0.5_r0.08_s1       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 186496 te50 44800 te90 59500 dd90 0.0 final 0.937
+M_D3_p47_paper_f0.5_r0.08_s2       fail (refit criterion)                                 q_te 0.98 q_rf 1.00 | pk 191525 te50 42300 te90 56040 dd90 0.0 final 0.881
+M_D3_p47_paper_f0.5_r0.08_s3       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 185903 te50 39900 te90 53760 dd90 0.0 final 0.903
+M_D3_p47_lin_f0.8_r0.45_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 21417 te50 16940 te90 20080 dd90 0.0 final 1.000
+M_D3_p47_lin_f0.8_r0.45_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 21396 te50 16580 te90 18880 dd90 0.0 final 1.000
+M_D3_p47_lin_f0.8_r0.45_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 22712 te50 16740 te90 20260 dd90 0.0 final 1.000
+M_D3_p47_lin_f0.7_r0.45_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 21260 te50 22060 te90 26340 dd90 0.019 final 1.000
+M_D3_p47_lin_f0.7_r0.45_s2         PASS_M                                       (pass_M3) q_te 0.95 q_rf 1.00 | pk 21393 te50 23220 te90 28500 dd90 0.037 final 1.000
+M_D3_p47_lin_f0.7_r0.45_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 21859 te50 22960 te90 28420 dd90 0.027 final 1.000
+M_D3_p47_lin_f0.7_r0.30_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 42339 te50 19700 te90 22980 dd90 0.0 final 1.000
+M_D3_p47_lin_f0.7_r0.30_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 42785 te50 20340 te90 24920 dd90 0.0 final 1.000
+M_D3_p47_lin_f0.7_r0.30_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 42752 te50 19860 te90 23440 dd90 0.0 final 1.000
+M_D3_p47_lin_f0.6_r0.45_s1         fail (held-out share)                                  q_te 0.30 q_rf 1.00 | pk 24450 te50 34880 te90 45600 dd90 0.109 final 1.000
+M_D3_p47_lin_f0.6_r0.45_s2         fail (held-out share)                                  q_te 0.10 q_rf 1.00 | pk 24496 te50 37420 te90 48520 dd90 0.146 final 0.999
+M_D3_p47_lin_f0.6_r0.45_s3         fail (held-out share)                                  q_te 0.04 q_rf 0.96 | pk 24723 te50 38960 te90 49740 dd90 0.143 final 1.000
+M_D3_p47_lin_f0.6_r0.28_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 44307 te50 30560 te90 43160 dd90 0.0 final 1.000
+M_D3_p47_lin_f0.6_r0.28_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 43742 te50 31820 te90 46160 dd90 0.001 final 0.998
+M_D3_p47_lin_f0.6_r0.28_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 41635 te50 33920 te90 45700 dd90 0.004 final 1.000
+M_D3_p47_lin_f0.6_r0.18_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 56039 te50 24320 te90 30560 dd90 0.0 final 1.000
+M_D3_p47_lin_f0.6_r0.18_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 76848 te50 27700 te90 34700 dd90 0.0 final 0.997
+M_D3_p47_lin_f0.6_r0.18_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 72119 te50 27760 te90 34520 dd90 0.0 final 1.000
+M_D3_p47_lin_f0.5_r0.20_s1         PASS_M                                       (pass_M3) q_te 0.85 q_rf 1.00 | pk 62896 te50 66500 te90 107680 dd90 0.059 final 0.998
+M_D3_p47_lin_f0.5_r0.20_s2         fail (refit criterion)                                 q_te 0.92 q_rf 1.00 | pk 66554 te50 62300 te90 104440 dd90 0.05 final 0.985
+M_D3_p47_lin_f0.5_r0.20_s3         PASS_M                                       (pass_M3) q_te 0.78 q_rf 1.00 | pk 64549 te50 70160 te90 112840 dd90 0.067 final 0.998
+M_D3_p47_lin_f0.5_r0.13_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 112345 te50 51100 te90 107820 dd90 0.0 final 1.000
+M_D3_p47_lin_f0.5_r0.13_s2         fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 109615 te50 45200 te90 121180 dd90 0.004 final 0.980
+M_D3_p47_lin_f0.5_r0.13_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 111572 te50 52340 te90 106200 dd90 0.0 final 0.999
+M_D3_p47_lin_f0.5_r0.08_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 186018 te50 43620 te90 54340 dd90 0.0 final 0.991
+M_D3_p47_lin_f0.5_r0.08_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 80879 te50 36980 te90 45280 dd90 0.0 final 0.999
+M_D3_p47_lin_f0.5_r0.08_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 87159 te50 39340 te90 48000 dd90 0.0 final 0.997
+M_D3_p61_paper_f0.8_r0.45_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 17398 te50 16500 te90 20340 dd90 0.004 final 1.000
+M_D3_p61_paper_f0.8_r0.45_s2       PASS_M                                                 q_te 1.00 q_rf 1.00 | pk 16221 te50 16580 te90 19600 dd90 0.003 final 0.999
+M_D3_p61_paper_f0.8_r0.45_s3       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 20151 te50 15740 te90 18880 dd90 0.0 final 1.000
+M_D3_p61_paper_f0.7_r0.45_s1       PASS_M                                                 q_te 0.98 q_rf 1.00 | pk 20090 te50 24060 te90 29680 dd90 0.031 final 1.000
+M_D3_p61_paper_f0.7_r0.45_s2       PASS_M                                                 q_te 1.00 q_rf 1.00 | pk 20328 te50 23400 te90 29160 dd90 0.027 final 0.998
+M_D3_p61_paper_f0.7_r0.45_s3       PASS_M                                                 q_te 1.00 q_rf 1.00 | pk 19314 te50 22200 te90 28880 dd90 0.026 final 0.998
+M_D3_p61_paper_f0.7_r0.30_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 43688 te50 20740 te90 25480 dd90 0.0 final 0.998
+M_D3_p61_paper_f0.7_r0.30_s2       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 46939 te50 21100 te90 25540 dd90 0.0 final 0.995
+M_D3_p61_paper_f0.7_r0.30_s3       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 47483 te50 20000 te90 24360 dd90 0.0 final 0.999
+M_D3_p61_paper_f0.6_r0.45_s1       fail (held-out share)                                  q_te 0.34 q_rf 1.00 | pk 23278 te50 36980 te90 51320 dd90 0.078 final 0.997
+M_D3_p61_paper_f0.6_r0.45_s2       fail (held-out share)                                  q_te 0.39 q_rf 1.00 | pk 23693 te50 36060 te90 46540 dd90 0.068 final 0.998
+M_D3_p61_paper_f0.6_r0.45_s3       fail (held-out share)                                  q_te 0.47 q_rf 1.00 | pk 23552 te50 34940 te90 53620 dd90 0.081 final 0.995
+M_D3_p61_paper_f0.6_r0.28_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 38781 te50 33740 te90 52920 dd90 0.011 final 0.997
+M_D3_p61_paper_f0.6_r0.28_s2       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 40066 te50 32020 te90 44820 dd90 0.001 final 0.999
+M_D3_p61_paper_f0.6_r0.28_s3       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 38818 te50 32040 te90 50280 dd90 0.006 final 0.990
+M_D3_p61_paper_f0.6_r0.18_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 81466 te50 26560 te90 33560 dd90 0.0 final 0.993
+M_D3_p61_paper_f0.6_r0.18_s2       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 80081 te50 25860 te90 31820 dd90 0.0 final 0.993
+M_D3_p61_paper_f0.6_r0.18_s3       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 84191 te50 25960 te90 33260 dd90 0.0 final 0.983
+M_D3_p61_paper_f0.5_r0.20_s1       fail (refit criterion)                                 q_te 0.92 q_rf 1.00 | pk 60762 te50 62540 te90 134660 dd90 0.037 final 0.955
+M_D3_p61_paper_f0.5_r0.20_s2       fail (refit criterion)                                 q_te 0.97 q_rf 1.00 | pk 59270 te50 65960 te90 111400 dd90 0.033 final 0.988
+M_D3_p61_paper_f0.5_r0.20_s3       fail (refit criterion)                                 q_te 0.85 q_rf 1.00 | pk 58685 te50 66560 te90 206380 dd90 0.056 final 0.910
+M_D3_p61_paper_f0.5_r0.13_s1       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 112335 te50 44240 te90 230540 dd90 0.021 final 0.905
+M_D3_p61_paper_f0.5_r0.13_s2       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 110312 te50 47160 te90 110960 dd90 0.0 final 0.963
+M_D3_p61_paper_f0.5_r0.13_s3       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 112035 te50 49700 te90 None dd90 None final 0.897
+M_D3_p61_paper_f0.5_r0.08_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 79299 te50 36960 te90 45380 dd90 0.0 final 0.993
+M_D3_p61_paper_f0.5_r0.08_s2       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 85899 te50 41280 te90 49620 dd90 0.0 final 0.996
+M_D3_p61_paper_f0.5_r0.08_s3       fail (refit criterion)                                 q_te 0.92 q_rf 1.00 | pk 191301 te50 39360 te90 47360 dd90 0.0 final 0.836
+M_D3_p61_lin_f0.8_r0.45_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 14992 te50 15740 te90 18080 dd90 0.014 final 1.000
+M_D3_p61_lin_f0.8_r0.45_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 14680 te50 15560 te90 17440 dd90 0.009 final 1.000
+M_D3_p61_lin_f0.8_r0.45_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 15110 te50 15540 te90 17720 dd90 0.006 final 1.000
+M_D3_p61_lin_f0.7_r0.45_s1         PASS_M                                       (pass_M3) q_te 0.90 q_rf 1.00 | pk 19029 te50 21580 te90 25700 dd90 0.043 final 1.000
+M_D3_p61_lin_f0.7_r0.45_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 18989 te50 20900 te90 24740 dd90 0.029 final 1.000
+M_D3_p61_lin_f0.7_r0.45_s3         PASS_M                                       (pass_M3) q_te 0.91 q_rf 1.00 | pk 18762 te50 21180 te90 25220 dd90 0.041 final 1.000
+M_D3_p61_lin_f0.7_r0.30_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 38259 te50 19720 te90 22800 dd90 0.0 final 1.000
+M_D3_p61_lin_f0.7_r0.30_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 36219 te50 18580 te90 21080 dd90 0.0 final 0.998
+M_D3_p61_lin_f0.7_r0.30_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 36839 te50 18860 te90 21440 dd90 0.0 final 1.000
+M_D3_p61_lin_f0.6_r0.45_s1         fail (held-out share)                                  q_te 0.11 q_rf 0.87 | pk 22798 te50 33340 te90 41200 dd90 0.129 final 1.000
+M_D3_p61_lin_f0.6_r0.45_s2         fail (held-out share)                                  q_te 0.36 q_rf 1.00 | pk 22207 te50 29720 te90 36140 dd90 0.093 final 1.000
+M_D3_p61_lin_f0.6_r0.45_s3         fail (held-out share)                                  q_te 0.34 q_rf 1.00 | pk 22860 te50 31260 te90 37960 dd90 0.105 final 0.999
+M_D3_p61_lin_f0.6_r0.28_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 38029 te50 29500 te90 38100 dd90 0.0 final 1.000
+M_D3_p61_lin_f0.6_r0.28_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 37806 te50 28160 te90 34820 dd90 0.0 final 1.000
+M_D3_p61_lin_f0.6_r0.28_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 38901 te50 28020 te90 34620 dd90 0.0 final 1.000
+M_D3_p61_lin_f0.6_r0.18_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 52859 te50 25760 te90 30900 dd90 0.0 final 1.000
+M_D3_p61_lin_f0.6_r0.18_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 44459 te50 22900 te90 26580 dd90 0.0 final 1.000
+M_D3_p61_lin_f0.6_r0.18_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 47579 te50 24380 te90 28180 dd90 0.0 final 1.000
+M_D3_p61_lin_f0.5_r0.20_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 59011 te50 51640 te90 76060 dd90 0.023 final 1.000
+M_D3_p61_lin_f0.5_r0.20_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 55978 te50 54660 te90 71840 dd90 0.023 final 1.000
+M_D3_p61_lin_f0.5_r0.20_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 57846 te50 50160 te90 76160 dd90 0.019 final 0.998
+M_D3_p61_lin_f0.5_r0.13_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 110670 te50 41120 te90 52900 dd90 0.0 final 0.997
+M_D3_p61_lin_f0.5_r0.13_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 111819 te50 43600 te90 53540 dd90 0.0 final 0.997
+M_D3_p61_lin_f0.5_r0.13_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 112000 te50 40020 te90 50480 dd90 0.0 final 0.997
+M_D3_p61_lin_f0.5_r0.08_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 73439 te50 37040 te90 43900 dd90 0.0 final 1.000
+M_D3_p61_lin_f0.5_r0.08_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 74559 te50 37780 te90 43960 dd90 0.0 final 1.000
+M_D3_p61_lin_f0.5_r0.08_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 65859 te50 34540 te90 39600 dd90 0.0 final 1.000
+M_D4_p47_paper_f0.8_r0.45_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 21198 te50 22340 te90 27040 dd90 0.019 final 1.000
+M_D4_p47_paper_f0.8_r0.45_s2       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 20506 te50 23100 te90 27320 dd90 0.024 final 1.000
+M_D4_p47_paper_f0.8_r0.45_s3       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 21505 te50 24140 te90 29000 dd90 0.028 final 1.000
+M_D4_p47_paper_f0.7_r0.45_s1       fail (held-out share)                                  q_te 0.47 q_rf 1.00 | pk 23935 te50 34020 te90 42220 dd90 0.07 final 1.000
+M_D4_p47_paper_f0.7_r0.45_s2       fail (held-out share)                                  q_te 0.45 q_rf 1.00 | pk 23408 te50 33940 te90 42460 dd90 0.072 final 0.998
+M_D4_p47_paper_f0.7_r0.45_s3       fail (held-out share)                                  q_te 0.34 q_rf 1.00 | pk 24271 te50 35000 te90 42880 dd90 0.077 final 1.000
+M_D4_p47_paper_f0.7_r0.28_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 39323 te50 28460 te90 34420 dd90 0.0 final 1.000
+M_D4_p47_paper_f0.7_r0.28_s2       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 38088 te50 31940 te90 40280 dd90 0.001 final 1.000
+M_D4_p47_paper_f0.7_r0.28_s3       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 38309 te50 32340 te90 42040 dd90 0.002 final 1.000
+M_D4_p47_paper_f0.6_r0.45_s1       fail (held-out share, refit share)                     q_te 0.00 q_rf 0.66 | pk 27102 te50 57820 te90 75540 dd90 0.113 final 1.000
+M_D4_p47_paper_f0.6_r0.45_s2       fail (refit criterion, held-out share, refit share)           q_te 0.00 q_rf 0.51 | pk 26852 te50 57440 te90 84520 dd90 0.133 final 0.990
+M_D4_p47_paper_f0.6_r0.45_s3       fail (held-out share, refit share)                     q_te 0.00 q_rf 0.39 | pk 27248 te50 62480 te90 80860 dd90 0.132 final 1.000
+M_D4_p47_paper_f0.6_r0.20_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 59294 te50 49320 te90 67200 dd90 0.005 final 1.000
+M_D4_p47_paper_f0.6_r0.20_s2       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 57737 te50 53280 te90 78120 dd90 0.02 final 0.975
+M_D4_p47_paper_f0.6_r0.20_s3       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 57776 te50 55760 te90 76500 dd90 0.018 final 1.000
+M_D4_p47_paper_f0.6_r0.13_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 98379 te50 39280 te90 50540 dd90 0.0 final 1.000
+M_D4_p47_paper_f0.6_r0.13_s2       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 125886 te50 43000 te90 56980 dd90 0.0 final 0.973
+M_D4_p47_paper_f0.6_r0.13_s3       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 115775 te50 45980 te90 60520 dd90 0.0 final 0.999
+M_D4_p47_paper_f0.5_r0.14_s1       fail (refit criterion)                                 q_te 0.78 q_rf 1.00 | pk 92006 te50 116520 te90 184480 dd90 0.054 final 0.975
+M_D4_p47_paper_f0.5_r0.14_s2       fail (refit criterion, held-out share)                 q_te 0.57 q_rf 1.00 | pk 91728 te50 131420 te90 213920 dd90 0.075 final 0.937
+M_D4_p47_paper_f0.5_r0.14_s3       fail (refit criterion, held-out share)                 q_te 0.45 q_rf 1.00 | pk 94393 te50 149460 te90 247040 dd90 0.084 final 0.906
+M_D4_p47_paper_f0.5_r0.09_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 161926 te50 96760 te90 141020 dd90 0.0 final 0.996
+M_D4_p47_paper_f0.5_r0.09_s2       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 149749 te50 103220 te90 175120 dd90 0.002 final 0.945
+M_D4_p47_paper_f0.5_r0.09_s3       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 145032 te50 124140 te90 206260 dd90 0.017 final 0.945
+M_D4_p47_paper_f0.5_r0.06_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 190679 te50 74420 te90 96080 dd90 0.0 final 0.997
+M_D4_p47_paper_f0.5_r0.06_s2       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 249998 te50 82680 te90 115000 dd90 0.0 final 0.965
+M_D4_p47_paper_f0.5_r0.06_s3       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 249999 te50 88180 te90 137820 dd90 0.0 final 0.983
+M_D4_p47_lin_f0.8_r0.45_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 20262 te50 21280 te90 25060 dd90 0.024 final 1.000
+M_D4_p47_lin_f0.8_r0.45_s2         PASS_M                                       (pass_M3) q_te 0.85 q_rf 1.00 | pk 20643 te50 23520 te90 26940 dd90 0.041 final 1.000
+M_D4_p47_lin_f0.8_r0.45_s3         PASS_M                                       (pass_M3) q_te 0.95 q_rf 1.00 | pk 21454 te50 23340 te90 28360 dd90 0.037 final 1.000
+M_D4_p47_lin_f0.7_r0.45_s1         fail (held-out share)                                  q_te 0.35 q_rf 1.00 | pk 23845 te50 32520 te90 38980 dd90 0.09 final 1.000
+M_D4_p47_lin_f0.7_r0.45_s2         fail (held-out share)                                  q_te 0.35 q_rf 1.00 | pk 22794 te50 30820 te90 37800 dd90 0.096 final 1.000
+M_D4_p47_lin_f0.7_r0.45_s3         fail (held-out share)                                  q_te 0.23 q_rf 0.88 | pk 24230 te50 33980 te90 40500 dd90 0.107 final 1.000
+M_D4_p47_lin_f0.7_r0.28_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 37370 te50 29880 te90 36000 dd90 0.0 final 1.000
+M_D4_p47_lin_f0.7_r0.28_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 37009 te50 29280 te90 35200 dd90 0.0 final 1.000
+M_D4_p47_lin_f0.7_r0.28_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 36520 te50 32420 te90 39360 dd90 0.004 final 1.000
+M_D4_p47_lin_f0.6_r0.45_s1         fail (held-out share, refit share)                     q_te 0.00 q_rf 0.46 | pk 26231 te50 50720 te90 63780 dd90 0.155 final 1.000
+M_D4_p47_lin_f0.6_r0.45_s2         fail (held-out share, refit share)                     q_te 0.00 q_rf 0.37 | pk 26148 te50 53100 te90 70580 dd90 0.188 final 1.000
+M_D4_p47_lin_f0.6_r0.45_s3         fail (held-out share, refit share)                     q_te 0.00 q_rf 0.26 | pk 26488 te50 55820 te90 70560 dd90 0.188 final 1.000
+M_D4_p47_lin_f0.6_r0.20_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 56428 te50 47320 te90 60120 dd90 0.001 final 1.000
+M_D4_p47_lin_f0.6_r0.20_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 56592 te50 51100 te90 67320 dd90 0.015 final 1.000
+M_D4_p47_lin_f0.6_r0.20_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 56396 te50 50980 te90 64340 dd90 0.01 final 1.000
+M_D4_p47_lin_f0.6_r0.13_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 77679 te50 38020 te90 45080 dd90 0.0 final 1.000
+M_D4_p47_lin_f0.6_r0.13_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 121817 te50 43560 te90 55100 dd90 0.0 final 1.000
+M_D4_p47_lin_f0.6_r0.13_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 94199 te50 44440 te90 54620 dd90 0.0 final 1.000
+M_D4_p47_lin_f0.5_r0.14_s1         PASS_M                                       (pass_M3) q_te 0.92 q_rf 1.00 | pk 90505 te50 94160 te90 132140 dd90 0.042 final 0.999
+M_D4_p47_lin_f0.5_r0.14_s2         fail (refit criterion, held-out share)                 q_te 0.54 q_rf 1.00 | pk 91274 te50 116520 te90 160520 dd90 0.089 final 0.974
+M_D4_p47_lin_f0.5_r0.14_s3         fail (held-out share)                                  q_te 0.49 q_rf 1.00 | pk 90926 te50 121460 te90 169220 dd90 0.092 final 0.997
+M_D4_p47_lin_f0.5_r0.09_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 153452 te50 81540 te90 111340 dd90 0.0 final 1.000
+M_D4_p47_lin_f0.5_r0.09_s2         fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 145004 te50 98000 te90 134100 dd90 0.0 final 0.976
+M_D4_p47_lin_f0.5_r0.09_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 139498 te50 104760 te90 143620 dd90 0.001 final 0.998
+M_D4_p47_lin_f0.5_r0.06_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 130859 te50 60920 te90 74080 dd90 0.0 final 1.000
+M_D4_p47_lin_f0.5_r0.06_s2         fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 249998 te50 80900 te90 106300 dd90 0.0 final 0.989
+M_D4_p47_lin_f0.5_r0.06_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 208659 te50 88380 te90 114440 dd90 0.0 final 1.000
+M_D4_p61_paper_f0.8_r0.45_s1       PASS_M                                                 q_te 1.00 q_rf 1.00 | pk 18541 te50 21160 te90 25280 dd90 0.021 final 1.000
+M_D4_p61_paper_f0.8_r0.45_s2       PASS_M                                                 q_te 0.99 q_rf 1.00 | pk 18707 te50 22240 te90 27640 dd90 0.03 final 1.000
+M_D4_p61_paper_f0.8_r0.45_s3       PASS_M                                                 q_te 1.00 q_rf 1.00 | pk 18885 te50 21560 te90 25820 dd90 0.02 final 1.000
+M_D4_p61_paper_f0.7_r0.45_s1       fail (held-out share)                                  q_te 0.64 q_rf 1.00 | pk 21598 te50 29680 te90 35880 dd90 0.054 final 0.999
+M_D4_p61_paper_f0.7_r0.45_s2       fail (held-out share)                                  q_te 0.67 q_rf 1.00 | pk 21911 te50 29840 te90 38440 dd90 0.056 final 0.995
+M_D4_p61_paper_f0.7_r0.45_s3       fail (held-out share)                                  q_te 0.57 q_rf 1.00 | pk 21676 te50 30900 te90 39360 dd90 0.061 final 0.996
+M_D4_p61_paper_f0.7_r0.28_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 32352 te50 28780 te90 35660 dd90 0.002 final 1.000
+M_D4_p61_paper_f0.7_r0.28_s2       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 36004 te50 27460 te90 35600 dd90 0.0 final 0.996
+M_D4_p61_paper_f0.7_r0.28_s3       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 32995 te50 28380 te90 36080 dd90 0.001 final 0.998
+M_D4_p61_paper_f0.6_r0.45_s1       fail (held-out share)                                  q_te 0.07 q_rf 0.77 | pk 25244 te50 50640 te90 71360 dd90 0.095 final 0.998
+M_D4_p61_paper_f0.6_r0.45_s2       fail (held-out share, refit share)                     q_te 0.02 q_rf 0.72 | pk 25531 te50 51720 te90 66900 dd90 0.087 final 0.999
+M_D4_p61_paper_f0.6_r0.45_s3       fail (held-out share)                                  q_te 0.07 q_rf 0.83 | pk 25295 te50 50000 te90 73260 dd90 0.098 final 0.997
+M_D4_p61_paper_f0.6_r0.20_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 54210 te50 43760 te90 58320 dd90 0.0 final 0.998
+M_D4_p61_paper_f0.6_r0.20_s2       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 50889 te50 48060 te90 61660 dd90 0.008 final 0.995
+M_D4_p61_paper_f0.6_r0.20_s3       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 53273 te50 45980 te90 68580 dd90 0.006 final 0.996
+M_D4_p61_paper_f0.6_r0.13_s1       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 85799 te50 37760 te90 45840 dd90 0.0 final 0.999
+M_D4_p61_paper_f0.6_r0.13_s2       PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 97299 te50 42060 te90 49860 dd90 0.0 final 0.998
+M_D4_p61_paper_f0.6_r0.13_s3       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 137006 te50 39860 te90 49880 dd90 0.0 final 0.988
+M_D4_p61_paper_f0.5_r0.14_s1       fail (refit criterion)                                 q_te 0.93 q_rf 1.00 | pk 79528 te50 91040 te90 185640 dd90 0.04 final 0.922
+M_D4_p61_paper_f0.5_r0.14_s2       fail (refit criterion)                                 q_te 0.93 q_rf 1.00 | pk 82563 te50 100260 te90 138980 dd90 0.036 final 0.975
+M_D4_p61_paper_f0.5_r0.14_s3       fail (refit criterion)                                 q_te 0.90 q_rf 1.00 | pk 79876 te50 92880 te90 199880 dd90 0.046 final 0.915
+M_D4_p61_paper_f0.5_r0.09_s1       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 186057 te50 84320 te90 158360 dd90 0.0 final 0.952
+M_D4_p61_paper_f0.5_r0.09_s2       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 181372 te50 84220 te90 111080 dd90 0.0 final 0.976
+M_D4_p61_paper_f0.5_r0.09_s3       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 190891 te50 80200 te90 None dd90 None final 0.897
+M_D4_p61_paper_f0.5_r0.06_s1       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 249999 te50 66160 te90 79440 dd90 0.0 final 0.961
+M_D4_p61_paper_f0.5_r0.06_s2       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 249999 te50 71460 te90 85960 dd90 0.0 final 0.981
+M_D4_p61_paper_f0.5_r0.06_s3       fail (refit criterion)                                 q_te 1.00 q_rf 1.00 | pk 249998 te50 57780 te90 69540 dd90 0.0 final 0.939
+M_D4_p61_lin_f0.8_r0.45_s1         PASS_M                                       (pass_M3) q_te 0.95 q_rf 1.00 | pk 18281 te50 20020 te90 23480 dd90 0.035 final 1.000
+M_D4_p61_lin_f0.8_r0.45_s2         PASS_M                                       (pass_M3) q_te 0.91 q_rf 1.00 | pk 18573 te50 21360 te90 24780 dd90 0.041 final 1.000
+M_D4_p61_lin_f0.8_r0.45_s3         PASS_M                                       (pass_M3) q_te 0.94 q_rf 1.00 | pk 18305 te50 20820 te90 24040 dd90 0.033 final 1.000
+M_D4_p61_lin_f0.7_r0.45_s1         fail (held-out share)                                  q_te 0.31 q_rf 0.90 | pk 21267 te50 27840 te90 32080 dd90 0.086 final 1.000
+M_D4_p61_lin_f0.7_r0.45_s2         fail (held-out share)                                  q_te 0.37 q_rf 0.95 | pk 21635 te50 29020 te90 34180 dd90 0.086 final 1.000
+M_D4_p61_lin_f0.7_r0.45_s3         fail (held-out share)                                  q_te 0.23 q_rf 0.87 | pk 21548 te50 29260 te90 34240 dd90 0.099 final 1.000
+M_D4_p61_lin_f0.7_r0.28_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 33143 te50 26100 te90 30640 dd90 0.0 final 1.000
+M_D4_p61_lin_f0.7_r0.28_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 33822 te50 26700 te90 32220 dd90 0.0 final 1.000
+M_D4_p61_lin_f0.7_r0.28_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 34357 te50 26640 te90 30820 dd90 0.0 final 1.000
+M_D4_p61_lin_f0.6_r0.45_s1         fail (held-out share, refit share)                     q_te 0.00 q_rf 0.38 | pk 24217 te50 43040 te90 53400 dd90 0.151 final 1.000
+M_D4_p61_lin_f0.6_r0.45_s2         fail (refit criterion, held-out share, refit share)           q_te 0.00 q_rf 0.14 | pk 25529 te50 46940 te90 55880 dd90 0.154 final 0.999
+M_D4_p61_lin_f0.6_r0.45_s3         fail (held-out share, refit share)                     q_te 0.00 q_rf 0.39 | pk 24641 te50 43700 te90 53100 dd90 0.151 final 0.999
+M_D4_p61_lin_f0.6_r0.20_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 52836 te50 40240 te90 50060 dd90 0.0 final 1.000
+M_D4_p61_lin_f0.6_r0.20_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 49915 te50 41660 te90 50620 dd90 0.0 final 1.000
+M_D4_p61_lin_f0.6_r0.20_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 48834 te50 40320 te90 48960 dd90 0.0 final 1.000
+M_D4_p61_lin_f0.6_r0.13_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 69959 te50 36060 te90 41480 dd90 0.0 final 1.000
+M_D4_p61_lin_f0.6_r0.13_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 72839 te50 37880 te90 43480 dd90 0.0 final 1.000
+M_D4_p61_lin_f0.6_r0.13_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 70359 te50 35460 te90 41720 dd90 0.0 final 1.000
+M_D4_p61_lin_f0.5_r0.14_s1         PASS_M                                       (pass_M3) q_te 0.99 q_rf 1.00 | pk 80246 te50 78880 te90 102340 dd90 0.031 final 1.000
+M_D4_p61_lin_f0.5_r0.14_s2         PASS_M                                       (pass_M3) q_te 0.94 q_rf 1.00 | pk 78344 te50 83980 te90 105440 dd90 0.039 final 1.000
+M_D4_p61_lin_f0.5_r0.14_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 77640 te50 73760 te90 97720 dd90 0.026 final 0.998
+M_D4_p61_lin_f0.5_r0.09_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 135819 te50 58320 te90 72520 dd90 0.0 final 0.999
+M_D4_p61_lin_f0.5_r0.09_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 162059 te50 71560 te90 90160 dd90 0.0 final 1.000
+M_D4_p61_lin_f0.5_r0.09_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 186653 te50 67880 te90 87500 dd90 0.0 final 0.996
+M_D4_p61_lin_f0.5_r0.06_s1         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 109839 te50 57160 te90 67080 dd90 0.0 final 1.000
+M_D4_p61_lin_f0.5_r0.06_s2         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 128339 te50 66960 te90 76900 dd90 0.0 final 1.000
+M_D4_p61_lin_f0.5_r0.06_s3         PASS_M                                       (pass_M3) q_te 1.00 q_rf 1.00 | pk 113159 te50 58760 te90 68060 dd90 0.0 final 1.000
+states: {'finished': 216, 'running': 0, 'not started': 0} | L controls: 24 | K checks: 12

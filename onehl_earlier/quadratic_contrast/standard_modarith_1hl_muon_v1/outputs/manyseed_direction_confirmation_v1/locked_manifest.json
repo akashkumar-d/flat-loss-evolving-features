@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "study": "fresh_dense_1hl_p13_manyseed_direction_confirmation",
+  "status_at_lock": "No outcome from model seeds 11001--11040 or split seeds 41001--41040 has been generated or inspected before this manifest was written.",
+  "interpretation": "A fixed-size 40-pair confirmatory replication of one previously selected dense-network cell. Every declared pair remains in the denominator. This estimates finite-horizon reproducibility for this configuration; it is not an iid trajectory theorem.",
+  "common_config": {
+    "p": 13,
+    "train_fraction": 0.8,
+    "width": 64,
+    "steps": 50000,
+    "activation": "square",
+    "feature_geometry": "row_sphere",
+    "optimizer": "polar_feature_gd_head",
+    "lr_feature": 0.0005,
+    "lr_head": 0.5,
+    "momentum": 0,
+    "weight_decay_feature": 0,
+    "weight_decay_head": 0.001,
+    "feature_init_scale": 0.7071067811865476,
+    "head_init_scale": 0.05,
+    "log_every": 500,
+    "device": "cpu",
+    "dtype": "float64",
+    "strict_polar_rank": false,
+    "train_accuracy_threshold": 1.0,
+    "test_accuracy_threshold": 0.9,
+    "alignment_threshold": 0.8,
+    "minimum_delay_steps": 5000,
+    "agop_ranks": [
+      4,
+      12
+    ],
+    "agop_ridge_alphas": [
+      0.00001,
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1
+    ],
+    "agop_probe_folds": 3,
+    "agop_probe_seed": 271828,
+    "agop_random_controls": 4,
+    "theory_gradient_observer": true,
+    "rule_margin_observer": true
+  },
+  "cells": {
+    "p13_n135_k64_polar_manyseed": {
+      "role": "fixed selected cell for fresh many-seed confirmation"
+    }
+  },
+  "stages": {
+    "batch_1": {
+      "cells": [
+        "p13_n135_k64_polar_manyseed"
+      ],
+      "seed_pairs": [
+        {
+          "seed": 11001,
+          "split_seed": 41001
+        },
+        {
+          "seed": 11002,
+          "split_seed": 41002
+        },
+        {
+          "seed": 11003,
+          "split_seed": 41003
+        },
+        {
+          "seed": 11004,
+          "split_seed": 41004
+        },
+        {
+          "seed": 11005,
+          "split_seed": 41005
+        },
+        {
+          "seed": 11006,
+          "split_seed": 41006
+        },
+        {
+          "seed": 11007,
+          "split_seed": 41007
+        },
+        {
+          "seed": 11008,
+          "split_seed": 41008
+        },
+        {
+          "seed": 11009,
+          "split_seed": 41009
+        },
+        {
+          "seed": 11010,
+          "split_seed": 41010
+        }
+      ]
+    },
+    "batch_2": {
+      "cells": [
+        "p13_n135_k64_polar_manyseed"
+      ],
+      "seed_pairs": [
+        {
+          "seed": 11011,
+          "split_seed": 41011
+        },
+        {
+          "seed": 11012,
+          "split_seed": 41012
+        },
+        {
+          "seed": 11013,
+          "split_seed": 41013
+        },
+        {
+          "seed": 11014,
+          "split_seed": 41014
+        },
+        {
+          "seed": 11015,
+          "split_seed": 41015
+        },
+        {
+          "seed": 11016,
+          "split_seed": 41016
+        },
+        {
+          "seed": 11017,
+          "split_seed": 41017
+        },
+        {
+          "seed": 11018,
+          "split_seed": 41018
+        },
+        {
+          "seed": 11019,
+          "split_seed": 41019
+        },
+        {
+          "seed": 11020,
+          "split_seed": 41020
+        }
+      ]
+    },
+    "batch_3": {
+      "cells": [
+        "p13_n135_k64_polar_manyseed"
+      ],
+      "seed_pairs": [
+        {
+          "seed": 11021,
+          "split_seed": 41021
+        },
+        {
+          "seed": 11022,
+          "split_seed": 41022
+        },
+        {
+          "seed": 11023,
+          "split_seed": 41023
+        },
+        {
+          "seed": 11024,
+          "split_seed": 41024
+        },
+        {
+          "seed": 11025,
+          "split_seed": 41025
+        },
+        {
+          "seed": 11026,
+          "split_seed": 41026
+        },
+        {
+          "seed": 11027,
+          "split_seed": 41027
+        },
+        {
+          "seed": 11028,
+          "split_seed": 41028
+        },
+        {
+          "seed": 11029,
+          "split_seed": 41029
+        },
+        {
+          "seed": 11030,
+          "split_seed": 41030
+        }
+      ]
+    },
+    "batch_4": {
+      "cells": [
+        "p13_n135_k64_polar_manyseed"
+      ],
+      "seed_pairs": [
+        {
+          "seed": 11031,
+          "split_seed": 41031
+        },
+        {
+          "seed": 11032,
+          "split_seed": 41032
+        },
+        {
+          "seed": 11033,
+          "split_seed": 41033
+        },
+        {
+          "seed": 11034,
+          "split_seed": 41034
+        },
+        {
+          "seed": 11035,
+          "split_seed": 41035
+        },
+        {
+          "seed": 11036,
+          "split_seed": 41036
+        },
+        {
+          "seed": 11037,
+          "split_seed": 41037
+        },
+        {
+          "seed": 11038,
+          "split_seed": 41038
+        },
+        {
+          "seed": 11039,
+          "split_seed": 41039
+        },
+        {
+          "seed": 11040,
+          "split_seed": 41040
+        }
+      ]
+    }
+  },
+  "analysis_plan": {
+    "declared_sample_size": 40,
+    "no_optional_stopping": true,
+    "seed_replacement": "Forbidden. An interrupted infrastructure attempt may be rerun only with the identical declared model/split pair, and the attempt must be logged.",
+    "primary_endpoint": "Strict finite-horizon logged-persistence grokking: an all-step exact training-fit iterate exists; exact training classification is preserved at every subsequent optimizer update; there is a logged checkpoint from which held-out accuracy remains at least 0.90 at every remaining 500-step checkpoint through step 50000; and the delay from exact fit to that persistent checkpoint is at least 5000 updates.",
+    "primary_confirmation_rule": "Confirm finite-horizon success probability above 0.80 only if at least 37 of 40 declared runs satisfy the primary endpoint. At 37/40, the two-sided 95% Wilson lower endpoint is 0.80136 and the exact one-sided binomial tail under q=0.80 is approximately 0.02846.",
+    "denominators": "Missing, interrupted without successful identical-pair rerun, invalid, nonfinite, rank-deficient where required, missing-observer, and right-censored runs remain failures in all unconditional proportions.",
+    "intervals": "Report two-sided 95% Wilson intervals for binary proportions; medians and IQRs for event times and leads; and a fixed-seed bootstrap 95% interval for paired lead medians.",
+    "persistence_resolution": "Training-fit preservation is audited at every optimizer update. Held-out accuracy, Fourier, AGOP, refit, and direction persistence are resolved only on the locked 500-step checkpoint grid.",
+    "event_definitions": {
+      "exact_fit": "First all-step iterate with exact training classification.",
+      "first_logged_postfit": "First locked 500-step checkpoint at or after the exact all-step fit time; this is the baseline for logged alignment changes.",
+      "persistent_test_90": "First logged checkpoint after which every remaining logged test accuracy is at least 0.90.",
+      "persistent_Aplus_80": "First logged checkpoint after which every remaining logged fourier_sum_full_hidden_span_coverage is at least 0.80.",
+      "persistent_full_hidden_refit_90": "First logged checkpoint after which every remaining logged full_hidden_train_only_refit_heldout_modular_accuracy is at least 0.90."
+    },
+    "mechanism_endpoints": [
+      "Persistent A+ >=0.80 precedes persistent network test accuracy >=0.90.",
+      "Persistent full-hidden train-only refit accuracy >=0.90 precedes persistent network test accuracy >=0.90.",
+      "Held-out rank-12 AGOP addition-minus-difference purity has positive net change from the first logged checkpoint at or after exact fit to persistent test-90.",
+      "theory_train_optimizer_posttangent_feature_update_rule_cosine is strictly positive at at least 90% of logged checkpoints from exact fit through persistent test-90."
+    ],
+    "mechanism_reporting": "Report each mechanism endpoint unconditionally over all 40 declared runs, as well as conditionally among primary successes. Do not require an ordering between A+ and the full-hidden refit.",
+    "fixed_sequence_mechanism_confirmation": "Test the composite mechanism rate only if the primary endpoint first passes its 37/40 confirmation rule. The composite requires strict grokking, persistent A+ and persistent full-hidden refit both preceding persistent test-90, positive fit-to-grok gain in held-out rank-12 AGOP addition-minus-difference purity, and a strictly positive train post-tangent update/rule cosine at at least 90% of logged fit-to-grok checkpoints. Confirm a composite rate above 0.80 only at 37/40 or more; otherwise report descriptively without claiming confirmation.",
+    "ce_plateau": {
+      "primary_interpretation": "The robust plateau is preserved exact training classification, not constant raw cross-entropy.",
+      "fixed_pretransition_window": "For a run with persistent test-90 at t_g, use the inclusive logged interval [t_g-5000,t_g]. Report R_CE=(max train CE-min train CE)/mean train CE and the fraction with R_CE<=0.10.",
+      "adaptive_overlap_secondary": "Also report the older inclusive interval rule: contains the persistent test-90 checkpoint, duration at least 5000, exact logged train accuracy one throughout, and train-CE range/mean <=0.10. This is secondary and is not part of primary confirmation."
+    },
+    "direction_observer_semantics": "The update-direction and full-table rule quantities are observer-only retrospective diagnostics and never enter training. Post-tangent fields describe the first-order row-sphere retraction velocity, excluding decay and the finite retraction.",
+    "claim_boundary": "The study can confirm reproducibility and empirical theorem-interface chronology for this fixed p,n,k,optimizer,horizon distribution. It cannot prove adaptive cone invariance, signed residual contraction, arbitrary-p scaling, or a fresh-run 1-delta theorem."
+  },
+  "predeclared_outputs": [
+    "Per-run status and conservative denominators.",
+    "Exact fit, persistent A+, persistent full-hidden refit, first and persistent test-90, paired delays and leads.",
+    "Train/test CE, accuracy, margins, fixed 5000-step CE-window statistics, and secondary adaptive plateau overlap.",
+    "Full-hidden addition availability and oracle head-fit risk trajectories.",
+    "Held-out and full-grid rank-4 and rank-12 AGOP addition/difference purity, contrast, eigengap, probes, and random controls.",
+    "Raw, transformed, and post-tangent update-direction agreement, rule cosines, logit-velocity Fourier fractions, gradient norms, actual step norms, and row-sphere health.",
+    "Finite-head entry, direct Polar cone, head contraction, fixed-witness delay, and exact held-out residual-release diagnostics.",
+    "Machine-readable run table, aggregate JSON, publication PNG/PDF figures, and an independent audit."
+  ]
+}

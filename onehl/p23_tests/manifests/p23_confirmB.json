@@ -1,0 +1,186 @@
+{
+ "campaign_id": "1hl-p23-nd50-confirm-20260930-v1",
+ "evidence": "second fresh 20-pair confirmation of the p = 23, lambda_W = 0.015 recipe and dev-selected window [6500, 16500]; endpoint ND50 (no loss decrease up to the first 50% held-out crossing), locked before launch",
+ "limits": {
+  "cooperative_grace_seconds": 60,
+  "global_seconds": 43200,
+  "minimum_free_bytes": 6442450944,
+  "per_arm_seconds": 10800,
+  "workers": 2
+ },
+ "observation": {
+  "cheap_every": 100,
+  "checkpoint_every": 500,
+  "full_every": 500
+ },
+ "postprocess_after_each_run": true,
+ "updates": 20000,
+ "configs": [
+  {
+   "activation": "relu",
+   "c": 24,
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "decay_V": 0.2,
+   "decay_W": 0.015,
+   "eta_V": 0.03,
+   "eta_W": 0.03,
+   "margin_tolerance": 1e-10,
+   "p": 23,
+   "polar_cutoff": {
+    "mode": "relative",
+    "value": 1e-10
+   },
+   "train_fraction": 0.8,
+   "width": 512,
+   "windows": [
+    {
+     "t0": 6500,
+     "t1": 16500,
+     "window_id": "p23_locked_dev_selected"
+    }
+   ]
+  }
+ ],
+ "runs": [
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 1,
+   "init_seed": 1286262200263052248,
+   "split_seed": 945519277877786146,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB01"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 2,
+   "init_seed": 1992391338137229073,
+   "split_seed": 7151652634608536013,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB02"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 3,
+   "init_seed": 8469951333257452794,
+   "split_seed": 6223426164134365271,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB03"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 4,
+   "init_seed": 5085247986523840990,
+   "split_seed": 5440923260043845036,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB04"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 5,
+   "init_seed": 9128631708927845115,
+   "split_seed": 2363587775103156847,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB05"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 6,
+   "init_seed": 5237329188902631114,
+   "split_seed": 6425896007372961693,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB06"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 7,
+   "init_seed": 8119590988572944941,
+   "split_seed": 6547894334430266424,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB07"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 8,
+   "init_seed": 4876495168860202974,
+   "split_seed": 6363753597586305328,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB08"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 9,
+   "init_seed": 5126619593998995334,
+   "split_seed": 2243394135170715511,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB09"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 10,
+   "init_seed": 2513545098981860268,
+   "split_seed": 8548918492802651502,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB10"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 11,
+   "init_seed": 1733149458716504557,
+   "split_seed": 8038497810634968288,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB11"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 12,
+   "init_seed": 1293298680636039944,
+   "split_seed": 1620337945044028497,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB12"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 13,
+   "init_seed": 7879574424651943135,
+   "split_seed": 7171713243430886331,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB13"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 14,
+   "init_seed": 1141835421060263756,
+   "split_seed": 8825186187944900189,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB14"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 15,
+   "init_seed": 5077870803776570846,
+   "split_seed": 6851001591914242132,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB15"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 16,
+   "init_seed": 6504263220919629005,
+   "split_seed": 2335247480780171649,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB16"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 17,
+   "init_seed": 993293129750974524,
+   "split_seed": 3067297590671728366,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB17"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 18,
+   "init_seed": 6631397935207423862,
+   "split_seed": 790291019196195504,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB18"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 19,
+   "init_seed": 8728857161722186492,
+   "split_seed": 3034654259349677907,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB19"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 20,
+   "init_seed": 1244547120432508920,
+   "split_seed": 9124068084954621346,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB20"
+  }
+ ]
+}

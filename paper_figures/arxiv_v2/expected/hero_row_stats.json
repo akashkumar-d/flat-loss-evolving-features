@@ -1,0 +1,32 @@
+{
+ "2x2": {
+  "n": 20,
+  "band_median": [
+   2071.0,
+   10479.0
+  ],
+  "peak_median": 6280.5,
+  "peak_of_median_curve": 6360.0,
+  "shaded_window": [
+   4500,
+   12000
+  ],
+  "passes": 20,
+  "peak_minus_t90_median": -3927.5
+ },
+ "1x4": {
+  "n": 20,
+  "band_median": [
+   2071.0,
+   10479.0
+  ],
+  "peak_median": 6280.5,
+  "peak_of_median_curve": 6360.0,
+  "shaded_window": [
+   4500,
+   12000
+  ],
+  "passes": 20,
+  "peak_minus_t90_median": -3927.5
+ }
+}

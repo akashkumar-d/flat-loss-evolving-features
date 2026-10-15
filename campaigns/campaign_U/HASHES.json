@@ -1,0 +1,25 @@
+{
+ "campaign": "U",
+ "note": "SHA-256 of the campaign files; the worker selftest and push_U.sh check them",
+ "files": {
+  "worker.py": "847c2ab3f0d6424bb41f7a9392d0d3661c9ff14c3ff05671d8b976ec07d40fb6",
+  "tf_runner.py": "8a1e067c84fb024519664ebedef5c6d4f12a917584175cc00966cdd0e4125411",
+  "campaign.json": "676be46b63fa3449556cf8c8e0c6b3eda44ed307e6ea0417d9c825232c6b1aa6",
+  "manifest.json": "ed931b5c15bb2431f353a4ee84c18c3a4c84e92f86ad8d5b355c8271b98c8981",
+  "make_manifest.py": "feabeb2f92cce70517cb91ac3582860a320b2d3c715f846497b7f6620b8d8765",
+  "tests/test_tf.py": "ad3e37fd391db883352f5fed24f44316efea8481ad30dd200b2618b64de8ff84"
+ },
+ "push": [
+  ".gitignore",
+  "HASHES.json",
+  "PLAN.md",
+  "README.md",
+  "WORKER.md",
+  "campaign.json",
+  "make_manifest.py",
+  "manifest.json",
+  "tests/test_tf.py",
+  "tf_runner.py",
+  "worker.py"
+ ]
+}

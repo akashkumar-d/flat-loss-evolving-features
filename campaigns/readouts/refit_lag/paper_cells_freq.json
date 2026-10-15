@@ -1,0 +1,42 @@
+{
+ "one block p=61 mf": {
+  "n": 10,
+  "K": 30,
+  "n_carried": 8.0,
+  "r2_top8": 0.1946629825349051,
+  "r2_rest": -0.7476368515681818,
+  "carried_outside_top8": 2.0
+ },
+ "one block p=89": {
+  "n": 10,
+  "K": 44,
+  "n_carried": 8.5,
+  "r2_top8": 0.42295234812500004,
+  "r2_rest": -0.6268740954166667,
+  "carried_outside_top8": 1.0
+ },
+ "one block p=113 (Fig 5)": {
+  "n": 10,
+  "K": 56,
+  "n_carried": 8.0,
+  "r2_top8": 0.51598705125,
+  "r2_rest": -0.44578444500000003,
+  "carried_outside_top8": 1.0
+ },
+ "one block p=149": {
+  "n": 10,
+  "K": 74,
+  "n_carried": 9.0,
+  "r2_top8": 0.570242075,
+  "r2_rest": -0.2662553477272727,
+  "carried_outside_top8": 1.0
+ },
+ "two blocks p=113 (Fig 15)": {
+  "n": 10,
+  "K": 56,
+  "n_carried": 9.0,
+  "r2_top8": 0.6309536,
+  "r2_rest": -0.471038384375,
+  "carried_outside_top8": 1.0
+ }
+}

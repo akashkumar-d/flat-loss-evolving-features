@@ -1,0 +1,28 @@
+run                                split        n_tr  n_m   fit   dip rise0.1    0.5    0.9             W     a0  q_all  bound  mis  final  CE chg  pass  why
+ZM_dev_f0.33_s1                    mirror_free  1227    0   120   541       -      -      -          None    nan    0.0    nan None  0.001   +nan%  -     ['final', 'no window']
+== ZM_dev_f0.33: 1 runs | pass strict 0/1, loose 0/1 | why {'share': 0, 'refit': 0, 'A_H': 0, 'fit': 0, 'final': 1, 'no window': 1, 'no fit': 0}
+
+ZM_dev_f0.55_s1                    mirror_free  2046    0   140   709    2040   3972   6436  (560, 15000)  0.027    1.0  1.000    0  0.996   +135%  S     []
+== ZM_dev_f0.55: 1 runs | pass strict 1/1, loose 1/1 | why {'share': 0, 'refit': 0, 'A_H': 0, 'fit': 0, 'final': 0, 'no window': 0, 'no fit': 0}
+
+ZM_f0.55_s11                       mirror_free  2046    0   160   713    1599   3768   6139  (560, 30000)  0.021    1.0  1.000    0  0.992   +159%  S     []
+ZM_f0.55_s12                       mirror_free  2046    0   140   726    1792   3924   6070  (580, 30000)  0.025    1.0  1.000    0  0.995   +141%  S     []
+ZM_f0.55_s13                       mirror_free  2046    0   160   685    3155   5928   9219  (540, 30000)  0.007    1.0  1.000    0  0.995   +118%  S     []
+ZM_f0.55_s14                       mirror_free  2046    0   140   744    1572   3673   6194  (560, 30000)  0.033    1.0  1.000    0  0.995   +166%  S     []
+ZM_f0.55_s15                       mirror_free  2046    0   160   734    1919   4125   6500  (560, 23220)  0.026    1.0  1.000    0  0.996   +145%  S     []
+== ZM_f0.55: 5 runs | pass strict 5/5, loose 5/5 | why {'share': 0, 'refit': 0, 'A_H': 0, 'fit': 0, 'final': 0, 'no window': 0, 'no fit': 0}
+
+ZP_P_p61_f0.33_lam_v0.45_s11       random       1227  801   120   731     135   2668   5046  (640, 13700)  0.318  0.727  0.727    0  0.995   +133%  -     ['share']
+ZP_P_p61_f0.33_lam_v0.45_s12       random       1227  811   120   735     122   2385   4558  (700, 12140)  0.334  0.707  0.707    0  0.998   +132%  -     ['share']
+ZP_P_p61_f0.33_lam_v0.45_s13       random       1227  800   120   703     142   3997   6627  (580, 14680)  0.298  0.753  0.753    0  0.995    +87%  S     []
+ZP_P_p61_f0.33_lam_v0.45_s14       random       1227  798   120   714     132   2802   4918  (640, 15100)  0.299  0.752  0.752    0  0.996   +102%  S     []
+ZP_P_p61_f0.33_lam_v0.45_s15       random       1227  816   120   747     127   4209   7320  (640, 24600)  0.299  0.751  0.751    0  0.995    +92%  S     []
+== ZP_random_f0.33: 5 runs | pass strict 3/5, loose 3/5 | why {'share': 2, 'refit': 0, 'A_H': 0, 'fit': 0, 'final': 0, 'no window': 0, 'no fit': 0}
+
+ZP_P_p61_f0.35_lam_v0.45_s11       random       1302  826   140   745     130   1445   3220   (600, 9840)  0.375  0.656  0.656    0  0.998    +87%  -     ['share']
+ZP_P_p61_f0.35_lam_v0.45_s12       random       1302  827   140   766     121   1478   3317  (600, 10320)  0.383  0.646  0.646    0  0.999    +95%  -     ['share']
+ZP_P_p61_f0.35_lam_v0.45_s13       random       1302  821   140   734     143   2979   5050  (580, 12800)  0.313  0.734  0.734    0  0.999    +85%  -     ['share']
+ZP_P_p61_f0.35_lam_v0.45_s14       random       1302  821   120   740     129   2000   3373   (660, 9940)  0.346  0.692  0.692    0  0.999    +70%  -     ['share']
+ZP_P_p61_f0.35_lam_v0.45_s15       random       1302  844   120   745     118   2020   3794  (620, 10760)  0.360  0.674  0.674    0  0.998    +90%  -     ['share']
+== ZP_random_f0.35: 5 runs | pass strict 0/5, loose 0/5 | why {'share': 5, 'refit': 0, 'A_H': 0, 'fit': 0, 'final': 0, 'no window': 0, 'no fit': 0}
+

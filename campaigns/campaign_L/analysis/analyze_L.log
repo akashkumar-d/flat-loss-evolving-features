@@ -1,0 +1,121 @@
+L_D3_p23_lv0.2000_lw0.015_s1       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.004 CE/logp 0.210
+L_D3_p23_lv0.2000_lw0.015_s2       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.004 CE/logp 0.208
+L_D3_p23_lv0.2000_lw0.015_s3       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.207
+L_D3_p23_lv0.2322_lw0.015_s1       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.279 || K: t10 30180 t90 68400 final 1.000 endpoint fail
+L_D3_p23_lv0.2322_lw0.015_s2       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.004 CE/logp 0.277 || K: t10 28160 t90 65540 final 0.991 endpoint fail
+L_D3_p23_lv0.2322_lw0.015_s3       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.004 CE/logp 0.278 || K: t10 23260 t90 55680 final 1.000 endpoint fail
+L_D3_p23_lv0.2322_lw0.025_s1       endpoint fail (share, final)          refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.509 || K: t10 24240 t90 88160 final 0.972 endpoint fail
+L_D3_p23_lv0.2322_lw0.025_s2       endpoint fail (share, final)          refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.509 || K: t10 24540 t90 112500 final 0.925 endpoint fail
+L_D3_p23_lv0.2322_lw0.025_s3       endpoint fail (share, final)          refit fail refit,held-out,final  | t10 None t90 None final 0.004 CE/logp 0.511 || K: t10 18020 t90 70860 final 0.972 endpoint fail
+L_D3_p23_lv0.2696_lw0.015_s1       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.351 || K: t10 31840 t90 75360 final 0.991 endpoint fail
+L_D3_p23_lv0.2696_lw0.015_s2       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.004 CE/logp 0.350 || K: t10 28520 t90 73460 final 1.000 endpoint fail
+L_D3_p23_lv0.2696_lw0.015_s3       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.351 || K: t10 23080 t90 70820 final 1.000 endpoint fail
+L_D3_p23_lv0.2696_lw0.025_s1       endpoint fail (share, final)          refit fail refit,held-out,final  | t10 None t90 None final 0.004 CE/logp 0.569 || K: t10 26120 t90 92740 final 0.925 endpoint fail
+L_D3_p23_lv0.2696_lw0.025_s2       endpoint fail (share, final)          refit fail refit,held-out,final  | t10 None t90 None final 0.004 CE/logp 0.569 || K: t10 26620 t90 106460 final 0.925 endpoint fail
+L_D3_p23_lv0.2696_lw0.025_s3       endpoint fail (share, final)          refit fail refit,held-out,final  | t10 None t90 None final 0.008 CE/logp 0.569 || K: t10 20000 t90 82900 final 0.953 endpoint fail
+L_D4_p23_lv0.2000_lw0.015_s1       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.249
+L_D4_p23_lv0.2000_lw0.015_s2       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.248
+L_D4_p23_lv0.2000_lw0.015_s3       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.249
+L_D4_p23_lv0.2322_lw0.015_s1       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.321 || K: t10 35260 t90 89300 final 0.991 endpoint fail
+L_D4_p23_lv0.2322_lw0.015_s2       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.320 || K: t10 33560 t90 89460 final 0.972 endpoint fail
+L_D4_p23_lv0.2322_lw0.015_s3       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.322 || K: t10 27980 t90 74760 final 0.991 endpoint fail
+L_D4_p23_lv0.2322_lw0.025_s1       endpoint fail (share, final, F02, fit) refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.549 || K: t10 26320 t90 103360 final 0.925 endpoint fail
+L_D4_p23_lv0.2322_lw0.025_s2       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.548 || K: t10 28020 t90 107520 final 0.915 endpoint fail
+L_D4_p23_lv0.2322_lw0.025_s3       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.550 || K: t10 25100 t90 87420 final 0.991 endpoint fail
+L_D4_p23_lv0.2696_lw0.015_s1       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.004 CE/logp 0.393 || K: t10 38860 t90 97780 final 0.962 endpoint fail
+L_D4_p23_lv0.2696_lw0.015_s2       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.393 || K: t10 34000 t90 114480 final 0.934 endpoint fail
+L_D4_p23_lv0.2696_lw0.015_s3       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.396 || K: t10 29520 t90 76240 final 1.000 endpoint fail
+L_D4_p23_lv0.2696_lw0.025_s1       endpoint fail (share, final, F02, fit) refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.602 || K: t10 30060 t90 None final 0.887 endpoint fail
+L_D4_p23_lv0.2696_lw0.025_s2       endpoint fail (share, final, F02)     refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.602 || K: t10 24520 t90 None final 0.830 endpoint fail
+L_D4_p23_lv0.2696_lw0.025_s3       endpoint fail (share, final)          refit fail refit,held-out,final  | t10 None t90 None final 0.000 CE/logp 0.605 || K: t10 26160 t90 96800 final 0.972 endpoint fail
+L_D3_p47_lv0.2000_lw0.015_s1       endpoint fail (share, final, fit)     refit fail final  | t10 68980 t90 155820 final 0.982 CE/logp 0.715
+L_D3_p47_lv0.2000_lw0.015_s2       endpoint fail (share, final, fit)     refit fail final  | t10 64300 t90 151600 final 0.957 CE/logp 0.713
+L_D3_p47_lv0.2000_lw0.015_s3       endpoint fail (share, final, fit)     refit fail final  | t10 71540 t90 180320 final 0.967 CE/logp 0.717
+L_D3_p47_lv0.1624_lw0.015_s1       endpoint fail (share)                 refit PASS (pass3) | t10 64640 t90 127500 final 0.995 CE/logp 0.655 || K: t10 14540 t90 20760 final 1.000 endpoint fail
+L_D3_p47_lv0.1624_lw0.015_s2       endpoint fail (share, final, fit)     refit fail final  | t10 61220 t90 126080 final 0.973 CE/logp 0.653 || K: t10 14380 t90 19480 final 1.000 endpoint fail
+L_D3_p47_lv0.1624_lw0.015_s3       endpoint fail (share, fit)            refit PASS (pass3) | t10 66940 t90 153700 final 0.994 CE/logp 0.656 || K: t10 14340 t90 21140 final 1.000 endpoint fail
+L_D3_p47_lv0.1624_lw0.025_s1       endpoint fail (share, final, fit)     refit fail final  | t10 52780 t90 182040 final 0.943 CE/logp 0.775 || K: t10 11660 t90 17180 final 1.000 endpoint fail
+L_D3_p47_lv0.1624_lw0.025_s2       endpoint fail (share, final, fit)     refit fail final  | t10 56320 t90 249680 final 0.900 CE/logp 0.776 || K: t10 11580 t90 15660 final 0.998 endpoint fail
+L_D3_p47_lv0.1624_lw0.025_s3       endpoint fail (share, final, fit)     refit fail final  | t10 55740 t90 None final 0.888 CE/logp 0.776 || K: t10 11720 t90 17120 final 1.000 endpoint fail
+L_D3_p47_lv0.1319_lw0.015_s1       endpoint fail (share)                 refit PASS (pass3) | t10 59080 t90 109880 final 1.000 CE/logp 0.583 || K: t10 14540 t90 20080 final 1.000 endpoint fail
+L_D3_p47_lv0.1319_lw0.015_s2       endpoint fail (share, final, fit)     refit fail final  | t10 59340 t90 115200 final 0.986 CE/logp 0.579 || K: t10 14320 t90 18880 final 1.000 endpoint fail
+L_D3_p47_lv0.1319_lw0.015_s3       endpoint fail (share)                 refit PASS (pass3) | t10 62440 t90 124380 final 1.000 CE/logp 0.585 || K: t10 14300 t90 20260 final 1.000 endpoint fail
+L_D3_p47_lv0.1319_lw0.025_s1       endpoint fail (share, final, fit)     refit fail final  | t10 52180 t90 144420 final 0.985 CE/logp 0.727 || K: t10 11760 t90 16800 final 1.000 endpoint fail
+L_D3_p47_lv0.1319_lw0.025_s2       endpoint fail (share, final, fit)     refit fail final  | t10 53820 t90 164920 final 0.948 CE/logp 0.727 || K: t10 11420 t90 15400 final 1.000 endpoint fail
+L_D3_p47_lv0.1319_lw0.025_s3       endpoint fail (share, final, fit)     refit fail final  | t10 53800 t90 177100 final 0.953 CE/logp 0.729 || K: t10 11800 t90 16440 final 1.000 endpoint fail
+L_D4_p47_lv0.2000_lw0.015_s1       endpoint fail (share, final, fit)     refit fail refit,final  | t10 97680 t90 181820 final 0.985 CE/logp 0.751
+L_D4_p47_lv0.2000_lw0.015_s2       endpoint fail (share, final, fit)     refit fail refit,final  | t10 106340 t90 196700 final 0.963 CE/logp 0.751
+L_D4_p47_lv0.2000_lw0.015_s3       endpoint fail (share, final, fit)     refit fail refit,final  | t10 112260 t90 197300 final 0.982 CE/logp 0.755
+L_D4_p47_lv0.1624_lw0.015_s1       endpoint fail (share, fit)            refit fail refit  | t10 96740 t90 176600 final 0.995 CE/logp 0.698 || K: t10 18400 t90 26560 final 1.000 endpoint PASS
+L_D4_p47_lv0.1624_lw0.015_s2       endpoint fail (share, final, fit)     refit fail refit,final  | t10 104160 t90 177960 final 0.971 CE/logp 0.699 || K: t10 20040 t90 28100 final 1.000 endpoint PASS
+L_D4_p47_lv0.1624_lw0.015_s3       endpoint fail (share, fit)            refit fail refit  | t10 106860 t90 188280 final 0.996 CE/logp 0.702 || K: t10 19120 t90 28520 final 1.000 endpoint PASS
+L_D4_p47_lv0.1624_lw0.025_s1       endpoint fail (share, final, fit)     refit fail final  | t10 80700 t90 210180 final 0.953 CE/logp 0.808 || K: t10 15300 t90 22560 final 1.000 endpoint fail
+L_D4_p47_lv0.1624_lw0.025_s2       endpoint fail (share, final, fit)     refit fail refit,final  | t10 101940 t90 231840 final 0.925 CE/logp 0.810 || K: t10 16560 t90 23580 final 1.000 endpoint fail
+L_D4_p47_lv0.1624_lw0.025_s3       endpoint fail (share, final, fit)     refit fail refit,final  | t10 93800 t90 None final 0.891 CE/logp 0.811 || K: t10 16040 t90 24600 final 1.000 endpoint fail
+L_D4_p47_lv0.1319_lw0.015_s1       endpoint fail (share, fit)            refit fail refit  | t10 89060 t90 150240 final 1.000 CE/logp 0.634 || K: t10 17720 t90 25060 final 1.000 endpoint PASS
+L_D4_p47_lv0.1319_lw0.015_s2       endpoint fail (share, fit)            refit fail refit  | t10 97440 t90 157560 final 0.991 CE/logp 0.637 || K: t10 20320 t90 26940 final 1.000 endpoint PASS
+L_D4_p47_lv0.1319_lw0.015_s3       endpoint fail (share, fit)            refit fail refit  | t10 95520 t90 162920 final 0.999 CE/logp 0.640 || K: t10 18980 t90 28360 final 1.000 endpoint PASS
+L_D4_p47_lv0.1319_lw0.025_s1       endpoint fail (share, final, fit)     refit fail final  | t10 77840 t90 176840 final 0.981 CE/logp 0.766 || K: t10 14920 t90 22540 final 1.000 endpoint fail
+L_D4_p47_lv0.1319_lw0.025_s2       endpoint fail (share, final, fit)     refit fail refit,final  | t10 86720 t90 201840 final 0.945 CE/logp 0.768 || K: t10 15940 t90 21960 final 1.000 endpoint fail
+L_D4_p47_lv0.1319_lw0.025_s3       endpoint fail (share, final, fit)     refit fail refit,final  | t10 83120 t90 199560 final 0.970 CE/logp 0.769 || K: t10 15840 t90 22660 final 1.000 endpoint fail
+L_D3_p61_lv0.2000_lw0.015_s1       endpoint fail (share, final, fit)     refit fail final  | t10 52380 t90 149220 final 0.953 CE/logp 0.816
+L_D3_p61_lv0.2000_lw0.015_s2       endpoint fail (share, final, fit)     refit fail final  | t10 60000 t90 115400 final 0.987 CE/logp 0.819
+L_D3_p61_lv0.2000_lw0.015_s3       endpoint fail (share, final, fit)     refit fail final  | t10 56260 t90 164420 final 0.930 CE/logp 0.814
+L_D3_p61_lv0.1426_lw0.015_s1       endpoint fail (share, fit)            refit PASS  | t10 47620 t90 94020 final 0.995 CE/logp 0.745 || K: t10 13800 t90 19480 final 1.000 endpoint fail
+L_D3_p61_lv0.1426_lw0.015_s2       endpoint fail (share, fit)            refit PASS (pass3) | t10 57420 t90 92200 final 0.996 CE/logp 0.749 || K: t10 14120 t90 18680 final 1.000 endpoint fail
+L_D3_p61_lv0.1426_lw0.015_s3       endpoint fail (share, final, fit)     refit fail final  | t10 50880 t90 104860 final 0.984 CE/logp 0.744 || K: t10 13380 t90 17820 final 1.000 endpoint fail
+L_D3_p61_lv0.1426_lw0.025_s1       endpoint fail (share, final, fit)     refit fail final  | t10 41160 t90 171100 final 0.925 CE/logp 0.834 || K: t10 11200 t90 14980 final 1.000 endpoint fail
+L_D3_p61_lv0.1426_lw0.025_s2       endpoint fail (share, final, fit)     refit fail final  | t10 47180 t90 93440 final 0.983 CE/logp 0.840 || K: t10 11240 t90 14920 final 1.000 endpoint fail
+L_D3_p61_lv0.1426_lw0.025_s3       endpoint fail (share, final, fit)     refit fail final  | t10 43800 t90 242460 final 0.903 CE/logp 0.834 || K: t10 11000 t90 14380 final 1.000 endpoint fail
+L_D3_p61_lv0.1016_lw0.015_s1       endpoint fail (share, fit)            refit PASS (pass3) | t10 47080 t90 76440 final 0.998 CE/logp 0.652 || K: t10 14000 t90 18080 final 1.000 endpoint fail
+L_D3_p61_lv0.1016_lw0.015_s2       endpoint fail (share, fit)            refit PASS (pass3) | t10 48960 t90 76220 final 0.999 CE/logp 0.655 || K: t10 13740 t90 17440 final 1.000 endpoint fail
+L_D3_p61_lv0.1016_lw0.015_s3       endpoint fail (share, fit)            refit PASS (pass3) | t10 45560 t90 77520 final 0.999 CE/logp 0.651 || K: t10 13600 t90 17720 final 1.000 endpoint fail
+L_D3_p61_lv0.1016_lw0.025_s1       endpoint fail (share, final, fit)     refit fail final  | t10 38360 t90 92480 final 0.987 CE/logp 0.771 || K: t10 11300 t90 14800 final 1.000 endpoint fail
+L_D3_p61_lv0.1016_lw0.025_s2       endpoint fail (share, fit)            refit PASS  | t10 47120 t90 84900 final 0.996 CE/logp 0.780 || K: t10 10900 t90 13720 final 1.000 endpoint fail
+L_D3_p61_lv0.1016_lw0.025_s3       endpoint fail (share, final, fit)     refit fail final  | t10 38620 t90 103880 final 0.974 CE/logp 0.770 || K: t10 10820 t90 13900 final 1.000 endpoint fail
+L_D4_p61_lv0.2000_lw0.015_s1       endpoint fail (share, final, fit)     refit fail refit,final  | t10 77540 t90 171400 final 0.970 CE/logp 0.841
+L_D4_p61_lv0.2000_lw0.015_s2       endpoint fail (share, final, fit)     refit fail final  | t10 82720 t90 143300 final 0.987 CE/logp 0.842
+L_D4_p61_lv0.2000_lw0.015_s3       endpoint fail (share, final, fit)     refit fail refit,final  | t10 76900 t90 197020 final 0.937 CE/logp 0.841
+L_D4_p61_lv0.1426_lw0.015_s1       endpoint fail (share, fit)            refit fail refit  | t10 76120 t90 137820 final 0.997 CE/logp 0.780 || K: t10 17400 t90 23900 final 1.000 endpoint fail
+L_D4_p61_lv0.1426_lw0.015_s2       endpoint fail (share, fit)            refit fail refit  | t10 82280 t90 129140 final 1.000 CE/logp 0.782 || K: t10 18660 t90 25180 final 1.000 endpoint fail
+L_D4_p61_lv0.1426_lw0.015_s3       endpoint fail (share, final, fit)     refit fail refit,final  | t10 78000 t90 149060 final 0.987 CE/logp 0.782 || K: t10 17880 t90 24400 final 1.000 endpoint fail
+L_D4_p61_lv0.1426_lw0.025_s1       endpoint fail (share, final, fit)     refit fail final  | t10 63200 t90 233560 final 0.907 CE/logp 0.860 || K: t10 14320 t90 18780 final 1.000 endpoint fail
+L_D4_p61_lv0.1426_lw0.025_s2       endpoint fail (share, final, fit)     refit fail final  | t10 82940 t90 152120 final 0.976 CE/logp 0.864 || K: t10 14420 t90 20940 final 1.000 endpoint fail
+L_D4_p61_lv0.1426_lw0.025_s3       endpoint fail (share, final, fit)     refit fail final  | t10 69680 t90 None final 0.884 CE/logp 0.861 || K: t10 14860 t90 20160 final 1.000 endpoint fail
+L_D4_p61_lv0.1016_lw0.015_s1       endpoint fail (share, fit)            refit fail refit  | t10 65100 t90 108240 final 1.000 CE/logp 0.699 || K: t10 17460 t90 23480 final 1.000 endpoint fail
+L_D4_p61_lv0.1016_lw0.015_s2       endpoint fail (share, fit)            refit fail refit  | t10 79400 t90 116820 final 1.000 CE/logp 0.703 || K: t10 18280 t90 24780 final 1.000 endpoint fail
+L_D4_p61_lv0.1016_lw0.015_s3       endpoint fail (share, fit)            refit fail refit  | t10 70960 t90 115520 final 0.999 CE/logp 0.700 || K: t10 17820 t90 24040 final 1.000 endpoint fail
+L_D4_p61_lv0.1016_lw0.025_s1       endpoint fail (share, final, fit)     refit fail final  | t10 60320 t90 128020 final 0.970 CE/logp 0.806 || K: t10 13680 t90 18280 final 1.000 endpoint fail
+L_D4_p61_lv0.1016_lw0.025_s2       endpoint fail (share, fit)            refit fail refit  | t10 65940 t90 112060 final 0.995 CE/logp 0.809 || K: t10 15140 t90 20840 final 1.000 endpoint fail
+L_D4_p61_lv0.1016_lw0.025_s3       endpoint fail (share, final, fit)     refit fail refit,final  | t10 62780 t90 163940 final 0.949 CE/logp 0.809 || K: t10 14740 t90 19860 final 1.000 endpoint fail
+L_D3_p101_lv0.2000_lw0.015_s1      endpoint fail (share, final, fit)     refit fail final  | t10 52260 t90 None final 0.899 CE/logp 0.927
+L_D3_p101_lv0.2000_lw0.015_s2      endpoint fail (share, final, fit)     refit fail final  | t10 50920 t90 122760 final 0.942 CE/logp 0.926
+L_D3_p101_lv0.2000_lw0.015_s3      endpoint fail (share, final, fit)     refit fail final  | t10 52240 t90 154760 final 0.945 CE/logp 0.926
+L_D3_p101_lv0.1108_lw0.015_s1      endpoint fail (share, final, fit)     refit fail final  | t10 52540 t90 93040 final 0.980 CE/logp 0.871 || K: t10 13420 t90 18400 final 0.999 endpoint fail
+L_D3_p101_lv0.1108_lw0.015_s2      endpoint fail (share, fit)            refit PASS  | t10 48160 t90 79580 final 0.990 CE/logp 0.869 || K: t10 12840 t90 17120 final 1.000 endpoint fail
+L_D3_p101_lv0.1108_lw0.015_s3      endpoint fail (share, fit)            refit PASS  | t10 42200 t90 69840 final 0.996 CE/logp 0.867 || K: t10 13100 t90 17440 final 1.000 endpoint fail
+L_D3_p101_lv0.1108_lw0.025_s1      endpoint fail (share, final, fit)     refit fail final  | t10 43000 t90 None final 0.899 CE/logp 0.917 || K: t10 10700 t90 14360 final 0.999 endpoint fail
+L_D3_p101_lv0.1108_lw0.025_s2      endpoint fail (share, final, fit)     refit fail final  | t10 40560 t90 76060 final 0.955 CE/logp 0.916 || K: t10 10160 t90 12920 final 0.999 endpoint fail
+L_D3_p101_lv0.1108_lw0.025_s3      endpoint fail (share, final, fit)     refit fail final  | t10 36740 t90 72760 final 0.954 CE/logp 0.914 || K: t10 10480 t90 13860 final 0.994 endpoint fail
+L_D3_p101_lv0.0614_lw0.015_s1      endpoint fail (share, fit)            refit fail refit  | t10 49760 t90 73340 final 0.998 CE/logp 0.776 || K: t10 13440 t90 17580 final 1.000 endpoint fail
+L_D3_p101_lv0.0614_lw0.015_s2      endpoint fail (share, fit)            refit fail refit  | t10 42280 t90 62660 final 0.999 CE/logp 0.772 || K: t10 13260 t90 16640 final 1.000 endpoint fail
+L_D3_p101_lv0.0614_lw0.015_s3      endpoint fail (share, fit)            refit fail refit  | t10 39200 t90 59400 final 1.000 CE/logp 0.767 || K: t10 13440 t90 17220 final 1.000 endpoint fail
+L_D3_p101_lv0.0614_lw0.025_s1      endpoint fail (share, final, fit)     refit fail final  | t10 39580 t90 69680 final 0.978 CE/logp 0.853 || K: t10 10740 t90 13740 final 1.000 endpoint fail
+L_D3_p101_lv0.0614_lw0.025_s2      endpoint fail (share, fit)            refit PASS  | t10 36440 t90 57540 final 0.994 CE/logp 0.850 || K: t10 10460 t90 12940 final 1.000 endpoint fail
+L_D3_p101_lv0.0614_lw0.025_s3      endpoint fail (share, fit)            refit PASS  | t10 34120 t90 51800 final 0.996 CE/logp 0.848 || K: t10 10820 t90 13380 final 1.000 endpoint fail
+L_D4_p101_lv0.2000_lw0.015_s1      endpoint fail (share, final, fit)     refit fail final  | t10 74480 t90 None final 0.798 CE/logp 0.937
+L_D4_p101_lv0.2000_lw0.015_s2      endpoint fail (share, final, fit)     refit fail final  | t10 88440 t90 None final 0.877 CE/logp 0.938
+L_D4_p101_lv0.2000_lw0.015_s3      endpoint fail (share, final, fit)     refit fail final  | t10 76580 t90 None final 0.854 CE/logp 0.938
+L_D4_p101_lv0.1108_lw0.015_s1      endpoint fail (share, final, fit)     refit fail refit,final  | t10 70740 t90 157560 final 0.933 CE/logp 0.888 || K: t10 16020 t90 23160 final 0.993 endpoint fail
+L_D4_p101_lv0.1108_lw0.015_s2      endpoint fail (share, final, fit)     refit fail refit,final  | t10 83640 t90 132340 final 0.974 CE/logp 0.891 || K: t10 16440 t90 22560 final 0.999 endpoint fail
+L_D4_p101_lv0.1108_lw0.015_s3      endpoint fail (share, final, fit)     refit fail refit,final  | t10 65200 t90 118060 final 0.973 CE/logp 0.889 || K: t10 16320 t90 23020 final 0.995 endpoint fail
+L_D4_p101_lv0.1108_lw0.025_s1      endpoint fail (share, final, fit)     refit fail final  | t10 61320 t90 None final 0.846 CE/logp 0.929 || K: t10 13280 t90 18620 final 0.997 endpoint fail
+L_D4_p101_lv0.1108_lw0.025_s2      endpoint fail (share, final, fit)     refit fail final  | t10 65340 t90 205020 final 0.908 CE/logp 0.931 || K: t10 12920 t90 17720 final 1.000 endpoint fail
+L_D4_p101_lv0.1108_lw0.025_s3      endpoint fail (share, final, fit)     refit fail final  | t10 64900 t90 None final 0.884 CE/logp 0.931 || K: t10 13840 t90 19300 final 0.996 endpoint fail
+L_D4_p101_lv0.0614_lw0.015_s1      endpoint fail (share, fit)            refit fail refit  | t10 58500 t90 95100 final 0.993 CE/logp 0.806 || K: t10 16460 t90 21440 final 0.998 endpoint fail
+L_D4_p101_lv0.0614_lw0.015_s2      endpoint fail (share, fit)            refit fail refit  | t10 65800 t90 93480 final 0.998 CE/logp 0.807 || K: t10 16620 t90 21360 final 1.000 endpoint fail
+L_D4_p101_lv0.0614_lw0.015_s3      endpoint fail (share, fit)            refit fail refit  | t10 66160 t90 96860 final 0.999 CE/logp 0.807 || K: t10 17140 t90 22020 final 1.000 endpoint fail
+L_D4_p101_lv0.0614_lw0.025_s1      endpoint fail (share, final, fit)     refit fail final  | t10 51760 t90 92480 final 0.985 CE/logp 0.874 || K: t10 13120 t90 16920 final 0.999 endpoint fail
+L_D4_p101_lv0.0614_lw0.025_s2      endpoint fail (share, final, fit)     refit fail refit,final  | t10 63100 t90 100840 final 0.982 CE/logp 0.879 || K: t10 13440 t90 16980 final 0.999 endpoint fail
+L_D4_p101_lv0.0614_lw0.025_s3      endpoint fail (share, final, fit)     refit fail refit,final  | t10 53900 t90 89980 final 0.988 CE/logp 0.875 || K: t10 14100 t90 18260 final 1.000 endpoint fail
+states: {'finished': 120, 'running': 0, 'not started': 0}

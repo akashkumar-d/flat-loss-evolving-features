@@ -1,0 +1,72 @@
+{
+ "window": [
+  4500,
+  12000
+ ],
+ "n_runs": 20,
+ "peak": [
+  6167.0,
+  6280.5,
+  6727.0
+ ],
+ "rise_to_peak_pct": [
+  6.325176941575439,
+  7.05232602203536,
+  7.806734906269508
+ ],
+ "fall_after_peak_pct": [
+  -4.560281816348333,
+  -3.1352506146957113,
+  -1.669208461705185
+ ],
+ "end_vs_start_pct": [
+  2.569274742369543,
+  3.7095395556986377,
+  5.088009110627456
+ ],
+ "refit_at_4500": [
+  0.05181347150259067,
+  0.10880829015544041,
+  0.16580310880829016
+ ],
+ "refit_at_6000": [
+  0.7150259067357513,
+  0.8238341968911918,
+  0.8911917098445595
+ ],
+ "heldout_at_peak": [
+  0.0,
+  0.0025906735751295338,
+  0.05699481865284974
+ ],
+ "AH_gain_fraction_before_peak": [
+  0.2517734583516461,
+  0.28086805015237853,
+  0.3947360569085493
+ ],
+ "t10": [
+  6920.0,
+  7116.5,
+  7331.0
+ ],
+ "t90": [
+  9631.0,
+  10222.5,
+  11665.0
+ ],
+ "cycle_mean_change_t10_to_t90_pct": [
+  -3.4064814907544205,
+  -2.2527164584405734,
+  -1.5087409618678826
+ ],
+ "peak_before_t10_all": true,
+ "definitions": {
+  "peak": "argmax of the cycle mean Lbar on [t0, t1)",
+  "rise_to_peak_pct": "100 (Lbar(peak) / Lbar(t0) - 1)",
+  "fall_after_peak_pct": "100 (Lbar(t1 - 1) / Lbar(peak) - 1)",
+  "end_vs_start_pct": "100 (L(t1) / L(t0) - 1), raw CE",
+  "AH_gain_fraction_before_peak": "(A_H(peak) - A_H(t0)) / (A_H(t1) - A_H(t0)), linear interpolation",
+  "t10_t90": "first update > t0 with held-out accuracy >= 0.1 / 0.9",
+  "cycle_mean_change_t10_to_t90_pct": "100 (Lbar(t90) / Lbar(t10) - 1)"
+ }
+}

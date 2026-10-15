@@ -1,0 +1,79 @@
+{
+ "p23_D3": {
+  "p": 23,
+  "depth": 3,
+  "complete": true,
+  "selected": null,
+  "decided_by": null,
+  "dial": null,
+  "note": "no development run passes"
+ },
+ "p23_D4": {
+  "p": 23,
+  "depth": 4,
+  "complete": true,
+  "selected": null,
+  "decided_by": null,
+  "dial": null,
+  "note": "no development run passes"
+ },
+ "p47_D3": {
+  "p": 47,
+  "depth": 3,
+  "complete": true,
+  "selected": null,
+  "decided_by": null,
+  "dial": null,
+  "note": "no development run passes"
+ },
+ "p47_D4": {
+  "p": 47,
+  "depth": 4,
+  "complete": true,
+  "selected": "K_D4_p47_lv0.1624_lw0.015",
+  "decided_by": "min share",
+  "dial": {
+   "lam_v": 0.1624,
+   "lam_v_rule": "sqrt",
+   "lam_w": 0.015,
+   "r": 0.45
+  },
+  "note": null
+ },
+ "p61_D3": {
+  "p": 61,
+  "depth": 3,
+  "complete": true,
+  "selected": null,
+  "decided_by": null,
+  "dial": null,
+  "note": "no development run passes"
+ },
+ "p61_D4": {
+  "p": 61,
+  "depth": 4,
+  "complete": true,
+  "selected": null,
+  "decided_by": null,
+  "dial": null,
+  "note": "no development run passes"
+ },
+ "p101_D3": {
+  "p": 101,
+  "depth": 3,
+  "complete": true,
+  "selected": null,
+  "decided_by": null,
+  "dial": null,
+  "note": "no development run passes"
+ },
+ "p101_D4": {
+  "p": 101,
+  "depth": 4,
+  "complete": true,
+  "selected": null,
+  "decided_by": null,
+  "dial": null,
+  "note": "no development run passes"
+ }
+}

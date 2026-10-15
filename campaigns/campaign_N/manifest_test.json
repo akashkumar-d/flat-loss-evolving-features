@@ -1,0 +1,512 @@
+{
+ "campaign": "N",
+ "stage": "confirmation on fresh seeds (deep networks across p and training fraction)",
+ "version": "1.0-test",
+ "author": "claude/1hl-figures",
+ "created": "2026-10-12",
+ "workers": [
+  "N1",
+  "N2",
+  "N3",
+  "N4",
+  "N5",
+  "N6",
+  "N7",
+  "N8",
+  "N9",
+  "N10",
+  "N11",
+  "N12",
+  "N13",
+  "N14",
+  "N15",
+  "N16"
+ ],
+ "cores_per_worker": 4,
+ "plan": "PLAN.md",
+ "runner": "bias_runner.py",
+ "runs": [
+  {
+   "id": "N_D3_p47_f0.8_r0.45_s1",
+   "setting": "N_D3_p47_f0.8_r0.45",
+   "family": "D3",
+   "depth": 3,
+   "p": 47,
+   "seed": 1,
+   "init_seed": 9001,
+   "split_seed": 9501,
+   "kind": "one",
+   "threads": 1,
+   "dial": {
+    "frac": 0.8,
+    "r": 0.45,
+    "lam_v": 0.1319,
+    "lam_v_rule": "lin",
+    "lam_w": 0.015
+   },
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.1319,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 11,
+    "depth": 3,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 300,
+    "heavy_every": 100,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07
+    ],
+    "init_seed": 9001,
+    "split_seed": 9501
+   },
+   "est_core_hours": 0.018,
+   "worker": "N3",
+   "order": 0
+  },
+  {
+   "id": "N_D3_p47_f0.8_r0.45_s2",
+   "setting": "N_D3_p47_f0.8_r0.45",
+   "family": "D3",
+   "depth": 3,
+   "p": 47,
+   "seed": 2,
+   "init_seed": 9002,
+   "split_seed": 9502,
+   "kind": "one",
+   "threads": 1,
+   "dial": {
+    "frac": 0.8,
+    "r": 0.45,
+    "lam_v": 0.1319,
+    "lam_v_rule": "lin",
+    "lam_w": 0.015
+   },
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.1319,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 11,
+    "depth": 3,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 300,
+    "heavy_every": 100,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07
+    ],
+    "init_seed": 9002,
+    "split_seed": 9502
+   },
+   "est_core_hours": 0.018,
+   "worker": "N4",
+   "order": 0
+  },
+  {
+   "id": "N_D3_p47_f0.5_r0.08_s1",
+   "setting": "N_D3_p47_f0.5_r0.08",
+   "family": "D3",
+   "depth": 3,
+   "p": 47,
+   "seed": 1,
+   "init_seed": 9001,
+   "split_seed": 9501,
+   "kind": "one",
+   "threads": 1,
+   "dial": {
+    "frac": 0.5,
+    "r": 0.08,
+    "lam_v": 0.1319,
+    "lam_v_rule": "lin",
+    "lam_w": 0.015
+   },
+   "cfg": {
+    "frac": 0.5,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.1319,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 11,
+    "depth": 3,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 300,
+    "heavy_every": 100,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.0005142857142857142
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07
+    ],
+    "init_seed": 9001,
+    "split_seed": 9501
+   },
+   "est_core_hours": 0.018,
+   "worker": "N1",
+   "order": 0
+  },
+  {
+   "id": "N_D3_p47_f0.5_r0.08_s2",
+   "setting": "N_D3_p47_f0.5_r0.08",
+   "family": "D3",
+   "depth": 3,
+   "p": 47,
+   "seed": 2,
+   "init_seed": 9002,
+   "split_seed": 9502,
+   "kind": "one",
+   "threads": 1,
+   "dial": {
+    "frac": 0.5,
+    "r": 0.08,
+    "lam_v": 0.1319,
+    "lam_v_rule": "lin",
+    "lam_w": 0.015
+   },
+   "cfg": {
+    "frac": 0.5,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.1319,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 11,
+    "depth": 3,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 300,
+    "heavy_every": 100,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.0005142857142857142
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07
+    ],
+    "init_seed": 9002,
+    "split_seed": 9502
+   },
+   "est_core_hours": 0.018,
+   "worker": "N2",
+   "order": 0
+  },
+  {
+   "id": "N_D4_p47_f0.8_r0.45_s1",
+   "setting": "N_D4_p47_f0.8_r0.45",
+   "family": "D4",
+   "depth": 4,
+   "p": 47,
+   "seed": 1,
+   "init_seed": 9001,
+   "split_seed": 9501,
+   "kind": "one",
+   "threads": 1,
+   "dial": {
+    "frac": 0.8,
+    "r": 0.45,
+    "lam_v": 0.1319,
+    "lam_v_rule": "lin",
+    "lam_w": 0.015
+   },
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.1319,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 11,
+    "depth": 4,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 300,
+    "heavy_every": 100,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07,
+     0.07
+    ],
+    "init_seed": 9001,
+    "split_seed": 9501
+   },
+   "est_core_hours": 0.018,
+   "worker": "N7",
+   "order": 0
+  },
+  {
+   "id": "N_D4_p47_f0.8_r0.45_s2",
+   "setting": "N_D4_p47_f0.8_r0.45",
+   "family": "D4",
+   "depth": 4,
+   "p": 47,
+   "seed": 2,
+   "init_seed": 9002,
+   "split_seed": 9502,
+   "kind": "one",
+   "threads": 1,
+   "dial": {
+    "frac": 0.8,
+    "r": 0.45,
+    "lam_v": 0.1319,
+    "lam_v_rule": "lin",
+    "lam_w": 0.015
+   },
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.1319,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 11,
+    "depth": 4,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 300,
+    "heavy_every": 100,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07,
+     0.07
+    ],
+    "init_seed": 9002,
+    "split_seed": 9502
+   },
+   "est_core_hours": 0.018,
+   "worker": "N8",
+   "order": 0
+  },
+  {
+   "id": "N_D4_p47_f0.5_r0.06_s1",
+   "setting": "N_D4_p47_f0.5_r0.06",
+   "family": "D4",
+   "depth": 4,
+   "p": 47,
+   "seed": 1,
+   "init_seed": 9001,
+   "split_seed": 9501,
+   "kind": "one",
+   "threads": 1,
+   "dial": {
+    "frac": 0.5,
+    "r": 0.06,
+    "lam_v": 0.1319,
+    "lam_v_rule": "lin",
+    "lam_w": 0.015
+   },
+   "cfg": {
+    "frac": 0.5,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.1319,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 11,
+    "depth": 4,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 300,
+    "heavy_every": 100,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.006428571428571428,
+     0.0003857142857142856
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07,
+     0.07
+    ],
+    "init_seed": 9001,
+    "split_seed": 9501
+   },
+   "est_core_hours": 0.018,
+   "worker": "N5",
+   "order": 0
+  },
+  {
+   "id": "N_D4_p47_f0.5_r0.06_s2",
+   "setting": "N_D4_p47_f0.5_r0.06",
+   "family": "D4",
+   "depth": 4,
+   "p": 47,
+   "seed": 2,
+   "init_seed": 9002,
+   "split_seed": 9502,
+   "kind": "one",
+   "threads": 1,
+   "dial": {
+    "frac": 0.5,
+    "r": 0.06,
+    "lam_v": 0.1319,
+    "lam_v_rule": "lin",
+    "lam_w": 0.015
+   },
+   "cfg": {
+    "frac": 0.5,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.1319,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 11,
+    "depth": 4,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 300,
+    "heavy_every": 100,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.006428571428571428,
+     0.0003857142857142856
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07,
+     0.07
+    ],
+    "init_seed": 9002,
+    "split_seed": 9502
+   },
+   "est_core_hours": 0.018,
+   "worker": "N6",
+   "order": 0
+  }
+ ],
+ "est_session_hours": {
+  "N1": 0.02,
+  "N2": 0.02,
+  "N3": 0.02,
+  "N4": 0.02,
+  "N5": 0.02,
+  "N6": 0.02,
+  "N7": 0.02,
+  "N8": 0.02,
+  "N9": 0.0,
+  "N10": 0.0,
+  "N11": 0.0,
+  "N12": 0.0,
+  "N13": 0.0,
+  "N14": 0.0,
+  "N15": 0.0,
+  "N16": 0.0
+ }
+}

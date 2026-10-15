@@ -1,0 +1,28 @@
+{
+ "campaign": "V",
+ "runner": "tf_runner.py",
+ "base_branch": "claude/focused-gauss-cy16t3",
+ "tests": "tests/test_tf.py",
+ "needs_torch": true,
+ "ckpt_suffix": ".ckpt.pt",
+ "selftest_cfg": {
+  "p": 11,
+  "frac": 0.5,
+  "n_layers": 2,
+  "d_model": 16,
+  "n_heads": 2,
+  "d_mlp": 32,
+  "optimizer": "polar",
+  "eta_w": 0.03,
+  "lam_w": 0.03,
+  "eta_v": 0.03,
+  "lam_v": 0.2,
+  "steps": 60,
+  "obs_every": 10,
+  "heavy_every": 30,
+  "init_seed": 1,
+  "split_seed": 2,
+  "final_norm": "rms",
+  "probe_every": 30
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "frac": 0.5,
+ "loss": "ce",
+ "eta_w": 0.03,
+ "eta_v": 0.03,
+ "init_scale": 24.0,
+ "obs_every": 20,
+ "lam_v": 0.1624,
+ "lam_w": 0.015,
+ "observers_v1": true,
+ "stop_generalized": {
+  "acc": 0.99,
+  "factor": 1.5,
+  "extra": 10000
+ },
+ "p": 47,
+ "depth": 3,
+ "width": 256,
+ "deep_init_scale": 8.0,
+ "lam_deep": 0.07,
+ "steps": 100000,
+ "heavy_every": 500,
+ "eta_layers": [
+  0.03,
+  0.006428571428571428,
+  0.0028928571428571423
+ ],
+ "lam_layers": [
+  0.015,
+  0.07,
+  0.07
+ ],
+ "init_seed": 7001,
+ "split_seed": 8001
+}

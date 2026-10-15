@@ -1,0 +1,242 @@
+{
+ "campaign": "T",
+ "stage": "development",
+ "version": "1.0-test",
+ "author": "claude/1hl-figures",
+ "created": "2026-10-07",
+ "workers": [
+  "T1",
+  "T2",
+  "T3",
+  "T4",
+  "T5",
+  "T6",
+  "T7",
+  "T8",
+  "T9",
+  "T10",
+  "T11",
+  "T12"
+ ],
+ "cores_per_worker": 4,
+ "plan": "PLAN.md",
+ "runner": "tf_runner.py",
+ "runs": [
+  {
+   "id": "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v1_s1",
+   "setting": "T_P1_f0.3_lam_w0.03_eta_w0.1_lam_v1",
+   "arm": "P1",
+   "family": "P1",
+   "depth": 1,
+   "n_layers": 1,
+   "optimizer": "polar",
+   "seed": 1,
+   "init_seed": 7101,
+   "split_seed": 8101,
+   "kind": "one",
+   "threads": 1,
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "cfg": {
+    "p": 11,
+    "d_model": 16,
+    "n_heads": 2,
+    "d_mlp": 32,
+    "dtype": "float32",
+    "obs_every": 10,
+    "heavy_every": 30,
+    "refit_tau": 0.001,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 5000
+    },
+    "n_layers": 1,
+    "optimizer": "polar",
+    "frac": 0.3,
+    "steps": 60,
+    "init_seed": 7101,
+    "split_seed": 8101,
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "eta_v": 0.03
+   },
+   "est_core_hours": 0.01,
+   "worker": "T3",
+   "order": 0
+  },
+  {
+   "id": "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v1_s1",
+   "setting": "T_P2_f0.3_lam_w0.03_eta_w0.1_lam_v1",
+   "arm": "P2",
+   "family": "P2",
+   "depth": 2,
+   "n_layers": 2,
+   "optimizer": "polar",
+   "seed": 1,
+   "init_seed": 7101,
+   "split_seed": 8101,
+   "kind": "one",
+   "threads": 1,
+   "dial": {
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "frac": 0.3
+   },
+   "cfg": {
+    "p": 11,
+    "d_model": 16,
+    "n_heads": 2,
+    "d_mlp": 32,
+    "dtype": "float32",
+    "obs_every": 10,
+    "heavy_every": 30,
+    "refit_tau": 0.001,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 5000
+    },
+    "n_layers": 2,
+    "optimizer": "polar",
+    "frac": 0.3,
+    "steps": 60,
+    "init_seed": 7101,
+    "split_seed": 8101,
+    "lam_w": 0.03,
+    "eta_w": 0.1,
+    "lam_v": 1.0,
+    "eta_v": 0.03
+   },
+   "est_core_hours": 0.01,
+   "worker": "T4",
+   "order": 0
+  },
+  {
+   "id": "T_A1_f0.3_adamw_s1",
+   "setting": "T_A1_f0.3_adamw",
+   "arm": "A1",
+   "family": "A1",
+   "depth": 1,
+   "n_layers": 1,
+   "optimizer": "adamw",
+   "seed": 1,
+   "init_seed": 7101,
+   "split_seed": 8101,
+   "kind": "one",
+   "threads": 1,
+   "dial": {
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ],
+    "frac": 0.3
+   },
+   "cfg": {
+    "p": 11,
+    "d_model": 16,
+    "n_heads": 2,
+    "d_mlp": 32,
+    "dtype": "float32",
+    "obs_every": 10,
+    "heavy_every": 30,
+    "refit_tau": 0.001,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 5000
+    },
+    "n_layers": 1,
+    "optimizer": "adamw",
+    "frac": 0.3,
+    "steps": 60,
+    "init_seed": 7101,
+    "split_seed": 8101,
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ]
+   },
+   "est_core_hours": 0.01,
+   "worker": "T1",
+   "order": 0
+  },
+  {
+   "id": "T_A2_f0.3_adamw_s1",
+   "setting": "T_A2_f0.3_adamw",
+   "arm": "A2",
+   "family": "A2",
+   "depth": 2,
+   "n_layers": 2,
+   "optimizer": "adamw",
+   "seed": 1,
+   "init_seed": 7101,
+   "split_seed": 8101,
+   "kind": "one",
+   "threads": 1,
+   "dial": {
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ],
+    "frac": 0.3
+   },
+   "cfg": {
+    "p": 11,
+    "d_model": 16,
+    "n_heads": 2,
+    "d_mlp": 32,
+    "dtype": "float32",
+    "obs_every": 10,
+    "heavy_every": 30,
+    "refit_tau": 0.001,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 5000
+    },
+    "n_layers": 2,
+    "optimizer": "adamw",
+    "frac": 0.3,
+    "steps": 60,
+    "init_seed": 7101,
+    "split_seed": 8101,
+    "lr": 0.001,
+    "wd": 1.0,
+    "betas": [
+     0.9,
+     0.98
+    ]
+   },
+   "est_core_hours": 0.01,
+   "worker": "T2",
+   "order": 0
+  }
+ ],
+ "est_session_hours": {
+  "T1": 0.01,
+  "T2": 0.01,
+  "T3": 0.01,
+  "T4": 0.01,
+  "T5": 0.0,
+  "T6": 0.0,
+  "T7": 0.0,
+  "T8": 0.0,
+  "T9": 0.0,
+  "T10": 0.0,
+  "T11": 0.0,
+  "T12": 0.0
+ }
+}

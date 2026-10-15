@@ -1,0 +1,13 @@
+{
+ "campaign": "H",
+ "registered_by": "the authors",
+ "note": "SHA-256 of the files the campaign-H workers run, and of PLAN.md; worker.py selftest checks them.",
+ "files": {
+  "manifest.json": "b403d5d1d8438d3af01272c0b43c656244e3b21166a5e7287f71992c02a7fdd8",
+  "make_manifest.py": "ef59299c4813eae954713f6dfc1b8bba4a05ae7d19e745a092915e7d459e14f5",
+  "t41_runner.py": "d6598c33b49ac0ff73b112042fe0542c103e88d856abe88cf47983e5fa3fd49b",
+  "worker.py": "a03d9137bd79ba86d6365ec6e027dec23307fe51a049c88ed0cca3814306bc82",
+  "tests/test_t41.py": "3c72ce25a4b759f5442f539616beec601f2693ca3f97ce795dd2e63e54fb3398",
+  "PLAN.md": "ee62ae20a83f5bdc48a4e76dd17c8007608ba1f3194b1f1ecc867f6b8a85016f"
+ }
+}

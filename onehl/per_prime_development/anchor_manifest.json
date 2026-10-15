@@ -1,0 +1,311 @@
+{
+  "campaign_id": "1hl-protocol-v1-anchor-dev-20260927",
+  "evidence": "prospective development; not confirmation",
+  "postprocess_after_each_run": true,
+  "updates": 50000,
+  "limits": {
+    "workers": 8,
+    "global_seconds": 10800,
+    "per_arm_seconds": 7200
+  },
+  "observation": {
+    "cheap_every": 100,
+    "full_every": 500,
+    "checkpoint_every": 500
+  },
+  "configs": [
+    {
+      "p": 11,
+      "width": 512,
+      "c": 24,
+      "train_fraction": 0.8,
+      "activation": "relu",
+      "eta_W": 0.03,
+      "eta_V": 0.03,
+      "decay_W": 0.005,
+      "decay_V": 0.2,
+      "margin_tolerance": 1e-10,
+      "polar_cutoff": {
+        "mode": "relative",
+        "value": 1e-10
+      },
+      "windows": [
+        {
+          "window_id": "primary_fixed",
+          "t0": 20000,
+          "t1": 35000
+        }
+      ],
+      "config_id": "p11_anchor"
+    },
+    {
+      "p": 13,
+      "width": 512,
+      "c": 24,
+      "train_fraction": 0.8,
+      "activation": "relu",
+      "eta_W": 0.03,
+      "eta_V": 0.03,
+      "decay_W": 0.005,
+      "decay_V": 0.2,
+      "margin_tolerance": 1e-10,
+      "polar_cutoff": {
+        "mode": "relative",
+        "value": 1e-10
+      },
+      "windows": [
+        {
+          "window_id": "primary_fixed",
+          "t0": 16000,
+          "t1": 32000
+        }
+      ],
+      "config_id": "p13_anchor"
+    },
+    {
+      "p": 17,
+      "width": 512,
+      "c": 24,
+      "train_fraction": 0.8,
+      "activation": "relu",
+      "eta_W": 0.03,
+      "eta_V": 0.03,
+      "decay_W": 0.005,
+      "decay_V": 0.2,
+      "margin_tolerance": 1e-10,
+      "polar_cutoff": {
+        "mode": "relative",
+        "value": 1e-10
+      },
+      "windows": [
+        {
+          "window_id": "primary_fixed",
+          "t0": 13000,
+          "t1": 21000
+        }
+      ],
+      "config_id": "p17_anchor"
+    },
+    {
+      "p": 23,
+      "width": 512,
+      "c": 40,
+      "train_fraction": 0.8,
+      "activation": "relu",
+      "eta_W": 0.03,
+      "eta_V": 0.03,
+      "decay_W": 0.005,
+      "decay_V": 0.2,
+      "margin_tolerance": 1e-10,
+      "polar_cutoff": {
+        "mode": "relative",
+        "value": 1e-10
+      },
+      "windows": [
+        {
+          "window_id": "primary_fixed",
+          "t0": 15000,
+          "t1": 21000
+        }
+      ],
+      "config_id": "p23_anchor"
+    },
+    {
+      "p": 29,
+      "width": 512,
+      "c": 80,
+      "train_fraction": 0.8,
+      "activation": "relu",
+      "eta_W": 0.03,
+      "eta_V": 0.03,
+      "decay_W": 0.005,
+      "decay_V": 0.2,
+      "margin_tolerance": 1e-10,
+      "polar_cutoff": {
+        "mode": "relative",
+        "value": 1e-10
+      },
+      "windows": [
+        {
+          "window_id": "primary_fixed",
+          "t0": 18000,
+          "t1": 24000
+        }
+      ],
+      "config_id": "p29_anchor"
+    },
+    {
+      "p": 61,
+      "width": 512,
+      "c": 256,
+      "train_fraction": 0.8,
+      "activation": "relu",
+      "eta_W": 0.03,
+      "eta_V": 0.03,
+      "decay_W": 0.005,
+      "decay_V": 0.2,
+      "margin_tolerance": 1e-10,
+      "polar_cutoff": {
+        "mode": "relative",
+        "value": 1e-10
+      },
+      "windows": [
+        {
+          "window_id": "primary_fixed",
+          "t0": 25000,
+          "t1": 31000
+        }
+      ],
+      "config_id": "p61_anchor"
+    }
+  ],
+  "runs": [
+    {
+      "run_id": "p11_anchor_dev1",
+      "config_id": "p11_anchor",
+      "init_seed": 3755288755,
+      "split_seed": 850506242,
+      "development_pair": 1
+    },
+    {
+      "run_id": "p13_anchor_dev1",
+      "config_id": "p13_anchor",
+      "init_seed": 201073597,
+      "split_seed": 977789752,
+      "development_pair": 1
+    },
+    {
+      "run_id": "p17_anchor_dev1",
+      "config_id": "p17_anchor",
+      "init_seed": 2339529394,
+      "split_seed": 2238721775,
+      "development_pair": 1
+    },
+    {
+      "run_id": "p23_anchor_dev1",
+      "config_id": "p23_anchor",
+      "init_seed": 2726117717,
+      "split_seed": 2506497917,
+      "development_pair": 1
+    },
+    {
+      "run_id": "p29_anchor_dev1",
+      "config_id": "p29_anchor",
+      "init_seed": 2647203635,
+      "split_seed": 2047187855,
+      "development_pair": 1
+    },
+    {
+      "run_id": "p61_anchor_dev1",
+      "config_id": "p61_anchor",
+      "init_seed": 3648389688,
+      "split_seed": 3820281490,
+      "development_pair": 1
+    },
+    {
+      "run_id": "p11_anchor_dev2",
+      "config_id": "p11_anchor",
+      "init_seed": 736055949,
+      "split_seed": 2449396828,
+      "development_pair": 2
+    },
+    {
+      "run_id": "p13_anchor_dev2",
+      "config_id": "p13_anchor",
+      "init_seed": 111550616,
+      "split_seed": 1088538560,
+      "development_pair": 2
+    },
+    {
+      "run_id": "p17_anchor_dev2",
+      "config_id": "p17_anchor",
+      "init_seed": 4025336882,
+      "split_seed": 2172210565,
+      "development_pair": 2
+    },
+    {
+      "run_id": "p23_anchor_dev2",
+      "config_id": "p23_anchor",
+      "init_seed": 576556127,
+      "split_seed": 946538273,
+      "development_pair": 2
+    },
+    {
+      "run_id": "p29_anchor_dev2",
+      "config_id": "p29_anchor",
+      "init_seed": 3933380508,
+      "split_seed": 2822707166,
+      "development_pair": 2
+    },
+    {
+      "run_id": "p61_anchor_dev2",
+      "config_id": "p61_anchor",
+      "init_seed": 3819159609,
+      "split_seed": 2003451292,
+      "development_pair": 2
+    },
+    {
+      "run_id": "p11_anchor_dev3",
+      "config_id": "p11_anchor",
+      "init_seed": 3973594497,
+      "split_seed": 3666689212,
+      "development_pair": 3
+    },
+    {
+      "run_id": "p13_anchor_dev3",
+      "config_id": "p13_anchor",
+      "init_seed": 1764814807,
+      "split_seed": 1239408775,
+      "development_pair": 3
+    },
+    {
+      "run_id": "p17_anchor_dev3",
+      "config_id": "p17_anchor",
+      "init_seed": 2803540615,
+      "split_seed": 2927567645,
+      "development_pair": 3
+    },
+    {
+      "run_id": "p23_anchor_dev3",
+      "config_id": "p23_anchor",
+      "init_seed": 457250863,
+      "split_seed": 2264773628,
+      "development_pair": 3
+    },
+    {
+      "run_id": "p29_anchor_dev3",
+      "config_id": "p29_anchor",
+      "init_seed": 826523175,
+      "split_seed": 3895239816,
+      "development_pair": 3
+    },
+    {
+      "run_id": "p61_anchor_dev3",
+      "config_id": "p61_anchor",
+      "init_seed": 2931619226,
+      "split_seed": 994442449,
+      "development_pair": 3
+    }
+  ],
+  "source_hashes_at_preparation": {
+    "archive_figures.py": "9bb6c6c6588a56b8766d764e80d87b1c56856eb0625a485a5974227c1ead0b57",
+    "endpoints.py": "812884c8f124f197a88e7272c777b85ae51c5297caa3453481237b031193c14b",
+    "legacy_core.py": "874888345b9eda1f5aa60f7dc2d02a213c4158225803790503b1d78d9574c242",
+    "model.py": "017f4b2e801dad613397c27c5a83fd0a90d5d4e1907ee1318862218f898bdbd7",
+    "observers.py": "021580f66a6b7c42e86b7eae8d164b1ca4e65d23f9a1c89cc9d59f60bde0c88f",
+    "plotting.py": "ed46b027dc3d65d3a6606f97693e538fedca0da0ef5b5a2d6994d2a2ef228705",
+    "postprocess.py": "07affefb57bc7d6dae12ec9ae0d50ece4bb1aeb502af6cf2e9036c619b73c912",
+    "preflight.py": "7c3b44ad5aa6241cb8f559fae618f0aab3b9447ca018027bb6407c18626cfbcd",
+    "prepare_campaign.py": "d70e2599b89ce54e7589c228cc66c2393720504df118948a1e7a09cc840e3315",
+    "run_campaign.py": "cb12c2f8e707442c5252dfc28155e241bab9cc6e542b5d2a87def44e92ce19c0",
+    "test_endpoints.py": "b5c0bc8b1f94d1d65a3a8354b7aa13683e5f907b6ed725fd3abb2ea0b07de71b",
+    "test_observers.py": "bb0820bd6e02b1ae1a075a40fee8cce5d446a9202d0e2dceab17bdaf3b00913e",
+    "test_plotting.py": "7480c907d73990db9eb8a1566c4810cd446150ccb2d955348e5b3a5d1e04fc47",
+    "test_postprocess.py": "84bd8fd43276f43db6d18bb8ddbaaa587d028820617885fed2605f511e95d0ec",
+    "test_training.py": "5188cb7c3751b60a8afbb198a7de389e1f2dfedffceadc1421b2c003d83cfa86"
+  },
+  "window_provenance": "Chosen from historical cohorts before fresh seeds; same fixed window for candidate variants, no favorable window substitution.",
+  "split_design": "uniform fixed-size subset without replacement; n=floor(0.8*p*p)",
+  "confirmation": "Select and lock recipes after development; 40 fresh independent pairs per selected recipe, declared before two batches of20. Not launched by this manifest.",
+  "candidate_pairing": "Candidate recipes within a modulus share three pairs; do not count arms as independent pairs."
+}

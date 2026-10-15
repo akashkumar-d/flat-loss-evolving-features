@@ -1,0 +1,29 @@
+{
+ "campaign": "QD",
+ "note": "SHA-256 of the campaign files; the worker selftest and push_Q.sh check them",
+ "files": {
+  "worker.py": "847c2ab3f0d6424bb41f7a9392d0d3661c9ff14c3ff05671d8b976ec07d40fb6",
+  "bias_runner.py": "9d8a06fd8852241587184834ee3fd54f359a164f3cf3eeb58502a07898e7e6d0",
+  "campaign.json": "9616204493e238ea5b6df788490b0c682977169f4e9179aebccca9306bb517d3",
+  "manifest.json": "189464656ab081844a8afcc9b441e43ffa7c9f6002998f238fb56cb288bdfe29",
+  "make_manifest.py": "03d7169696387fb133fad4f5dc8d65219a1d8d6122ab1a07550f35c94f01fe19",
+  "tests/test_qd.py": "7265108bdc23b4f7b7a07c68823a33a7a7faebf48fdbb32e729ba5cb0e785e3b",
+  "tests/test_bias.py": "5b392b81599ca6ed3298a871a6fa3940900b1c6bcd943e236b5f706f1d25547a",
+  "PLAN.md": "33d7de6ac4a2903c988de04c42899ac167843b740f485e360d970f16c2536188"
+ },
+ "push": [
+  ".gitignore",
+  "HASHES.json",
+  "PLAN.md",
+  "README.md",
+  "WORKER.md",
+  "bias_runner.py",
+  "campaign.json",
+  "make_manifest.py",
+  "manifest.json",
+  "manifest_test.json",
+  "tests/test_bias.py",
+  "tests/test_qd.py",
+  "worker.py"
+ ]
+}

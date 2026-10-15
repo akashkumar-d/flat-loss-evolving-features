@@ -1,0 +1,31 @@
+{
+ "campaign": "K",
+ "note": "SHA-256 of the campaign files; the worker selftest and push_campaigns_KT.sh check them",
+ "files": {
+  "worker.py": "847c2ab3f0d6424bb41f7a9392d0d3661c9ff14c3ff05671d8b976ec07d40fb6",
+  "bias_runner.py": "9d8a06fd8852241587184834ee3fd54f359a164f3cf3eeb58502a07898e7e6d0",
+  "campaign.json": "27f46b16a8acae8fc023a231b231cd55f439e22331df773d2e2ad1f5f6b574aa",
+  "manifest.json": "fc2970c09ed49edcc1ac492d12d4857cd80b81efb6c0130df39077104e3212f3",
+  "make_manifest.py": "972cfd6bbc9b4cb98ccd6bc069e02314ca2677abbb4a6b77ff8b004e9aad2e38",
+  "PLAN.md": "af35aec1a7b79cfe2b65e435783c2406aa9acf379483a91b7c6ce917db7870ef",
+  "tests/test_k.py": "7aa05e1024969a9c35ce5c5df5f23e2c8c8a6485091c179fb26258dea8e637da",
+  "endpoints_i.py": "a2e1c5fd69372f4744dae594ff46069dac8d13f617b744f104380728c9346e5b",
+  "analyze_K.py": "aab9367a02c9fb49814afbc63ca577936f442c67a5000711471759c5f71f7f51"
+ },
+ "push": [
+  ".gitignore",
+  "HASHES.json",
+  "PLAN.md",
+  "README.md",
+  "WORKER.md",
+  "analyze_K.py",
+  "bias_runner.py",
+  "campaign.json",
+  "endpoints_i.py",
+  "make_manifest.py",
+  "manifest.json",
+  "manifest_test.json",
+  "tests/test_k.py",
+  "worker.py"
+ ]
+}

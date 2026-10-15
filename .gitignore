@@ -1,0 +1,9 @@
+data/
+__pycache__/
+campaigns/*/collected/
+campaigns/*/_work/
+campaigns/campaign_ZM/runs/
+campaigns/campaign_X/mlp_side/runs/
+campaigns/readouts/fourier_refit/runs/
+campaigns/readouts/refit_lag/runs/
+campaigns/readouts/refit_lag/replays/

@@ -1,0 +1,34 @@
+{
+ "TF_main": [
+  {
+   "title": "One block, p = 89",
+   "n": 10,
+   "passes": 10,
+   "xmax": 8200,
+   "band": [
+    760,
+    8910
+   ]
+  },
+  {
+   "title": "One block, p = 113",
+   "n": 10,
+   "passes": 10,
+   "xmax": 9260,
+   "band": [
+    790,
+    10850
+   ]
+  },
+  {
+   "title": "Two blocks, p = 113",
+   "n": 10,
+   "passes": 0,
+   "xmax": 30000,
+   "band": [
+    1780,
+    30000
+   ]
+  }
+ ]
+}

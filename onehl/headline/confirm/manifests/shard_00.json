@@ -1,0 +1,102 @@
+{
+ "campaign_id": "1hl-hero-confirm-20260929-v1-shard00",
+ "evidence": "fresh 20-seed confirmation of the dev-selected hero recipe and window (locked before launch)",
+ "limits": {
+  "cooperative_grace_seconds": 60,
+  "global_seconds": 43200,
+  "minimum_free_bytes": 6442450944,
+  "per_arm_seconds": 10800,
+  "workers": 8
+ },
+ "observation": {
+  "cheap_every": 100,
+  "checkpoint_every": 500,
+  "full_every": 500
+ },
+ "postprocess_after_each_run": true,
+ "updates": 40000,
+ "configs": [
+  {
+   "activation": "relu",
+   "c": 24,
+   "config_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2",
+   "decay_V": 0.2,
+   "decay_W": 0.015,
+   "eta_V": 0.03,
+   "eta_W": 0.03,
+   "margin_tolerance": 1e-10,
+   "p": 31,
+   "polar_cutoff": {
+    "mode": "relative",
+    "value": 1e-10
+   },
+   "train_fraction": 0.8,
+   "width": 512,
+   "windows": [
+    {
+     "t0": 4500,
+     "t1": 12000,
+     "window_id": "hero_locked_dev_selected"
+    }
+   ]
+  }
+ ],
+ "runs": [
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 1,
+   "init_seed": 3849543645656288599,
+   "split_seed": 3381234043674393519,
+   "run_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2_confirm01"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 2,
+   "init_seed": 2794755020932783621,
+   "split_seed": 3040515160663770295,
+   "run_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2_confirm02"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 3,
+   "init_seed": 1450464442247596523,
+   "split_seed": 3573598615195818617,
+   "run_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2_confirm03"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 4,
+   "init_seed": 6383015437533020477,
+   "split_seed": 6894776003951717943,
+   "run_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2_confirm04"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 5,
+   "init_seed": 7499224309435986628,
+   "split_seed": 5468973522344870431,
+   "run_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2_confirm05"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 6,
+   "init_seed": 2316555896074447828,
+   "split_seed": 8863737393524332231,
+   "run_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2_confirm06"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 7,
+   "init_seed": 8297581093577867599,
+   "split_seed": 1851635910118356628,
+   "run_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2_confirm07"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 8,
+   "init_seed": 6471644793615020039,
+   "split_seed": 1343322916927056884,
+   "run_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2_confirm08"
+  }
+ ]
+}

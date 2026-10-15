@@ -1,0 +1,230 @@
+{
+ "window": [
+  6500,
+  16500
+ ],
+ "dot_threshold": 0.5,
+ "n_runs": 20,
+ "runs": [
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB01",
+   "tdot": 9104,
+   "t90": 16645,
+   "peak": 10298,
+   "heldout_at_peak": 0.6792452830188679,
+   "rise_to_peak_pct": 5.732484504846158,
+   "drawdown_to_dot_pct": 0.00022299141593595828,
+   "net_to_dot_pct": 5.519815909593029
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB02",
+   "tdot": 8636,
+   "t90": 13139,
+   "peak": 12126,
+   "heldout_at_peak": 0.8773584905660378,
+   "rise_to_peak_pct": 5.162263210081708,
+   "drawdown_to_dot_pct": 0.0,
+   "net_to_dot_pct": 4.238062556081723
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB03",
+   "tdot": 8632,
+   "t90": null,
+   "peak": 10207,
+   "heldout_at_peak": 0.7452830188679245,
+   "rise_to_peak_pct": 6.275592836984223,
+   "drawdown_to_dot_pct": 0.0,
+   "net_to_dot_pct": 5.569511528664939
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB04",
+   "tdot": 9191,
+   "t90": 14129,
+   "peak": 9853,
+   "heldout_at_peak": 0.5943396226415094,
+   "rise_to_peak_pct": 5.674530171299019,
+   "drawdown_to_dot_pct": 0.0001477158290796814,
+   "net_to_dot_pct": 5.531174950933249
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB05",
+   "tdot": 8746,
+   "t90": 14429,
+   "peak": 10490,
+   "heldout_at_peak": 0.7735849056603774,
+   "rise_to_peak_pct": 5.788292482421942,
+   "drawdown_to_dot_pct": 2.0561798426031546e-05,
+   "net_to_dot_pct": 5.418998210188541
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB06",
+   "tdot": 9005,
+   "t90": 12180,
+   "peak": 10293,
+   "heldout_at_peak": 0.7924528301886793,
+   "rise_to_peak_pct": 4.584749198249738,
+   "drawdown_to_dot_pct": 0.0,
+   "net_to_dot_pct": 4.1174491021513715
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB07",
+   "tdot": 8891,
+   "t90": 14192,
+   "peak": 9940,
+   "heldout_at_peak": 0.6698113207547169,
+   "rise_to_peak_pct": 4.970516159194482,
+   "drawdown_to_dot_pct": 5.5458937616056014e-05,
+   "net_to_dot_pct": 4.822238913663823
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB08",
+   "tdot": 9093,
+   "t90": 14044,
+   "peak": 8711,
+   "heldout_at_peak": 0.3867924528301887,
+   "rise_to_peak_pct": 4.777960551980653,
+   "drawdown_to_dot_pct": 0.03391604146024927,
+   "net_to_dot_pct": 4.742428580409319
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB09",
+   "tdot": 8613,
+   "t90": 13189,
+   "peak": 12165,
+   "heldout_at_peak": 0.8679245283018868,
+   "rise_to_peak_pct": 7.551670212364958,
+   "drawdown_to_dot_pct": 0.0,
+   "net_to_dot_pct": 5.68294962600524
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB10",
+   "tdot": 8498,
+   "t90": 10849,
+   "peak": 16456,
+   "heldout_at_peak": 0.9811320754716981,
+   "rise_to_peak_pct": 9.061402401249419,
+   "drawdown_to_dot_pct": 0.0,
+   "net_to_dot_pct": 5.913571214266966
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB11",
+   "tdot": 8439,
+   "t90": 13220,
+   "peak": 12050,
+   "heldout_at_peak": 0.8867924528301887,
+   "rise_to_peak_pct": 5.176954813762413,
+   "drawdown_to_dot_pct": 0.0,
+   "net_to_dot_pct": 4.523981025947554
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB12",
+   "tdot": 8874,
+   "t90": 13538,
+   "peak": 10200,
+   "heldout_at_peak": 0.7547169811320755,
+   "rise_to_peak_pct": 5.455214181047574,
+   "drawdown_to_dot_pct": 0.00012417074202933527,
+   "net_to_dot_pct": 5.137962378229122
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB13",
+   "tdot": 8636,
+   "t90": null,
+   "peak": 11732,
+   "heldout_at_peak": 0.8679245283018868,
+   "rise_to_peak_pct": 6.871567229185782,
+   "drawdown_to_dot_pct": 0.0,
+   "net_to_dot_pct": 5.461053990961862
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB14",
+   "tdot": 8810,
+   "t90": 12707,
+   "peak": 10732,
+   "heldout_at_peak": 0.8301886792452831,
+   "rise_to_peak_pct": 6.201763478027034,
+   "drawdown_to_dot_pct": 0.0,
+   "net_to_dot_pct": 5.816279516285494
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB15",
+   "tdot": 9032,
+   "t90": 13197,
+   "peak": 9131,
+   "heldout_at_peak": 0.5094339622641509,
+   "rise_to_peak_pct": 4.251810787518351,
+   "drawdown_to_dot_pct": 0.0005792259804398387,
+   "net_to_dot_pct": 4.241924000768171
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB16",
+   "tdot": 8278,
+   "t90": 10040,
+   "peak": 13055,
+   "heldout_at_peak": 0.9622641509433962,
+   "rise_to_peak_pct": 6.008179872746844,
+   "drawdown_to_dot_pct": 0.0,
+   "net_to_dot_pct": 4.0803574041141655
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB17",
+   "tdot": 8704,
+   "t90": 11449,
+   "peak": 12808,
+   "heldout_at_peak": 0.9622641509433962,
+   "rise_to_peak_pct": 4.365295555829385,
+   "drawdown_to_dot_pct": 9.862374462622253e-05,
+   "net_to_dot_pct": 3.8612291491610273
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB18",
+   "tdot": 8910,
+   "t90": 12314,
+   "peak": 9109,
+   "heldout_at_peak": 0.5471698113207547,
+   "rise_to_peak_pct": 3.8416250651764683,
+   "drawdown_to_dot_pct": 0.000595715244164216,
+   "net_to_dot_pct": 3.813368370505721
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB19",
+   "tdot": 8643,
+   "t90": 11172,
+   "peak": 13313,
+   "heldout_at_peak": 0.9433962264150944,
+   "rise_to_peak_pct": 5.657920759501622,
+   "drawdown_to_dot_pct": 0.0,
+   "net_to_dot_pct": 4.395746950823809
+  },
+  {
+   "run": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB20",
+   "tdot": 9019,
+   "t90": null,
+   "peak": 9529,
+   "heldout_at_peak": 0.6415094339622641,
+   "rise_to_peak_pct": 4.831869848838943,
+   "drawdown_to_dot_pct": 0.00037332213297626253,
+   "net_to_dot_pct": 4.786783518517446
+  }
+ ],
+ "dot_reached": 20,
+ "dot_by_t1_minus_500": 20,
+ "post_hoc": {
+  "peak": [
+   8711.0,
+   10394.0,
+   16456.0
+  ],
+  "heldout_at_peak": [
+   0.3867924528301887,
+   0.7830188679245284,
+   0.9811320754716981
+  ],
+  "n_heldout_at_peak_ge_50": 19,
+  "rise_to_peak_pct": [
+   3.8416250651764683,
+   5.556567470274598,
+   9.061402401249419
+  ]
+ }
+}

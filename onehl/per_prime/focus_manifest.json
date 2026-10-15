@@ -1,0 +1,549 @@
+{
+  "campaign_id": "1hl-plateau-first-confirm-focus-20260928-v1",
+  "configs": [
+    {
+      "activation": "relu",
+      "c": 24,
+      "config_id": "p17_candidate1",
+      "decay_V": 0.2,
+      "decay_W": 0.005,
+      "eta_V": 0.01,
+      "eta_W": 0.03,
+      "margin_tolerance": 1e-10,
+      "p": 17,
+      "polar_cutoff": {
+        "mode": "relative",
+        "value": 1e-10
+      },
+      "train_fraction": 0.8,
+      "width": 512,
+      "windows": [
+        {
+          "t0": 13000,
+          "t1": 21000,
+          "window_id": "primary_fixed"
+        }
+      ]
+    },
+    {
+      "activation": "relu",
+      "c": 48,
+      "config_id": "p23_candidate2",
+      "decay_V": 0.2,
+      "decay_W": 0.005,
+      "eta_V": 0.03,
+      "eta_W": 0.03,
+      "margin_tolerance": 1e-10,
+      "p": 23,
+      "polar_cutoff": {
+        "mode": "relative",
+        "value": 1e-10
+      },
+      "train_fraction": 0.8,
+      "width": 512,
+      "windows": [
+        {
+          "t0": 15000,
+          "t1": 21000,
+          "window_id": "primary_fixed"
+        }
+      ]
+    },
+    {
+      "activation": "relu",
+      "c": 96,
+      "config_id": "p29_candidate2",
+      "decay_V": 0.2,
+      "decay_W": 0.005,
+      "eta_V": 0.03,
+      "eta_W": 0.03,
+      "margin_tolerance": 1e-10,
+      "p": 29,
+      "polar_cutoff": {
+        "mode": "relative",
+        "value": 1e-10
+      },
+      "train_fraction": 0.8,
+      "width": 512,
+      "windows": [
+        {
+          "t0": 18000,
+          "t1": 24000,
+          "window_id": "primary_fixed"
+        }
+      ]
+    }
+  ],
+  "confirmation_protocol": {
+    "execution_status": "declared_not_launched",
+    "feature_learning_is_not_implied_by_plateau": true,
+    "flatness_tiers": [
+      "P03_raw",
+      "P01_raw"
+    ],
+    "grokking_is_not_required_for_primary": true,
+    "horizon_note": "Same 50k horizon as development.",
+    "no_endpoint_redefinition": true,
+    "optional_stage": false,
+    "pairs_per_recipe": 20,
+    "primary": "P10_raw",
+    "primary_definition": "Every update in the unchanged fixed window has resolved positive finite raw training CE and (max CE-min CE)/min CE <= 0.10.",
+    "reporting": "Each recipe separately; denominator is all declared pairs including failed, partial and unrun. Missing is not success. Report raw per-run statistics and unconditional Wilson95 intervals; intervals are marginal, not simultaneous across recipes/endpoints.",
+    "retry_policy": "No outcome-based retries, replacements, seed selection or window changes. Resource-censored runs remain in denominator.",
+    "secondary": [
+      "P10_raw AND F02",
+      "AGOP02",
+      "fit_strict",
+      "PA10_F02",
+      "joint_PAG10_F02",
+      "AGOP_supported_joint",
+      "useful_refit",
+      "finite_recovery90",
+      "finite_recovery95",
+      "finite_recovery99",
+      "finite_recovery100"
+    ],
+    "seed_audit_sha256": "f2ffaf25166af171c1493caee686f1c350e6716b5103fd73bcf7290b0517b869",
+    "seed_generation": "SHA256 labelled independent PRNG streams, uint64; no seed shared between recipes or roles; finite-PRNG experimental independence convention",
+    "seed_namespace": "modarith-1hl-plateau-first-confirmation-20260928-v1",
+    "source_manifest_sha256": "38797cb78acdd71bac5d15a86cc8f4db247a192fdeb6e37d7185b718260748fb",
+    "version": "plateau-first-v1-20260928"
+  },
+  "evidence": "prospectively locked fresh-seed confirmation of development-selected recipes; no initialization theorem claim",
+  "limits": {
+    "cooperative_grace_seconds": 60,
+    "global_seconds": 43200,
+    "minimum_free_bytes": 6442450944,
+    "per_arm_seconds": 10800,
+    "workers": 8
+  },
+  "observation": {
+    "cheap_every": 100,
+    "checkpoint_every": 500,
+    "full_every": 500
+  },
+  "postprocess_after_each_run": true,
+  "runs": [
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 1,
+      "init_seed": 14831211843831900232,
+      "run_id": "p17_candidate1_confirm01",
+      "split_seed": 6963188048202559954
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 1,
+      "init_seed": 10967402991086559123,
+      "run_id": "p23_candidate2_confirm01",
+      "split_seed": 7684571855356177284
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 1,
+      "init_seed": 6754367767622396323,
+      "run_id": "p29_candidate2_confirm01",
+      "split_seed": 12758465613697741172
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 2,
+      "init_seed": 17071538405461181685,
+      "run_id": "p17_candidate1_confirm02",
+      "split_seed": 9252414452378641010
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 2,
+      "init_seed": 16929602225420844664,
+      "run_id": "p23_candidate2_confirm02",
+      "split_seed": 4975501651762116885
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 2,
+      "init_seed": 10701103041890103605,
+      "run_id": "p29_candidate2_confirm02",
+      "split_seed": 8478503594951158987
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 3,
+      "init_seed": 7854202565337653613,
+      "run_id": "p17_candidate1_confirm03",
+      "split_seed": 17755001501266254558
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 3,
+      "init_seed": 11572155109039573314,
+      "run_id": "p23_candidate2_confirm03",
+      "split_seed": 3175375158680407192
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 3,
+      "init_seed": 10527736653777408914,
+      "run_id": "p29_candidate2_confirm03",
+      "split_seed": 4940466184391809820
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 4,
+      "init_seed": 10662073284959122235,
+      "run_id": "p17_candidate1_confirm04",
+      "split_seed": 11951858879919239123
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 4,
+      "init_seed": 16959120070324491268,
+      "run_id": "p23_candidate2_confirm04",
+      "split_seed": 62850715383101520
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 4,
+      "init_seed": 4262331355273004244,
+      "run_id": "p29_candidate2_confirm04",
+      "split_seed": 10734034038574979776
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 5,
+      "init_seed": 5021367491975814100,
+      "run_id": "p17_candidate1_confirm05",
+      "split_seed": 16689044288730710592
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 5,
+      "init_seed": 2007640886353077063,
+      "run_id": "p23_candidate2_confirm05",
+      "split_seed": 15440595907498397802
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 5,
+      "init_seed": 7933477632635410406,
+      "run_id": "p29_candidate2_confirm05",
+      "split_seed": 13845307274753600122
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 6,
+      "init_seed": 2881378652080775418,
+      "run_id": "p17_candidate1_confirm06",
+      "split_seed": 4582496456661603748
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 6,
+      "init_seed": 14514555197108187546,
+      "run_id": "p23_candidate2_confirm06",
+      "split_seed": 15582151250014659235
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 6,
+      "init_seed": 14724895052368094626,
+      "run_id": "p29_candidate2_confirm06",
+      "split_seed": 13252309138977277448
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 7,
+      "init_seed": 2598804802065877029,
+      "run_id": "p17_candidate1_confirm07",
+      "split_seed": 3661294863652478287
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 7,
+      "init_seed": 3907286137342558454,
+      "run_id": "p23_candidate2_confirm07",
+      "split_seed": 12809145277616439252
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 7,
+      "init_seed": 15033080594435451160,
+      "run_id": "p29_candidate2_confirm07",
+      "split_seed": 17642408248250117205
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 8,
+      "init_seed": 1021284985904925294,
+      "run_id": "p17_candidate1_confirm08",
+      "split_seed": 10072084126291356311
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 8,
+      "init_seed": 15488401174913865642,
+      "run_id": "p23_candidate2_confirm08",
+      "split_seed": 2793436798625815052
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 8,
+      "init_seed": 4395748068166048106,
+      "run_id": "p29_candidate2_confirm08",
+      "split_seed": 6155071810268002395
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 9,
+      "init_seed": 6482308424459156856,
+      "run_id": "p17_candidate1_confirm09",
+      "split_seed": 13885920218476059877
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 9,
+      "init_seed": 16212026887395697294,
+      "run_id": "p23_candidate2_confirm09",
+      "split_seed": 4232953364016369902
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 9,
+      "init_seed": 15239367433108261203,
+      "run_id": "p29_candidate2_confirm09",
+      "split_seed": 13840133502720934539
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 10,
+      "init_seed": 11728755995404669948,
+      "run_id": "p17_candidate1_confirm10",
+      "split_seed": 11725322375132506493
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 10,
+      "init_seed": 10031212248195532212,
+      "run_id": "p23_candidate2_confirm10",
+      "split_seed": 12250017503525864900
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 10,
+      "init_seed": 11625731338811066954,
+      "run_id": "p29_candidate2_confirm10",
+      "split_seed": 2793741256168465898
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 11,
+      "init_seed": 16735826837375939470,
+      "run_id": "p17_candidate1_confirm11",
+      "split_seed": 17075875336720520374
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 11,
+      "init_seed": 11586607879910757880,
+      "run_id": "p23_candidate2_confirm11",
+      "split_seed": 18195853476086582203
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 11,
+      "init_seed": 8314036323278095648,
+      "run_id": "p29_candidate2_confirm11",
+      "split_seed": 5405576042923366713
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 12,
+      "init_seed": 91664395179159250,
+      "run_id": "p17_candidate1_confirm12",
+      "split_seed": 17945625000329146750
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 12,
+      "init_seed": 12888539254229791648,
+      "run_id": "p23_candidate2_confirm12",
+      "split_seed": 16111956212122712221
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 12,
+      "init_seed": 17092753779511511398,
+      "run_id": "p29_candidate2_confirm12",
+      "split_seed": 1342568142659305897
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 13,
+      "init_seed": 8937949848699735691,
+      "run_id": "p17_candidate1_confirm13",
+      "split_seed": 16981815525287563697
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 13,
+      "init_seed": 16635274969389961013,
+      "run_id": "p23_candidate2_confirm13",
+      "split_seed": 1626611760659423069
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 13,
+      "init_seed": 8767665014978491409,
+      "run_id": "p29_candidate2_confirm13",
+      "split_seed": 13504919165876130874
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 14,
+      "init_seed": 17406430036846932661,
+      "run_id": "p17_candidate1_confirm14",
+      "split_seed": 10086221751290061384
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 14,
+      "init_seed": 4099699704515899237,
+      "run_id": "p23_candidate2_confirm14",
+      "split_seed": 5371217374052344055
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 14,
+      "init_seed": 16434370841214948565,
+      "run_id": "p29_candidate2_confirm14",
+      "split_seed": 5713860590429199950
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 15,
+      "init_seed": 16287499269601793330,
+      "run_id": "p17_candidate1_confirm15",
+      "split_seed": 16573871066450033879
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 15,
+      "init_seed": 11528232118273260764,
+      "run_id": "p23_candidate2_confirm15",
+      "split_seed": 12158063761452455229
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 15,
+      "init_seed": 11589552134818013479,
+      "run_id": "p29_candidate2_confirm15",
+      "split_seed": 9961089477748940251
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 16,
+      "init_seed": 1052556787959070140,
+      "run_id": "p17_candidate1_confirm16",
+      "split_seed": 9934911906773477312
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 16,
+      "init_seed": 17845343473481814775,
+      "run_id": "p23_candidate2_confirm16",
+      "split_seed": 11516385584961024163
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 16,
+      "init_seed": 9325314831590551376,
+      "run_id": "p29_candidate2_confirm16",
+      "split_seed": 1150992465997812403
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 17,
+      "init_seed": 17284059810202797744,
+      "run_id": "p17_candidate1_confirm17",
+      "split_seed": 1869937262734813342
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 17,
+      "init_seed": 12796711801959645126,
+      "run_id": "p23_candidate2_confirm17",
+      "split_seed": 10301893710803313187
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 17,
+      "init_seed": 17944168125057939840,
+      "run_id": "p29_candidate2_confirm17",
+      "split_seed": 7793912310855018098
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 18,
+      "init_seed": 15862106417426461426,
+      "run_id": "p17_candidate1_confirm18",
+      "split_seed": 4326723512804605700
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 18,
+      "init_seed": 11899014306163061432,
+      "run_id": "p23_candidate2_confirm18",
+      "split_seed": 1338109025511588101
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 18,
+      "init_seed": 13081584964929527661,
+      "run_id": "p29_candidate2_confirm18",
+      "split_seed": 14697744730915296436
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 19,
+      "init_seed": 7429079193855189091,
+      "run_id": "p17_candidate1_confirm19",
+      "split_seed": 3623200356283072423
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 19,
+      "init_seed": 1489798166341972339,
+      "run_id": "p23_candidate2_confirm19",
+      "split_seed": 1647888798274359858
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 19,
+      "init_seed": 4854865962620919716,
+      "run_id": "p29_candidate2_confirm19",
+      "split_seed": 9300869660925091778
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 20,
+      "init_seed": 18128494268050019527,
+      "run_id": "p17_candidate1_confirm20",
+      "split_seed": 4430967461148706937
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 20,
+      "init_seed": 2226014005312482919,
+      "run_id": "p23_candidate2_confirm20",
+      "split_seed": 15576961214070598677
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 20,
+      "init_seed": 14024607368801016431,
+      "run_id": "p29_candidate2_confirm20",
+      "split_seed": 15754931951459120143
+    }
+  ],
+  "updates": 50000
+}

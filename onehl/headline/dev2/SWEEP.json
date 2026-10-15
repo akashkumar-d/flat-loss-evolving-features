@@ -1,0 +1,127 @@
+{
+ "grid": {
+  "p": [
+   23,
+   31
+  ],
+  "width": 512,
+  "c": 24,
+  "eta_W": 0.03,
+  "eta_V": 0.03,
+  "decay_V": 0.2,
+  "train_fraction": [
+   0.5,
+   0.8
+  ],
+  "decay_W": [
+   0.01,
+   0.015,
+   0.02
+  ],
+  "dev_pairs": 4
+ },
+ "seed_rule": "numpy.random.default_rng(20260939).integers(0, 2**63, size=(4,2), dtype=uint64); pair k shared across configs",
+ "dev_pairs": [
+  [
+   3339517326146345167,
+   102731572156280151
+  ],
+  [
+   9042396561097767238,
+   1880069523456555511
+  ],
+  [
+   4822867744120976767,
+   5691194584007660844
+  ],
+  [
+   6528993641712000810,
+   4356654779604687245
+  ]
+ ],
+ "horizon": 40000,
+ "shards": [
+  {
+   "shard": 0,
+   "runs": [
+    "h23_tf0p5_lw0p01_ev0p03_lv0p2_dev1",
+    "h23_tf0p5_lw0p015_ev0p03_lv0p2_dev3",
+    "h23_tf0p8_lw0p01_ev0p03_lv0p2_dev1",
+    "h23_tf0p8_lw0p015_ev0p03_lv0p2_dev3",
+    "h31_tf0p5_lw0p01_ev0p03_lv0p2_dev1",
+    "h31_tf0p5_lw0p015_ev0p03_lv0p2_dev3",
+    "h31_tf0p8_lw0p01_ev0p03_lv0p2_dev1",
+    "h31_tf0p8_lw0p015_ev0p03_lv0p2_dev3"
+   ]
+  },
+  {
+   "shard": 1,
+   "runs": [
+    "h23_tf0p5_lw0p01_ev0p03_lv0p2_dev2",
+    "h23_tf0p5_lw0p015_ev0p03_lv0p2_dev4",
+    "h23_tf0p8_lw0p01_ev0p03_lv0p2_dev2",
+    "h23_tf0p8_lw0p015_ev0p03_lv0p2_dev4",
+    "h31_tf0p5_lw0p01_ev0p03_lv0p2_dev2",
+    "h31_tf0p5_lw0p015_ev0p03_lv0p2_dev4",
+    "h31_tf0p8_lw0p01_ev0p03_lv0p2_dev2",
+    "h31_tf0p8_lw0p015_ev0p03_lv0p2_dev4"
+   ]
+  },
+  {
+   "shard": 2,
+   "runs": [
+    "h23_tf0p5_lw0p01_ev0p03_lv0p2_dev3",
+    "h23_tf0p5_lw0p02_ev0p03_lv0p2_dev1",
+    "h23_tf0p8_lw0p01_ev0p03_lv0p2_dev3",
+    "h23_tf0p8_lw0p02_ev0p03_lv0p2_dev1",
+    "h31_tf0p5_lw0p01_ev0p03_lv0p2_dev3",
+    "h31_tf0p5_lw0p02_ev0p03_lv0p2_dev1",
+    "h31_tf0p8_lw0p01_ev0p03_lv0p2_dev3",
+    "h31_tf0p8_lw0p02_ev0p03_lv0p2_dev1"
+   ]
+  },
+  {
+   "shard": 3,
+   "runs": [
+    "h23_tf0p5_lw0p01_ev0p03_lv0p2_dev4",
+    "h23_tf0p5_lw0p02_ev0p03_lv0p2_dev2",
+    "h23_tf0p8_lw0p01_ev0p03_lv0p2_dev4",
+    "h23_tf0p8_lw0p02_ev0p03_lv0p2_dev2",
+    "h31_tf0p5_lw0p01_ev0p03_lv0p2_dev4",
+    "h31_tf0p5_lw0p02_ev0p03_lv0p2_dev2",
+    "h31_tf0p8_lw0p01_ev0p03_lv0p2_dev4",
+    "h31_tf0p8_lw0p02_ev0p03_lv0p2_dev2"
+   ]
+  },
+  {
+   "shard": 4,
+   "runs": [
+    "h23_tf0p5_lw0p015_ev0p03_lv0p2_dev1",
+    "h23_tf0p5_lw0p02_ev0p03_lv0p2_dev3",
+    "h23_tf0p8_lw0p015_ev0p03_lv0p2_dev1",
+    "h23_tf0p8_lw0p02_ev0p03_lv0p2_dev3",
+    "h31_tf0p5_lw0p015_ev0p03_lv0p2_dev1",
+    "h31_tf0p5_lw0p02_ev0p03_lv0p2_dev3",
+    "h31_tf0p8_lw0p015_ev0p03_lv0p2_dev1",
+    "h31_tf0p8_lw0p02_ev0p03_lv0p2_dev3"
+   ]
+  },
+  {
+   "shard": 5,
+   "runs": [
+    "h23_tf0p5_lw0p015_ev0p03_lv0p2_dev2",
+    "h23_tf0p5_lw0p02_ev0p03_lv0p2_dev4",
+    "h23_tf0p8_lw0p015_ev0p03_lv0p2_dev2",
+    "h23_tf0p8_lw0p02_ev0p03_lv0p2_dev4",
+    "h31_tf0p5_lw0p015_ev0p03_lv0p2_dev2",
+    "h31_tf0p5_lw0p02_ev0p03_lv0p2_dev4",
+    "h31_tf0p8_lw0p015_ev0p03_lv0p2_dev2",
+    "h31_tf0p8_lw0p02_ev0p03_lv0p2_dev4"
+   ]
+  }
+ ],
+ "n_runs": 48,
+ "n_configs": 12,
+ "background": "dev sweep v1 (p = 17, 96 runs) found no qualifying recipe: 50% random data never generalized within 50k; lambda_V = 0 drove CE to ~0; with 80% data, plateau CE >= 0.1 (lambda_W = 0.015) left held-out at ~0.6.",
+ "id_note": "'p' stands for the decimal point in ids"
+}

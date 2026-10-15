@@ -1,0 +1,33 @@
+{
+ "campaign": "Q",
+ "note": "SHA-256 of the campaign files; the worker selftest and push_Q.sh check them",
+ "files": {
+  "worker.py": "847c2ab3f0d6424bb41f7a9392d0d3661c9ff14c3ff05671d8b976ec07d40fb6",
+  "tf_runner.py": "da7fb20a4c765ba2c766efa0e4f5ee9f691d5f979cb509941565251a2c09a7bf",
+  "campaign.json": "04d68d9ccb991816c2db7cc31ae7ce492eeeba08c30ba1b16293d61555a3f627",
+  "manifest.json": "ed7f35e09cdd2b163c1f3b4832ff55c77138b9066bd621d37fdde77abae06e48",
+  "make_manifest.py": "e520050c94621e636840eebac49577558d999da195bd670300797e055a71593e",
+  "tests/test_q.py": "4879cfe49c165be488b33b8b716e75ca667a271054033d28c553f0f1c8c201d3",
+  "tests/test_tf_16suite.py": "9d4ed0b0fee88f9e0939cebeba3ba811c8a0cc6d0c92d416efa62d706416e9b2",
+  "tests/test_zm_suite.py": "42a46258be38f13c8db63fcfe3a4f1be290a311e6e3fff8b5ed3b29f9fc31f08",
+  "tests/ref_tf_runner_17.py": "727c4ff11cd435566e7985cfba9f3f40826f4bc479992af77b037ca302410c32",
+  "PLAN.md": "e18e368f6fc564044f2862ecb2c2fa82e848c47cd1802a2cc30787768cb8d813"
+ },
+ "push": [
+  ".gitignore",
+  "HASHES.json",
+  "PLAN.md",
+  "README.md",
+  "WORKER.md",
+  "campaign.json",
+  "make_manifest.py",
+  "manifest.json",
+  "manifest_test.json",
+  "tests/ref_tf_runner_17.py",
+  "tests/test_q.py",
+  "tests/test_tf_16suite.py",
+  "tests/test_zm_suite.py",
+  "tf_runner.py",
+  "worker.py"
+ ]
+}

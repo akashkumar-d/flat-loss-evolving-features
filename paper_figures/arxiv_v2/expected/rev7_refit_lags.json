@@ -1,0 +1,121 @@
+{
+ "doc": "The refit's lags quoted in revision 7 (claude/1hl-figures, 2026-10-14): how far the refit (all frequencies) trails the\nnetwork at the network's held-out 0.5 crossing, in the transformer figures and in every transformer run on record.\n\n    python3 -I tools/rev7_refit_lags.py ANALYSIS_Z.json ANALYSIS_Q.json [ANALYSIS_ZP.json ANALYSIS_ZM.json] > OUT.json\nLeads are campaign Z's analysis (network crossing minus readout crossing; negative = the refit trails); nothing is rescored.\n",
+ "figure5": {
+  "Polar": {
+   "all": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -1162.5038454356559
+   },
+   "nm": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -1305.402412647437
+   }
+  },
+  "NGD": {
+   "all": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -906.4116327150687
+   },
+   "nm": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -1050.601295859608
+   }
+  },
+  "AdamW": {
+   "all": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -639.0038240491799
+   },
+   "nm": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -699.7852689976562
+   }
+  }
+ },
+ "across_primes": {
+  "P_p61_mf": {
+   "all": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -704.9099694857721
+   },
+   "nm": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -704.9099694857721
+   }
+  },
+  "P_p89": {
+   "all": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -713.9249028306483
+   },
+   "nm": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -781.8010042983713
+   }
+  },
+  "P_p113": {
+   "all": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -1162.5038454356559
+   },
+   "nm": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -1305.402412647437
+   }
+  },
+  "P_p149": {
+   "all": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -1347.3454964734105
+   },
+   "nm": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -1513.1445454571806
+   }
+  }
+ },
+ "two_blocks": {
+  "B_base": {
+   "all": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -511.92121588110786
+   },
+   "nm": {
+    "n": 10,
+    "n_lead": 0,
+    "median": -454.5240345080747
+   }
+  }
+ },
+ "all_runs": {
+  "runs": 250,
+  "crossings": 482,
+  "refit_leads": [
+   {
+    "run": "Q_B_f0.175_lam_v0.275_tau10k_s12",
+    "definition": "all",
+    "lead": 11.955488047173276
+   },
+   {
+    "run": "Q_B_f0.175_lam_v0.275_tau10k_s13",
+    "definition": "nm",
+    "lead": 6.483366256572481
+   }
+  ]
+ }
+}

@@ -1,0 +1,167 @@
+[
+ {
+  "run": "seedD2_r0.5_s2",
+  "cfg": {
+   "frac": 0.8,
+   "width": 256,
+   "depth": 2,
+   "loss": "ce",
+   "eta_w": 0.03,
+   "eta_v": 0.03,
+   "init_scale": 24.0,
+   "steps": 40000,
+   "obs_every": 20,
+   "heavy_every": 500,
+   "p": 31,
+   "lam_v": 0.2,
+   "init_seed": 103,
+   "split_seed": 203,
+   "lam_w": 0.015,
+   "deep_init_scale": 8.0,
+   "lam_deep": 0.07,
+   "eta_deep": 0.003214285714285714
+  },
+  "window": [
+   15900,
+   25200
+  ],
+  "share": 0.9566062176165803,
+  "CE_mean_over_logp": 0.4566283648459181,
+  "CE_range_over_midrange": 0.029924487189123807,
+  "t10": 16020,
+  "t90": 26380,
+  "selection": "same exemplar and outcome-aware best window as original overview"
+ },
+ {
+  "run": "T6_D3_cascade_r0.9_0.45_s2_T100k",
+  "cfg": {
+   "frac": 0.8,
+   "width": 256,
+   "loss": "ce",
+   "eta_w": 0.03,
+   "eta_v": 0.03,
+   "init_scale": 24.0,
+   "obs_every": 20,
+   "heavy_every": 500,
+   "p": 31,
+   "lam_v": 0.2,
+   "init_seed": 103,
+   "split_seed": 203,
+   "lam_w": 0.015,
+   "deep_init_scale": 8.0,
+   "lam_deep": 0.07,
+   "depth": 3,
+   "steps": 100000,
+   "eta_layers": [
+    0.03,
+    0.005785714285714285,
+    0.0028928571428571423
+   ],
+   "lam_layers": [
+    0.015,
+    0.07,
+    0.07
+   ]
+  },
+  "window": [
+   19900,
+   31200
+  ],
+  "share": 0.9889896373056994,
+  "CE_mean_over_logp": 0.4938186427628972,
+  "CE_range_over_midrange": 0.029991155265530325,
+  "t10": 19880,
+  "t90": 30880,
+  "selection": "same exemplar and outcome-aware best window as original overview"
+ },
+ {
+  "run": "T18_D4_r1.0_1.0_0.4_s1_T120k",
+  "cfg": {
+   "frac": 0.8,
+   "width": 256,
+   "loss": "ce",
+   "eta_w": 0.03,
+   "eta_v": 0.03,
+   "init_scale": 24.0,
+   "obs_every": 20,
+   "heavy_every": 500,
+   "p": 31,
+   "lam_v": 0.2,
+   "init_seed": 102,
+   "split_seed": 202,
+   "lam_w": 0.015,
+   "deep_init_scale": 8.0,
+   "lam_deep": 0.07,
+   "depth": 4,
+   "steps": 120000,
+   "eta_layers": [
+    0.03,
+    0.006428571428571428,
+    0.006428571428571428,
+    0.0025714285714285713
+   ],
+   "lam_layers": [
+    0.015,
+    0.07,
+    0.07,
+    0.07
+   ]
+  },
+  "window": [
+   23360,
+   36440
+  ],
+  "share": 0.9455958549222798,
+  "CE_mean_over_logp": 0.5385759370523521,
+  "CE_range_over_midrange": 0.029997367943222514,
+  "t10": 22300,
+  "t90": 36540,
+  "selection": "same exemplar and outcome-aware best window as original overview"
+ },
+ {
+  "run": "T21_D5_r1.0_1.0_1.0_0.35_s0_T150k",
+  "cfg": {
+   "frac": 0.8,
+   "width": 256,
+   "loss": "ce",
+   "eta_w": 0.03,
+   "eta_v": 0.03,
+   "init_scale": 24.0,
+   "obs_every": 20,
+   "heavy_every": 500,
+   "p": 31,
+   "lam_v": 0.2,
+   "init_seed": 101,
+   "split_seed": 201,
+   "lam_w": 0.015,
+   "deep_init_scale": 8.0,
+   "lam_deep": 0.07,
+   "depth": 5,
+   "steps": 150000,
+   "eta_layers": [
+    0.03,
+    0.006428571428571428,
+    0.006428571428571428,
+    0.006428571428571428,
+    0.0022499999999999994
+   ],
+   "lam_layers": [
+    0.015,
+    0.07,
+    0.07,
+    0.07,
+    0.07
+   ]
+  },
+  "window": [
+   26900,
+   43600
+  ],
+  "share": 0.930699481865285,
+  "CE_mean_over_logp": 0.579614957236282,
+  "CE_range_over_midrange": 0.02994761049339072,
+  "t10": 24600,
+  "t90": 42220,
+  "selection": "same exemplar and outcome-aware best window as original overview"
+ }
+]

@@ -1,0 +1,29 @@
+{
+ "campaign": "L",
+ "note": "SHA-256 of the campaign files; the worker selftest and push_L.sh check them",
+ "files": {
+  "worker.py": "847c2ab3f0d6424bb41f7a9392d0d3661c9ff14c3ff05671d8b976ec07d40fb6",
+  "bias_runner.py": "9d8a06fd8852241587184834ee3fd54f359a164f3cf3eeb58502a07898e7e6d0",
+  "campaign.json": "aaa6d2f3778f1fb9ea573cc4e1316b751a382319172ebdb7c6a0373f488d78e6",
+  "manifest.json": "eca7c2ecfeb2565ebede72acb889a39ccf56714ec6c4b064392a13906ff98d8b",
+  "make_manifest.py": "8348ecddcdf21429c40a50234327eeb2a45dfd5ce140716e24659b330a24933c",
+  "tests/test_l.py": "75dcc10681424756d06842fb5860812695115700ab7ea6a50050c9652a0756ee",
+  "endpoints_i.py": "a2e1c5fd69372f4744dae594ff46069dac8d13f617b744f104380728c9346e5b",
+  "acrossp_figs.py": "cbcdcb3cfaa7adf3bb31ab9c840ff8ee5f27e5b246bd71600e06cd98071dcc12"
+ },
+ "push": [
+  ".gitignore",
+  "HASHES.json",
+  "PLAN.md",
+  "README.md",
+  "WORKER.md",
+  "acrossp_figs.py",
+  "bias_runner.py",
+  "campaign.json",
+  "endpoints_i.py",
+  "make_manifest.py",
+  "manifest.json",
+  "tests/test_l.py",
+  "worker.py"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "campaign": "QH",
+ "note": "SHA-256 of the campaign files; the worker selftest and push_Q.sh check them",
+ "files": {
+  "worker.py": "847c2ab3f0d6424bb41f7a9392d0d3661c9ff14c3ff05671d8b976ec07d40fb6",
+  "t41_runner.py": "d9ebd1290e3814348a0141890b15db2db343edd8c9e5a8e1156e3a7c6a5acb0b",
+  "campaign.json": "59509aa3f269c5c29a584ebd2954eef26c62c82b4d0333994d1e18c53d022f3e",
+  "manifest.json": "57dff849cb09bc9c4d318859e9dcadb8d3ac76dfafd2233c8592a320a03de3cc",
+  "make_manifest.py": "15f4db7af348e9481224d55f494ab48c20358af25f9c27cfbbdca0dc4b43c504",
+  "tests/test_qh.py": "d6943c1e5f34ab85c11a1b7a087032d4377c154b7c28456795cd78ce4d477da6",
+  "tests/test_t41.py": "a65a857a272b9e1cad071ebd9f227ec505c1e726ee7033e2d5719f162ee1a5df",
+  "PLAN.md": "2e37b5556d1c73b36fadb3ceb87022c6c8ee85cb0389f48cb815c879093d43eb"
+ },
+ "push": [
+  ".gitignore",
+  "HASHES.json",
+  "PLAN.md",
+  "README.md",
+  "WORKER.md",
+  "campaign.json",
+  "make_manifest.py",
+  "manifest.json",
+  "manifest_test.json",
+  "t41_runner.py",
+  "tests/test_qh.py",
+  "tests/test_t41.py",
+  "worker.py"
+ ]
+}

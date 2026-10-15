@@ -1,0 +1,40 @@
+{
+ "campaign": "N",
+ "runner": "bias_runner.py",
+ "base_branch": "claude/focused-gauss-cy16t3",
+ "tests": "tests/test_n.py",
+ "needs_torch": false,
+ "ckpt_suffix": ".ckpt.npz",
+ "selftest_cfg": {
+  "frac": 0.6,
+  "loss": "ce",
+  "eta_w": 0.03,
+  "eta_v": 0.03,
+  "init_scale": 24.0,
+  "obs_every": 20,
+  "heavy_every": 100,
+  "lam_v": 0.2,
+  "lam_w": 0.015,
+  "deep_init_scale": 8.0,
+  "lam_deep": 0.07,
+  "width": 32,
+  "p": 11,
+  "observers_v1": true,
+  "depth": 4,
+  "steps": 300,
+  "init_seed": 7001,
+  "split_seed": 8001,
+  "eta_layers": [
+   0.03,
+   0.006428571428571428,
+   0.006428571428571428,
+   0.0008357142857142857
+  ],
+  "lam_layers": [
+   0.015,
+   0.07,
+   0.07,
+   0.07
+  ]
+ }
+}

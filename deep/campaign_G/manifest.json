@@ -1,0 +1,1723 @@
+{
+ "campaign": "G",
+ "version": 1,
+ "created": "2026-10-05T22:22:37Z",
+ "author": "the authors",
+ "kind": "the p = 97 settings of campaign F, run unchanged at p = 101 with 10 fresh seeds each (PLAN.md)",
+ "workers": [
+  "S1",
+  "S2",
+  "S3",
+  "S4",
+  "S5",
+  "S6",
+  "S7",
+  "S8"
+ ],
+ "cores_per_worker": 4,
+ "settings": [
+  {
+   "setting": "H_p101_lw0.02",
+   "family": "H",
+   "p": 101,
+   "depth": 1,
+   "width": 512,
+   "dial": {
+    "lam_w": 0.02
+   },
+   "source": "p = 97 setting (campaigns D and F)",
+   "config_from": "H_p97_lw0.0200_s1",
+   "seed_rule": "init 5000 + i, split 6000 + i",
+   "prior": [],
+   "new": [
+    "H_p101_lw0.0200_s1",
+    "H_p101_lw0.0200_s2",
+    "H_p101_lw0.0200_s3",
+    "H_p101_lw0.0200_s4",
+    "H_p101_lw0.0200_s5",
+    "H_p101_lw0.0200_s6",
+    "H_p101_lw0.0200_s7",
+    "H_p101_lw0.0200_s8",
+    "H_p101_lw0.0200_s9",
+    "H_p101_lw0.0200_s10"
+   ],
+   "compare_p97": "H_p97_lw0.02"
+  },
+  {
+   "setting": "D3_p101_r0.45",
+   "family": "D3",
+   "p": 101,
+   "depth": 3,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "source": "p = 97 setting (campaigns D and F)",
+   "config_from": "D3_p97_r0.45_s1",
+   "seed_rule": "init 5000 + i, split 6000 + i",
+   "prior": [],
+   "new": [
+    "D3_p101_r0.45_s1",
+    "D3_p101_r0.45_s2",
+    "D3_p101_r0.45_s3",
+    "D3_p101_r0.45_s4",
+    "D3_p101_r0.45_s5",
+    "D3_p101_r0.45_s6",
+    "D3_p101_r0.45_s7",
+    "D3_p101_r0.45_s8",
+    "D3_p101_r0.45_s9",
+    "D3_p101_r0.45_s10"
+   ],
+   "compare_p97": "D3_p97_r0.45"
+  },
+  {
+   "setting": "D4_p101_r0.45",
+   "family": "D4",
+   "p": 101,
+   "depth": 4,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "source": "p = 97 setting (campaigns D and F)",
+   "config_from": "D4_p97_r0.45_s1",
+   "seed_rule": "init 5000 + i, split 6000 + i",
+   "prior": [],
+   "new": [
+    "D4_p101_r0.45_s1",
+    "D4_p101_r0.45_s2",
+    "D4_p101_r0.45_s3",
+    "D4_p101_r0.45_s4",
+    "D4_p101_r0.45_s5",
+    "D4_p101_r0.45_s6",
+    "D4_p101_r0.45_s7",
+    "D4_p101_r0.45_s8",
+    "D4_p101_r0.45_s9",
+    "D4_p101_r0.45_s10"
+   ],
+   "compare_p97": "D4_p97_r0.45"
+  }
+ ],
+ "est_session_hours": {
+  "S1": 5.74,
+  "S2": 5.74,
+  "S3": 6.87,
+  "S4": 6.87,
+  "S5": 6.87,
+  "S6": 6.87,
+  "S7": 6.0,
+  "S8": 6.0
+ },
+ "chains": [
+  {
+   "id": "H_p101_lw0.0200_s1",
+   "stage": "H",
+   "family": "H",
+   "cohort": "H_p101",
+   "setting": "H_p101_lw0.02",
+   "p": 101,
+   "depth": 1,
+   "width": 512,
+   "dial": {
+    "lam_w": 0.02
+   },
+   "seed": 1,
+   "init_seed": 5001,
+   "split_seed": 6001,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.02,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 1,
+    "width": 512,
+    "steps": 50000,
+    "heavy_every": 1000,
+    "init_seed": 5001,
+    "split_seed": 6001
+   },
+   "threads": 1,
+   "est_wall_hours": 1.203,
+   "est_core_hours": 1.203,
+   "config_from": "H_p97_lw0.0200_s1",
+   "worker": "S7",
+   "order": 2
+  },
+  {
+   "id": "H_p101_lw0.0200_s2",
+   "stage": "H",
+   "family": "H",
+   "cohort": "H_p101",
+   "setting": "H_p101_lw0.02",
+   "p": 101,
+   "depth": 1,
+   "width": 512,
+   "dial": {
+    "lam_w": 0.02
+   },
+   "seed": 2,
+   "init_seed": 5002,
+   "split_seed": 6002,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.02,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 1,
+    "width": 512,
+    "steps": 50000,
+    "heavy_every": 1000,
+    "init_seed": 5002,
+    "split_seed": 6002
+   },
+   "threads": 1,
+   "est_wall_hours": 1.203,
+   "est_core_hours": 1.203,
+   "config_from": "H_p97_lw0.0200_s1",
+   "worker": "S7",
+   "order": 3
+  },
+  {
+   "id": "H_p101_lw0.0200_s3",
+   "stage": "H",
+   "family": "H",
+   "cohort": "H_p101",
+   "setting": "H_p101_lw0.02",
+   "p": 101,
+   "depth": 1,
+   "width": 512,
+   "dial": {
+    "lam_w": 0.02
+   },
+   "seed": 3,
+   "init_seed": 5003,
+   "split_seed": 6003,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.02,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 1,
+    "width": 512,
+    "steps": 50000,
+    "heavy_every": 1000,
+    "init_seed": 5003,
+    "split_seed": 6003
+   },
+   "threads": 1,
+   "est_wall_hours": 1.203,
+   "est_core_hours": 1.203,
+   "config_from": "H_p97_lw0.0200_s1",
+   "worker": "S8",
+   "order": 3
+  },
+  {
+   "id": "H_p101_lw0.0200_s4",
+   "stage": "H",
+   "family": "H",
+   "cohort": "H_p101",
+   "setting": "H_p101_lw0.02",
+   "p": 101,
+   "depth": 1,
+   "width": 512,
+   "dial": {
+    "lam_w": 0.02
+   },
+   "seed": 4,
+   "init_seed": 5004,
+   "split_seed": 6004,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.02,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 1,
+    "width": 512,
+    "steps": 50000,
+    "heavy_every": 1000,
+    "init_seed": 5004,
+    "split_seed": 6004
+   },
+   "threads": 1,
+   "est_wall_hours": 1.203,
+   "est_core_hours": 1.203,
+   "config_from": "H_p97_lw0.0200_s1",
+   "worker": "S7",
+   "order": 4
+  },
+  {
+   "id": "H_p101_lw0.0200_s5",
+   "stage": "H",
+   "family": "H",
+   "cohort": "H_p101",
+   "setting": "H_p101_lw0.02",
+   "p": 101,
+   "depth": 1,
+   "width": 512,
+   "dial": {
+    "lam_w": 0.02
+   },
+   "seed": 5,
+   "init_seed": 5005,
+   "split_seed": 6005,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.02,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 1,
+    "width": 512,
+    "steps": 50000,
+    "heavy_every": 1000,
+    "init_seed": 5005,
+    "split_seed": 6005
+   },
+   "threads": 1,
+   "est_wall_hours": 1.203,
+   "est_core_hours": 1.203,
+   "config_from": "H_p97_lw0.0200_s1",
+   "worker": "S8",
+   "order": 4
+  },
+  {
+   "id": "H_p101_lw0.0200_s6",
+   "stage": "H",
+   "family": "H",
+   "cohort": "H_p101",
+   "setting": "H_p101_lw0.02",
+   "p": 101,
+   "depth": 1,
+   "width": 512,
+   "dial": {
+    "lam_w": 0.02
+   },
+   "seed": 6,
+   "init_seed": 5006,
+   "split_seed": 6006,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.02,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 1,
+    "width": 512,
+    "steps": 50000,
+    "heavy_every": 1000,
+    "init_seed": 5006,
+    "split_seed": 6006
+   },
+   "threads": 1,
+   "est_wall_hours": 1.203,
+   "est_core_hours": 1.203,
+   "config_from": "H_p97_lw0.0200_s1",
+   "worker": "S1",
+   "order": 2
+  },
+  {
+   "id": "H_p101_lw0.0200_s7",
+   "stage": "H",
+   "family": "H",
+   "cohort": "H_p101",
+   "setting": "H_p101_lw0.02",
+   "p": 101,
+   "depth": 1,
+   "width": 512,
+   "dial": {
+    "lam_w": 0.02
+   },
+   "seed": 7,
+   "init_seed": 5007,
+   "split_seed": 6007,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.02,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 1,
+    "width": 512,
+    "steps": 50000,
+    "heavy_every": 1000,
+    "init_seed": 5007,
+    "split_seed": 6007
+   },
+   "threads": 1,
+   "est_wall_hours": 1.203,
+   "est_core_hours": 1.203,
+   "config_from": "H_p97_lw0.0200_s1",
+   "worker": "S2",
+   "order": 2
+  },
+  {
+   "id": "H_p101_lw0.0200_s8",
+   "stage": "H",
+   "family": "H",
+   "cohort": "H_p101",
+   "setting": "H_p101_lw0.02",
+   "p": 101,
+   "depth": 1,
+   "width": 512,
+   "dial": {
+    "lam_w": 0.02
+   },
+   "seed": 8,
+   "init_seed": 5008,
+   "split_seed": 6008,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.02,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 1,
+    "width": 512,
+    "steps": 50000,
+    "heavy_every": 1000,
+    "init_seed": 5008,
+    "split_seed": 6008
+   },
+   "threads": 1,
+   "est_wall_hours": 1.203,
+   "est_core_hours": 1.203,
+   "config_from": "H_p97_lw0.0200_s1",
+   "worker": "S7",
+   "order": 5
+  },
+  {
+   "id": "H_p101_lw0.0200_s9",
+   "stage": "H",
+   "family": "H",
+   "cohort": "H_p101",
+   "setting": "H_p101_lw0.02",
+   "p": 101,
+   "depth": 1,
+   "width": 512,
+   "dial": {
+    "lam_w": 0.02
+   },
+   "seed": 9,
+   "init_seed": 5009,
+   "split_seed": 6009,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.02,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 1,
+    "width": 512,
+    "steps": 50000,
+    "heavy_every": 1000,
+    "init_seed": 5009,
+    "split_seed": 6009
+   },
+   "threads": 1,
+   "est_wall_hours": 1.203,
+   "est_core_hours": 1.203,
+   "config_from": "H_p97_lw0.0200_s1",
+   "worker": "S8",
+   "order": 5
+  },
+  {
+   "id": "H_p101_lw0.0200_s10",
+   "stage": "H",
+   "family": "H",
+   "cohort": "H_p101",
+   "setting": "H_p101_lw0.02",
+   "p": 101,
+   "depth": 1,
+   "width": 512,
+   "dial": {
+    "lam_w": 0.02
+   },
+   "seed": 10,
+   "init_seed": 5010,
+   "split_seed": 6010,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.02,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 1,
+    "width": 512,
+    "steps": 50000,
+    "heavy_every": 1000,
+    "init_seed": 5010,
+    "split_seed": 6010
+   },
+   "threads": 1,
+   "est_wall_hours": 1.203,
+   "est_core_hours": 1.203,
+   "config_from": "H_p97_lw0.0200_s1",
+   "worker": "S8",
+   "order": 2
+  },
+  {
+   "id": "D3_p101_r0.45_s1",
+   "stage": "D3",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D3_p101_r0.45",
+   "p": 101,
+   "depth": 3,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 1,
+   "init_seed": 5001,
+   "split_seed": 6001,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 3,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5001,
+    "split_seed": 6001,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.077,
+   "est_core_hours": 8.308,
+   "config_from": "D3_p97_r0.45_s1",
+   "worker": "S3",
+   "order": 1
+  },
+  {
+   "id": "D3_p101_r0.45_s2",
+   "stage": "D3",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D3_p101_r0.45",
+   "p": 101,
+   "depth": 3,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 2,
+   "init_seed": 5002,
+   "split_seed": 6002,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 3,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5002,
+    "split_seed": 6002,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.077,
+   "est_core_hours": 8.308,
+   "config_from": "D3_p97_r0.45_s1",
+   "worker": "S5",
+   "order": 1
+  },
+  {
+   "id": "D3_p101_r0.45_s3",
+   "stage": "D3",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D3_p101_r0.45",
+   "p": 101,
+   "depth": 3,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 3,
+   "init_seed": 5003,
+   "split_seed": 6003,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 3,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5003,
+    "split_seed": 6003,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.077,
+   "est_core_hours": 8.308,
+   "config_from": "D3_p97_r0.45_s1",
+   "worker": "S6",
+   "order": 1
+  },
+  {
+   "id": "D3_p101_r0.45_s4",
+   "stage": "D3",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D3_p101_r0.45",
+   "p": 101,
+   "depth": 3,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 4,
+   "init_seed": 5004,
+   "split_seed": 6004,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 3,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5004,
+    "split_seed": 6004,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.077,
+   "est_core_hours": 8.308,
+   "config_from": "D3_p97_r0.45_s1",
+   "worker": "S7",
+   "order": 1
+  },
+  {
+   "id": "D3_p101_r0.45_s5",
+   "stage": "D3",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D3_p101_r0.45",
+   "p": 101,
+   "depth": 3,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 5,
+   "init_seed": 5005,
+   "split_seed": 6005,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 3,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5005,
+    "split_seed": 6005,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.077,
+   "est_core_hours": 8.308,
+   "config_from": "D3_p97_r0.45_s1",
+   "worker": "S8",
+   "order": 1
+  },
+  {
+   "id": "D3_p101_r0.45_s6",
+   "stage": "D3",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D3_p101_r0.45",
+   "p": 101,
+   "depth": 3,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 6,
+   "init_seed": 5006,
+   "split_seed": 6006,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 3,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5006,
+    "split_seed": 6006,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.077,
+   "est_core_hours": 8.308,
+   "config_from": "D3_p97_r0.45_s1",
+   "worker": "S3",
+   "order": 2
+  },
+  {
+   "id": "D3_p101_r0.45_s7",
+   "stage": "D3",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D3_p101_r0.45",
+   "p": 101,
+   "depth": 3,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 7,
+   "init_seed": 5007,
+   "split_seed": 6007,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 3,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5007,
+    "split_seed": 6007,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.077,
+   "est_core_hours": 8.308,
+   "config_from": "D3_p97_r0.45_s1",
+   "worker": "S4",
+   "order": 2
+  },
+  {
+   "id": "D3_p101_r0.45_s8",
+   "stage": "D3",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D3_p101_r0.45",
+   "p": 101,
+   "depth": 3,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 8,
+   "init_seed": 5008,
+   "split_seed": 6008,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 3,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5008,
+    "split_seed": 6008,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.077,
+   "est_core_hours": 8.308,
+   "config_from": "D3_p97_r0.45_s1",
+   "worker": "S5",
+   "order": 2
+  },
+  {
+   "id": "D3_p101_r0.45_s9",
+   "stage": "D3",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D3_p101_r0.45",
+   "p": 101,
+   "depth": 3,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 9,
+   "init_seed": 5009,
+   "split_seed": 6009,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 3,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5009,
+    "split_seed": 6009,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.077,
+   "est_core_hours": 8.308,
+   "config_from": "D3_p97_r0.45_s1",
+   "worker": "S6",
+   "order": 2
+  },
+  {
+   "id": "D3_p101_r0.45_s10",
+   "stage": "D3",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D3_p101_r0.45",
+   "p": 101,
+   "depth": 3,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 10,
+   "init_seed": 5010,
+   "split_seed": 6010,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 3,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5010,
+    "split_seed": 6010,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.077,
+   "est_core_hours": 8.308,
+   "config_from": "D3_p97_r0.45_s1",
+   "worker": "S4",
+   "order": 1
+  },
+  {
+   "id": "D4_p101_r0.45_s1",
+   "stage": "D4",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D4_p101_r0.45",
+   "p": 101,
+   "depth": 4,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 1,
+   "init_seed": 5001,
+   "split_seed": 6001,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 4,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5001,
+    "split_seed": 6001,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.718,
+   "est_core_hours": 10.872,
+   "config_from": "D4_p97_r0.45_s1",
+   "worker": "S1",
+   "order": 0
+  },
+  {
+   "id": "D4_p101_r0.45_s2",
+   "stage": "D4",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D4_p101_r0.45",
+   "p": 101,
+   "depth": 4,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 2,
+   "init_seed": 5002,
+   "split_seed": 6002,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 4,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5002,
+    "split_seed": 6002,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.718,
+   "est_core_hours": 10.872,
+   "config_from": "D4_p97_r0.45_s1",
+   "worker": "S3",
+   "order": 0
+  },
+  {
+   "id": "D4_p101_r0.45_s3",
+   "stage": "D4",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D4_p101_r0.45",
+   "p": 101,
+   "depth": 4,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 3,
+   "init_seed": 5003,
+   "split_seed": 6003,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 4,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5003,
+    "split_seed": 6003,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.718,
+   "est_core_hours": 10.872,
+   "config_from": "D4_p97_r0.45_s1",
+   "worker": "S4",
+   "order": 0
+  },
+  {
+   "id": "D4_p101_r0.45_s4",
+   "stage": "D4",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D4_p101_r0.45",
+   "p": 101,
+   "depth": 4,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 4,
+   "init_seed": 5004,
+   "split_seed": 6004,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 4,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5004,
+    "split_seed": 6004,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.718,
+   "est_core_hours": 10.872,
+   "config_from": "D4_p97_r0.45_s1",
+   "worker": "S5",
+   "order": 0
+  },
+  {
+   "id": "D4_p101_r0.45_s5",
+   "stage": "D4",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D4_p101_r0.45",
+   "p": 101,
+   "depth": 4,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 5,
+   "init_seed": 5005,
+   "split_seed": 6005,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 4,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5005,
+    "split_seed": 6005,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.718,
+   "est_core_hours": 10.872,
+   "config_from": "D4_p97_r0.45_s1",
+   "worker": "S6",
+   "order": 0
+  },
+  {
+   "id": "D4_p101_r0.45_s6",
+   "stage": "D4",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D4_p101_r0.45",
+   "p": 101,
+   "depth": 4,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 6,
+   "init_seed": 5006,
+   "split_seed": 6006,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 4,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5006,
+    "split_seed": 6006,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.718,
+   "est_core_hours": 10.872,
+   "config_from": "D4_p97_r0.45_s1",
+   "worker": "S7",
+   "order": 0
+  },
+  {
+   "id": "D4_p101_r0.45_s7",
+   "stage": "D4",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D4_p101_r0.45",
+   "p": 101,
+   "depth": 4,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 7,
+   "init_seed": 5007,
+   "split_seed": 6007,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 4,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5007,
+    "split_seed": 6007,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.718,
+   "est_core_hours": 10.872,
+   "config_from": "D4_p97_r0.45_s1",
+   "worker": "S8",
+   "order": 0
+  },
+  {
+   "id": "D4_p101_r0.45_s8",
+   "stage": "D4",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D4_p101_r0.45",
+   "p": 101,
+   "depth": 4,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 8,
+   "init_seed": 5008,
+   "split_seed": 6008,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 4,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5008,
+    "split_seed": 6008,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.718,
+   "est_core_hours": 10.872,
+   "config_from": "D4_p97_r0.45_s1",
+   "worker": "S1",
+   "order": 1
+  },
+  {
+   "id": "D4_p101_r0.45_s9",
+   "stage": "D4",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D4_p101_r0.45",
+   "p": 101,
+   "depth": 4,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 9,
+   "init_seed": 5009,
+   "split_seed": 6009,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 4,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5009,
+    "split_seed": 6009,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.718,
+   "est_core_hours": 10.872,
+   "config_from": "D4_p97_r0.45_s1",
+   "worker": "S2",
+   "order": 1
+  },
+  {
+   "id": "D4_p101_r0.45_s10",
+   "stage": "D4",
+   "family": "D",
+   "cohort": "D_p101",
+   "setting": "D4_p101_r0.45",
+   "p": 101,
+   "depth": 4,
+   "width": 256,
+   "dial": {
+    "r": 0.45
+   },
+   "seed": 10,
+   "init_seed": 5010,
+   "split_seed": 6010,
+   "cfg": {
+    "frac": 0.8,
+    "loss": "ce",
+    "eta_w": 0.03,
+    "eta_v": 0.03,
+    "init_scale": 24.0,
+    "obs_every": 20,
+    "lam_v": 0.2,
+    "lam_w": 0.015,
+    "observers_v1": true,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.5,
+     "extra": 10000
+    },
+    "p": 101,
+    "depth": 4,
+    "width": 256,
+    "deep_init_scale": 8.0,
+    "lam_deep": 0.07,
+    "steps": 100000,
+    "heavy_every": 1000,
+    "init_seed": 5010,
+    "split_seed": 6010,
+    "eta_layers": [
+     0.03,
+     0.006428571428571428,
+     0.006428571428571428,
+     0.0028928571428571423
+    ],
+    "lam_layers": [
+     0.015,
+     0.07,
+     0.07,
+     0.07
+    ]
+   },
+   "threads": 4,
+   "est_wall_hours": 2.718,
+   "est_core_hours": 10.872,
+   "config_from": "D4_p97_r0.45_s1",
+   "worker": "S2",
+   "order": 0
+  }
+ ]
+}

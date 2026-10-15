@@ -1,0 +1,28 @@
+drew M_scoreboard
+drew M_refit_scoreboard
+drew M_share
+drew M_drawdown
+drew group 3 47 paper f0.8-0.6
+drew group 3 47 paper f0.5
+drew ladder 3 47 paper
+drew group 3 47 lin f0.8-0.6
+drew group 3 47 lin f0.5
+drew ladder 3 47 lin
+drew group 3 61 paper f0.8-0.6
+drew group 3 61 paper f0.5
+drew ladder 3 61 paper
+drew group 3 61 lin f0.8-0.6
+drew group 3 61 lin f0.5
+drew ladder 3 61 lin
+drew group 4 47 paper f0.8-0.6
+drew group 4 47 paper f0.5
+drew ladder 4 47 paper
+drew group 4 47 lin f0.8-0.6
+drew group 4 47 lin f0.5
+drew ladder 4 47 lin
+drew group 4 61 paper f0.8-0.6
+drew group 4 61 paper f0.5
+drew ladder 4 61 paper
+drew group 4 61 lin f0.8-0.6
+drew group 4 61 lin f0.5
+drew ladder 4 61 lin
