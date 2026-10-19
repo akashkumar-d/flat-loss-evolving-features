@@ -1,0 +1,1184 @@
+{
+ "locked_cohorts_1hl": [
+  {
+   "title": "(a) p = 23",
+   "n": 20,
+   "passes": 20,
+   "band_median": [
+    2706.5,
+    19999.0
+   ],
+   "peak_median": 10394.0,
+   "runs": [
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB01",
+     "W": [
+      2772,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.9151,
+     "g_rf": 0.9811,
+     "peak": 10298,
+     "start": 2772,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB02",
+     "W": [
+      2705,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.9151,
+     "g_rf": 0.9623,
+     "peak": 12126,
+     "start": 2705,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB03",
+     "W": [
+      2740,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.8962,
+     "g_rf": 0.9811,
+     "peak": 10207,
+     "start": 2740,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB04",
+     "W": [
+      2732,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.9057,
+     "g_rf": 0.9811,
+     "peak": 9853,
+     "start": 2732,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB05",
+     "W": [
+      2684,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.9245,
+     "g_rf": 0.9623,
+     "peak": 10490,
+     "start": 2684,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB06",
+     "W": [
+      2686,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.9623,
+     "g_rf": 0.9811,
+     "peak": 10293,
+     "start": 2686,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB07",
+     "W": [
+      2649,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.9245,
+     "g_rf": 0.9623,
+     "peak": 9940,
+     "start": 2649,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB08",
+     "W": [
+      2708,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.8868,
+     "g_rf": 0.9811,
+     "peak": 8711,
+     "start": 2708,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB09",
+     "W": [
+      2624,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.9434,
+     "g_rf": 0.9717,
+     "peak": 12165,
+     "start": 2624,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB10",
+     "W": [
+      2676,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.9717,
+     "g_rf": 0.9717,
+     "peak": 17069,
+     "start": 2676,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB11",
+     "W": [
+      2663,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.934,
+     "g_rf": 0.9811,
+     "peak": 12050,
+     "start": 2663,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB12",
+     "W": [
+      2732,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.9151,
+     "g_rf": 0.9717,
+     "peak": 10200,
+     "start": 2732,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB13",
+     "W": [
+      2673,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.8679,
+     "g_rf": 0.9717,
+     "peak": 11732,
+     "start": 2673,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB14",
+     "W": [
+      2742,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.9245,
+     "g_rf": 0.9906,
+     "peak": 10732,
+     "start": 2742,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB15",
+     "W": [
+      2774,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.9245,
+     "g_rf": 1.0,
+     "peak": 9131,
+     "start": 2774,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB16",
+     "W": [
+      2734,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.9528,
+     "g_rf": 0.9434,
+     "peak": 13055,
+     "start": 2734,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB17",
+     "W": [
+      2719,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.9811,
+     "g_rf": 0.9528,
+     "peak": 12808,
+     "start": 2719,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB18",
+     "W": [
+      2678,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.9057,
+     "g_rf": 0.9717,
+     "peak": 9109,
+     "start": 2678,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB19",
+     "W": [
+      2742,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.9528,
+     "g_rf": 1.0,
+     "peak": 13313,
+     "start": 2742,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirmB20",
+     "W": [
+      2661,
+      19999
+     ],
+     "primary": true,
+     "g_te": 0.8868,
+     "g_rf": 0.9717,
+     "peak": 9529,
+     "start": 2661,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    }
+   ],
+   "refit": [
+    "canonical"
+   ]
+  },
+  {
+   "title": "(b) p = 17",
+   "n": 20,
+   "passes": 20,
+   "band_median": [
+    3816.5,
+    18558.5
+   ],
+   "peak_median": 15139.5,
+   "runs": [
+    {
+     "id": "p17_candidate1_confirm01",
+     "W": [
+      3926,
+      26409
+     ],
+     "primary": true,
+     "g_te": 0.9828,
+     "g_rf": 0.9828,
+     "peak": 16954,
+     "start": 3926,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm02",
+     "W": [
+      3853,
+      17312
+     ],
+     "primary": true,
+     "g_te": 0.6724,
+     "g_rf": 0.9655,
+     "peak": 14946,
+     "start": 3853,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm03",
+     "W": [
+      3900,
+      19591
+     ],
+     "primary": true,
+     "g_te": 0.8793,
+     "g_rf": 1.0,
+     "peak": 15118,
+     "start": 3900,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm04",
+     "W": [
+      4004,
+      19160
+     ],
+     "primary": true,
+     "g_te": 0.8448,
+     "g_rf": 0.9655,
+     "peak": 15161,
+     "start": 4004,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm05",
+     "W": [
+      3564,
+      24194
+     ],
+     "primary": true,
+     "g_te": 1.0,
+     "g_rf": 1.0,
+     "peak": 17372,
+     "start": 3564,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm06",
+     "W": [
+      3901,
+      17403
+     ],
+     "primary": true,
+     "g_te": 0.7759,
+     "g_rf": 0.9655,
+     "peak": 14453,
+     "start": 3901,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm07",
+     "W": [
+      3569,
+      19370
+     ],
+     "primary": true,
+     "g_te": 0.8103,
+     "g_rf": 0.9655,
+     "peak": 15303,
+     "start": 3569,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm08",
+     "W": [
+      3912,
+      15232
+     ],
+     "primary": true,
+     "g_te": 0.1897,
+     "g_rf": 0.9655,
+     "peak": 12840,
+     "start": 3912,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm09",
+     "W": [
+      3835,
+      18247
+     ],
+     "primary": true,
+     "g_te": 0.7931,
+     "g_rf": 0.9828,
+     "peak": 15232,
+     "start": 3835,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm10",
+     "W": [
+      3511,
+      18870
+     ],
+     "primary": true,
+     "g_te": 0.8448,
+     "g_rf": 1.0,
+     "peak": 15930,
+     "start": 3511,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm11",
+     "W": [
+      3661,
+      19291
+     ],
+     "primary": true,
+     "g_te": 0.7586,
+     "g_rf": 1.0,
+     "peak": 16480,
+     "start": 3661,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm12",
+     "W": [
+      3910,
+      17503
+     ],
+     "primary": true,
+     "g_te": 0.8103,
+     "g_rf": 1.0,
+     "peak": 14072,
+     "start": 3910,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm13",
+     "W": [
+      3798,
+      16091
+     ],
+     "primary": true,
+     "g_te": 0.6379,
+     "g_rf": 0.9828,
+     "peak": 13455,
+     "start": 3798,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm14",
+     "W": [
+      3874,
+      17467
+     ],
+     "primary": true,
+     "g_te": 0.7759,
+     "g_rf": 1.0,
+     "peak": 14475,
+     "start": 3874,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm15",
+     "W": [
+      3845,
+      21543
+     ],
+     "primary": true,
+     "g_te": 0.9483,
+     "g_rf": 0.9828,
+     "peak": 15508,
+     "start": 3845,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm16",
+     "W": [
+      3752,
+      19105
+     ],
+     "primary": true,
+     "g_te": 0.931,
+     "g_rf": 1.0,
+     "peak": 15548,
+     "start": 3752,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm17",
+     "W": [
+      3609,
+      17908
+     ],
+     "primary": true,
+     "g_te": 0.7069,
+     "g_rf": 1.0,
+     "peak": 14618,
+     "start": 3609,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm18",
+     "W": [
+      3602,
+      25520
+     ],
+     "primary": true,
+     "g_te": 1.0,
+     "g_rf": 0.9655,
+     "peak": 19212,
+     "start": 3602,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm19",
+     "W": [
+      3625,
+      17009
+     ],
+     "primary": true,
+     "g_te": 0.5862,
+     "g_rf": 0.9828,
+     "peak": 13973,
+     "start": 3625,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p17_candidate1_confirm20",
+     "W": [
+      3526,
+      18027
+     ],
+     "primary": true,
+     "g_te": 0.8621,
+     "g_rf": 0.9828,
+     "peak": 14833,
+     "start": 3526,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    }
+   ],
+   "refit": [
+    "canonical"
+   ]
+  },
+  {
+   "title": "(c) p = 23",
+   "n": 20,
+   "passes": 20,
+   "band_median": [
+    11009.0,
+    22206.0
+   ],
+   "peak_median": 18154.0,
+   "runs": [
+    {
+     "id": "p23_candidate2_confirm01",
+     "W": [
+      10896,
+      19188
+     ],
+     "primary": true,
+     "g_te": 0.8396,
+     "g_rf": 0.8868,
+     "peak": 16369,
+     "start": 10896,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm02",
+     "W": [
+      11046,
+      24475
+     ],
+     "primary": true,
+     "g_te": 1.0,
+     "g_rf": 0.934,
+     "peak": 19267,
+     "start": 11046,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm03",
+     "W": [
+      11413,
+      19231
+     ],
+     "primary": true,
+     "g_te": 0.7547,
+     "g_rf": 0.8208,
+     "peak": 16810,
+     "start": 11413,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm04",
+     "W": [
+      10970,
+      18514
+     ],
+     "primary": true,
+     "g_te": 0.6415,
+     "g_rf": 0.9057,
+     "peak": 16347,
+     "start": 10970,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm05",
+     "W": [
+      10867,
+      20598
+     ],
+     "primary": true,
+     "g_te": 0.934,
+     "g_rf": 0.9717,
+     "peak": 17160,
+     "start": 10867,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm06",
+     "W": [
+      11337,
+      19168
+     ],
+     "primary": true,
+     "g_te": 0.6509,
+     "g_rf": 0.8396,
+     "peak": 16544,
+     "start": 11337,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm07",
+     "W": [
+      10908,
+      20815
+     ],
+     "primary": true,
+     "g_te": 0.9151,
+     "g_rf": 0.934,
+     "peak": 18157,
+     "start": 10908,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm08",
+     "W": [
+      11085,
+      20941
+     ],
+     "primary": true,
+     "g_te": 0.9245,
+     "g_rf": 0.9434,
+     "peak": 17779,
+     "start": 11085,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm09",
+     "W": [
+      10900,
+      22440
+     ],
+     "primary": true,
+     "g_te": 1.0,
+     "g_rf": 0.9057,
+     "peak": 19003,
+     "start": 10900,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm10",
+     "W": [
+      11073,
+      23217
+     ],
+     "primary": true,
+     "g_te": 0.9717,
+     "g_rf": 0.9151,
+     "peak": 18223,
+     "start": 11073,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm11",
+     "W": [
+      11200,
+      19269
+     ],
+     "primary": true,
+     "g_te": 0.7264,
+     "g_rf": 0.9057,
+     "peak": 16869,
+     "start": 11200,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm12",
+     "W": [
+      11139,
+      49999
+     ],
+     "primary": true,
+     "g_te": 1.0,
+     "g_rf": 0.8774,
+     "peak": 23734,
+     "start": 11139,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm13",
+     "W": [
+      10905,
+      25227
+     ],
+     "primary": true,
+     "g_te": 1.0,
+     "g_rf": 0.8491,
+     "peak": 18774,
+     "start": 10905,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm14",
+     "W": [
+      10972,
+      22273
+     ],
+     "primary": true,
+     "g_te": 0.9906,
+     "g_rf": 0.9434,
+     "peak": 18151,
+     "start": 10972,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm15",
+     "W": [
+      11076,
+      22685
+     ],
+     "primary": true,
+     "g_te": 0.9906,
+     "g_rf": 0.9151,
+     "peak": 17520,
+     "start": 11076,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm16",
+     "W": [
+      10786,
+      22799
+     ],
+     "primary": true,
+     "g_te": 1.0,
+     "g_rf": 0.8868,
+     "peak": 18378,
+     "start": 10786,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm17",
+     "W": [
+      11212,
+      49999
+     ],
+     "primary": true,
+     "g_te": 1.0,
+     "g_rf": 0.9057,
+     "peak": 49998,
+     "start": 11212,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm18",
+     "W": [
+      10911,
+      21925
+     ],
+     "primary": true,
+     "g_te": 0.9811,
+     "g_rf": 0.8679,
+     "peak": 18018,
+     "start": 10911,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm19",
+     "W": [
+      11053,
+      49999
+     ],
+     "primary": true,
+     "g_te": 1.0,
+     "g_rf": 0.8679,
+     "peak": 49967,
+     "start": 11053,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p23_candidate2_confirm20",
+     "W": [
+      10930,
+      22139
+     ],
+     "primary": true,
+     "g_te": 1.0,
+     "g_rf": 0.9057,
+     "peak": 18441,
+     "start": 10930,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    }
+   ],
+   "refit": [
+    "canonical"
+   ]
+  },
+  {
+   "title": "(d) p = 29",
+   "n": 20,
+   "passes": 20,
+   "band_median": [
+    14715.5,
+    22750.0
+   ],
+   "peak_median": 20399.5,
+   "runs": [
+    {
+     "id": "p29_candidate2_confirm01",
+     "W": [
+      14688,
+      22400
+     ],
+     "primary": true,
+     "g_te": 0.7456,
+     "g_rf": 0.8402,
+     "peak": 19955,
+     "start": 14688,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm02",
+     "W": [
+      14810,
+      21621
+     ],
+     "primary": true,
+     "g_te": 0.5562,
+     "g_rf": 0.8757,
+     "peak": 19775,
+     "start": 14810,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm03",
+     "W": [
+      14649,
+      22764
+     ],
+     "primary": true,
+     "g_te": 0.7929,
+     "g_rf": 0.8757,
+     "peak": 19986,
+     "start": 14649,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm04",
+     "W": [
+      14508,
+      23110
+     ],
+     "primary": true,
+     "g_te": 0.8402,
+     "g_rf": 0.8935,
+     "peak": 20510,
+     "start": 14508,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm05",
+     "W": [
+      14523,
+      23936
+     ],
+     "primary": true,
+     "g_te": 0.9527,
+     "g_rf": 0.929,
+     "peak": 21132,
+     "start": 14523,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm06",
+     "W": [
+      14629,
+      22527
+     ],
+     "primary": true,
+     "g_te": 0.7515,
+     "g_rf": 0.8994,
+     "peak": 20260,
+     "start": 14629,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm07",
+     "W": [
+      14765,
+      22688
+     ],
+     "primary": true,
+     "g_te": 0.787,
+     "g_rf": 0.8994,
+     "peak": 20370,
+     "start": 14765,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm08",
+     "W": [
+      14734,
+      23568
+     ],
+     "primary": true,
+     "g_te": 0.858,
+     "g_rf": 0.8876,
+     "peak": 20851,
+     "start": 14734,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm09",
+     "W": [
+      14578,
+      23560
+     ],
+     "primary": true,
+     "g_te": 0.9172,
+     "g_rf": 0.8817,
+     "peak": 20854,
+     "start": 14578,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm10",
+     "W": [
+      14768,
+      23777
+     ],
+     "primary": true,
+     "g_te": 0.9349,
+     "g_rf": 0.8994,
+     "peak": 20747,
+     "start": 14768,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm11",
+     "W": [
+      14812,
+      23003
+     ],
+     "primary": true,
+     "g_te": 0.8757,
+     "g_rf": 0.9053,
+     "peak": 20526,
+     "start": 14812,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm12",
+     "W": [
+      14697,
+      23063
+     ],
+     "primary": true,
+     "g_te": 0.7574,
+     "g_rf": 0.8698,
+     "peak": 20798,
+     "start": 14697,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm13",
+     "W": [
+      14769,
+      22323
+     ],
+     "primary": true,
+     "g_te": 0.6864,
+     "g_rf": 0.9172,
+     "peak": 20131,
+     "start": 14769,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm14",
+     "W": [
+      14741,
+      22200
+     ],
+     "primary": true,
+     "g_te": 0.7515,
+     "g_rf": 0.8935,
+     "peak": 19726,
+     "start": 14741,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm15",
+     "W": [
+      14633,
+      21947
+     ],
+     "primary": true,
+     "g_te": 0.716,
+     "g_rf": 0.8166,
+     "peak": 19804,
+     "start": 14633,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm16",
+     "W": [
+      14622,
+      22736
+     ],
+     "primary": true,
+     "g_te": 0.8107,
+     "g_rf": 0.8935,
+     "peak": 20485,
+     "start": 14622,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm17",
+     "W": [
+      14655,
+      22647
+     ],
+     "primary": true,
+     "g_te": 0.7751,
+     "g_rf": 0.8876,
+     "peak": 20155,
+     "start": 14655,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm18",
+     "W": [
+      14809,
+      22166
+     ],
+     "primary": true,
+     "g_te": 0.5621,
+     "g_rf": 0.8757,
+     "peak": 20102,
+     "start": 14809,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm19",
+     "W": [
+      14793,
+      22795
+     ],
+     "primary": true,
+     "g_te": 0.6805,
+     "g_rf": 0.8876,
+     "peak": 20429,
+     "start": 14793,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    },
+    {
+     "id": "p29_candidate2_confirm20",
+     "W": [
+      14875,
+      23368
+     ],
+     "primary": true,
+     "g_te": 0.8166,
+     "g_rf": 0.929,
+     "peak": 21055,
+     "start": 14875,
+     "start_rule": "knee",
+     "verdict": "scored here"
+    }
+   ],
+   "refit": [
+    "canonical"
+   ]
+  }
+ ]
+}

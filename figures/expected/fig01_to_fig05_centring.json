@@ -1,0 +1,142 @@
+[
+ {
+  "src": "figures/rev3_20261013/H_hero_1x4.pdf",
+  "out": "figures/rev12_20261015/H_hero_1x4.pdf",
+  "W": 486.0,
+  "H": 113.76,
+  "Wn": 482.28,
+  "grid": [
+   25.9,
+   481.7
+  ],
+  "grid_offset_before": 10.8,
+  "xlabel_on_grid": false,
+  "cut": 77.9,
+  "gap": 3.36,
+  "top_ink": [
+   14.2,
+   482.2
+  ],
+  "bottom_ink": [
+   48.2,
+   480.0
+  ],
+  "ink_px_old": 230455,
+  "ink_px_new": 230462,
+  "ink_px_lost": -7,
+  "printed_scale": 0.8826,
+  "printed_width_bp": 425.66
+ },
+ {
+  "src": "figures/rev4_20261013/fig2_acrossp_1hl_bias.pdf",
+  "out": "figures/rev12_20261015/fig2_acrossp_1hl_bias.pdf",
+  "W": 486.0,
+  "H": 244.8,
+  "Wn": 530.22,
+  "grid": [
+   50.0,
+   483.0
+  ],
+  "grid_offset_before": 23.5,
+  "xlabel_on_grid": true,
+  "cut": 225.2,
+  "gap": 8.16,
+  "top_ink": [
+   2.9,
+   483.4
+  ],
+  "bottom_ink": [
+   72.0,
+   412.8
+  ],
+  "ink_px_old": 678578,
+  "ink_px_new": 678698,
+  "ink_px_lost": -120,
+  "printed_scale": 0.8826,
+  "printed_width_bp": 467.97
+ },
+ {
+  "src": "figures/rev4_20261013/fig3_depths_2to5_bias.pdf",
+  "out": "figures/rev12_20261015/fig3_depths_2to5_bias.pdf",
+  "W": 486.0,
+  "H": 244.8,
+  "Wn": 455.16,
+  "grid": [
+   95.7,
+   432.2
+  ],
+  "grid_offset_before": 20.9,
+  "xlabel_on_grid": true,
+  "cut": 226.0,
+  "gap": 7.2,
+  "top_ink": [
+   53.8,
+   432.7
+  ],
+  "bottom_ink": [
+   16.3,
+   468.5
+  ],
+  "ink_px_old": 652157,
+  "ink_px_new": 652048,
+  "ink_px_lost": 109,
+  "printed_scale": 0.8826,
+  "printed_width_bp": 401.72
+ },
+ {
+  "src": "figures/rev4_20261013/N_D3_p47_main.pdf",
+  "out": "figures/rev12_20261015/N_D3_p47_main.pdf",
+  "W": 403.2,
+  "H": 244.8,
+  "Wn": 446.88,
+  "grid": [
+   50.4,
+   400.2
+  ],
+  "grid_offset_before": 23.7,
+  "xlabel_on_grid": true,
+  "cut": 226.0,
+  "gap": 7.2,
+  "top_ink": [
+   3.4,
+   400.6
+  ],
+  "bottom_ink": [
+   16.8,
+   385.0
+  ],
+  "ink_px_old": 843575,
+  "ink_px_new": 844742,
+  "ink_px_lost": -1167,
+  "printed_scale": 0.8826,
+  "printed_width_bp": 394.42
+ },
+ {
+  "src": "figures/rev8_20261014/TF_main.pdf",
+  "out": "figures/rev12_20261015/TF_main.pdf",
+  "W": 486.0,
+  "H": 273.6,
+  "Wn": 524.97,
+  "grid": [
+   47.4,
+   478.0
+  ],
+  "grid_offset_before": 19.7,
+  "xlabel_on_grid": true,
+  "cut": 253.3,
+  "gap": 9.6,
+  "top_ink": [
+   1.7,
+   482.6
+  ],
+  "bottom_ink": [
+   47.3,
+   437.5
+  ],
+  "ink_px_old": 1191241,
+  "ink_px_new": 1190391,
+  "ink_px_lost": 850,
+  "printed_scale": 0.8826,
+  "printed_width_bp": 463.34
+ }
+]

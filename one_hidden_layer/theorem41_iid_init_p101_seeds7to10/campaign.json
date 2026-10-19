@@ -1,0 +1,24 @@
+{
+ "campaign": "QH",
+ "runner": "t41_runner.py",
+ "base_branch": "akashkumar-d",
+ "tests": "tests/test_qh.py",
+ "needs_torch": false,
+ "ckpt_suffix": ".ckpt.npz",
+ "selftest_cfg": {
+  "p": 11,
+  "width": 16,
+  "split": "qr",
+  "split_seed": 0,
+  "init_scale": 24.0,
+  "head_init_div": 24.0,
+  "lam_v": 0.0,
+  "steps": 60,
+  "obs_every": 10,
+  "heavy_every": 30,
+  "eta_w": 0.0032871017270746927,
+  "lam_w": 1.0,
+  "eta_v": 0.0003,
+  "init_seed": 9107
+ }
+}

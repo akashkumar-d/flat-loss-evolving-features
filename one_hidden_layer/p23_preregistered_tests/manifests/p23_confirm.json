@@ -1,0 +1,186 @@
+{
+ "campaign_id": "1hl-p23-nodecrease-confirm-20260930-v1",
+ "evidence": "fresh 20-pair confirmation of the p = 23, lambda_W = 0.015 recipe and window selected on its 4 development runs (locked before launch)",
+ "limits": {
+  "cooperative_grace_seconds": 60,
+  "global_seconds": 43200,
+  "minimum_free_bytes": 6442450944,
+  "per_arm_seconds": 10800,
+  "workers": 2
+ },
+ "observation": {
+  "cheap_every": 100,
+  "checkpoint_every": 500,
+  "full_every": 500
+ },
+ "postprocess_after_each_run": true,
+ "updates": 20000,
+ "configs": [
+  {
+   "activation": "relu",
+   "c": 24,
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "decay_V": 0.2,
+   "decay_W": 0.015,
+   "eta_V": 0.03,
+   "eta_W": 0.03,
+   "margin_tolerance": 1e-10,
+   "p": 23,
+   "polar_cutoff": {
+    "mode": "relative",
+    "value": 1e-10
+   },
+   "train_fraction": 0.8,
+   "width": 512,
+   "windows": [
+    {
+     "t0": 6500,
+     "t1": 16500,
+     "window_id": "p23_locked_dev_selected"
+    }
+   ]
+  }
+ ],
+ "runs": [
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 1,
+   "init_seed": 5911284287956000402,
+   "split_seed": 7317089971420792933,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm01"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 2,
+   "init_seed": 428281381031473098,
+   "split_seed": 5864223163559520070,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm02"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 3,
+   "init_seed": 2931335416568319340,
+   "split_seed": 5016843837118708903,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm03"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 4,
+   "init_seed": 1276901122131600247,
+   "split_seed": 3449516480073915995,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm04"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 5,
+   "init_seed": 8037936962122956628,
+   "split_seed": 8059487651401101982,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm05"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 6,
+   "init_seed": 3688700898960934837,
+   "split_seed": 4127451087814287665,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm06"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 7,
+   "init_seed": 1467170733955297992,
+   "split_seed": 4884033579369143858,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm07"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 8,
+   "init_seed": 1432626077539800906,
+   "split_seed": 3469689675854588356,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm08"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 9,
+   "init_seed": 3406188657588289383,
+   "split_seed": 8536223478331890702,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm09"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 10,
+   "init_seed": 6417010660788970103,
+   "split_seed": 8615578234620111724,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm10"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 11,
+   "init_seed": 9204030711469462354,
+   "split_seed": 4394597666017309835,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm11"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 12,
+   "init_seed": 5913590010630403429,
+   "split_seed": 4660838674492920436,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm12"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 13,
+   "init_seed": 2110405514112570434,
+   "split_seed": 8909472478755385514,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm13"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 14,
+   "init_seed": 7874448529196001490,
+   "split_seed": 3790310359495418156,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm14"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 15,
+   "init_seed": 8110866418877912390,
+   "split_seed": 8644754087042576756,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm15"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 16,
+   "init_seed": 4014929637956319080,
+   "split_seed": 8582731248195311388,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm16"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 17,
+   "init_seed": 4539464563471413880,
+   "split_seed": 2559255328940558394,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm17"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 18,
+   "init_seed": 8964269115047350905,
+   "split_seed": 6601504894913871795,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm18"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 19,
+   "init_seed": 7373876041485298994,
+   "split_seed": 716329732604086166,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm19"
+  },
+  {
+   "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 20,
+   "init_seed": 1685380517073718900,
+   "split_seed": 549190745018327019,
+   "run_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2_confirm20"
+  }
+ ]
+}

@@ -1,0 +1,191 @@
+{
+ "arms": [
+  {
+   "config_id": "h31_tf0p8_lw0p01_ev3e-05_lv0",
+   "decay_W": 0.01,
+   "eta_V": 3e-05,
+   "decay_V": 0.0,
+   "train_fraction": 0.8,
+   "split": "random"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p01_ev0p0001_lv0",
+   "decay_W": 0.01,
+   "eta_V": 0.0001,
+   "decay_V": 0.0,
+   "train_fraction": 0.8,
+   "split": "random"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p01_ev0p0003_lv0",
+   "decay_W": 0.01,
+   "eta_V": 0.0003,
+   "decay_V": 0.0,
+   "train_fraction": 0.8,
+   "split": "random"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p01_ev0p001_lv0",
+   "decay_W": 0.01,
+   "eta_V": 0.001,
+   "decay_V": 0.0,
+   "train_fraction": 0.8,
+   "split": "random"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev3e-05_lv0",
+   "decay_W": 0.015,
+   "eta_V": 3e-05,
+   "decay_V": 0.0,
+   "train_fraction": 0.8,
+   "split": "random"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p0001_lv0",
+   "decay_W": 0.015,
+   "eta_V": 0.0001,
+   "decay_V": 0.0,
+   "train_fraction": 0.8,
+   "split": "random"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p0003_lv0",
+   "decay_W": 0.015,
+   "eta_V": 0.0003,
+   "decay_V": 0.0,
+   "train_fraction": 0.8,
+   "split": "random"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p001_lv0",
+   "decay_W": 0.015,
+   "eta_V": 0.001,
+   "decay_V": 0.0,
+   "train_fraction": 0.8,
+   "split": "random"
+  },
+  {
+   "config_id": "h31_qr_lw0p015_ev0p03_lv0p2",
+   "decay_W": 0.015,
+   "eta_V": 0.03,
+   "decay_V": 0.2,
+   "train_fraction": 0.5,
+   "split": "qr_difference"
+  },
+  {
+   "config_id": "h31_qr_lw0p015_ev0p0001_lv0",
+   "decay_W": 0.015,
+   "eta_V": 0.0001,
+   "decay_V": 0.0,
+   "train_fraction": 0.5,
+   "split": "qr_difference"
+  },
+  {
+   "config_id": "h31_qr_lw0p015_ev0p0003_lv0",
+   "decay_W": 0.015,
+   "eta_V": 0.0003,
+   "decay_V": 0.0,
+   "train_fraction": 0.5,
+   "split": "qr_difference"
+  }
+ ],
+ "seed_rule": "numpy.random.default_rng(20260949).integers(0, 2**63, size=(4,2), dtype=uint64); pair k shared across configs; qr split ignores split_seed",
+ "dev_pairs": [
+  [
+   4074858066386467532,
+   3243225466552522507
+  ],
+  [
+   5911458169254650675,
+   6579390982134938242
+  ],
+  [
+   9041235103114993557,
+   8328585432198592359
+  ],
+  [
+   4803068033314922318,
+   5643510903381202980
+  ]
+ ],
+ "horizon": 40000,
+ "shards": [
+  {
+   "shard": 0,
+   "runs": [
+    "h31_tf0p8_lw0p01_ev3e-05_lv0_dev1",
+    "h31_tf0p8_lw0p01_ev0p0001_lv0_dev3",
+    "h31_tf0p8_lw0p01_ev0p001_lv0_dev1",
+    "h31_tf0p8_lw0p015_ev3e-05_lv0_dev3",
+    "h31_tf0p8_lw0p015_ev0p0003_lv0_dev1",
+    "h31_tf0p8_lw0p015_ev0p001_lv0_dev3",
+    "h31_qr_lw0p015_ev0p0001_lv0_dev1",
+    "h31_qr_lw0p015_ev0p0003_lv0_dev3"
+   ]
+  },
+  {
+   "shard": 1,
+   "runs": [
+    "h31_tf0p8_lw0p01_ev3e-05_lv0_dev2",
+    "h31_tf0p8_lw0p01_ev0p0001_lv0_dev4",
+    "h31_tf0p8_lw0p01_ev0p001_lv0_dev2",
+    "h31_tf0p8_lw0p015_ev3e-05_lv0_dev4",
+    "h31_tf0p8_lw0p015_ev0p0003_lv0_dev2",
+    "h31_tf0p8_lw0p015_ev0p001_lv0_dev4",
+    "h31_qr_lw0p015_ev0p0001_lv0_dev2",
+    "h31_qr_lw0p015_ev0p0003_lv0_dev4"
+   ]
+  },
+  {
+   "shard": 2,
+   "runs": [
+    "h31_tf0p8_lw0p01_ev3e-05_lv0_dev3",
+    "h31_tf0p8_lw0p01_ev0p0003_lv0_dev1",
+    "h31_tf0p8_lw0p01_ev0p001_lv0_dev3",
+    "h31_tf0p8_lw0p015_ev0p0001_lv0_dev1",
+    "h31_tf0p8_lw0p015_ev0p0003_lv0_dev3",
+    "h31_qr_lw0p015_ev0p03_lv0p2_dev1",
+    "h31_qr_lw0p015_ev0p0001_lv0_dev3"
+   ]
+  },
+  {
+   "shard": 3,
+   "runs": [
+    "h31_tf0p8_lw0p01_ev3e-05_lv0_dev4",
+    "h31_tf0p8_lw0p01_ev0p0003_lv0_dev2",
+    "h31_tf0p8_lw0p01_ev0p001_lv0_dev4",
+    "h31_tf0p8_lw0p015_ev0p0001_lv0_dev2",
+    "h31_tf0p8_lw0p015_ev0p0003_lv0_dev4",
+    "h31_qr_lw0p015_ev0p03_lv0p2_dev2",
+    "h31_qr_lw0p015_ev0p0001_lv0_dev4"
+   ]
+  },
+  {
+   "shard": 4,
+   "runs": [
+    "h31_tf0p8_lw0p01_ev0p0001_lv0_dev1",
+    "h31_tf0p8_lw0p01_ev0p0003_lv0_dev3",
+    "h31_tf0p8_lw0p015_ev3e-05_lv0_dev1",
+    "h31_tf0p8_lw0p015_ev0p0001_lv0_dev3",
+    "h31_tf0p8_lw0p015_ev0p001_lv0_dev1",
+    "h31_qr_lw0p015_ev0p03_lv0p2_dev3",
+    "h31_qr_lw0p015_ev0p0003_lv0_dev1"
+   ]
+  },
+  {
+   "shard": 5,
+   "runs": [
+    "h31_tf0p8_lw0p01_ev0p0001_lv0_dev2",
+    "h31_tf0p8_lw0p01_ev0p0003_lv0_dev4",
+    "h31_tf0p8_lw0p015_ev3e-05_lv0_dev2",
+    "h31_tf0p8_lw0p015_ev0p0001_lv0_dev4",
+    "h31_tf0p8_lw0p015_ev0p001_lv0_dev2",
+    "h31_qr_lw0p015_ev0p03_lv0p2_dev4",
+    "h31_qr_lw0p015_ev0p0003_lv0_dev2"
+   ]
+  }
+ ],
+ "n_runs": 44,
+ "runner_change": "model.py: optional config['split']='qr_difference' (theory Sec. 1.1); random split bitwise identical to the locked runner",
+ "id_note": "'p' stands for the decimal point in ids"
+}

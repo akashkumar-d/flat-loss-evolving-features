@@ -1,0 +1,185 @@
+{
+  "campaign_id": "1hl-plateau-first-confirm-focus-20260928-v1",
+  "configs": [
+    {
+      "activation": "relu",
+      "c": 24,
+      "config_id": "p17_candidate1",
+      "decay_V": 0.2,
+      "decay_W": 0.005,
+      "eta_V": 0.01,
+      "eta_W": 0.03,
+      "margin_tolerance": 1e-10,
+      "p": 17,
+      "polar_cutoff": {
+        "mode": "relative",
+        "value": 1e-10
+      },
+      "train_fraction": 0.8,
+      "width": 512,
+      "windows": [
+        {
+          "t0": 13000,
+          "t1": 21000,
+          "window_id": "primary_fixed"
+        }
+      ]
+    },
+    {
+      "activation": "relu",
+      "c": 48,
+      "config_id": "p23_candidate2",
+      "decay_V": 0.2,
+      "decay_W": 0.005,
+      "eta_V": 0.03,
+      "eta_W": 0.03,
+      "margin_tolerance": 1e-10,
+      "p": 23,
+      "polar_cutoff": {
+        "mode": "relative",
+        "value": 1e-10
+      },
+      "train_fraction": 0.8,
+      "width": 512,
+      "windows": [
+        {
+          "t0": 15000,
+          "t1": 21000,
+          "window_id": "primary_fixed"
+        }
+      ]
+    },
+    {
+      "activation": "relu",
+      "c": 96,
+      "config_id": "p29_candidate2",
+      "decay_V": 0.2,
+      "decay_W": 0.005,
+      "eta_V": 0.03,
+      "eta_W": 0.03,
+      "margin_tolerance": 1e-10,
+      "p": 29,
+      "polar_cutoff": {
+        "mode": "relative",
+        "value": 1e-10
+      },
+      "train_fraction": 0.8,
+      "width": 512,
+      "windows": [
+        {
+          "t0": 18000,
+          "t1": 24000,
+          "window_id": "primary_fixed"
+        }
+      ]
+    }
+  ],
+  "confirmation_protocol": {
+    "execution_status": "declared_not_launched",
+    "feature_learning_is_not_implied_by_plateau": true,
+    "flatness_tiers": [
+      "P03_raw",
+      "P01_raw"
+    ],
+    "grokking_is_not_required_for_primary": true,
+    "horizon_note": "Same 50k horizon as development.",
+    "no_endpoint_redefinition": true,
+    "optional_stage": false,
+    "pairs_per_recipe": 20,
+    "primary": "P10_raw",
+    "primary_definition": "Every update in the unchanged fixed window has resolved positive finite raw training CE and (max CE-min CE)/min CE <= 0.10.",
+    "reporting": "Each recipe separately; denominator is all declared pairs including failed, partial and unrun. Missing is not success. Report raw per-run statistics and unconditional Wilson95 intervals; intervals are marginal, not simultaneous across recipes/endpoints.",
+    "retry_policy": "No outcome-based retries, replacements, seed selection or window changes. Resource-censored runs remain in denominator.",
+    "secondary": [
+      "P10_raw AND F02",
+      "AGOP02",
+      "fit_strict",
+      "PA10_F02",
+      "joint_PAG10_F02",
+      "AGOP_supported_joint",
+      "useful_refit",
+      "finite_recovery90",
+      "finite_recovery95",
+      "finite_recovery99",
+      "finite_recovery100"
+    ],
+    "seed_audit_sha256": "f2ffaf25166af171c1493caee686f1c350e6716b5103fd73bcf7290b0517b869",
+    "seed_generation": "SHA256 labelled independent PRNG streams, uint64; no seed shared between recipes or roles; finite-PRNG experimental independence convention",
+    "seed_namespace": "modarith-1hl-plateau-first-confirmation-20260928-v1",
+    "source_manifest_sha256": "38797cb78acdd71bac5d15a86cc8f4db247a192fdeb6e37d7185b718260748fb",
+    "version": "plateau-first-v1-20260928"
+  },
+  "evidence": "prospectively locked fresh-seed confirmation of development-selected recipes; no initialization theorem claim",
+  "limits": {
+    "cooperative_grace_seconds": 60,
+    "global_seconds": 43200,
+    "minimum_free_bytes": 6442450944,
+    "per_arm_seconds": 10800,
+    "workers": 8
+  },
+  "observation": {
+    "cheap_every": 100,
+    "checkpoint_every": 500,
+    "full_every": 500
+  },
+  "postprocess_after_each_run": true,
+  "runs": [
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 1,
+      "init_seed": 6754367767622396323,
+      "run_id": "p29_candidate2_confirm01",
+      "split_seed": 12758465613697741172
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 4,
+      "init_seed": 16959120070324491268,
+      "run_id": "p23_candidate2_confirm04",
+      "split_seed": 62850715383101520
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 7,
+      "init_seed": 2598804802065877029,
+      "run_id": "p17_candidate1_confirm07",
+      "split_seed": 3661294863652478287
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 9,
+      "init_seed": 15239367433108261203,
+      "run_id": "p29_candidate2_confirm09",
+      "split_seed": 13840133502720934539
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 12,
+      "init_seed": 12888539254229791648,
+      "run_id": "p23_candidate2_confirm12",
+      "split_seed": 16111956212122712221
+    },
+    {
+      "config_id": "p17_candidate1",
+      "confirmation_pair": 15,
+      "init_seed": 16287499269601793330,
+      "run_id": "p17_candidate1_confirm15",
+      "split_seed": 16573871066450033879
+    },
+    {
+      "config_id": "p29_candidate2",
+      "confirmation_pair": 17,
+      "init_seed": 17944168125057939840,
+      "run_id": "p29_candidate2_confirm17",
+      "split_seed": 7793912310855018098
+    },
+    {
+      "config_id": "p23_candidate2",
+      "confirmation_pair": 20,
+      "init_seed": 2226014005312482919,
+      "run_id": "p23_candidate2_confirm20",
+      "split_seed": 15576961214070598677
+    }
+  ],
+  "updates": 50000
+}

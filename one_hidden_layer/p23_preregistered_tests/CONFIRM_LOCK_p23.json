@@ -1,0 +1,149 @@
+{
+ "locked_utc": "2026-09-30T03:33:13Z",
+ "purpose": "Fresh confirmation for Figure 2: held-out accuracy rises while the training loss does not decrease.",
+ "recipe_choice": "Chosen on development data only: among the dev-sweep v2 recipes, h23_tf0p8_lw0p015_ev0p03_lv0p2 was the one whose cycle-mean training CE did not decrease between the first 10% and first 90% held-out crossings in all 4 dev pairs (max drawdown <= 0.25%), at a positive loss level (~0.25 log p). Post hoc with respect to the dev runs, prior to any confirmation run.",
+ "config": {
+  "activation": "relu",
+  "c": 24,
+  "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+  "decay_V": 0.2,
+  "decay_W": 0.015,
+  "eta_V": 0.03,
+  "eta_W": 0.03,
+  "margin_tolerance": 1e-10,
+  "p": 23,
+  "polar_cutoff": {
+   "mode": "relative",
+   "value": 1e-10
+  },
+  "train_fraction": 0.8,
+  "width": 512,
+  "windows": [
+   {
+    "t0": 6500,
+    "t1": 16500,
+    "window_id": "p23_locked_dev_selected"
+   }
+  ]
+ },
+ "horizon_updates": 20000,
+ "window": {
+  "t0": 6500,
+  "t1": 16500
+ },
+ "window_rule": "select_p23_window.py (declared rule, applied to the 4 dev runs only): all dev runs pass P10, ND, FIT, H20, F04 below and window-min CE >= 0.1; largest minimum dA_H, ties within 0.005 -> shorter window, then earlier t0. Result: [6500, 16500], min dA_H 0.0607.",
+ "seed_rule": "numpy.random.default_rng(20261001).integers(0, 2**63, size=(20,2), dtype=uint64)",
+ "pairs": [
+  [
+   5911284287956000402,
+   7317089971420792933
+  ],
+  [
+   428281381031473098,
+   5864223163559520070
+  ],
+  [
+   2931335416568319340,
+   5016843837118708903
+  ],
+  [
+   1276901122131600247,
+   3449516480073915995
+  ],
+  [
+   8037936962122956628,
+   8059487651401101982
+  ],
+  [
+   3688700898960934837,
+   4127451087814287665
+  ],
+  [
+   1467170733955297992,
+   4884033579369143858
+  ],
+  [
+   1432626077539800906,
+   3469689675854588356
+  ],
+  [
+   3406188657588289383,
+   8536223478331890702
+  ],
+  [
+   6417010660788970103,
+   8615578234620111724
+  ],
+  [
+   9204030711469462354,
+   4394597666017309835
+  ],
+  [
+   5913590010630403429,
+   4660838674492920436
+  ],
+  [
+   2110405514112570434,
+   8909472478755385514
+  ],
+  [
+   7874448529196001490,
+   3790310359495418156
+  ],
+  [
+   8110866418877912390,
+   8644754087042576756
+  ],
+  [
+   4014929637956319080,
+   8582731248195311388
+  ],
+  [
+   4539464563471413880,
+   2559255328940558394
+  ],
+  [
+   8964269115047350905,
+   6601504894913871795
+  ],
+  [
+   7373876041485298994,
+   716329732604086166
+  ],
+  [
+   1685380517073718900,
+   549190745018327019
+  ]
+ ],
+ "primary_endpoints": {
+  "P10": "raw training-CE relative variation max/min - 1 <= 10% over every update of [t0, t1]",
+  "ND": "no loss decrease during generalization: T90 = first update > t0 with held-out accuracy >= 0.9 satisfies T90 <= t1 - 500; on [t0, T90] the two-update cycle-mean CE Lbar_t = (L_t + L_{t+1})/2 never falls more than 0.5% below its running maximum since t0, and Lbar(T90) >= Lbar(t0)",
+  "FIT": "training accuracy 1 at every update of [t0, t1]",
+  "H20": "held-out accuracy <= 20% at t0",
+  "F04": "A_H(t1) - A_H(t0) >= 0.04"
+ },
+ "joint": "P10 and ND and FIT and H20 and F04",
+ "decision_rule": "The cohort replaces the current Figure 2 if the joint endpoint holds in at least 18 of 20 runs (two-sided 95% Wilson lower bound >= 0.70). Otherwise it is reported as a failed confirmation and the redrawn headline Figure 2 stays.",
+ "secondary": [
+  "dAGOP - dnull >= 0.02 (q=4, median of 8 frames)",
+  "first refit 90% crossing (500-update grid)",
+  "strict joint (score.json)",
+  "held-out accuracy at 20000",
+  "window-minimum CE",
+  "max drawdown and net change of Lbar on [t0, T90]"
+ ],
+ "illustration_rule": "any single-run illustration uses confirmation pair 1",
+ "source_sha256": {
+  "src/endpoints.py": "812884c8f124f197a88e7272c777b85ae51c5297caa3453481237b031193c14b",
+  "src/legacy_core.py": "874888345b9eda1f5aa60f7dc2d02a213c4158225803790503b1d78d9574c242",
+  "src/model.py": "017f4b2e801dad613397c27c5a83fd0a90d5d4e1907ee1318862218f898bdbd7",
+  "src/observers.py": "021580f66a6b7c42e86b7eae8d164b1ca4e65d23f9a1c89cc9d59f60bde0c88f",
+  "src/plot_style_v1.json": "1f75ad7541bbb69be2e7d29c1d66acd0cf86f195546147975d1a414cd5de8786",
+  "src/plotting.py": "05411e090da202f85b5f15077161f90e3a83df1d872472c67722d2a3a379d0cc",
+  "src/postprocess.py": "82c3774cb7fe2be802d010da38cf91a0682fbef43fac5e56df7d927c13006033",
+  "src/run_campaign.py": "cb12c2f8e707442c5252dfc28155e241bab9cc6e542b5d2a87def44e92ce19c0",
+  "tools/compact_line1.py": "4d8c9f8b447eba2a1a7b080655f77861b3420cc2418ce0e73ce56eaf1480ec6f"
+ },
+ "manifest_sha256": "16d4d73d00ab7c5a1d946f7039ec0e1cf7e51438ca1550371c1c38f0d6f36733",
+ "environment": "cloud container, 2 CPU cores, Python 3.11.15, numpy 2.4.4, scipy 1.17.1; a 1500-update rerun of dev pair 3 reproduced the Lightning dev trace to <= 5.3e-16 relative"
+}

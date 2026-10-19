@@ -1,0 +1,36 @@
+{
+  "version": "1.0-proposed",
+  "protocol": "README_EXPERIMENT_PLOT_PROTOCOL.md",
+  "scope": "Future modular-arithmetic figures; not a retroactive rewrite of archived metric definitions",
+  "series": {
+    "actual_train": {"color": "#0072B2", "linestyle": "--", "label": "actual train"},
+    "actual_test": {"color": "#009E73", "linestyle": "-", "label": "actual held-out"},
+    "refit_test": {"color": "#E69F00", "linestyle": ":", "label": "train-only refit: held-out"},
+    "refit_train": {"color": "#0072B2", "linestyle": ":", "label": "train-only refit: train"},
+    "fourier_addition": {"color": "#7B4AB5", "linestyle": "-", "label": "addition Fourier"},
+    "fourier_availability": {"color": "#56B4E9", "linestyle": "-.", "label": "hidden-span availability A+"},
+    "agop_current": {"color": "#CC79A7", "linestyle": "-", "label": "AGOP-Fourier: current axes"},
+    "agop_fixed": {"color": "#CC79A7", "linestyle": "--", "label": "AGOP-Fourier: fixed axes"},
+    "difference_or_residual": {"color": "#D55E00", "linestyle": "--", "label": "difference / non-rule / signed residual; specialize label"},
+    "oracle_projection_error": {"color": "#666666", "linestyle": ":", "label": "full-grid oracle projection error 1-A+"},
+    "total_or_neutral": {"color": "#333333", "linestyle": "-", "label": "total / neutral; specialize label"},
+    "random_or_threshold": {"color": "#999999", "linestyle": ":", "label": "random / chance / threshold; specialize label"}
+  },
+  "events": {
+    "train_fit": {"color": "#999999", "linestyle": "--"},
+    "useful_refit": {"color": "#E69F00", "linestyle": ":"},
+    "actual_recovery": {"color": "#009E73", "linestyle": "-."}
+  },
+  "window": {"color": "#DDE3E8", "alpha": 0.30, "label": "predeclared analysis window"},
+  "bands": {"iqr_alpha": 0.18, "individual_alpha": 0.12, "iqr_is_confidence_interval": false},
+  "linewidths": {"main": 2.2, "individual": 0.6, "control": 1.3},
+  "figure": {"rows": 2, "columns": 3, "width_inches": 15, "height_inches": 8.5, "minimum_font_points": 9, "background": "#FFFFFF", "grid_color": "#E5E7EB", "png_dpi": 200, "vector_formats": ["pdf", "svg"]},
+  "axes": {"time": "global optimization updates", "accuracy_overview_limits": [0, 1], "fraction_overview_limits": [0, 1], "signed_margin_zero_line": true, "loss_linear_zoom_required": true, "unsmoothed_primary": true},
+  "facets_in_order": ["hidden_layers", "p", "loss", "activation", "optimizer", "intervention", "split_family", "width"],
+  "notes": [
+    "Metric semantics determine color, not which thread generated a figure.",
+    "A_H, A+, AGOP, ridge held-out MSE, and oracle projection error are distinct.",
+    "Do not overlay incompatible metrics on a shared y scale.",
+    "For cross-method overlays, retain semantic metric colors and use explicitly keyed method styles in a separate control panel."
+  ]
+}

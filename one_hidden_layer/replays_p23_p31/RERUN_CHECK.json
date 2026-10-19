@@ -1,0 +1,105 @@
+{
+ "what": "Line-3 reruns (Lightning, natplat_states.py = natplat_server.Run + state saving) vs original runs (original_runs/)",
+ "runs": {
+  "seed_p23_lw0.01_lv0.2_s0": {
+   "cfg_identical": true,
+   "n_updates": 30000,
+   "max_rel_loss_diff": 0.0003234885145605819,
+   "max_rel_loss_diff_first_15k": 1.921696446893269e-15,
+   "first_step_rel_gt_1e9": 28134,
+   "test_acc_logged_steps": 1501,
+   "test_acc_steps_differing": 0,
+   "test_acc_max_abs_diff": 0.0
+  },
+  "seed_p23_lw0.01_lv0.2_s1": {
+   "cfg_identical": true,
+   "n_updates": 30000,
+   "max_rel_loss_diff": 0.0006472480828971557,
+   "max_rel_loss_diff_first_15k": 2.3357016118489024e-15,
+   "first_step_rel_gt_1e9": 21915,
+   "test_acc_logged_steps": 1501,
+   "test_acc_steps_differing": 0,
+   "test_acc_max_abs_diff": 0.0
+  },
+  "seed_p23_lw0.01_lv0.2_s2": {
+   "cfg_identical": true,
+   "n_updates": 30000,
+   "max_rel_loss_diff": 0.0003844752288944789,
+   "max_rel_loss_diff_first_15k": 2.5393848492929366e-15,
+   "first_step_rel_gt_1e9": 27473,
+   "test_acc_logged_steps": 1501,
+   "test_acc_steps_differing": 0,
+   "test_acc_max_abs_diff": 0.0
+  },
+  "seed_p23_lw0.01_lv0.2_s3": {
+   "cfg_identical": true,
+   "n_updates": 30000,
+   "max_rel_loss_diff": 0.0011320048863017295,
+   "max_rel_loss_diff_first_15k": 1.7214111161590517e-15,
+   "first_step_rel_gt_1e9": 19567,
+   "test_acc_logged_steps": 1501,
+   "test_acc_steps_differing": 0,
+   "test_acc_max_abs_diff": 0.0
+  },
+  "seed_p23_lw0.01_lv0.2_s4": {
+   "cfg_identical": true,
+   "n_updates": 30000,
+   "max_rel_loss_diff": 0.0009029810535890206,
+   "max_rel_loss_diff_first_15k": 2.31830249389523e-15,
+   "first_step_rel_gt_1e9": 24673,
+   "test_acc_logged_steps": 1501,
+   "test_acc_steps_differing": 0,
+   "test_acc_max_abs_diff": 0.0
+  },
+  "seed_p31_lw0.015_lv0.2_s0": {
+   "cfg_identical": true,
+   "n_updates": 30000,
+   "max_rel_loss_diff": 0.0004886882986202269,
+   "max_rel_loss_diff_first_15k": 1.2007481435516597e-14,
+   "first_step_rel_gt_1e9": 17470,
+   "test_acc_logged_steps": 1501,
+   "test_acc_steps_differing": 101,
+   "test_acc_max_abs_diff": 0.005181347150259086
+  },
+  "seed_p31_lw0.015_lv0.2_s1": {
+   "cfg_identical": true,
+   "n_updates": 30000,
+   "max_rel_loss_diff": 0.000997165649159227,
+   "max_rel_loss_diff_first_15k": 1.7044604961831984e-14,
+   "first_step_rel_gt_1e9": 17490,
+   "test_acc_logged_steps": 1501,
+   "test_acc_steps_differing": 443,
+   "test_acc_max_abs_diff": 0.010362694300518172
+  },
+  "seed_p31_lw0.015_lv0.2_s2": {
+   "cfg_identical": true,
+   "n_updates": 30000,
+   "max_rel_loss_diff": 0.0003123568866531218,
+   "max_rel_loss_diff_first_15k": 9.237171106687538e-15,
+   "first_step_rel_gt_1e9": 19303,
+   "test_acc_logged_steps": 1501,
+   "test_acc_steps_differing": 142,
+   "test_acc_max_abs_diff": 0.005181347150259086
+  },
+  "seed_p31_lw0.015_lv0.2_s3": {
+   "cfg_identical": true,
+   "n_updates": 30000,
+   "max_rel_loss_diff": 0.0008693781668455565,
+   "max_rel_loss_diff_first_15k": 1.589189435117244e-14,
+   "first_step_rel_gt_1e9": 17962,
+   "test_acc_logged_steps": 1501,
+   "test_acc_steps_differing": 284,
+   "test_acc_max_abs_diff": 0.010362694300518172
+  },
+  "seed_p31_lw0.015_lv0.2_s4": {
+   "cfg_identical": true,
+   "n_updates": 30000,
+   "max_rel_loss_diff": 0.0004740003558254146,
+   "max_rel_loss_diff_first_15k": 1.96837082754901e-14,
+   "first_step_rel_gt_1e9": 18072,
+   "test_acc_logged_steps": 1501,
+   "test_acc_steps_differing": 191,
+   "test_acc_max_abs_diff": 0.015544041450777146
+  }
+ }
+}

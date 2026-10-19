@@ -1,0 +1,152 @@
+{
+ "locked_utc": "2026-09-30T04:12:31Z",
+ "purpose": "Second fresh confirmation of the p = 23 recipe: held-out accuracy rises from <= 20% to >= 50% while the cycle-mean training CE does not decrease.",
+ "disclosure": "The first pre-registered confirmation (CONFIRM_LOCK_p23.json; no decrease up to the first 90% held-out crossing) failed its >= 18/20 rule: joint 10/20, ND 10/20. Post hoc, on those 20 evaluation runs, the cycle-mean CE did not decrease up to the first 50% and 70% held-out crossings (ND50 20/20, ND70 20/20; largest drawdown to the 50% crossing 0.0006%), and held-out accuracy at the cycle-mean CE peak was 60.4-94.3%. This lock tests that post-hoc observation on 20 new pairs; none of the first cohort's runs enter this decision.",
+ "config": {
+  "activation": "relu",
+  "c": 24,
+  "config_id": "h23_tf0p8_lw0p015_ev0p03_lv0p2",
+  "decay_V": 0.2,
+  "decay_W": 0.015,
+  "eta_V": 0.03,
+  "eta_W": 0.03,
+  "margin_tolerance": 1e-10,
+  "p": 23,
+  "polar_cutoff": {
+   "mode": "relative",
+   "value": 1e-10
+  },
+  "train_fraction": 0.8,
+  "width": 512,
+  "windows": [
+   {
+    "t0": 6500,
+    "t1": 16500,
+    "window_id": "p23_locked_dev_selected"
+   }
+  ]
+ },
+ "horizon_updates": 20000,
+ "window": {
+  "t0": 6500,
+  "t1": 16500
+ },
+ "window_rule": "unchanged from CONFIRM_LOCK_p23.json (selected on the 4 development runs only)",
+ "seed_rule": "numpy.random.default_rng(20261002).integers(0, 2**63, size=(20,2), dtype=uint64); no overlap with the first cohort",
+ "pairs": [
+  [
+   1286262200263052248,
+   945519277877786146
+  ],
+  [
+   1992391338137229073,
+   7151652634608536013
+  ],
+  [
+   8469951333257452794,
+   6223426164134365271
+  ],
+  [
+   5085247986523840990,
+   5440923260043845036
+  ],
+  [
+   9128631708927845115,
+   2363587775103156847
+  ],
+  [
+   5237329188902631114,
+   6425896007372961693
+  ],
+  [
+   8119590988572944941,
+   6547894334430266424
+  ],
+  [
+   4876495168860202974,
+   6363753597586305328
+  ],
+  [
+   5126619593998995334,
+   2243394135170715511
+  ],
+  [
+   2513545098981860268,
+   8548918492802651502
+  ],
+  [
+   1733149458716504557,
+   8038497810634968288
+  ],
+  [
+   1293298680636039944,
+   1620337945044028497
+  ],
+  [
+   7879574424651943135,
+   7171713243430886331
+  ],
+  [
+   1141835421060263756,
+   8825186187944900189
+  ],
+  [
+   5077870803776570846,
+   6851001591914242132
+  ],
+  [
+   6504263220919629005,
+   2335247480780171649
+  ],
+  [
+   993293129750974524,
+   3067297590671728366
+  ],
+  [
+   6631397935207423862,
+   790291019196195504
+  ],
+  [
+   8728857161722186492,
+   3034654259349677907
+  ],
+  [
+   1244547120432508920,
+   9124068084954621346
+  ]
+ ],
+ "primary_endpoints": {
+  "P10": "raw training-CE relative variation max/min - 1 <= 10% over every update of [t0, t1]",
+  "ND50": "no loss decrease during the first half of recovery: T50 = first update > t0 with held-out accuracy >= 0.5 satisfies T50 <= t1 - 500; on [t0, T50] the two-update cycle-mean CE Lbar_t = (L_t + L_{t+1})/2 never falls more than 0.5% below its running maximum since t0, and Lbar(T50) >= Lbar(t0)",
+  "FIT": "training accuracy 1 at every update of [t0, t1]",
+  "H20": "held-out accuracy <= 20% at t0",
+  "F04": "A_H(t1) - A_H(t0) >= 0.04"
+ },
+ "joint": "P10 and ND50 and FIT and H20 and F04",
+ "decision_rule": "CONFIRMED if the joint endpoint holds in at least 18 of 20 runs (two-sided 95% Wilson lower bound >= 0.70); otherwise reported as a failed confirmation. Either way the result is reported. A confirmed cohort is offered to the authors as a Figure 2 candidate; it does not replace Figure 2 automatically.",
+ "secondary": [
+  "ND70 and ND90 (same definition with 70% / 90%)",
+  "held-out accuracy at the cycle-mean CE peak on [t0, t1) >= 50%",
+  "T90 within the 20k horizon",
+  "dAGOP - dnull >= 0.02 (q=4, median of 8 frames)",
+  "first refit 90% crossing (500-update grid)",
+  "held-out accuracy at 20000",
+  "window-minimum CE"
+ ],
+ "scoring": "score_p23b.py <compact_dir> CONFIRM_LOCK_p23b.json <out.json>",
+ "illustration_rule": "any single-run illustration uses confirmation pair 1",
+ "source_sha256": {
+  "src/endpoints.py": "812884c8f124f197a88e7272c777b85ae51c5297caa3453481237b031193c14b",
+  "src/legacy_core.py": "874888345b9eda1f5aa60f7dc2d02a213c4158225803790503b1d78d9574c242",
+  "src/model.py": "017f4b2e801dad613397c27c5a83fd0a90d5d4e1907ee1318862218f898bdbd7",
+  "src/observers.py": "021580f66a6b7c42e86b7eae8d164b1ca4e65d23f9a1c89cc9d59f60bde0c88f",
+  "src/plot_style_v1.json": "1f75ad7541bbb69be2e7d29c1d66acd0cf86f195546147975d1a414cd5de8786",
+  "src/plotting.py": "05411e090da202f85b5f15077161f90e3a83df1d872472c67722d2a3a379d0cc",
+  "src/postprocess.py": "82c3774cb7fe2be802d010da38cf91a0682fbef43fac5e56df7d927c13006033",
+  "src/run_campaign.py": "cb12c2f8e707442c5252dfc28155e241bab9cc6e542b5d2a87def44e92ce19c0",
+  "tools/compact_line1.py": "4d8c9f8b447eba2a1a7b080655f77861b3420cc2418ce0e73ce56eaf1480ec6f",
+  "score_p23b.py": "28d73ebfe3fb82d661d828d42afc28e37010272a155f9f4985c62c640d19b416"
+ },
+ "manifest_sha256": "09c02a8c1803f9dcb997f1c91f405490d42e23b3fa0b67d32266b0060a18e40b",
+ "environment": "cloud container, 2 CPU cores, Python 3.11.15, numpy 2.4.4, scipy 1.17.1; a 1500-update rerun of dev pair 3 reproduced the Lightning dev trace to <= 5.3e-16 relative"
+}

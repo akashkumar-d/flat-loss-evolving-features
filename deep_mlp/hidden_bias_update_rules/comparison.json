@@ -1,0 +1,386 @@
+{
+ "campaign": "J",
+ "note": "Paired references, fixed before any campaign-J evaluation run: joint = campaign I (bias trained with the joint [W | b] Polar step), twin = the bias-free paper run (campaigns D and F).",
+ "seeds": [
+  {
+   "seed": 1,
+   "init_seed": 5001,
+   "split_seed": 6001,
+   "joint": {
+    "id": "B_H_p31_lw0.0150_s1",
+    "campaign": "I",
+    "sha256": "d5003634ce3003de2e3caf1a8aa9854616f23ea8ff2b1eb353f95f6f06c504e2",
+    "bytes": 97751,
+    "archive": "campaign_I/results_archive/campaignI_H.tar",
+    "branch": "(anonymized)",
+    "runner_sha256": "16bb2ebd8506227c7ad987e043c2c9fad5ff1d6d5729153c55621747a6359bb2",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.5.3",
+     "python": "3.13.16"
+    }
+   },
+   "twin": {
+    "id": "H_p31_lw0.0150_s1",
+    "campaign": "D",
+    "sha256": "20947467bfa351645c0cc89834eaa927aa4d84ea2a72159cf28ec0eea21455db",
+    "bytes": 82867,
+    "archive": "campaign_D/results_archive/campaignD_H.tar",
+    "branch": null,
+    "runner_sha256": "21c4bd56ca3f1e8272430038392f12c533247988e57b8ebda831035c6b831f1b",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.4.6",
+     "platform": "Linux-6.18.44-fc-v50-x86_64-with-glibc2.39",
+     "python": "3.11.15"
+    }
+   }
+  },
+  {
+   "seed": 2,
+   "init_seed": 5002,
+   "split_seed": 6002,
+   "joint": {
+    "id": "B_H_p31_lw0.0150_s2",
+    "campaign": "I",
+    "sha256": "385300eb31479bcf4c11f4615b4d7edc150f647b5fae698f27a52ba535594279",
+    "bytes": 96567,
+    "archive": "campaign_I/results_archive/campaignI_H.tar",
+    "branch": "(anonymized)",
+    "runner_sha256": "16bb2ebd8506227c7ad987e043c2c9fad5ff1d6d5729153c55621747a6359bb2",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.5.3",
+     "python": "3.13.16"
+    }
+   },
+   "twin": {
+    "id": "H_p31_lw0.0150_s2",
+    "campaign": "D",
+    "sha256": "07815959741a307dd6200cfbfade15b1dd401764fff09440a7d2d18c43687f69",
+    "bytes": 126860,
+    "archive": "campaign_D/results_archive/campaignD_H.tar",
+    "branch": null,
+    "runner_sha256": "21c4bd56ca3f1e8272430038392f12c533247988e57b8ebda831035c6b831f1b",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.4.6",
+     "platform": "Linux-6.18.44-fc-v50-x86_64-with-glibc2.39",
+     "python": "3.11.15"
+    }
+   }
+  },
+  {
+   "seed": 3,
+   "init_seed": 5003,
+   "split_seed": 6003,
+   "joint": {
+    "id": "B_H_p31_lw0.0150_s3",
+    "campaign": "I",
+    "sha256": "a73714fa8bfb9f960a3592e0e2c1a487cf7464a5318654f8552f7d88f14d374a",
+    "bytes": 103930,
+    "archive": "campaign_I/results_archive/campaignI_H.tar",
+    "branch": "(anonymized)",
+    "runner_sha256": "16bb2ebd8506227c7ad987e043c2c9fad5ff1d6d5729153c55621747a6359bb2",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.5.3",
+     "python": "3.13.16"
+    }
+   },
+   "twin": {
+    "id": "H_p31_lw0.0150_s3",
+    "campaign": "F",
+    "sha256": "88f7787d9e90b1a46967c8308f072b3d5d08384a84041f69fca973bb054f0882",
+    "bytes": 101502,
+    "archive": "campaign_F/results_archive/campaignF_H.tar",
+    "branch": null,
+    "runner_sha256": "21c4bd56ca3f1e8272430038392f12c533247988e57b8ebda831035c6b831f1b",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.4.6",
+     "platform": "Linux-6.18.44-fc-v50-x86_64-with-glibc2.39",
+     "python": "3.11.15"
+    }
+   }
+  },
+  {
+   "seed": 4,
+   "init_seed": 5004,
+   "split_seed": 6004,
+   "joint": {
+    "id": "B_H_p31_lw0.0150_s4",
+    "campaign": "I",
+    "sha256": "543868f02cee2fac134186eb540ba9a98aa669d72e8eee8988578b47cc6174df",
+    "bytes": 111749,
+    "archive": "campaign_I/results_archive/campaignI_H.tar",
+    "branch": "(anonymized)",
+    "runner_sha256": "16bb2ebd8506227c7ad987e043c2c9fad5ff1d6d5729153c55621747a6359bb2",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.5.3",
+     "python": "3.13.16"
+    }
+   },
+   "twin": {
+    "id": "H_p31_lw0.0150_s4",
+    "campaign": "F",
+    "sha256": "a0511ac4c9355b9e78a15cbe93613ac411665d4edca7cc9f57cf04193f93abd6",
+    "bytes": 128902,
+    "archive": "campaign_F/results_archive/campaignF_H.tar",
+    "branch": null,
+    "runner_sha256": "21c4bd56ca3f1e8272430038392f12c533247988e57b8ebda831035c6b831f1b",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.4.6",
+     "platform": "Linux-6.18.44-fc-v50-x86_64-with-glibc2.39",
+     "python": "3.11.15"
+    }
+   }
+  },
+  {
+   "seed": 5,
+   "init_seed": 5005,
+   "split_seed": 6005,
+   "joint": {
+    "id": "B_H_p31_lw0.0150_s5",
+    "campaign": "I",
+    "sha256": "b06e51739307c53395bc9da3890bc7512203a9a7e6013dbad06db93dfae43c5e",
+    "bytes": 111250,
+    "archive": "campaign_I/results_archive/campaignI_H.tar",
+    "branch": "(anonymized)",
+    "runner_sha256": "16bb2ebd8506227c7ad987e043c2c9fad5ff1d6d5729153c55621747a6359bb2",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.5.3",
+     "python": "3.13.16"
+    }
+   },
+   "twin": {
+    "id": "H_p31_lw0.0150_s5",
+    "campaign": "F",
+    "sha256": "434c7e89d1c17b31447acd6ee280b653951fddb9fe7c433d708ef109caa61f7f",
+    "bytes": 130897,
+    "archive": "campaign_F/results_archive/campaignF_H.tar",
+    "branch": null,
+    "runner_sha256": "21c4bd56ca3f1e8272430038392f12c533247988e57b8ebda831035c6b831f1b",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.4.6",
+     "platform": "Linux-6.18.44-fc-v50-x86_64-with-glibc2.39",
+     "python": "3.11.15"
+    }
+   }
+  },
+  {
+   "seed": 6,
+   "init_seed": 5006,
+   "split_seed": 6006,
+   "joint": {
+    "id": "B_H_p31_lw0.0150_s6",
+    "campaign": "I",
+    "sha256": "909ea94d60a2ad6163e7e4e24769419535a8f1886ed6988b9391b560db72ef4e",
+    "bytes": 115284,
+    "archive": "campaign_I/results_archive/campaignI_H.tar",
+    "branch": "(anonymized)",
+    "runner_sha256": "16bb2ebd8506227c7ad987e043c2c9fad5ff1d6d5729153c55621747a6359bb2",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.5.3",
+     "python": "3.13.16"
+    }
+   },
+   "twin": {
+    "id": "H_p31_lw0.0150_s6",
+    "campaign": "F",
+    "sha256": "c9556699f732a01d4c8252f08b1bffc8b7d8b9a985c9255a8d88bf609659a689",
+    "bytes": 126789,
+    "archive": "campaign_F/results_archive/campaignF_H.tar",
+    "branch": null,
+    "runner_sha256": "21c4bd56ca3f1e8272430038392f12c533247988e57b8ebda831035c6b831f1b",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.4.6",
+     "platform": "Linux-6.18.44-fc-v50-x86_64-with-glibc2.39",
+     "python": "3.11.15"
+    }
+   }
+  },
+  {
+   "seed": 7,
+   "init_seed": 5007,
+   "split_seed": 6007,
+   "joint": {
+    "id": "B_H_p31_lw0.0150_s7",
+    "campaign": "I",
+    "sha256": "acd5763ca1b2fc6839f720a8a4ce2c40b5eb2482cc77a562406d8c0fbd419e73",
+    "bytes": 97094,
+    "archive": "campaign_I/results_archive/campaignI_H.tar",
+    "branch": "(anonymized)",
+    "runner_sha256": "16bb2ebd8506227c7ad987e043c2c9fad5ff1d6d5729153c55621747a6359bb2",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.5.3",
+     "python": "3.13.16"
+    }
+   },
+   "twin": {
+    "id": "H_p31_lw0.0150_s7",
+    "campaign": "F",
+    "sha256": "2f5d228b500266c9fbb80bce1340111a94ce31f197b7c7235e681edd41adb39e",
+    "bytes": 87935,
+    "archive": "campaign_F/results_archive/campaignF_H.tar",
+    "branch": null,
+    "runner_sha256": "21c4bd56ca3f1e8272430038392f12c533247988e57b8ebda831035c6b831f1b",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.4.6",
+     "platform": "Linux-6.18.44-fc-v50-x86_64-with-glibc2.39",
+     "python": "3.11.15"
+    }
+   }
+  },
+  {
+   "seed": 8,
+   "init_seed": 5008,
+   "split_seed": 6008,
+   "joint": {
+    "id": "B_H_p31_lw0.0150_s8",
+    "campaign": "I",
+    "sha256": "cc08c747f87fe9dd0097b0f0ff9b0ccb0d691ec622f9230f4db710a36fe5092b",
+    "bytes": 145150,
+    "archive": "campaign_I/results_archive/campaignI_H.tar",
+    "branch": "(anonymized)",
+    "runner_sha256": "16bb2ebd8506227c7ad987e043c2c9fad5ff1d6d5729153c55621747a6359bb2",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.5.3",
+     "python": "3.13.16"
+    }
+   },
+   "twin": {
+    "id": "H_p31_lw0.0150_s8",
+    "campaign": "F",
+    "sha256": "ba5870cccbf1ffd63c1268fd348f02fe6ecfd1847435d0c04f1c56c669512d18",
+    "bytes": 127460,
+    "archive": "campaign_F/results_archive/campaignF_H.tar",
+    "branch": null,
+    "runner_sha256": "21c4bd56ca3f1e8272430038392f12c533247988e57b8ebda831035c6b831f1b",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.4.6",
+     "platform": "Linux-6.18.44-fc-v50-x86_64-with-glibc2.39",
+     "python": "3.11.15"
+    }
+   }
+  },
+  {
+   "seed": 9,
+   "init_seed": 5009,
+   "split_seed": 6009,
+   "joint": {
+    "id": "B_H_p31_lw0.0150_s9",
+    "campaign": "I",
+    "sha256": "554a6de6fc1fdc5512d03d184d6a5980e88ceeed0d77b0995055dbc2aabe4a0a",
+    "bytes": 133174,
+    "archive": "campaign_I/results_archive/campaignI_H.tar",
+    "branch": "(anonymized)",
+    "runner_sha256": "16bb2ebd8506227c7ad987e043c2c9fad5ff1d6d5729153c55621747a6359bb2",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.5.3",
+     "python": "3.13.16"
+    }
+   },
+   "twin": {
+    "id": "H_p31_lw0.0150_s9",
+    "campaign": "F",
+    "sha256": "a8ae250a2ce76a8b383846e47056601f935799f12c52baf2e32074fa0eebf93b",
+    "bytes": 131972,
+    "archive": "campaign_F/results_archive/campaignF_H.tar",
+    "branch": null,
+    "runner_sha256": "21c4bd56ca3f1e8272430038392f12c533247988e57b8ebda831035c6b831f1b",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.80GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.4.6",
+     "platform": "Linux-6.18.44-fc-v50-x86_64-with-glibc2.39",
+     "python": "3.11.15"
+    }
+   }
+  },
+  {
+   "seed": 10,
+   "init_seed": 5010,
+   "split_seed": 6010,
+   "joint": {
+    "id": "B_H_p31_lw0.0150_s10",
+    "campaign": "I",
+    "sha256": "871ecf79547f5a192633888dd99669cc47fcb1797b2111ae41f907744ad93cfc",
+    "bytes": 145493,
+    "archive": "campaign_I/results_archive/campaignI_H.tar",
+    "branch": "(anonymized)",
+    "runner_sha256": "16bb2ebd8506227c7ad987e043c2c9fad5ff1d6d5729153c55621747a6359bb2",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.5.3",
+     "python": "3.13.16"
+    }
+   },
+   "twin": {
+    "id": "H_p31_lw0.0150_s10",
+    "campaign": "F",
+    "sha256": "6438f186de52e81223e238fd35c7ba7c6338f7bba57d8464d96975b818f6b96d",
+    "bytes": 128346,
+    "archive": "campaign_F/results_archive/campaignF_H.tar",
+    "branch": null,
+    "runner_sha256": "21c4bd56ca3f1e8272430038392f12c533247988e57b8ebda831035c6b831f1b",
+    "host": {
+     "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+     "cpus": 4,
+     "node": "(anonymized)",
+     "numpy": "2.4.6",
+     "platform": "Linux-6.18.44-fc-v50-x86_64-with-glibc2.39",
+     "python": "3.11.15"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "campaign": "QH",
+ "stage": "campaign H's arm eta_V = 3e-4, seeds 7-10",
+ "version": "1.0",
+ "author": "akashkumar-d",
+ "created": "2026-10-13",
+ "workers": [
+  "QH1"
+ ],
+ "cores_per_worker": 4,
+ "plan": "PLAN.md",
+ "runner": "t41_runner.py",
+ "runs": [
+  {
+   "id": "QH_T41_ev3e-4_s7",
+   "arm": "ev3e-4",
+   "family": "ev3e-4",
+   "depth": 1,
+   "seed": 7,
+   "init_seed": 9107,
+   "split_seed": 0,
+   "kind": "one",
+   "threads": 1,
+   "cfg": {
+    "p": 101,
+    "width": 512,
+    "split": "qr",
+    "split_seed": 0,
+    "init_scale": 24.0,
+    "head_init_div": 24.0,
+    "lam_v": 0.0,
+    "steps": 40000,
+    "obs_every": 50,
+    "heavy_every": 250,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.25,
+     "extra": 4000
+    },
+    "eta_w": 0.0032871017270746927,
+    "lam_w": 1.0,
+    "eta_v": 0.0003,
+    "init_seed": 9107
+   },
+   "paired_with": "T41_ev1e-3_s7",
+   "est_core_hours": 1.278,
+   "worker": "QH1",
+   "order": 0
+  },
+  {
+   "id": "QH_T41_ev3e-4_s8",
+   "arm": "ev3e-4",
+   "family": "ev3e-4",
+   "depth": 1,
+   "seed": 8,
+   "init_seed": 9108,
+   "split_seed": 0,
+   "kind": "one",
+   "threads": 1,
+   "cfg": {
+    "p": 101,
+    "width": 512,
+    "split": "qr",
+    "split_seed": 0,
+    "init_scale": 24.0,
+    "head_init_div": 24.0,
+    "lam_v": 0.0,
+    "steps": 40000,
+    "obs_every": 50,
+    "heavy_every": 250,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.25,
+     "extra": 4000
+    },
+    "eta_w": 0.0032871017270746927,
+    "lam_w": 1.0,
+    "eta_v": 0.0003,
+    "init_seed": 9108
+   },
+   "paired_with": "T41_ev1e-3_s8",
+   "est_core_hours": 1.278,
+   "worker": "QH1",
+   "order": 1
+  },
+  {
+   "id": "QH_T41_ev3e-4_s9",
+   "arm": "ev3e-4",
+   "family": "ev3e-4",
+   "depth": 1,
+   "seed": 9,
+   "init_seed": 9109,
+   "split_seed": 0,
+   "kind": "one",
+   "threads": 1,
+   "cfg": {
+    "p": 101,
+    "width": 512,
+    "split": "qr",
+    "split_seed": 0,
+    "init_scale": 24.0,
+    "head_init_div": 24.0,
+    "lam_v": 0.0,
+    "steps": 40000,
+    "obs_every": 50,
+    "heavy_every": 250,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.25,
+     "extra": 4000
+    },
+    "eta_w": 0.0032871017270746927,
+    "lam_w": 1.0,
+    "eta_v": 0.0003,
+    "init_seed": 9109
+   },
+   "paired_with": "T41_ev1e-3_s9",
+   "est_core_hours": 1.278,
+   "worker": "QH1",
+   "order": 2
+  },
+  {
+   "id": "QH_T41_ev3e-4_s10",
+   "arm": "ev3e-4",
+   "family": "ev3e-4",
+   "depth": 1,
+   "seed": 10,
+   "init_seed": 9110,
+   "split_seed": 0,
+   "kind": "one",
+   "threads": 1,
+   "cfg": {
+    "p": 101,
+    "width": 512,
+    "split": "qr",
+    "split_seed": 0,
+    "init_scale": 24.0,
+    "head_init_div": 24.0,
+    "lam_v": 0.0,
+    "steps": 40000,
+    "obs_every": 50,
+    "heavy_every": 250,
+    "stop_generalized": {
+     "acc": 0.99,
+     "factor": 1.25,
+     "extra": 4000
+    },
+    "eta_w": 0.0032871017270746927,
+    "lam_w": 1.0,
+    "eta_v": 0.0003,
+    "init_seed": 9110
+   },
+   "paired_with": "T41_ev1e-3_s10",
+   "est_core_hours": 1.278,
+   "worker": "QH1",
+   "order": 3
+  }
+ ],
+ "est_session_hours": {
+  "QH1": 1.278
+ }
+}

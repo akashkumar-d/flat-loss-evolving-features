@@ -1,0 +1,74 @@
+{
+ "campaign_id": "1hl-hero-confirm-20260929-v1-shard02",
+ "evidence": "fresh 20-seed confirmation of the dev-selected hero recipe and window (locked before launch)",
+ "limits": {
+  "cooperative_grace_seconds": 60,
+  "global_seconds": 43200,
+  "minimum_free_bytes": 6442450944,
+  "per_arm_seconds": 10800,
+  "workers": 8
+ },
+ "observation": {
+  "cheap_every": 100,
+  "checkpoint_every": 500,
+  "full_every": 500
+ },
+ "postprocess_after_each_run": true,
+ "updates": 40000,
+ "configs": [
+  {
+   "activation": "relu",
+   "c": 24,
+   "config_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2",
+   "decay_V": 0.2,
+   "decay_W": 0.015,
+   "eta_V": 0.03,
+   "eta_W": 0.03,
+   "margin_tolerance": 1e-10,
+   "p": 31,
+   "polar_cutoff": {
+    "mode": "relative",
+    "value": 1e-10
+   },
+   "train_fraction": 0.8,
+   "width": 512,
+   "windows": [
+    {
+     "t0": 4500,
+     "t1": 12000,
+     "window_id": "hero_locked_dev_selected"
+    }
+   ]
+  }
+ ],
+ "runs": [
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 17,
+   "init_seed": 2770035333075670636,
+   "split_seed": 6418526353909676632,
+   "run_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2_confirm17"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 18,
+   "init_seed": 7403656593428634108,
+   "split_seed": 2769336732803653901,
+   "run_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2_confirm18"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 19,
+   "init_seed": 8732073308322580583,
+   "split_seed": 3674296276424904242,
+   "run_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2_confirm19"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2",
+   "confirmation_pair": 20,
+   "init_seed": 7023580954417997807,
+   "split_seed": 5138283622663087103,
+   "run_id": "h31_tf0p8_lw0p015_ev0p03_lv0p2_confirm20"
+  }
+ ]
+}

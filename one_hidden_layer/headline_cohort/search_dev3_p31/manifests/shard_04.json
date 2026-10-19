@@ -1,0 +1,241 @@
+{
+ "campaign_id": "1hl-hero-dev3-sweep-20260929-v1-shard04",
+ "evidence": "dev sweep v3 (p = 31): eq.(4)-exact no-head-decay arm with small head steps, and the theory's quadratic-residue half-grid split",
+ "limits": {
+  "cooperative_grace_seconds": 60,
+  "global_seconds": 43200,
+  "minimum_free_bytes": 6442450944,
+  "per_arm_seconds": 10800,
+  "workers": 8
+ },
+ "observation": {
+  "cheap_every": 100,
+  "checkpoint_every": 500,
+  "full_every": 500
+ },
+ "postprocess_after_each_run": true,
+ "updates": 40000,
+ "configs": [
+  {
+   "activation": "relu",
+   "c": 24,
+   "eta_W": 0.03,
+   "margin_tolerance": 1e-10,
+   "p": 31,
+   "polar_cutoff": {
+    "mode": "relative",
+    "value": 1e-10
+   },
+   "width": 512,
+   "windows": [
+    {
+     "t0": 10000,
+     "t1": 20000,
+     "window_id": "dev_placeholder_not_used_for_selection"
+    }
+   ],
+   "config_id": "h31_tf0p8_lw0p01_ev0p0001_lv0",
+   "decay_W": 0.01,
+   "eta_V": 0.0001,
+   "decay_V": 0.0,
+   "train_fraction": 0.8
+  },
+  {
+   "activation": "relu",
+   "c": 24,
+   "eta_W": 0.03,
+   "margin_tolerance": 1e-10,
+   "p": 31,
+   "polar_cutoff": {
+    "mode": "relative",
+    "value": 1e-10
+   },
+   "width": 512,
+   "windows": [
+    {
+     "t0": 10000,
+     "t1": 20000,
+     "window_id": "dev_placeholder_not_used_for_selection"
+    }
+   ],
+   "config_id": "h31_tf0p8_lw0p01_ev0p0003_lv0",
+   "decay_W": 0.01,
+   "eta_V": 0.0003,
+   "decay_V": 0.0,
+   "train_fraction": 0.8
+  },
+  {
+   "activation": "relu",
+   "c": 24,
+   "eta_W": 0.03,
+   "margin_tolerance": 1e-10,
+   "p": 31,
+   "polar_cutoff": {
+    "mode": "relative",
+    "value": 1e-10
+   },
+   "width": 512,
+   "windows": [
+    {
+     "t0": 10000,
+     "t1": 20000,
+     "window_id": "dev_placeholder_not_used_for_selection"
+    }
+   ],
+   "config_id": "h31_tf0p8_lw0p015_ev3e-05_lv0",
+   "decay_W": 0.015,
+   "eta_V": 3e-05,
+   "decay_V": 0.0,
+   "train_fraction": 0.8
+  },
+  {
+   "activation": "relu",
+   "c": 24,
+   "eta_W": 0.03,
+   "margin_tolerance": 1e-10,
+   "p": 31,
+   "polar_cutoff": {
+    "mode": "relative",
+    "value": 1e-10
+   },
+   "width": 512,
+   "windows": [
+    {
+     "t0": 10000,
+     "t1": 20000,
+     "window_id": "dev_placeholder_not_used_for_selection"
+    }
+   ],
+   "config_id": "h31_tf0p8_lw0p015_ev0p0001_lv0",
+   "decay_W": 0.015,
+   "eta_V": 0.0001,
+   "decay_V": 0.0,
+   "train_fraction": 0.8
+  },
+  {
+   "activation": "relu",
+   "c": 24,
+   "eta_W": 0.03,
+   "margin_tolerance": 1e-10,
+   "p": 31,
+   "polar_cutoff": {
+    "mode": "relative",
+    "value": 1e-10
+   },
+   "width": 512,
+   "windows": [
+    {
+     "t0": 10000,
+     "t1": 20000,
+     "window_id": "dev_placeholder_not_used_for_selection"
+    }
+   ],
+   "config_id": "h31_tf0p8_lw0p015_ev0p001_lv0",
+   "decay_W": 0.015,
+   "eta_V": 0.001,
+   "decay_V": 0.0,
+   "train_fraction": 0.8
+  },
+  {
+   "activation": "relu",
+   "c": 24,
+   "eta_W": 0.03,
+   "margin_tolerance": 1e-10,
+   "p": 31,
+   "polar_cutoff": {
+    "mode": "relative",
+    "value": 1e-10
+   },
+   "width": 512,
+   "windows": [
+    {
+     "t0": 10000,
+     "t1": 20000,
+     "window_id": "dev_placeholder_not_used_for_selection"
+    }
+   ],
+   "config_id": "h31_qr_lw0p015_ev0p03_lv0p2",
+   "decay_W": 0.015,
+   "eta_V": 0.03,
+   "decay_V": 0.2,
+   "train_fraction": 0.5,
+   "split": "qr_difference"
+  },
+  {
+   "activation": "relu",
+   "c": 24,
+   "eta_W": 0.03,
+   "margin_tolerance": 1e-10,
+   "p": 31,
+   "polar_cutoff": {
+    "mode": "relative",
+    "value": 1e-10
+   },
+   "width": 512,
+   "windows": [
+    {
+     "t0": 10000,
+     "t1": 20000,
+     "window_id": "dev_placeholder_not_used_for_selection"
+    }
+   ],
+   "config_id": "h31_qr_lw0p015_ev0p0003_lv0",
+   "decay_W": 0.015,
+   "eta_V": 0.0003,
+   "decay_V": 0.0,
+   "train_fraction": 0.5,
+   "split": "qr_difference"
+  }
+ ],
+ "runs": [
+  {
+   "config_id": "h31_tf0p8_lw0p01_ev0p0001_lv0",
+   "development_pair": 1,
+   "init_seed": 4074858066386467532,
+   "split_seed": 3243225466552522507,
+   "run_id": "h31_tf0p8_lw0p01_ev0p0001_lv0_dev1"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p01_ev0p0003_lv0",
+   "development_pair": 3,
+   "init_seed": 9041235103114993557,
+   "split_seed": 8328585432198592359,
+   "run_id": "h31_tf0p8_lw0p01_ev0p0003_lv0_dev3"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev3e-05_lv0",
+   "development_pair": 1,
+   "init_seed": 4074858066386467532,
+   "split_seed": 3243225466552522507,
+   "run_id": "h31_tf0p8_lw0p015_ev3e-05_lv0_dev1"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p0001_lv0",
+   "development_pair": 3,
+   "init_seed": 9041235103114993557,
+   "split_seed": 8328585432198592359,
+   "run_id": "h31_tf0p8_lw0p015_ev0p0001_lv0_dev3"
+  },
+  {
+   "config_id": "h31_tf0p8_lw0p015_ev0p001_lv0",
+   "development_pair": 1,
+   "init_seed": 4074858066386467532,
+   "split_seed": 3243225466552522507,
+   "run_id": "h31_tf0p8_lw0p015_ev0p001_lv0_dev1"
+  },
+  {
+   "config_id": "h31_qr_lw0p015_ev0p03_lv0p2",
+   "development_pair": 3,
+   "init_seed": 9041235103114993557,
+   "split_seed": 8328585432198592359,
+   "run_id": "h31_qr_lw0p015_ev0p03_lv0p2_dev3"
+  },
+  {
+   "config_id": "h31_qr_lw0p015_ev0p0003_lv0",
+   "development_pair": 1,
+   "init_seed": 4074858066386467532,
+   "split_seed": 3243225466552522507,
+   "run_id": "h31_qr_lw0p015_ev0p0003_lv0_dev1"
+  }
+ ]
+}
